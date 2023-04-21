@@ -1,0 +1,78 @@
+{
+  "project_info": {
+    "project_number": "1051211273003",
+    "project_id": "dharati-63d5e",
+    "storage_bucket": "dharati-63d5e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051211273003:android:6e21d8dcb7c457c99b6b6e",
+        "android_client_info": {
+          "package_name": "com.example.dharati"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051211273003-9jt6n6uv5repbcrfu5a1ib5i2fec13tb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dharati",
+            "certificate_hash": "6a14f3dbb391d59f657b44011fec5cc2357dff51"
+          }
+        },
+        {
+          "client_id": "1051211273003-akbuuemessf1lec665r3nf67cqr4if6k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dharati",
+            "certificate_hash": "05ca8d64f88a1bd9b1cbda531240a6e75822fc9d"
+          }
+        },
+        {
+          "client_id": "1051211273003-e6d7n4mfge7bc7e65kj53pc06f85e7u3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dharati",
+            "certificate_hash": "f843ddc50c7e284e59a604f3f877790738441b05"
+          }
+        },
+        {
+          "client_id": "1051211273003-l1j6idmsnjllhs8eipub1jaf3dora59l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dharati",
+            "certificate_hash": "137889cb9fce5785914ce919386d8d625796e9ed"
+          }
+        },
+        {
+          "client_id": "1051211273003-4neu1u68gqvtnpsge96ohf3t8pktifdr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPvBkm5JdHrnIJRaaQk33Ed2jJxIZYt9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051211273003-4neu1u68gqvtnpsge96ohf3t8pktifdr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1051211273003-osb6spd2vevpd81icve5qfto4ppj9qc3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.dharati"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

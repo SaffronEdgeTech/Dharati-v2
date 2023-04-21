@@ -1,0 +1,146 @@
+[
+    {
+        "id": "Ahmednagar",
+        "label": "Ahmednagar"
+    },
+    {
+        "id": "Akola",
+        "label": "Akola"
+    },
+    {
+        "id": "Amravati",
+        "label": "Amravati"
+    },
+    {
+        "id": "Aurangabad",
+        "label": "Aurangabad"
+    },
+    {
+        "id": "Beed",
+        "label": "Beed"
+    },
+    {
+        "id": "Bhandara",
+        "label": "Bhandara"
+    },
+    {
+        "id": "Buldhana",
+        "label": "Buldhana"
+    },
+    {
+        "id": "Chandrapur",
+        "label": "Chandrapur"
+    },
+    {
+        "id": "Dhule",
+        "label": "Dhule"
+    },
+    {
+        "id": "Gadchiroli",
+        "label": "Gadchiroli"
+    },
+    {
+        "id": "Gondia",
+        "label": "Gondia"
+    },
+    {
+        "id": "Hingoli",
+        "label": "Hingoli"
+    },
+    {
+        "id": "Jalgaon",
+        "label": "Jalgaon"
+    },
+    {
+        "id": "Jalna",
+        "label": "Jalna"
+    },
+    {
+        "id": "Kolhapur",
+        "label": "Kolhapur"
+    },
+    {
+        "id": "Latur",
+        "label": "Latur"
+    },
+    {
+        "id": "Mumbai",
+        "label": "Mumbai"
+    },
+    {
+        "id": "Mumbai Suburban",
+        "label": "Mumbai Suburban"
+    },
+    {
+        "id": "Nagpur",
+        "label": "Nagpur"
+    },
+    {
+        "id": "Nanded",
+        "label": "Nanded"
+    },
+    {
+        "id": "Nandurbar",
+        "label": "Nandurbar"
+    },
+    {
+        "id": "Nashik",
+        "label": "Nashik"
+    },
+    {
+        "id": "Osmanabad",
+        "label": "Osmanabad"
+    },
+    {
+        "id": "Palghar",
+        "label": "Palghar"
+    },
+    {
+        "id": "Parbhani",
+        "label": "Parbhani"
+    },
+    {
+        "id": "Pune",
+        "label": "Pune"
+    },
+    {
+        "id": "Raigad",
+        "label": "Raigad"
+    },
+    {
+        "id": "Ratnagiri",
+        "label": "Ratnagiri"
+    },
+    {
+        "id": "Sangli",
+        "label": "Sangli"
+    },
+    {
+        "id": "Satara",
+        "label": "Satara"
+    },
+    {
+        "id": "Sindhudurg",
+        "label": "Sindhudurg"
+    },
+    {
+        "id": "Solapur",
+        "label": "Solapur"
+    },
+    {
+        "id": "Thane",
+        "label": "Thane"
+    },
+    {
+        "id": "Wardha",
+        "label": "Wardha"
+    },
+    {
+        "id": "Washim",
+        "label": "Washim"
+    },
+    {
+        "id": "Yavatmal",
+        "label": "Yavatmal"
+    }
+]

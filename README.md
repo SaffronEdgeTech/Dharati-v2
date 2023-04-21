@@ -1,6 +1,6 @@
 # Dharati
 
-## v 2.0.0 started.....
+## v 2.0.0 started..
 
 A new Flutter project.
 

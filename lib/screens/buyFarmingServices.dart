@@ -1,5 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:dharati/screens/showFarmingServices.dart';
+import 'package:dharati/widgets/NavDrawer.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -57,7 +58,6 @@ class _BuyFarmingServicesState extends State<BuyFarmingServices> {
   String sevaLevel = "Village";
   String? phoneNumber;
   var distTalVil = {};
- 
 
   @override
   Widget build(BuildContext context) {
@@ -70,7 +70,6 @@ class _BuyFarmingServicesState extends State<BuyFarmingServices> {
     phoneNumber = userDetailsMap["PhoneNum"].toString();
     return Scaffold(
       appBar: AppBar(
-        automaticallyImplyLeading: false,
         title: Text(
           "शेती सेवा",
           style: TextStyle(
@@ -82,6 +81,7 @@ class _BuyFarmingServicesState extends State<BuyFarmingServices> {
         centerTitle: true,
         backgroundColor: Colors.green,
       ),
+      drawer: NavDrawer(details: userDetailsMap),
       body: SingleChildScrollView(
         child: Container(
           padding: EdgeInsets.all(25.0),
@@ -449,6 +449,10 @@ class _BuyFarmingServicesState extends State<BuyFarmingServices> {
       forwardAnimationCurve: Curves.easeOutBack,
       colorText: Colors.white,
     );
+    seva = seva.replaceAll(" ", "");
+    sevaType = sevaType.replaceAll(" ", "");
+    seva = seva.replaceAll("/", "");
+    sevaType = sevaType.replaceAll("/", "");
     FirebaseFirestore.instance
         .collectionGroup(seva + sevaType)
         .get()

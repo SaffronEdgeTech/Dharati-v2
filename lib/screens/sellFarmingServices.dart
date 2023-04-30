@@ -1,9 +1,13 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:dharati/services/FirebaseAllServices.dart';
+import 'package:dharati/widgets/NavDrawer.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
+import 'package:pinput/pinput.dart';
 
 class SellFarmingServices extends StatefulWidget {
   const SellFarmingServices({super.key});
@@ -13,6 +17,7 @@ class SellFarmingServices extends StatefulWidget {
 }
 
 class _SellFarmingServicesState extends State<SellFarmingServices> {
+  TextEditingController otp = TextEditingController();
   String? dist;
   String? tal;
   String? vil;
@@ -46,7 +51,6 @@ class _SellFarmingServicesState extends State<SellFarmingServices> {
     {"id": "ड्रोन", "label": "ड्रोन", "parentId": "अवजारे"},
     {"id": "जेसिबी", "label": "जेसिबी", "parentId": "अवजारे"},
     {"id": "हार्वेस्टर", "label": "हार्वेस्टर", "parentId": "अवजारे"},
-    {"id": "हार्वेस्टर", "label": "हार्वेस्टर", "parentId": "अवजारे"},
     {"id": "ट्रॅक्टर फळी", "label": "ट्रॅक्टर फळी", "parentId": "अवजारे"},
     {"id": "मनुष्यबळ", "label": "मनुष्यबळ", "parentId": "मनुष्यबळ"},
   ];
@@ -73,7 +77,6 @@ class _SellFarmingServicesState extends State<SellFarmingServices> {
     phoneNum = userDetails["PhoneNum"].toString();
     return Scaffold(
       appBar: AppBar(
-        automaticallyImplyLeading: false,
         title: Text(
           "सेवा नोंदणी",
           style: TextStyle(
@@ -85,6 +88,7 @@ class _SellFarmingServicesState extends State<SellFarmingServices> {
         centerTitle: true,
         backgroundColor: Colors.green,
       ),
+      drawer: NavDrawer(details: userDetails),
       body: SingleChildScrollView(
         child: Container(
           padding: EdgeInsets.all(25.0),
@@ -240,6 +244,7 @@ class _SellFarmingServicesState extends State<SellFarmingServices> {
                           );
                           if (selectedDate != null) {
                             setState(() {
+                              _endDate.clear();
                               dateTimeEnd =
                                   selectedDate.add(const Duration(days: 1));
                               _startDate.text =
@@ -390,18 +395,69 @@ class _SellFarmingServicesState extends State<SellFarmingServices> {
                   child: ElevatedButton(
                     onPressed: () {
                       if (_formKey.currentState!.validate()) {
-                        FirebaseAllServices.instance.addFarmingServices(
-                            selectedSeva!,
-                            selectedSevaType!,
-                            _startDate.text,
-                            dateStartInMs!,
-                            _endDate.text,
-                            dateEndInMs!,
-                            sevaLevel,
-                            dist!,
-                            tal!,
-                            vil!,
-                            userDetails);
+                        FirebaseAllServices.instance
+                            .phoneAuthentication(phoneNum.toString(), "NoPage");
+                        Future.delayed(const Duration(seconds: 1), () {
+                          showDialog(
+                              barrierDismissible: false,
+                              context: context,
+                              builder: (context) {
+                                return CupertinoAlertDialog(
+                                  title: Text(
+                                    '$phoneNum या संपर्क क्रमांकाला पाठवलेला ओटीपी टाका',
+                                    style: TextStyle(
+                                      color: Colors.black,
+                                      fontSize: 18,
+                                    ),
+                                    textAlign: TextAlign.center,
+                                  ),
+                                  content: CupertinoTextField(
+                                    autofocus: true,
+                                    maxLength: 6,
+                                    controller: otp,
+                                    style: const TextStyle(
+                                        fontWeight: FontWeight.w400,
+                                        fontSize: 16),
+                                    textAlign: TextAlign.center,
+                                    keyboardType: TextInputType.number,
+                                    inputFormatters: <TextInputFormatter>[
+                                      FilteringTextInputFormatter.digitsOnly,
+                                    ],
+                                    onSubmitted: (value) async {
+                                      verifyOTP();
+                                    },
+                                  ),
+                                  actions: <Widget>[
+                                    TextButton(
+                                      onPressed: () {
+                                        Navigator.pop(context);
+                                      },
+                                      child: const Text(
+                                        "रद्द करा",
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.w500,
+                                          color: Colors.red,
+                                          fontSize: 15,
+                                        ),
+                                      ),
+                                    ),
+                                    TextButton(
+                                      onPressed: () async {
+                                        verifyOTP();
+                                      },
+                                      child: const Text(
+                                        "सत्यापित करा",
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.w500,
+                                          color: Colors.green,
+                                          fontSize: 15,
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                );
+                              });
+                        });
                       } else {
                         Get.snackbar(
                           "अवैध माहिती",
@@ -436,5 +492,50 @@ class _SellFarmingServicesState extends State<SellFarmingServices> {
         ),
       ),
     );
+  }
+
+  void verifyOTP() async {
+    if (otp.length == 6) {
+      var isVerified = await FirebaseAllServices.instance.verifyOTP(otp.text);
+      if (isVerified) {
+        Navigator.pop(context);
+        
+        FirebaseAllServices.instance.addFarmingServices(
+            selectedSeva!,
+            selectedSevaType!,
+            _startDate.text,
+            dateStartInMs!,
+            _endDate.text,
+            dateEndInMs!,
+            sevaLevel,
+            dist!,
+            tal!,
+            vil!);
+      } else {
+        Get.snackbar(
+          "तसदीबद्दल क्षमस्व",
+          "ओटीपी तपासून पहा!",
+          snackPosition: SnackPosition.BOTTOM,
+          backgroundColor: Colors.red,
+          isDismissible: true,
+          dismissDirection: DismissDirection.horizontal,
+          margin: EdgeInsets.all(15),
+          forwardAnimationCurve: Curves.easeOutBack,
+          colorText: Colors.white,
+        );
+      }
+    } else {
+      Get.snackbar(
+        "तसदीबद्दल क्षमस्व",
+        "ओटीपी तपासून पहा!",
+        snackPosition: SnackPosition.BOTTOM,
+        backgroundColor: Colors.red,
+        isDismissible: true,
+        dismissDirection: DismissDirection.horizontal,
+        margin: EdgeInsets.all(15),
+        forwardAnimationCurve: Curves.easeOutBack,
+        colorText: Colors.white,
+      );
+    }
   }
 }

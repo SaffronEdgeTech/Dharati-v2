@@ -1,62 +1,97 @@
 import 'package:dharati/services/FirebaseAllServices.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class NavDrawer extends StatelessWidget {
-  const NavDrawer({super.key});
+  final details;
+  const NavDrawer({super.key, required this.details});
 
   @override
-  Widget build(BuildContext context) => Drawer(
-        child: SingleChildScrollView(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: <Widget>[
-              menuItems(context),
-            ],
+  Widget build(BuildContext context) {
+    final TextStyle listOptionsTextStyle = TextStyle(
+      fontWeight: FontWeight.w500,
+      fontSize: 15,
+      color: Colors.black,
+    );
+    return Drawer(
+      child: ListView(
+        padding: EdgeInsets.zero,
+        children: [
+          UserAccountsDrawerHeader(
+            accountName: Text(
+              "नमस्कार",
+              style: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.bold,
+                color: Colors.white,
+              ),
+            ),
+            accountEmail: Text(
+              details["PhoneNum"].toString(),
+              style: TextStyle(
+                fontSize: 18,
+                fontWeight: FontWeight.w700,
+                color: Colors.white,
+              ),
+            ),
+            decoration: BoxDecoration(
+              color: Colors.green,
+            ),
           ),
-        ),
-      );
-
-  Widget menuItems(BuildContext context) => Container(
-        padding: const EdgeInsets.only(top: 50),
-        child: Wrap(
-          children: [
-            const Divider(
-              color: Color.fromARGB(255, 9, 138, 13),
-              thickness: 0.5,
+          ListTile(
+            leading: Icon(
+              Icons.home,
+              color: Colors.black,
             ),
-            ListTile(
-              leading: const Icon(
-                Icons.logout,
-                color: Colors.black,
-              ),
-              title: const Text("Log Out"),
-              onTap: () async {
-                await FirebaseAllServices.instance.logOut();
-                Navigator.pushNamedAndRemoveUntil(
-                    context, "/phone", (route) => false);
-              },
+            title: Text(
+              "सेवा निवडा",
+              style: listOptionsTextStyle,
             ),
-            const Divider(
-              color: Color.fromARGB(255, 9, 138, 13),
-              thickness: 0.5,
+            onTap: () {
+              Get.offNamedUntil("/chooseService", (route) => false);
+            },
+          ),
+          ListTile(
+            leading: Icon(
+              Icons.shopping_cart_outlined,
+              color: Colors.black,
             ),
-            ListTile(
-              leading: const Icon(
-                Icons.delete,
-                color: Colors.black,
-              ),
-              title: const Text("Delete"),
-              onTap: () async {
-                await FirebaseAllServices.instance.delete();
-                Navigator.pushNamedAndRemoveUntil(
-                    context, "/phone", (route) => false);
-              },
+            title: Text(
+              "उत्पादने",
+              style: listOptionsTextStyle,
             ),
-            const Divider(
-              color: Color.fromARGB(255, 9, 138, 13),
-              thickness: 0.5,
+            onTap: () {
+              Navigator.pop(context);
+              Get.toNamed("/myProducts", arguments: details);
+            },
+          ),
+          ListTile(
+            leading: Icon(
+              Icons.miscellaneous_services,
+              color: Colors.black,
             ),
-          ],
-        ),
-      );
+            title: Text("शेती सेवा", style: listOptionsTextStyle),
+            onTap: () {
+              Navigator.pop(context);
+              Get.toNamed("/myFarmingServices", arguments: details);
+            },
+          ),
+          ListTile(
+            leading: Icon(
+              Icons.logout,
+              color: Colors.black,
+            ),
+            title: Text(
+              "बाहेर पडा",
+              style: listOptionsTextStyle,
+            ),
+            onTap: () async {
+              await FirebaseAllServices.instance.logOut();
+              Get.offNamedUntil("/phone", (route) => false);
+            },
+          ),
+        ],
+      ),
+    );
+  }
 }

@@ -10,7 +10,7 @@ class FirebaseAllServices extends GetxController {
 
   var verifyId = ''.obs;
 
-  Future<void> phoneAuthentication(String phoneNum) async {
+  Future<void> phoneAuthentication(String phoneNum, String nextPage) async {
     try {
       await _auth.verifyPhoneNumber(
         phoneNumber: phoneNum,
@@ -32,7 +32,9 @@ class FirebaseAllServices extends GetxController {
         },
         codeSent: (verificationId, resendToken) {
           this.verifyId.value = verificationId;
-          Get.toNamed("/otp", arguments: phoneNum);
+          if (nextPage == "/otp") {
+            Get.toNamed("/otp", arguments: phoneNum);
+          }
         },
         codeAutoRetrievalTimeout: (verificationId) {
           this.verifyId.value = verificationId;
@@ -133,7 +135,8 @@ class FirebaseAllServices extends GetxController {
       String internalCrop,
       String irrigationType,
       String irrigationSource,
-      String seletedFertilizerType) async {
+      String seletedFertilizerType,
+      var details) async {
     final user = _auth.currentUser!;
     final id = user.uid;
     await db.collection("New Users").doc(id).set(
@@ -160,7 +163,7 @@ class FirebaseAllServices extends GetxController {
         colorText: Colors.white,
       );
       Future.delayed(const Duration(seconds: 5), () {
-        Get.toNamed("/dosageCalculator");
+        Get.toNamed("/dosageCalculator", arguments: details);
       });
     }).onError((error, stackTrace) {
       Get.snackbar(
@@ -189,7 +192,7 @@ class FirebaseAllServices extends GetxController {
         "District": district,
         "Taluka": taluka,
         "Village": village,
-        "State":"महाराष्ट्र",
+        "State": "महाराष्ट्र",
       },
       SetOptions(merge: true),
     ).then((value) {
@@ -205,7 +208,7 @@ class FirebaseAllServices extends GetxController {
         colorText: Colors.white,
       );
       Future.delayed(const Duration(seconds: 5), () {
-        Get.toNamed(nextPage,arguments: userDetailsMap);
+        Get.toNamed(nextPage, arguments: userDetailsMap);
       });
     }).onError((error, stackTrace) {
       Get.snackbar(
@@ -222,7 +225,6 @@ class FirebaseAllServices extends GetxController {
     });
   }
 
-
   Future<void> addFarmingServices(
       String service,
       String serviceType,
@@ -233,14 +235,20 @@ class FirebaseAllServices extends GetxController {
       String serviceLevel,
       String dist,
       String tal,
-      String vil,var userDetails) async {
+      String vil) async {
+    String tempService = service;
+    String tempServiceType = serviceType;
+    tempService = tempService.replaceAll(" ", "");
+    tempService = tempService.replaceAll("/", "");
+    tempServiceType = tempServiceType.replaceAll(" ", "");
+    tempServiceType = tempServiceType.replaceAll("/", "");
     final user = _auth.currentUser!;
     final id = user.uid;
     final phoneNo = user.phoneNumber;
     await db
         .collection("Farming Services")
         .doc(id)
-        .collection(service + serviceType)
+        .collection(tempService + tempServiceType)
         .doc(id)
         .set(
       {
@@ -256,7 +264,7 @@ class FirebaseAllServices extends GetxController {
         "End Date": serviceEndDate,
         "End Date ms": serviceEndDateInMs,
         "Service Level": serviceLevel,
-        "State":"महाराष्ट्र",
+        "State": "महाराष्ट्र",
       },
     ).then((value) {
       Get.snackbar(
@@ -271,7 +279,7 @@ class FirebaseAllServices extends GetxController {
         colorText: Colors.white,
       );
       Future.delayed(const Duration(seconds: 5), () {
-        Get.offNamed("/buyFarmingServices",arguments: userDetails);
+        Get.offNamedUntil("/chooseService", (route) => false);
       });
     }).onError((error, stackTrace) {
       Get.snackbar(
@@ -288,7 +296,6 @@ class FirebaseAllServices extends GetxController {
     });
   }
 
-
   Future<void> addSellProducts(
       String mainType,
       String subType,
@@ -299,7 +306,7 @@ class FirebaseAllServices extends GetxController {
       String sellLevel,
       String dist,
       String tal,
-      String vil,var userDetails) async {
+      String vil) async {
     final user = _auth.currentUser!;
     final id = user.uid;
     final phoneNo = user.phoneNumber;
@@ -322,7 +329,7 @@ class FirebaseAllServices extends GetxController {
         "End Date": sellEndDate,
         "End Date ms": sellEndDateInMs,
         "Sell Level": sellLevel,
-        "State":"महाराष्ट्र",
+        "State": "महाराष्ट्र",
       },
     ).then((value) {
       Get.snackbar(
@@ -337,7 +344,7 @@ class FirebaseAllServices extends GetxController {
         colorText: Colors.white,
       );
       Future.delayed(const Duration(seconds: 5), () {
-        Get.offNamed("/buyFarmingServices",arguments: userDetails);
+        Get.offNamedUntil("/chooseService", (route) => false);
       });
     }).onError((error, stackTrace) {
       Get.snackbar(
@@ -353,6 +360,4 @@ class FirebaseAllServices extends GetxController {
       );
     });
   }
-
-
 }

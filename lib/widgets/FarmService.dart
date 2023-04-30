@@ -32,24 +32,15 @@ class FarmService extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Expanded(
-                      child: Text("सेवा",textAlign: TextAlign.center,style: labelTextStyle,),
+                      child: Text(
+                        "सेवा",
+                        textAlign: TextAlign.center,
+                        style: labelTextStyle,
+                      ),
                     ),
                     Expanded(
-                      child: Text(doc["Service"],textAlign: TextAlign.center,style: cardData),
-                    ),
-                  ],
-                ),
-                SizedBox(
-                  height: 5,
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    Expanded(
-                      child: Text("सेवा प्रकार",textAlign: TextAlign.center,style: labelTextStyle,),
-                    ),
-                    Expanded(
-                      child: Text(doc["Service Type"],textAlign: TextAlign.center,style: cardData),
+                      child: Text(doc["Service"],
+                          textAlign: TextAlign.center, style: cardData),
                     ),
                   ],
                 ),
@@ -60,24 +51,15 @@ class FarmService extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Expanded(
-                      child: Text("सेवा पासून",textAlign: TextAlign.center,style: labelTextStyle,),
+                      child: Text(
+                        "सेवा प्रकार",
+                        textAlign: TextAlign.center,
+                        style: labelTextStyle,
+                      ),
                     ),
                     Expanded(
-                      child: Text(doc["Start Date"],textAlign: TextAlign.center,style: cardData),
-                    ),
-                  ],
-                ),
-                SizedBox(
-                  height: 5,
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    Expanded(
-                      child: Text("सेवा पर्यंत",textAlign: TextAlign.center,style: labelTextStyle,),
-                    ),
-                    Expanded(
-                      child: Text(doc["End Date"],textAlign: TextAlign.center,style: cardData),
+                      child: Text(doc["Service Type"],
+                          textAlign: TextAlign.center, style: cardData),
                     ),
                   ],
                 ),
@@ -88,24 +70,15 @@ class FarmService extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Expanded(
-                      child: Text("गांव",textAlign: TextAlign.center,style: labelTextStyle,),
+                      child: Text(
+                        "सेवा पासून",
+                        textAlign: TextAlign.center,
+                        style: labelTextStyle,
+                      ),
                     ),
                     Expanded(
-                      child: Text(doc["Village"],textAlign: TextAlign.center,style: cardData),
-                    ),
-                  ],
-                ),
-                SizedBox(
-                  height: 5,
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    Expanded(
-                      child: Text("तालुका",textAlign: TextAlign.center,style: labelTextStyle,),
-                    ),
-                    Expanded(
-                      child: Text(doc["Taluka"],textAlign: TextAlign.center,style: cardData),
+                      child: Text(doc["Start Date"],
+                          textAlign: TextAlign.center, style: cardData),
                     ),
                   ],
                 ),
@@ -116,10 +89,15 @@ class FarmService extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Expanded(
-                      child: Text("जिल्हा",textAlign: TextAlign.center,style: labelTextStyle,),
+                      child: Text(
+                        "सेवा पर्यंत",
+                        textAlign: TextAlign.center,
+                        style: labelTextStyle,
+                      ),
                     ),
                     Expanded(
-                      child: Text(doc["District"],textAlign: TextAlign.center,style: cardData),
+                      child: Text(doc["End Date"],
+                          textAlign: TextAlign.center, style: cardData),
                     ),
                   ],
                 ),
@@ -130,10 +108,75 @@ class FarmService extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Expanded(
-                      child: Text("भ्रमणध्वनी क्रमांक",textAlign: TextAlign.center,style: labelTextStyle,),
+                      child: Text(
+                        "गाव",
+                        textAlign: TextAlign.center,
+                        style: labelTextStyle,
+                      ),
                     ),
                     Expanded(
-                      child: Text(doc["Phone Number"],textAlign: TextAlign.center,style: cardData,),
+                      child: Text(doc["Village"],
+                          textAlign: TextAlign.center, style: cardData),
+                    ),
+                  ],
+                ),
+                SizedBox(
+                  height: 5,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Expanded(
+                      child: Text(
+                        "तालुका",
+                        textAlign: TextAlign.center,
+                        style: labelTextStyle,
+                      ),
+                    ),
+                    Expanded(
+                      child: Text(doc["Taluka"],
+                          textAlign: TextAlign.center, style: cardData),
+                    ),
+                  ],
+                ),
+                SizedBox(
+                  height: 5,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Expanded(
+                      child: Text(
+                        "जिल्हा",
+                        textAlign: TextAlign.center,
+                        style: labelTextStyle,
+                      ),
+                    ),
+                    Expanded(
+                      child: Text(doc["District"],
+                          textAlign: TextAlign.center, style: cardData),
+                    ),
+                  ],
+                ),
+                SizedBox(
+                  height: 5,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Expanded(
+                      child: Text(
+                        "भ्रमणध्वनी क्रमांक",
+                        textAlign: TextAlign.center,
+                        style: labelTextStyle,
+                      ),
+                    ),
+                    Expanded(
+                      child: Text(
+                        doc["Phone Number"],
+                        textAlign: TextAlign.center,
+                        style: cardData,
+                      ),
                     ),
                   ],
                 ),

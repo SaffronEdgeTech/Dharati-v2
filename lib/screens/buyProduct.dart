@@ -1,4 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:dharati/widgets/NavDrawer.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
@@ -70,7 +71,7 @@ class _BuyProductState extends State<BuyProduct> {
     phoneNumber = userDetailsMap["PhoneNum"].toString();
     return Scaffold(
       appBar: AppBar(
-        automaticallyImplyLeading: false,
+        
         title: const Text(
           "खरेदी",
           style: TextStyle(
@@ -82,6 +83,7 @@ class _BuyProductState extends State<BuyProduct> {
         centerTitle: true,
         backgroundColor: Colors.green,
       ),
+      drawer: NavDrawer(details:userDetailsMap),
       body: SingleChildScrollView(
           child: Container(
         padding: const EdgeInsets.all(25.0),
@@ -418,7 +420,7 @@ class _BuyProductState extends State<BuyProduct> {
       } else {
         Get.snackbar(
           "तसदीबद्दल क्षमस्व",
-          "सेवा उबलब्ध नाही",
+          "उत्पादने उपलब्ध नाहीत",
           snackPosition: SnackPosition.BOTTOM,
           backgroundColor: Colors.red,
           isDismissible: true,

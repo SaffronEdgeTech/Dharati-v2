@@ -1,4 +1,5 @@
 import 'package:dharati/services/FirebaseAllServices.dart';
+import 'package:dharati/widgets/NavDrawer.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -110,10 +111,12 @@ class _DosageCalculationState extends State<DosageCalculation> {
 
   @override
   Widget build(BuildContext context) {
+    final Map userDetailsMap =
+        ModalRoute.of(context)!.settings.arguments as Map;
     return Scaffold(
       extendBodyBehindAppBar: false,
       appBar: AppBar(
-        automaticallyImplyLeading: false,
+        
         title: Text(
           "डोस पद्धती",
           style: TextStyle(
@@ -122,22 +125,10 @@ class _DosageCalculationState extends State<DosageCalculation> {
             color: Colors.white,
           ),
         ),
-        actions: [
-          IconButton(
-            padding: EdgeInsets.only(right: 15),
-            onPressed: () async {
-              await FirebaseAllServices.instance.logOut();
-              Get.offNamedUntil("/phone", (route) => false);
-            },
-            icon: Icon(
-              Icons.logout,
-              color: Colors.white,
-            ),
-          ),
-        ],
         centerTitle: true,
         backgroundColor: Colors.green,
       ),
+      drawer: NavDrawer(details:userDetailsMap),
       body: SingleChildScrollView(
         child: Container(
           padding: EdgeInsets.all(25.0),

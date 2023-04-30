@@ -4,6 +4,8 @@ import 'package:dharati/screens/buyProduct.dart';
 import 'package:dharati/screens/checkProduct.dart';
 import 'package:dharati/screens/chooseService.dart';
 import 'package:dharati/screens/dosageCalculator.dart';
+import 'package:dharati/screens/myFarmingServices.dart';
+import 'package:dharati/screens/myProducts.dart';
 import 'package:dharati/screens/sellFarmingServices.dart';
 import 'package:dharati/screens/sellProduct.dart';
 import 'package:dharati/screens/showFarmingServices.dart';
@@ -40,7 +42,6 @@ class _DharatiAppState extends State<DharatiApp> {
   bool isAlertSet = false;
   @override
   void initState() {
-    //getConnectivity();
     checkLoginStatus();
     super.initState();
   }
@@ -69,6 +70,8 @@ class _DharatiAppState extends State<DharatiApp> {
         '/chooseService': (context) => const ChooseService(),
         '/checkProduct': (context) => const CheckProduct(),
         '/showServices':(context) => const FarmingServices(),
+        '/myFarmingServices':(context) => const MyFarmingServices(),
+        '/myProducts':(context) => const MyProducts(),
       },
     );
   }

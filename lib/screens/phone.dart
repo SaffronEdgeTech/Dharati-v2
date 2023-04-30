@@ -7,7 +7,7 @@ import 'package:intl_phone_field/intl_phone_field.dart';
 
 class PhoneNum extends StatefulWidget {
   const PhoneNum({super.key});
-  //static String verifyId = "";
+  
 
   @override
   State<PhoneNum> createState() => _PhoneNumState();
@@ -114,7 +114,7 @@ class _PhoneNumState extends State<PhoneNum> {
                     int len = number.length;
                     if (len >= minLength && len <= maxLength) {
                       FirebaseAllServices.instance
-                          .phoneAuthentication(completeNumber);
+                          .phoneAuthentication(completeNumber, "/otp");
                     } else {
                       Get.snackbar(
                         "तसदीबद्दल क्षमस्व",

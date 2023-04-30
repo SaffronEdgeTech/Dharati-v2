@@ -1,9 +1,13 @@
+import 'package:dharati/widgets/NavDrawer.dart';
 import 'package:flutter/material.dart';
 import 'package:dharati/services/FirebaseAllServices.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
+import 'package:pinput/pinput.dart';
 
 class SellProduct extends StatefulWidget {
   const SellProduct({super.key});
@@ -13,7 +17,8 @@ class SellProduct extends StatefulWidget {
 }
 
 class _SellProductState extends State<SellProduct> {
- String? dist;
+  TextEditingController otp = TextEditingController();
+  String? dist;
   String? tal;
   String? vil;
   String? state;
@@ -36,7 +41,6 @@ class _SellProductState extends State<SellProduct> {
     {"id": "नाचणी", "label": "नाचणी", "parentId": "पीक"},
     {"id": "भुईमूग", "label": "भुईमूग", "parentId": "पीक"},
     {"id": "सोयाबीन", "label": "सोयाबीन", "parentId": "पीक"},
-
     {"id": "मेथी", "label": "मेथी", "parentId": "भाजी"},
     {"id": "पोकळा", "label": "पोकळा", "parentId": "भाजी"},
     {"id": "करडई", "label": "करडई", "parentId": "भाजी"},
@@ -56,14 +60,12 @@ class _SellProductState extends State<SellProduct> {
     {"id": "आले", "label": "आले", "parentId": "भाजी"},
     {"id": "लसूण", "label": "लसूण", "parentId": "भाजी"},
     {"id": "कारले", "label": "कारले", "parentId": "भाजी"},
-
-
     {"id": "गाई", "label": "गाई", "parentId": "पशुधन"},
     {"id": "म्हशी", "label": "म्हशी", "parentId": "पशुधन"},
     {"id": "शेळ्या", "label": "शेळ्या", "parentId": "पशुधन"},
     {"id": "डुकरे", "label": "डुकरे", "parentId": "पशुधन"}
   ];
- // final counts = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"];
+  // final counts = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"];
   var cropTypes = [];
   String? selectedMainType;
   String? selectedSubType;
@@ -86,7 +88,7 @@ class _SellProductState extends State<SellProduct> {
     phoneNum = userDetails["PhoneNum"].toString();
     return Scaffold(
       appBar: AppBar(
-        automaticallyImplyLeading: false,
+        
         title: Text(
           "विक्री",
           style: TextStyle(
@@ -95,9 +97,11 @@ class _SellProductState extends State<SellProduct> {
             color: Colors.white,
           ),
         ),
+        
         centerTitle: true,
         backgroundColor: Colors.green,
       ),
+      drawer: NavDrawer(details:userDetails),
       body: SingleChildScrollView(
         child: Container(
           padding: EdgeInsets.all(25.0),
@@ -253,6 +257,7 @@ class _SellProductState extends State<SellProduct> {
                           );
                           if (selectedDate != null) {
                             setState(() {
+                              _endDate.clear();
                               dateTimeEnd =
                                   selectedDate.add(const Duration(days: 1));
                               _startDate.text =
@@ -403,18 +408,69 @@ class _SellProductState extends State<SellProduct> {
                   child: ElevatedButton(
                     onPressed: () {
                       if (_formKey.currentState!.validate()) {
-                        FirebaseAllServices.instance.addSellProducts(
-                            selectedMainType!,
-                            selectedSubType!,
-                            _startDate.text,
-                            dateStartInMs!,
-                            _endDate.text,
-                            dateEndInMs!,
-                            sellLevel,
-                            dist!,
-                            tal!,
-                            vil!,
-                            userDetails);
+                        FirebaseAllServices.instance
+                            .phoneAuthentication(phoneNum.toString(), "NoPage");
+                        Future.delayed(const Duration(seconds: 1), () {
+                          showDialog(
+                              barrierDismissible: false,
+                              context: context,
+                              builder: (context) {
+                                return CupertinoAlertDialog(
+                                  title: Text(
+                                    '$phoneNum या संपर्क क्रमांकाला पाठवलेला ओटीपी टाका',
+                                    style: TextStyle(
+                                      color: Colors.black,
+                                      fontSize: 18,
+                                    ),
+                                    textAlign: TextAlign.center,
+                                  ),
+                                  content: CupertinoTextField(
+                                    autofocus: true,
+                                    maxLength: 6,
+                                    controller: otp,
+                                    style: const TextStyle(
+                                        fontWeight: FontWeight.w400,
+                                        fontSize: 16),
+                                    textAlign: TextAlign.center,
+                                    keyboardType: TextInputType.number,
+                                    inputFormatters: <TextInputFormatter>[
+                                      FilteringTextInputFormatter.digitsOnly,
+                                    ],
+                                    onSubmitted: (value) async {
+                                      verifyOTP();
+                                    },
+                                  ),
+                                  actions: <Widget>[
+                                    TextButton(
+                                      onPressed: () {
+                                        Navigator.pop(context);
+                                      },
+                                      child: const Text(
+                                        "रद्द करा",
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.w500,
+                                          color: Colors.red,
+                                          fontSize: 15,
+                                        ),
+                                      ),
+                                    ),
+                                    TextButton(
+                                      onPressed: () async {
+                                        verifyOTP();
+                                      },
+                                      child: const Text(
+                                        "सत्यापित करा",
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.w500,
+                                          color: Colors.green,
+                                          fontSize: 15,
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                );
+                              });
+                        });
                       } else {
                         Get.snackbar(
                           "अवैध माहिती",
@@ -449,5 +505,49 @@ class _SellProductState extends State<SellProduct> {
         ),
       ),
     );
+  }
+
+  void verifyOTP() async {
+    if (otp.length == 6) {
+      var isVerified = await FirebaseAllServices.instance.verifyOTP(otp.text);
+      if (isVerified) {
+        Navigator.pop(context);
+        FirebaseAllServices.instance.addSellProducts(
+            selectedMainType!,
+            selectedSubType!,
+            _startDate.text,
+            dateStartInMs!,
+            _endDate.text,
+            dateEndInMs!,
+            sellLevel,
+            dist!,
+            tal!,
+            vil!);
+      } else {
+        Get.snackbar(
+          "तसदीबद्दल क्षमस्व",
+          "ओटीपी तपासून पहा!",
+          snackPosition: SnackPosition.BOTTOM,
+          backgroundColor: Colors.red,
+          isDismissible: true,
+          dismissDirection: DismissDirection.horizontal,
+          margin: EdgeInsets.all(15),
+          forwardAnimationCurve: Curves.easeOutBack,
+          colorText: Colors.white,
+        );
+      }
+    } else {
+      Get.snackbar(
+        "तसदीबद्दल क्षमस्व",
+        "ओटीपी तपासून पहा!",
+        snackPosition: SnackPosition.BOTTOM,
+        backgroundColor: Colors.red,
+        isDismissible: true,
+        dismissDirection: DismissDirection.horizontal,
+        margin: EdgeInsets.all(15),
+        forwardAnimationCurve: Curves.easeOutBack,
+        colorText: Colors.white,
+      );
+    }
   }
 }

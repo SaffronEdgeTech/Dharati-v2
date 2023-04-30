@@ -3,6 +3,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:dharati/main.dart';
 import 'package:dharati/screens/dosageCalculator.dart';
 import 'package:dharati/services/FirebaseAllServices.dart';
+import 'package:dharati/widgets/NavDrawer.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -103,12 +104,14 @@ class _UserDetailsState extends State<UserDetails> {
 
   @override
   Widget build(BuildContext context) {
+    final Map userDetailsMap =
+        ModalRoute.of(context)!.settings.arguments as Map;
     return Scaffold(
       extendBodyBehindAppBar: false,
       appBar: AppBar(
-        automaticallyImplyLeading: false,
+        
         title: Text(
-          "सुस्वागतम",
+          "शेती संबंधी माहिती",
           style: TextStyle(
             fontSize: 18,
             fontWeight: FontWeight.w700,
@@ -118,6 +121,7 @@ class _UserDetailsState extends State<UserDetails> {
         centerTitle: true,
         backgroundColor: Colors.green,
       ),
+      drawer: NavDrawer(details:userDetailsMap),
       body: loadingSts
           ? Center(child: CircularProgressIndicator())
           : SingleChildScrollView(
@@ -486,7 +490,7 @@ class _UserDetailsState extends State<UserDetails> {
                                   selectedInternalCrop!,
                                   selectedInrrigationType!,
                                   selectedInrrigationSource!,
-                                  seletedFertilizerType!);
+                                  seletedFertilizerType!,userDetailsMap);
                             } else {
                               Get.snackbar(
                                 "अवैध माहिती",

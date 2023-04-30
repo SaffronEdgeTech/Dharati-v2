@@ -61,7 +61,7 @@ class _OTPVerificationState extends State<OTPVerification> {
                 height: 10,
               ),
               Text(
-                'या $completeNumber संपर्क क्रमांकाला पाठवलेला ओटीपी टाका',
+                '$completeNumber या संपर्क क्रमांकाला पाठवलेला ओटीपी टाका',
                 style: TextStyle(
                   color: Colors.black54,
                   fontSize: 18,

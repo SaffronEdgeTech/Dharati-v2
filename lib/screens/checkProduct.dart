@@ -15,7 +15,6 @@ class _CheckProductState extends State<CheckProduct> {
         ModalRoute.of(context)!.settings.arguments as List;
     return Scaffold(
       appBar: AppBar(
-        automaticallyImplyLeading: false,
         title: const Text(
           "खरेदीसाठी पर्याय",
           style: TextStyle(
@@ -29,6 +28,8 @@ class _CheckProductState extends State<CheckProduct> {
       ),
       body: SafeArea(
         child: ListView.builder(
+          scrollDirection: Axis.vertical,
+          shrinkWrap: true,
           itemCount: documents.length,
           itemBuilder: (context, index) {
             return ProductService(documents[index]);

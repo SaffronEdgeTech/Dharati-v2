@@ -147,7 +147,7 @@ class _SellProductState extends State<SellProduct> {
                                   ))
                               .toList(),
                           onChanged: (value) => setState(() {
-                            selectedMainType = null;
+                            selectedSubType = null;
                             cropTypes.clear();
                             selectedMainType = value;
                             cropTypes = allSubTypes

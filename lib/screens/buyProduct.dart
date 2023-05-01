@@ -27,9 +27,9 @@ class _BuyProductState extends State<BuyProduct> {
   String? phoneNumber;
   var distTalVil = {};
   TextEditingController _startDate = TextEditingController();
-  DateTime date = DateTime.now();
-  int available = 0;
-  var dateStartInMs;
+  List<dynamic> documents = [];
+  
+  num dateStartInMs=0;
   
 
   String? _valueLevel = "Village";
@@ -76,7 +76,6 @@ class _BuyProductState extends State<BuyProduct> {
   String? selectedMainType;
   String? selectedSubType;
 
-  String? selectedBuyDate = " ";
 
   @override
   Widget build(BuildContext context) {
@@ -148,7 +147,7 @@ class _BuyProductState extends State<BuyProduct> {
                                     ))
                                 .toList(),
                             onChanged: (value) => setState(() {
-                              selectedMainType = null;
+                              selectedSubType = null;
                               cropTypes.clear();
                               selectedMainType = value;
                               cropTypes = allSubCropTypes
@@ -256,7 +255,6 @@ class _BuyProductState extends State<BuyProduct> {
                           );
                             if (selectedDate != null) {
                             setState(() {
-                                  selectedDate.add(const Duration(days: 1));
                               _startDate.text =
                                   DateFormat("dd-MM-yyyy").format(selectedDate);
                               dateStartInMs =
@@ -363,7 +361,7 @@ class _BuyProductState extends State<BuyProduct> {
                       ElevatedButton(
                           onPressed: () {
                             if (_formKey.currentState!.validate()) {
-                              cropTypes.clear();
+                              documents.clear();
                               fetchBuyProductServices(
                                   selectedMainType!, selectedSubType!);
                             } else {
@@ -417,20 +415,20 @@ class _BuyProductState extends State<BuyProduct> {
         String endDate = data["End Date ms"].toString();
         String sellLevel = data["Sell Level"].toString();
         String loc = data[_valueLevel].toString();
-        if (mobileNumber != phoneNumber &&
-            startDate.compareTo(available.toString()) <= 0 &&
-            endDate.compareTo(available.toString()) >= 0 &&
+        if (mobileNumber != phoneNumber.toString() &&
+            startDate.compareTo(dateStartInMs.toString()) <= 0 &&
+            endDate.compareTo(dateStartInMs.toString()) >= 0 &&
             sellLevel == _valueLevel.toString() &&
             loc == distTalVil[_valueLevel].toString()) {
           setState(() {
-            cropTypes.add(data);
+            documents.add(data);
           });
         }
       });
     }).whenComplete(() {
-      if (cropTypes.isNotEmpty) {
+      if (documents.isNotEmpty) {
         Future.delayed(Duration(seconds: 5), () {
-          Navigator.pushNamed(context, "/checkProduct", arguments: cropTypes);
+          Navigator.pushNamed(context, "/checkProduct", arguments: documents);
         });
       } else {
         Get.snackbar(

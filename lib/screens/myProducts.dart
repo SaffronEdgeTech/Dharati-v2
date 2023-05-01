@@ -1,4 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:dharati/widgets/MyProducts.dart';
 import 'package:dharati/widgets/ProductService.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -77,7 +78,7 @@ class _MyProductsState extends State<MyProducts> {
                 shrinkWrap: true,
                 itemCount: documents.length,
                 itemBuilder: (context, index) {
-                  return ProductService(documents[index]);
+                  return MyProductService(documents[index]);
                 },
               ),
             ),

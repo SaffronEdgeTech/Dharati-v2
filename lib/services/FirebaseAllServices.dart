@@ -90,9 +90,11 @@ class FirebaseAllServices extends GetxController {
     return false;
   }
 
-  logOut() async {
+  logOut() {
     try {
-      await _auth.signOut();
+      _auth.signOut().then((value) {
+        Get.offNamedUntil("/phone", (route) => false);
+      });
     } on FirebaseAuthException catch (e) {
       Get.snackbar(
         "तसदीबद्दल क्षमस्व",

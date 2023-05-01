@@ -85,9 +85,8 @@ class NavDrawer extends StatelessWidget {
               "बाहेर पडा",
               style: listOptionsTextStyle,
             ),
-            onTap: () async {
-              await FirebaseAllServices.instance.logOut();
-              Get.offNamedUntil("/phone", (route) => false);
+            onTap: () {
+              FirebaseAllServices.instance.logOut();
             },
           ),
         ],

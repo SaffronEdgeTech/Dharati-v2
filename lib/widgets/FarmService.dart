@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class FarmService extends StatelessWidget {
   var doc;
@@ -179,6 +181,47 @@ class FarmService extends StatelessWidget {
                       ),
                     ),
                   ],
+                ),
+                SizedBox(
+                  height: 10,
+                ),
+                Center(
+                  child: ElevatedButton.icon(
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.green,
+                    ),
+                    onPressed: () async {
+                      final Uri url = Uri(
+                          scheme: "tel", path: doc["Phone Number"].toString());
+                      if (await canLaunchUrl(url)) {
+                        await launchUrl(url);
+                      } else {
+                        Get.snackbar(
+                          "तसदीबद्दल क्षमस्व",
+                          "",
+                          snackPosition: SnackPosition.BOTTOM,
+                          backgroundColor: Colors.red,
+                          isDismissible: true,
+                          dismissDirection: DismissDirection.horizontal,
+                          margin: EdgeInsets.all(15),
+                          forwardAnimationCurve: Curves.easeOutBack,
+                          colorText: Colors.white,
+                        );
+                      }
+                    },
+                    label: Text(
+                      "संपर्क करा",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    icon: Icon(
+                      Icons.phone,
+                      color: Colors.white,
+                    ),
+                  ),
                 ),
               ]),
         ),

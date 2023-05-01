@@ -3,6 +3,11 @@ import 'package:dharati/widgets/NavDrawer.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:dharati/services/FirebaseAllServices.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:pinput/pinput.dart';
 
 class BuyProduct extends StatefulWidget {
   const BuyProduct({super.key});
@@ -13,65 +18,75 @@ class BuyProduct extends StatefulWidget {
 
 class _BuyProductState extends State<BuyProduct> {
   final _formKey = GlobalKey<FormState>();
+  TextStyle labelTextStyle = TextStyle(
+    fontSize: 16,
+    fontWeight: FontWeight.w700,
+    color: Colors.green.shade600,
+  );
 
   String? phoneNumber;
   var distTalVil = {};
-
-  DateTime date = DateTime.now();
-  int available = 0;
-  TextEditingController tc = TextEditingController();
+  TextEditingController _startDate = TextEditingController();
+  List<dynamic> documents = [];
+  
+  num dateStartInMs=0;
+  
 
   String? _valueLevel = "Village";
-  List<dynamic> documents = [];
-  final mainCropType = ['पीक', 'भाजी', 'पशुधन'];
-  var availableSubCropType = [];
-  final subCropType1 = [
-    'गहू',
-    'ज्वारी',
-    'तांदूळ',
-    'मका',
-    'नाचणी',
-    'भुईमूग',
-    'सोयाबीन',
+  List<dynamic> mainCropType = [
+    {"id": "पीक", "label": "पीक"},
+    {"id": "भाजी", "label": "भाजी"},
+    {"id": "पशुधन", "label": "पशुधन"}
   ];
-  final subCropType2 = [
-    'मेथी',
-    'पोकळा',
-    'करडई',
-    'पालक',
-    'कांदा',
-    'टोमॅटो',
-    'बटाटा',
-    'दोडका',
-    'शेवगा',
-    'पावटा',
-    'गवारी',
-    'वांगी',
-    'काकडी',
-    'गाजर',
-    'मुळा',
-    'कोथिंबीर',
-    'आले',
-    'लसूण',
-    'कारले'
+
+  List<dynamic> allSubCropTypes = [
+    {"id": "गहू", "label": "गहू", "parentId": "पीक"},
+    {"id": "ज्वारी", "label": "ज्वारी", "parentId": "पीक"},
+    {"id": "तांदूळ", "label": "तांदूळ", "parentId": "पीक"},
+    {"id": "मका", "label": "मका", "parentId": "पीक"},
+    {"id": "नाचणी", "label": "नाचणी", "parentId": "पीक"},
+    {"id": "भुईमूग", "label": "भुईमूग", "parentId": "पीक"},
+    {"id": "सोयाबीन", "label": "सोयाबीन", "parentId": "पीक"},
+    {"id": "मेथी", "label": "मेथी", "parentId": "भाजी"},
+    {"id": "पोकळा", "label": "पोकळा", "parentId": "भाजी"},
+    {"id": "करडई", "label": "करडई", "parentId": "भाजी"},
+    {"id": "पालक", "label": "पालक", "parentId": "भाजी"},
+    {"id": "कांदा", "label": "कांदा", "parentId": "भाजी"},
+    {"id": "टोमॅटो", "label": "टोमॅटो", "parentId": "भाजी"},
+    {"id": "बटाटा", "label": "बटाटा", "parentId": "भाजी"},
+    {"id": "दोडका", "label": "दोडका", "parentId": "भाजी"},
+    {"id": "शेवगा", "label": "शेवगा", "parentId": "भाजी"},
+    {"id": "पावटा", "label": "पावटा", "parentId": "भाजी"},
+    {"id": "गवारी", "label": "गवारी", "parentId": "भाजी"},
+    {"id": "वांगी", "label": "वांगी", "parentId": "भाजी"},
+    {"id": "काकडी", "label": "काकडी", "parentId": "भाजी"},
+    {"id": "गाजर", "label": "गाजर", "parentId": "भाजी"},
+    {"id": "मुळा", "label": "मुळा", "parentId": "भाजी"},
+    {"id": "कोथिंबीर", "label": "कोथिंबीर", "parentId": "भाजी"},
+    {"id": "आले", "label": "आले", "parentId": "भाजी"},
+    {"id": "लसूण", "label": "लसूण", "parentId": "भाजी"},
+    {"id": "कारले", "label": "कारले", "parentId": "भाजी"},
+    {"id": "गाई", "label": "गाई", "parentId": "पशुधन"},
+    {"id": "म्हशी", "label": "म्हशी", "parentId": "पशुधन"},
+    {"id": "शेळ्या", "label": "शेळ्या", "parentId": "पशुधन"},
+    {"id": "डुकरे", "label": "डुकरे", "parentId": "पशुधन"}
   ];
-  final subCropType3 = ['गाई', 'म्हशी', 'शेळ्या', 'डुकरे'];
-  String? selectedSubType = 'गहू';
-  String? selectedMainType = 'पीक';
-  String? selectedBuyDate = " ";
+
+  var cropTypes = []; 
+  String? selectedMainType;
+  String? selectedSubType;
+
 
   @override
   Widget build(BuildContext context) {
-    final Map userDetailsMap =
-        ModalRoute.of(context)!.settings.arguments as Map;
-    distTalVil["District"] = userDetailsMap["Dist"].toString();
-    distTalVil["Taluka"] = userDetailsMap["Tal"].toString();
-    distTalVil["Village"] = userDetailsMap["Vil"].toString();
-    distTalVil["State"] = userDetailsMap["State"].toString();
-    phoneNumber = userDetailsMap["PhoneNum"].toString();
+    final Map userDetails = ModalRoute.of(context)!.settings.arguments as Map;
+    distTalVil["District"] = userDetails["Dist"].toString();
+    distTalVil["Taluka"] = userDetails["Tal"].toString();
+    distTalVil["Village"] = userDetails["Vil"].toString();
+    distTalVil["State"] = userDetails["State"].toString();
+    phoneNumber = userDetails["PhoneNum"].toString();
     return Scaffold(
       appBar: AppBar(
-        
         title: const Text(
           "खरेदी",
           style: TextStyle(
@@ -83,36 +98,30 @@ class _BuyProductState extends State<BuyProduct> {
         centerTitle: true,
         backgroundColor: Colors.green,
       ),
-      drawer: NavDrawer(details:userDetailsMap),
+      drawer: NavDrawer(details: userDetails),
       body: SingleChildScrollView(
           child: Container(
-        padding: const EdgeInsets.all(25.0),
+        padding: EdgeInsets.all(25.0),
         child: Form(
             key: _formKey,
             child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
-                      const Text(
-                        'मुख्य प्रकार',
-                        style: TextStyle(
-                            fontWeight: FontWeight.bold, fontSize: 15),
-                      ),
-                      const SizedBox(
-                        width: 30,
+                      Expanded(
+                        child: Text(
+                          "मुख्य प्रकार",
+                          style: labelTextStyle,
+                          textAlign: TextAlign.center,
+                        ),
                       ),
                       ButtonTheme(
                         alignedDropdown: true,
                         child: Expanded(
                           child: DropdownButtonFormField(
                             decoration: InputDecoration(
-                              labelText: "मुख्य प्रकार",
-                              labelStyle: TextStyle(
-                                fontSize: 16,
-                                fontWeight: FontWeight.w900,
-                                color: Colors.green.shade900,
-                              ),
                               border: OutlineInputBorder(
                                 borderRadius: BorderRadius.circular(5),
                               ),
@@ -124,21 +133,27 @@ class _BuyProductState extends State<BuyProduct> {
                             ),
                             borderRadius: BorderRadius.circular(5),
                             menuMaxHeight: 250,
+                            isExpanded: true,
+                            isDense: true,
+                            hint: Text("मुख्य प्रकार"),
                             value: selectedMainType,
-                            validator: (value) => value == "0"
+                            validator: (value) => value == null
                                 ? "कृपया मुख्य प्रकार निवडा"
                                 : null,
                             items: mainCropType
-                                .map((e) => DropdownMenuItem(
-                                      value: e,
-                                      child: Text(e),
+                                .map((e) => DropdownMenuItem<String>(
+                                      child: Text(e["label"]),
+                                      value: e["id"],
                                     ))
                                 .toList(),
                             onChanged: (value) => setState(() {
                               selectedSubType = null;
-                              availableSubCropType.clear();
+                              cropTypes.clear();
                               selectedMainType = value;
-                              fetchSubCropType(selectedMainType.toString());
+                              cropTypes = allSubCropTypes
+                                  .where((element) =>
+                                      element["parentId"] == selectedMainType)
+                                  .toList();
                             }),
                             onSaved: (newValue) => setState(() {
                               selectedMainType = newValue;
@@ -148,30 +163,24 @@ class _BuyProductState extends State<BuyProduct> {
                       ),
                     ],
                   ),
-                  const SizedBox(
-                    height: 20,
+                  SizedBox(
+                    height: 10,
                   ),
                   Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
-                      const Text(
-                        'उप प्रकार',
-                        style: TextStyle(
-                            fontWeight: FontWeight.bold, fontSize: 15),
-                      ),
-                      const SizedBox(
-                        width: 40,
+                      Expanded(
+                        child: Text(
+                          "उप प्रकार",
+                          style: labelTextStyle,
+                          textAlign: TextAlign.center,
+                        ),
                       ),
                       ButtonTheme(
                         alignedDropdown: true,
                         child: Expanded(
                           child: DropdownButtonFormField(
                             decoration: InputDecoration(
-                              labelText: "उप प्रकार",
-                              labelStyle: TextStyle(
-                                fontSize: 16,
-                                fontWeight: FontWeight.w900,
-                                color: Colors.green.shade900,
-                              ),
                               border: OutlineInputBorder(
                                 borderRadius: BorderRadius.circular(5),
                               ),
@@ -183,20 +192,23 @@ class _BuyProductState extends State<BuyProduct> {
                             ),
                             borderRadius: BorderRadius.circular(5),
                             menuMaxHeight: 250,
+                            isExpanded: true,
+                            isDense: true,
+                            hint: Text("उप प्रकार"),
                             value: selectedSubType,
                             validator: (value) =>
-                                value == "0" ? "कृपया उप प्रकार निवडा" : null,
-                            items: availableSubCropType
-                                .map((e) => DropdownMenuItem(
-                                      value: e,
-                                      child: Text(e),
+                                value == null ? "कृपया उप प्रकार निवडा" : null,
+                            items: cropTypes
+                                .map((e) => DropdownMenuItem<String>(
+                                      child: Text(e["label"]),
+                                      value: e["id"],
                                     ))
                                 .toList(),
                             onChanged: (value) => setState(() {
-                              selectedSubType = value as String?;
+                              selectedSubType = value;
                             }),
                             onSaved: (newValue) => setState(() {
-                              selectedSubType = newValue as String?;
+                              selectedSubType = newValue;
                             }),
                           ),
                         ),
@@ -207,50 +219,51 @@ class _BuyProductState extends State<BuyProduct> {
                     height: 20,
                   ),
                   Row(
-                    children: [
-                      Text(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Expanded(
+                      child: Text(
                         "खरेदी दिवस",
-                        style: TextStyle(
-                            fontWeight: FontWeight.bold, fontSize: 15),
+                        style: labelTextStyle,
+                        textAlign: TextAlign.center,
                       ),
-                      SizedBox(
-                        width: 25,
-                      ),
-                      Expanded(
-                        child: TextFormField(
-                          controller: tc,
-                          decoration: InputDecoration(
-                            prefixIcon: Icon(Icons.calendar_today_rounded),
-                            labelText: "तारीख निवडा",
-                            labelStyle: TextStyle(
-                              fontSize: 16,
-                              fontWeight: FontWeight.w900,
-                            ),
-                            border: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(5),
-                            ),
-                            enabledBorder: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(5),
-                              borderSide: BorderSide(
-                                  color: Colors.green.shade300, width: 1),
-                            ),
+                    ),
+                    Expanded(
+                      child: TextFormField(
+                        controller: _startDate,
+                        decoration: InputDecoration(
+                          prefixIcon: Icon(Icons.calendar_month_rounded),
+                          hintText: "दिवस निवडा",
+                          border: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(5),
                           ),
-                          readOnly: true,
-                          onTap: () async {
-                            DateTime? newDate = await showDatePicker(
-                              context: context,
-                              initialDate: date,
-                              firstDate: DateTime.now(),
-                              lastDate: DateTime(2025),
-                            );
-                            if (newDate == null) return;
-
+                          enabledBorder: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(5),
+                            borderSide: BorderSide(
+                                color: Colors.green.shade300, width: 1),
+                          ),
+                        ),
+                        readOnly: true,
+                        onTap: () async {
+                          DateTime? selectedDate = await showDatePicker(
+                            context: context,
+                            initialDate: DateTime.now(),
+                            firstDate: DateTime.now(),
+                            lastDate: DateTime.now().add(
+                              const Duration(days: 730),
+                            ),
+                          );
+                            if (selectedDate != null) {
                             setState(() {
-                              available = newDate.millisecondsSinceEpoch;
-                              tc.text =
-                                  DateFormat("dd-MM-yyyy").format(newDate);
+                              _startDate.text =
+                                  DateFormat("dd-MM-yyyy").format(selectedDate);
+                              dateStartInMs =
+                                  selectedDate.millisecondsSinceEpoch;
                             });
+                          }
                           },
+                          validator: (value) =>
+                            _startDate.text == "" ? "कृपया दिवस निवडा" : null,
                         ),
                       )
                     ],
@@ -271,62 +284,74 @@ class _BuyProductState extends State<BuyProduct> {
                   SizedBox(
                     height: 20,
                   ),
-                  Row(
-                    children: [
-                      Expanded(
-                        child: RadioListTile(
-                          value: "Village",
-                          title: const Text("गाव पातळी"),
-                          activeColor: Colors.green,
-                          groupValue: _valueLevel,
-                          onChanged: (String? value) {
-                            setState(() => _valueLevel = value.toString());
-                          },
-                        ),
+                 SizedBox(
+                  height: 40,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Expanded(
+                      child: RadioListTile(
+                        title: Text("गाव पातळी"),
+                        value: "Village",
+                        groupValue: _valueLevel,
+                        onChanged: (value) {
+                          setState(() {
+                            _valueLevel = value.toString();
+                          });
+                        },
+                        activeColor: Colors.green,
                       ),
-                      Expanded(
-                        child: RadioListTile(
-                          value: "Taluka",
-                          title: const Text("तालुका पातळी"),
-                          activeColor: Colors.green,
-                          groupValue: _valueLevel,
-                          onChanged: (String? value) {
-                            setState(() => _valueLevel = value.toString());
-                          },
-                        ),
+                    ),
+                    Expanded(
+                      child: RadioListTile(
+                        title: Text("तालुका पातळी"),
+                        value: "Taluka",
+                        groupValue:_valueLevel,
+                        onChanged: (value) {
+                          setState(() {
+                            _valueLevel = value.toString();
+                          });
+                        },
+                        activeColor: Colors.green,
                       ),
-                    ],
-                  ),
-                  SizedBox(
-                    height: 20,
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    children: [
-                      Expanded(
-                        child: RadioListTile(
-                          value: "District",
-                          title: const Text("जिल्हा पातळी"),
-                          activeColor: Colors.green,
-                          groupValue: _valueLevel,
-                          onChanged: (String? value) {
-                            setState(() => _valueLevel = value.toString());
-                          },
-                        ),
+                    ),
+                  ],
+                ),
+                SizedBox(
+                  height: 10,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Expanded(
+                      child: RadioListTile(
+                        title: Text("जिल्हा पातळी"),
+                        value: "District",
+                        groupValue: _valueLevel,
+                        onChanged: (value) {
+                          setState(() {
+                            _valueLevel = value.toString();
+                          });
+                        },
+                        activeColor: Colors.green,
                       ),
-                      Expanded(
-                        child: RadioListTile(
-                          value: "State",
-                          title: const Text("राज्य पातळी"),
-                          activeColor: Colors.green,
-                          groupValue: _valueLevel,
-                          onChanged: (String? value) {
-                            setState(() => _valueLevel = value.toString());
-                          },
-                        ),
+                    ),
+                    Expanded(
+                      child: RadioListTile(
+                        title: Text("राज्य पातळी"),
+                        value: "State",
+                        groupValue: _valueLevel,
+                        onChanged: (value) {
+                          setState(() {
+                            _valueLevel = value.toString();
+                          });
+                        },
+                        activeColor: Colors.green,
                       ),
-                    ],
-                  ),
+                    ),
+                  ],
+                ),
                   SizedBox(
                     height: 20,
                   ),
@@ -367,18 +392,6 @@ class _BuyProductState extends State<BuyProduct> {
     );
   }
 
-  fetchSubCropType(String? mainCrop) {
-    setState(() {
-      if (mainCrop == 'पीक') {
-        availableSubCropType = subCropType1;
-      } else if (mainCrop == 'भाजी') {
-        availableSubCropType = subCropType2;
-      } else if (mainCrop == 'पशुधन') {
-        availableSubCropType = subCropType3;
-      }
-    });
-  }
-
   fetchBuyProductServices(String mainType, String subType) {
     Get.snackbar(
       "कृपया प्रतिक्षा करा...",
@@ -402,9 +415,9 @@ class _BuyProductState extends State<BuyProduct> {
         String endDate = data["End Date ms"].toString();
         String sellLevel = data["Sell Level"].toString();
         String loc = data[_valueLevel].toString();
-        if (mobileNumber != phoneNumber &&
-            startDate.compareTo(available.toString()) <= 0 &&
-            endDate.compareTo(available.toString()) >= 0 &&
+        if (mobileNumber != phoneNumber.toString() &&
+            startDate.compareTo(dateStartInMs.toString()) <= 0 &&
+            endDate.compareTo(dateStartInMs.toString()) >= 0 &&
             sellLevel == _valueLevel.toString() &&
             loc == distTalVil[_valueLevel].toString()) {
           setState(() {

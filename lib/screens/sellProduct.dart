@@ -88,7 +88,6 @@ class _SellProductState extends State<SellProduct> {
     phoneNum = userDetails["PhoneNum"].toString();
     return Scaffold(
       appBar: AppBar(
-        
         title: Text(
           "विक्री",
           style: TextStyle(
@@ -97,11 +96,10 @@ class _SellProductState extends State<SellProduct> {
             color: Colors.white,
           ),
         ),
-        
         centerTitle: true,
         backgroundColor: Colors.green,
       ),
-      drawer: NavDrawer(details:userDetails),
+      drawer: NavDrawer(details: userDetails),
       body: SingleChildScrollView(
         child: Container(
           padding: EdgeInsets.all(25.0),
@@ -149,7 +147,7 @@ class _SellProductState extends State<SellProduct> {
                                   ))
                               .toList(),
                           onChanged: (value) => setState(() {
-                            selectedMainType = null;
+                            selectedSubType = null;
                             cropTypes.clear();
                             selectedMainType = value;
                             cropTypes = allSubTypes

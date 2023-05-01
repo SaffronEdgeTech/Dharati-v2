@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:dharati/widgets/FarmService.dart';
+import 'package:dharati/widgets/MyFarmServices.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
@@ -72,7 +72,7 @@ class _MyFarmingServicesState extends State<MyFarmingServices> {
                 shrinkWrap: true,
                 itemCount: documents.length,
                 itemBuilder: (context, index) {
-                  return FarmService(documents[index]);
+                  return MyFarmService(documents[index]);
                 },
               ),
             ),

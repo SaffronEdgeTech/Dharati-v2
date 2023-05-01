@@ -195,7 +195,11 @@ class FirebaseAllServices extends GetxController {
         "State": "महाराष्ट्र",
       },
       SetOptions(merge: true),
-    ).then((value) {
+    ).then((value) async {
+      addProductLocationData(district.toString(), taluka.toString(),
+          village.toString(), id.toString());
+      addFarmingServiceLocationData(district.toString(), taluka.toString(),
+          village.toString(), id.toString());
       Get.snackbar(
         "धन्यवाद",
         "माहिती यशस्वीरित्या जतन केली आहे!",
@@ -222,6 +226,152 @@ class FirebaseAllServices extends GetxController {
         forwardAnimationCurve: Curves.easeOutBack,
         colorText: Colors.white,
       );
+    });
+  }
+
+  var myProdList = ["पीक", "भाजी", "पशुधन"];
+  var myProdMap = {
+    "पीक": ["गहू", "ज्वारी", "तांदूळ", "मका", "नाचणी", "भुईमूग", "सोयाबीन"],
+    "भाजी": [
+      "मेथी",
+      "पोकळा",
+      "करडई",
+      "पालक",
+      "कांदा",
+      "टोमॅटो",
+      "बटाटा",
+      "दोडका",
+      "शेवगा",
+      "पावटा",
+      "गवारी",
+      "वांगी",
+      "काकडी",
+      "गाजर",
+      "मुळा",
+      "कोथिंबीर",
+      "आले",
+      "लसूण",
+      "कारले"
+    ],
+    "पशुधन": ["गाई", "म्हशी", "शेळ्या", "डुकरे"]
+  };
+
+  Future<void> addProductLocationData(
+      String district, String taluka, String village, String id) async {
+    db.collection("Products").doc(id).get().then((value) {
+      for (String prodlistVal in myProdList) {
+        for (String prodmapVal in myProdMap[prodlistVal]!) {
+          try {
+            db
+                .collection("Products")
+                .doc(id)
+                .collection(prodlistVal + prodmapVal)
+                .doc(id)
+                .get()
+                .then((value) async {
+              if (value.exists) {
+                await db
+                    .collection("Products")
+                    .doc(id)
+                    .collection(prodlistVal + prodmapVal)
+                    .doc(id)
+                    .set(
+                  {
+                    "District": district,
+                    "Taluka": taluka,
+                    "Village": village,
+                    "State": "महाराष्ट्र",
+                  },
+                  SetOptions(merge: true),
+                ).onError((error, stackTrace) {
+                  Get.snackbar(
+                    "तसदीबद्दल क्षमस्व",
+                    error.toString(),
+                    snackPosition: SnackPosition.BOTTOM,
+                    backgroundColor: Colors.red,
+                    isDismissible: true,
+                    dismissDirection: DismissDirection.horizontal,
+                    margin: EdgeInsets.all(15),
+                    forwardAnimationCurve: Curves.easeOutBack,
+                    colorText: Colors.white,
+                  );
+                });
+              }
+            });
+          } on Exception catch (e) {}
+        }
+      }
+    });
+  }
+
+  var myFarmingServiceList = ["अवजारे", "मनुष्यबळ"];
+  var myFarmingServiceMap = {
+    "अवजारे": [
+      "ट्रॅक्टर",
+      "रोटाव्हेटर",
+      "पलटीनांगर",
+      "ट्रेलर",
+      "फवारणीयंत्र",
+      "बोअरवेल",
+      "तोडणीयंत्र",
+      "मळणीयंत्र",
+      "कल्टिव्हेटरमशागत",
+      "हॅरोदंताळे",
+      "पेरणीयंत्र",
+      "ड्रोन",
+      "जेसिबी",
+      "हार्वेस्टर",
+      "ट्रॅक्टरफळी"
+    ],
+    "मनुष्यबळ": ["मनुष्यबळ"]
+  };
+
+  Future<void> addFarmingServiceLocationData(
+      String district, String taluka, String village, String id) async {
+    db.collection("Farming Services").doc(id).get().then((value) {
+      for (String farmServicelistVal in myFarmingServiceList) {
+        for (String farmServicemapVal
+            in myFarmingServiceMap[farmServicelistVal]!) {
+          try {
+            db
+                .collection("Farming Services")
+                .doc(id)
+                .collection(farmServicelistVal + farmServicemapVal)
+                .doc(id)
+                .get()
+                .then((value) async {
+              if (value.exists) {
+                await db
+                    .collection("Farming Services")
+                    .doc(id)
+                    .collection(farmServicelistVal + farmServicemapVal)
+                    .doc(id)
+                    .set(
+                  {
+                    "District": district,
+                    "Taluka": taluka,
+                    "Village": village,
+                    "State": "महाराष्ट्र",
+                  },
+                  SetOptions(merge: true),
+                ).onError((error, stackTrace) {
+                  Get.snackbar(
+                    "तसदीबद्दल क्षमस्व",
+                    error.toString(),
+                    snackPosition: SnackPosition.BOTTOM,
+                    backgroundColor: Colors.red,
+                    isDismissible: true,
+                    dismissDirection: DismissDirection.horizontal,
+                    margin: EdgeInsets.all(15),
+                    forwardAnimationCurve: Curves.easeOutBack,
+                    colorText: Colors.white,
+                  );
+                });
+              }
+            });
+          } on Exception catch (e) {}
+        }
+      }
     });
   }
 
@@ -266,6 +416,7 @@ class FirebaseAllServices extends GetxController {
         "Service Level": serviceLevel,
         "State": "महाराष्ट्र",
       },
+      SetOptions(merge: true),
     ).then((value) {
       Get.snackbar(
         "धन्यवाद",
@@ -331,6 +482,7 @@ class FirebaseAllServices extends GetxController {
         "Sell Level": sellLevel,
         "State": "महाराष्ट्र",
       },
+      SetOptions(merge: true),
     ).then((value) {
       Get.snackbar(
         "धन्यवाद",

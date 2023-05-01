@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "1051211273003-376a98369fnmnu7gt6g81qb24dtmetbb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dharati",
+            "certificate_hash": "f2987510f26dd0dfa4c53d0cea664a39ffaef850"
+          }
+        },
+        {
           "client_id": "1051211273003-9jt6n6uv5repbcrfu5a1ib5i2fec13tb.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
@@ -35,6 +43,14 @@
           "android_info": {
             "package_name": "com.example.dharati",
             "certificate_hash": "f843ddc50c7e284e59a604f3f877790738441b05"
+          }
+        },
+        {
+          "client_id": "1051211273003-kba556i760rd20epbnil9rovgj35vv89.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dharati",
+            "certificate_hash": "a415e00c2516a020c9a03884edecd1125e5ed3c8"
           }
         },
         {

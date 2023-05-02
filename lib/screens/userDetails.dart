@@ -177,8 +177,8 @@ class _UserDetailsState extends State<UserDetails> {
                                       menuMaxHeight: 250,
                                       hint: Text("एकर"),
                                       value: selectedAcre,
-                                      validator: (value) => (value == "0" &&
-                                              selectedGuntha == "0")
+                                      validator: (value) => (selectedAcre==null || (value == "0" &&
+                                              selectedGuntha == "0"))
                                           ? "कृपया एकर निवडा"
                                           : null,
                                       items: _acres
@@ -231,7 +231,7 @@ class _UserDetailsState extends State<UserDetails> {
                                       hint: Text("गुंठा"),
                                       value: selectedGuntha,
                                       validator: (value) =>
-                                          (value == "0" && selectedAcre == "0")
+                                          (selectedGuntha==null || (value == "0" && selectedAcre == "0"))
                                               ? "कृपया गुंठा निवडा"
                                               : null,
                                       items: _gunthas
@@ -543,7 +543,7 @@ class _UserDetailsState extends State<UserDetails> {
         selectedInrrigationSource = data["Irrigation Source"];
         seletedFertilizerType = data["Fertilizer Type"];
       });
-      Future.delayed(Duration(seconds: 7), () {
+      Future.delayed(Duration(seconds: 2), () {
         setState(() {
           loading = false;
         });

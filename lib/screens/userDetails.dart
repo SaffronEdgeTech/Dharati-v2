@@ -109,7 +109,6 @@ class _UserDetailsState extends State<UserDetails> {
     return Scaffold(
       extendBodyBehindAppBar: false,
       appBar: AppBar(
-        
         title: Text(
           "शेती संबंधी माहिती",
           style: TextStyle(
@@ -121,7 +120,7 @@ class _UserDetailsState extends State<UserDetails> {
         centerTitle: true,
         backgroundColor: Colors.green,
       ),
-      drawer: NavDrawer(details:userDetailsMap),
+      drawer: NavDrawer(details: userDetailsMap),
       body: loadingSts
           ? Center(child: CircularProgressIndicator())
           : SingleChildScrollView(
@@ -490,7 +489,8 @@ class _UserDetailsState extends State<UserDetails> {
                                   selectedInternalCrop!,
                                   selectedInrrigationType!,
                                   selectedInrrigationSource!,
-                                  seletedFertilizerType!,userDetailsMap);
+                                  seletedFertilizerType!,
+                                  userDetailsMap);
                             } else {
                               Get.snackbar(
                                 "अवैध माहिती",
@@ -543,7 +543,7 @@ class _UserDetailsState extends State<UserDetails> {
         selectedInrrigationSource = data["Irrigation Source"];
         seletedFertilizerType = data["Fertilizer Type"];
       });
-      Future.delayed(Duration(seconds: 7), () {
+      Future.delayed(Duration(seconds: 2), () {
         setState(() {
           loading = false;
         });

@@ -186,7 +186,7 @@ class _ChooseServiceState extends State<ChooseService> {
                               selectedDistrict = value;
                               userDetailsMap["Dist"] =
                                   selectedDistrict.toString();
-                              
+
                               fetchTalukas(selectedDistrict);
                             }),
                             onSaved: ((newValue) => setState(() {
@@ -405,7 +405,7 @@ class _ChooseServiceState extends State<ChooseService> {
         fetchTalukas(selectedDistrict);
         fetchVillages(selectedTaluka);
       });
-      Future.delayed(Duration(seconds: 7), () {
+      Future.delayed(Duration(seconds: 5), () {
         setState(() {
           loading = false;
         });

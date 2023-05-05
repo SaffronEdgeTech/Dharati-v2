@@ -180,8 +180,8 @@ class FirebaseAllServices extends GetxController {
     });
   }
 
-  Future<void> addLocationdata(String district, String taluka, String village,
-      String nextPage, var userDetailsMap) async {
+  Future<void> addInfo(String district, String taluka, String village,
+      String name, String surName, String nextPage, var userDetailsMap) async {
     final user = _auth.currentUser!;
     final id = user.uid;
     final phoneNo = user.phoneNumber;
@@ -193,13 +193,15 @@ class FirebaseAllServices extends GetxController {
         "Taluka": taluka,
         "Village": village,
         "State": "महाराष्ट्र",
+        "Name": name,
+        "Surname": surName
       },
       SetOptions(merge: true),
     ).then((value) async {
       addProductLocationData(district.toString(), taluka.toString(),
-          village.toString(), id.toString());
+          village.toString(), id.toString(), name, surName);
       addFarmingServiceLocationData(district.toString(), taluka.toString(),
-          village.toString(), id.toString());
+          village.toString(), id.toString(), name, surName);
       Get.snackbar(
         "धन्यवाद",
         "माहिती यशस्वीरित्या जतन केली आहे!",
@@ -256,8 +258,8 @@ class FirebaseAllServices extends GetxController {
     "पशुधन": ["गाई", "म्हशी", "शेळ्या", "डुकरे"]
   };
 
-  Future<void> addProductLocationData(
-      String district, String taluka, String village, String id) async {
+  Future<void> addProductLocationData(String district, String taluka,
+      String village, String id, String name, String surName) async {
     db.collection("Products").doc(id).get().then((value) {
       for (String prodlistVal in myProdList) {
         for (String prodmapVal in myProdMap[prodlistVal]!) {
@@ -281,6 +283,8 @@ class FirebaseAllServices extends GetxController {
                     "Taluka": taluka,
                     "Village": village,
                     "State": "महाराष्ट्र",
+                    "Name": name,
+                    "Surname": surName
                   },
                   SetOptions(merge: true),
                 ).onError((error, stackTrace) {
@@ -326,8 +330,8 @@ class FirebaseAllServices extends GetxController {
     "मनुष्यबळ": ["मनुष्यबळ"]
   };
 
-  Future<void> addFarmingServiceLocationData(
-      String district, String taluka, String village, String id) async {
+  Future<void> addFarmingServiceLocationData(String district, String taluka,
+      String village, String id, String name, String surName) async {
     db.collection("Farming Services").doc(id).get().then((value) {
       for (String farmServicelistVal in myFarmingServiceList) {
         for (String farmServicemapVal
@@ -352,6 +356,8 @@ class FirebaseAllServices extends GetxController {
                     "Taluka": taluka,
                     "Village": village,
                     "State": "महाराष्ट्र",
+                    "Name": name,
+                    "Surname": surName
                   },
                   SetOptions(merge: true),
                 ).onError((error, stackTrace) {

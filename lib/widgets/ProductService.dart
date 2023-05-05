@@ -33,9 +33,28 @@ class ProductService extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        Expanded(
+                          child: Text(
+                            "पूर्ण नाव",
+                            textAlign: TextAlign.center,
+                            style: labelTextStyle,
+                          ),
+                        ),
+                        Expanded(
+                          child: Text(doc["Name"] + " " + doc["Surname"],
+                              textAlign: TextAlign.center, style: cardData),
+                        ),
+                      ],
+                    ),
+                    SizedBox(
+                      height: 5,
+                    ),
                     Expanded(
                       child: Text(
-                        "सेवा",
+                        "मुख्य प्रकार",
                         textAlign: TextAlign.center,
                         style: labelTextStyle,
                       ),
@@ -54,7 +73,7 @@ class ProductService extends StatelessWidget {
                   children: [
                     Expanded(
                       child: Text(
-                        "सेवा प्रकार",
+                        "उप प्रकार",
                         textAlign: TextAlign.center,
                         style: labelTextStyle,
                       ),
@@ -73,7 +92,7 @@ class ProductService extends StatelessWidget {
                   children: [
                     Expanded(
                       child: Text(
-                        "सेवा पासून",
+                        "कालावधी पासून",
                         textAlign: TextAlign.center,
                         style: labelTextStyle,
                       ),
@@ -92,7 +111,7 @@ class ProductService extends StatelessWidget {
                   children: [
                     Expanded(
                       child: Text(
-                        "सेवा पर्यंत",
+                        "कालावधी पर्यंत",
                         textAlign: TextAlign.center,
                         style: labelTextStyle,
                       ),

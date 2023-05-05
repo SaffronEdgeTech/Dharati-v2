@@ -19,7 +19,7 @@ class NavDrawer extends StatelessWidget {
         children: [
           UserAccountsDrawerHeader(
             accountName: Text(
-              "नमस्कार",
+              "नमस्कार"+"\n"+details["Name"].toString()+" "+details["Surname"].toString(),  
               style: TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.bold,

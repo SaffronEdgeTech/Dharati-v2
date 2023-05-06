@@ -44,6 +44,8 @@ class _ChooseServiceState extends State<ChooseService> {
   @override
   void initState() {
     super.initState();
+    name = TextEditingController();
+    surName = TextEditingController();
     setState(() {
       uID = user.uid;
       phoneNum = user.phoneNumber;
@@ -55,6 +57,13 @@ class _ChooseServiceState extends State<ChooseService> {
     });
     createDistList();
     getUserData();
+  }
+
+  @override
+  void dispose() {
+    super.dispose();
+    name.dispose();
+    surName.dispose();
   }
 
   @override
@@ -163,7 +172,7 @@ class _ChooseServiceState extends State<ChooseService> {
                                   labelText: "नाव",
                                   labelStyle: TextStyle(
                                     fontSize: 20,
-                                    fontWeight: FontWeight.w900,
+                                    fontWeight: FontWeight.w400,
                                     color: Colors.green.shade900,
                                   ),
                                   border: OutlineInputBorder(
@@ -203,7 +212,7 @@ class _ChooseServiceState extends State<ChooseService> {
                                   labelText: "आडनाव",
                                   labelStyle: TextStyle(
                                     fontSize: 20,
-                                    fontWeight: FontWeight.w900,
+                                    fontWeight: FontWeight.w400,
                                     color: Colors.green.shade900,
                                   ),
                                   border: OutlineInputBorder(

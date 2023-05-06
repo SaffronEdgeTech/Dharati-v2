@@ -20,7 +20,7 @@ class _ChooseServiceState extends State<ChooseService> {
   bool loading = true;
   bool get loadingSts => loading;
   final user = FirebaseAuth.instance.currentUser!;
-  String nextPage = "/userdetails";
+  String nextPage = "/cropManagement";
 
   final _formKey = GlobalKey<FormState>();
   List<dynamic> allDistricts = [];
@@ -88,8 +88,8 @@ class _ChooseServiceState extends State<ChooseService> {
                           children: [
                             Expanded(
                               child: RadioListTile(
-                                title: Text("खत व्यवस्थापन व तज्ञ सल्ला"),
-                                value: "/userdetails",
+                                title: Text("पीक व्यवस्थापन व तज्ञ सल्ला"),
+                                value: "/cropManagement",
                                 groupValue: nextPage,
                                 onChanged: (value) {
                                   setState(() {

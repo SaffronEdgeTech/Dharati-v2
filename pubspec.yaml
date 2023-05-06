@@ -42,6 +42,8 @@ dependencies:
   get: ^4.6.5
   cloud_firestore: ^4.4.3
   url_launcher: ^6.1.10
+  firebase_storage: ^11.1.2
+  syncfusion_flutter_pdfviewer: ^21.2.3
 
   
 

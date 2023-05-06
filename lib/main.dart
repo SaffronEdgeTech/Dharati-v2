@@ -10,7 +10,7 @@ import 'package:dharati/screens/sellFarmingServices.dart';
 import 'package:dharati/screens/sellProduct.dart';
 import 'package:dharati/screens/showFarmingServices.dart';
 import 'package:dharati/services/FirebaseAllServices.dart';
-import 'package:dharati/screens/userDetails.dart';
+import 'package:dharati/screens/cropManagement.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:dharati/screens/phone.dart';
@@ -61,7 +61,7 @@ class _DharatiAppState extends State<DharatiApp> {
       routes: {
         '/phone': (context) => const PhoneNum(),
         '/otp': (context) => const OTPVerification(),
-        '/userdetails': (context) => const UserDetails(),
+        '/cropManagement': (context) => const CropManagement(),
         '/dosageCalculator': (context) => const DosageCalculation(),
         '/buyProduct': (context) => const BuyProduct(),
         '/sellProduct': (context) => const SellProduct(),
@@ -69,9 +69,9 @@ class _DharatiAppState extends State<DharatiApp> {
         '/sellFarmingServices': (context) => const SellFarmingServices(),
         '/chooseService': (context) => const ChooseService(),
         '/checkProduct': (context) => const CheckProduct(),
-        '/showServices':(context) => const FarmingServices(),
-        '/myFarmingServices':(context) => const MyFarmingServices(),
-        '/myProducts':(context) => const MyProducts(),
+        '/showServices': (context) => const FarmingServices(),
+        '/myFarmingServices': (context) => const MyFarmingServices(),
+        '/myProducts': (context) => const MyProducts(),
       },
     );
   }

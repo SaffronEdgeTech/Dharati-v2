@@ -24,6 +24,7 @@ class _CropManagementState extends State<CropManagement> {
 
   bool loading = false;
   bool get loadingSts => loading;
+
   final user = FirebaseAuth.instance.currentUser!;
 
   final _formKey = GlobalKey<FormState>();
@@ -652,21 +653,33 @@ class _CropManagementState extends State<CropManagement> {
                 Container(
                   height: 40,
                   child: ElevatedButton(
-                    onPressed: () {
+                    onPressed: () async {
                       if (_formKey.currentState!.validate()) {
                         FirebaseStorage.instance
                             .ref()
-                            .child("Crops/Soyabean.pdf")
+                            .child("Crops/$selectedSubCrop.pdf")
                             .getDownloadURL()
-                            .then((doc) {
-                          print(doc);
+                            .then((value) {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                  builder: (context) => ViewPDF(
-                                        doc,
-                                      )));
+                                  builder: (_) =>
+                                      ViewPDF(value, selectedSubCrop!)));
+                        }).onError((error, stackTrace) {
+                          Get.snackbar(
+                            "तसदीबद्दल क्षमस्व",
+                            "माहिती उपलब्ध नाही",
+                            snackPosition: SnackPosition.BOTTOM,
+                            backgroundColor: Colors.red,
+                            isDismissible: true,
+                            dismissDirection: DismissDirection.horizontal,
+                            margin: EdgeInsets.all(15),
+                            forwardAnimationCurve: Curves.easeOutBack,
+                            colorText: Colors.white,
+                          );
                         });
+                        ;
+
                         /*FirebaseAllServices.instance.addData(
                                   selectedAcre!,
                                   selectedGuntha!,
@@ -747,15 +760,49 @@ class _CropManagementState extends State<CropManagement> {
   }*/
 }
 
-class ViewPDF extends StatelessWidget {
+class ViewPDF extends StatefulWidget {
   String doc;
-  ViewPDF(this.doc);
+  String docName;
+  ViewPDF(this.doc, this.docName);
+
+  @override
+  State<ViewPDF> createState() => _ViewPDFState(doc, docName);
+}
+
+class _ViewPDFState extends State<ViewPDF> {
+  String newDoc;
+  String docName;
+  _ViewPDFState(this.newDoc, this.docName);
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text(
+          docName,
+          style: TextStyle(
+            fontSize: 18,
+            fontWeight: FontWeight.w700,
+            color: Colors.white,
+          ),
+        ),
+        centerTitle: true,
+        backgroundColor: Colors.green,
+      ),
       body: Container(
-        child: SfPdfViewer.network(doc.toString()),
+        child: SfPdfViewer.network(
+          newDoc,
+          canShowPageLoadingIndicator: true,
+          canShowPaginationDialog: false,
+          enableDoubleTapZooming: true,
+          pageLayoutMode: PdfPageLayoutMode.continuous,
+          scrollDirection: PdfScrollDirection.vertical,
+        ),
       ),
     );
   }

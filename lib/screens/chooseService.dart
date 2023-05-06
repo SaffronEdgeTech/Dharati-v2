@@ -172,7 +172,7 @@ class _ChooseServiceState extends State<ChooseService> {
                                   labelText: "नाव",
                                   labelStyle: TextStyle(
                                     fontSize: 20,
-                                    fontWeight: FontWeight.w900,
+                                    fontWeight: FontWeight.w400,
                                     color: Colors.green.shade900,
                                   ),
                                   border: OutlineInputBorder(
@@ -212,7 +212,7 @@ class _ChooseServiceState extends State<ChooseService> {
                                   labelText: "आडनाव",
                                   labelStyle: TextStyle(
                                     fontSize: 20,
-                                    fontWeight: FontWeight.w900,
+                                    fontWeight: FontWeight.w400,
                                     color: Colors.green.shade900,
                                   ),
                                   border: OutlineInputBorder(

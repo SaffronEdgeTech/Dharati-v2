@@ -132,6 +132,9 @@ class FirebaseAllServices extends GetxController {
       String acre,
       String guntha,
       String mainCrop,
+      String subCrop,
+      String date,
+      num dateInMs,
       String internalCrop,
       String irrigationType,
       String irrigationSource,
@@ -148,6 +151,9 @@ class FirebaseAllServices extends GetxController {
         "Irrigation Type": irrigationType,
         "Irrigation Source": irrigationSource,
         "Fertilizer Type": seletedFertilizerType,
+        "Sub Crop": subCrop,
+        "Crop Date": date,
+        "Crop Date in ms": dateInMs
       },
       SetOptions(merge: true),
     ).then((value) {

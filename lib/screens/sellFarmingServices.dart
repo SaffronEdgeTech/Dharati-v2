@@ -64,6 +64,8 @@ class _SellFarmingServicesState extends State<SellFarmingServices> {
   var dateStartInMs;
   var dateEndInMs;
   String? phoneNum;
+  String? name;
+  String? surName;
   String sevaLevel = "Village";
   DateTime dateTimeEnd = DateTime.now();
 
@@ -75,6 +77,8 @@ class _SellFarmingServicesState extends State<SellFarmingServices> {
     vil = userDetails["Vil"].toString();
     state = userDetails["State"].toString();
     phoneNum = userDetails["PhoneNum"].toString();
+    name = userDetails["Name"].toString();
+    surName = userDetails["Surname"].toString();
     return Scaffold(
       appBar: AppBar(
         title: Text(
@@ -499,7 +503,7 @@ class _SellFarmingServicesState extends State<SellFarmingServices> {
       var isVerified = await FirebaseAllServices.instance.verifyOTP(otp.text);
       if (isVerified) {
         Navigator.pop(context);
-        
+
         FirebaseAllServices.instance.addFarmingServices(
             selectedSeva!,
             selectedSevaType!,
@@ -510,7 +514,9 @@ class _SellFarmingServicesState extends State<SellFarmingServices> {
             sevaLevel,
             dist!,
             tal!,
-            vil!);
+            vil!,
+            name!,
+            surName!);
       } else {
         Get.snackbar(
           "तसदीबद्दल क्षमस्व",

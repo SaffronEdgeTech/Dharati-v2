@@ -185,6 +185,10 @@ class FirebaseAllServices extends GetxController {
     final user = _auth.currentUser!;
     final id = user.uid;
     final phoneNo = user.phoneNumber;
+    String uName = name;
+    String uSurName = surName;
+    name = uName[0].toUpperCase() + uName.substring(1);
+    surName = uSurName[0].toUpperCase() + uSurName.substring(1);
     await db.collection("New Users").doc(id).set(
       {
         "ID": id,
@@ -272,6 +276,10 @@ class FirebaseAllServices extends GetxController {
                 .get()
                 .then((value) async {
               if (value.exists) {
+                String uName = name;
+                String uSurName = surName;
+                name = uName[0].toUpperCase() + uName.substring(1);
+                surName = uSurName[0].toUpperCase() + uSurName.substring(1);
                 await db
                     .collection("Products")
                     .doc(id)
@@ -345,6 +353,10 @@ class FirebaseAllServices extends GetxController {
                 .get()
                 .then((value) async {
               if (value.exists) {
+                String uName = name;
+                String uSurName = surName;
+                name = uName[0].toUpperCase() + uName.substring(1);
+                surName = uSurName[0].toUpperCase() + uSurName.substring(1);
                 await db
                     .collection("Farming Services")
                     .doc(id)
@@ -391,7 +403,9 @@ class FirebaseAllServices extends GetxController {
       String serviceLevel,
       String dist,
       String tal,
-      String vil) async {
+      String vil,
+      String name,
+      String surName) async {
     String tempService = service;
     String tempServiceType = serviceType;
     tempService = tempService.replaceAll(" ", "");
@@ -401,6 +415,10 @@ class FirebaseAllServices extends GetxController {
     final user = _auth.currentUser!;
     final id = user.uid;
     final phoneNo = user.phoneNumber;
+    String uName = name;
+    String uSurName = surName;
+    name = uName[0].toUpperCase() + uName.substring(1);
+    surName = uSurName[0].toUpperCase() + uSurName.substring(1);
     await db
         .collection("Farming Services")
         .doc(id)
@@ -421,6 +439,8 @@ class FirebaseAllServices extends GetxController {
         "End Date ms": serviceEndDateInMs,
         "Service Level": serviceLevel,
         "State": "महाराष्ट्र",
+        "Name": name,
+        "Surname": surName
       },
       SetOptions(merge: true),
     ).then((value) {
@@ -463,10 +483,16 @@ class FirebaseAllServices extends GetxController {
       String sellLevel,
       String dist,
       String tal,
-      String vil) async {
+      String vil,
+      String name,
+      String surName) async {
     final user = _auth.currentUser!;
     final id = user.uid;
     final phoneNo = user.phoneNumber;
+    String uName = name;
+    String uSurName = surName;
+    name = uName[0].toUpperCase() + uName.substring(1);
+    surName = uSurName[0].toUpperCase() + uSurName.substring(1);
     await db
         .collection("Products")
         .doc(id)
@@ -487,6 +513,8 @@ class FirebaseAllServices extends GetxController {
         "End Date ms": sellEndDateInMs,
         "Sell Level": sellLevel,
         "State": "महाराष्ट्र",
+        "Name": name,
+        "Surname": surName
       },
       SetOptions(merge: true),
     ).then((value) {

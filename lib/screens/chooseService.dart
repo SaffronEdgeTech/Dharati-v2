@@ -50,6 +50,8 @@ class _ChooseServiceState extends State<ChooseService> {
       userDetailsMap["PhoneNum"] = phoneNum.toString();
       userDetailsMap["ID"] = uID.toString();
       userDetailsMap["State"] = "महाराष्ट्र";
+      name.clear();
+      surName.clear();
     });
     createDistList();
     getUserData();
@@ -155,6 +157,8 @@ class _ChooseServiceState extends State<ChooseService> {
                             Expanded(
                               child: TextFormField(
                                 controller: name,
+                                textCapitalization: TextCapitalization.words,
+                                keyboardType: TextInputType.text,
                                 decoration: InputDecoration(
                                   labelText: "नाव",
                                   labelStyle: TextStyle(
@@ -173,12 +177,18 @@ class _ChooseServiceState extends State<ChooseService> {
                                 ),
                                 onChanged: (value) {
                                   setState(() {
-                                    userDetailsMap["Name"] =
-                                        name.text.toString().trim();
+                                    String uName = name.text.toString().trim();
+                                    if (uName.isNotEmpty) {
+                                      userDetailsMap["Name"] =
+                                          uName[0].toUpperCase() +
+                                              uName.substring(1);
+                                    }
                                   });
                                 },
                                 validator: (value) =>
-                                    name.text == null ? "कृपया नाव टाका" : null,
+                                    (value == null || value.isEmpty)
+                                        ? "कृपया नाव टाका"
+                                        : null,
                               ),
                             ),
                             SizedBox(
@@ -187,6 +197,8 @@ class _ChooseServiceState extends State<ChooseService> {
                             Expanded(
                               child: TextFormField(
                                 controller: surName,
+                                textCapitalization: TextCapitalization.words,
+                                keyboardType: TextInputType.text,
                                 decoration: InputDecoration(
                                   labelText: "आडनाव",
                                   labelStyle: TextStyle(
@@ -205,13 +217,19 @@ class _ChooseServiceState extends State<ChooseService> {
                                 ),
                                 onChanged: (value) {
                                   setState(() {
-                                    userDetailsMap["Surname"] =
+                                    String uSurname =
                                         surName.text.toString().trim();
+                                    if (uSurname.isNotEmpty) {
+                                      userDetailsMap["Surname"] =
+                                          uSurname[0].toUpperCase() +
+                                              uSurname.substring(1);
+                                    }
                                   });
                                 },
-                                validator: (value) => surName.text == null
-                                    ? "कृपया आडनाव टाका"
-                                    : null,
+                                validator: (value) =>
+                                    (value == null || value.isEmpty)
+                                        ? "कृपया आडनाव टाका"
+                                        : null,
                               ),
                             ),
                           ],

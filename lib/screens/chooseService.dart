@@ -44,6 +44,8 @@ class _ChooseServiceState extends State<ChooseService> {
   @override
   void initState() {
     super.initState();
+    name = TextEditingController();
+    surName = TextEditingController();
     setState(() {
       uID = user.uid;
       phoneNum = user.phoneNumber;
@@ -55,6 +57,13 @@ class _ChooseServiceState extends State<ChooseService> {
     });
     createDistList();
     getUserData();
+  }
+
+  @override
+  void dispose() {
+    super.dispose();
+    name.dispose();
+    surName.dispose();
   }
 
   @override

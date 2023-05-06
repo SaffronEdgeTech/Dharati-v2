@@ -15,6 +15,8 @@ class ChooseService extends StatefulWidget {
 }
 
 class _ChooseServiceState extends State<ChooseService> {
+  TextEditingController name = TextEditingController();
+  TextEditingController surName = TextEditingController();
   bool loading = true;
   bool get loadingSts => loading;
   final user = FirebaseAuth.instance.currentUser!;
@@ -48,6 +50,8 @@ class _ChooseServiceState extends State<ChooseService> {
       userDetailsMap["PhoneNum"] = phoneNum.toString();
       userDetailsMap["ID"] = uID.toString();
       userDetailsMap["State"] = "महाराष्ट्र";
+      name.clear();
+      surName.clear();
     });
     createDistList();
     getUserData();
@@ -146,6 +150,92 @@ class _ChooseServiceState extends State<ChooseService> {
                         ),
                         SizedBox(
                           height: 40,
+                        ),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: [
+                            Expanded(
+                              child: TextFormField(
+                                controller: name,
+                                textCapitalization: TextCapitalization.words,
+                                keyboardType: TextInputType.text,
+                                decoration: InputDecoration(
+                                  labelText: "नाव",
+                                  labelStyle: TextStyle(
+                                    fontSize: 20,
+                                    fontWeight: FontWeight.w900,
+                                    color: Colors.green.shade900,
+                                  ),
+                                  border: OutlineInputBorder(
+                                    borderRadius: BorderRadius.circular(10),
+                                  ),
+                                  enabledBorder: OutlineInputBorder(
+                                    borderRadius: BorderRadius.circular(10),
+                                    borderSide: BorderSide(
+                                        color: Colors.green.shade500, width: 2),
+                                  ),
+                                ),
+                                onChanged: (value) {
+                                  setState(() {
+                                    String uName = name.text.toString().trim();
+                                    if (uName.isNotEmpty) {
+                                      userDetailsMap["Name"] =
+                                          uName[0].toUpperCase() +
+                                              uName.substring(1);
+                                    }
+                                  });
+                                },
+                                validator: (value) =>
+                                    (value == null || value.isEmpty)
+                                        ? "कृपया नाव टाका"
+                                        : null,
+                              ),
+                            ),
+                            SizedBox(
+                              width: 20,
+                            ),
+                            Expanded(
+                              child: TextFormField(
+                                controller: surName,
+                                textCapitalization: TextCapitalization.words,
+                                keyboardType: TextInputType.text,
+                                decoration: InputDecoration(
+                                  labelText: "आडनाव",
+                                  labelStyle: TextStyle(
+                                    fontSize: 20,
+                                    fontWeight: FontWeight.w900,
+                                    color: Colors.green.shade900,
+                                  ),
+                                  border: OutlineInputBorder(
+                                    borderRadius: BorderRadius.circular(10),
+                                  ),
+                                  enabledBorder: OutlineInputBorder(
+                                    borderRadius: BorderRadius.circular(10),
+                                    borderSide: BorderSide(
+                                        color: Colors.green.shade500, width: 2),
+                                  ),
+                                ),
+                                onChanged: (value) {
+                                  setState(() {
+                                    String uSurname =
+                                        surName.text.toString().trim();
+                                    if (uSurname.isNotEmpty) {
+                                      userDetailsMap["Surname"] =
+                                          uSurname[0].toUpperCase() +
+                                              uSurname.substring(1);
+                                    }
+                                  });
+                                },
+                                validator: (value) =>
+                                    (value == null || value.isEmpty)
+                                        ? "कृपया आडनाव टाका"
+                                        : null,
+                              ),
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          height: 20,
                         ),
                         ButtonTheme(
                           alignedDropdown: true,
@@ -304,10 +394,12 @@ class _ChooseServiceState extends State<ChooseService> {
                           child: ElevatedButton(
                             onPressed: () {
                               if (_formKey.currentState!.validate()) {
-                                FirebaseAllServices.instance.addLocationdata(
+                                FirebaseAllServices.instance.addInfo(
                                     selectedDistrict!,
                                     selectedTaluka!,
                                     selectedVillage!,
+                                    name.text.toString().trim(),
+                                    surName.text.toString().trim(),
                                     nextPage,
                                     userDetailsMap);
                               } else {
@@ -398,10 +490,14 @@ class _ChooseServiceState extends State<ChooseService> {
         selectedDistrict = data["District"];
         selectedTaluka = data["Taluka"];
         selectedVillage = data["Village"];
+        name.text = data["Name"];
+        surName.text = data["Surname"];
         userDetailsMap["Dist"] = selectedDistrict.toString();
         userDetailsMap["Tal"] = selectedTaluka.toString();
         userDetailsMap["Vil"] = selectedVillage.toString();
         userDetailsMap["State"] = "महाराष्ट्र";
+        userDetailsMap["Name"] = name.text.toString();
+        userDetailsMap["Surname"] = surName.text.toString();
         fetchTalukas(selectedDistrict);
         fetchVillages(selectedTaluka);
       });

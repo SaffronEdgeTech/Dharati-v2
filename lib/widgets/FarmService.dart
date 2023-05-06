@@ -35,6 +35,25 @@ class FarmService extends StatelessWidget {
                   children: [
                     Expanded(
                       child: Text(
+                        "पूर्ण नाव",
+                        textAlign: TextAlign.center,
+                        style: labelTextStyle,
+                      ),
+                    ),
+                    Expanded(
+                      child: Text(doc["Name"]+" "+doc["Surname"],
+                          textAlign: TextAlign.center, style: cardData),
+                    ),
+                  ],
+                ),
+                SizedBox(
+                  height: 5,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Expanded(
+                      child: Text(
                         "सेवा",
                         textAlign: TextAlign.center,
                         style: labelTextStyle,

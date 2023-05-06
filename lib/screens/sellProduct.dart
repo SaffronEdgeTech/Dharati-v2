@@ -75,6 +75,8 @@ class _SellProductState extends State<SellProduct> {
   var dateStartInMs;
   var dateEndInMs;
   String? phoneNum;
+  String? name;
+  String? surName;
   String sellLevel = "Village";
   DateTime dateTimeEnd = DateTime.now();
 
@@ -86,6 +88,8 @@ class _SellProductState extends State<SellProduct> {
     vil = userDetails["Vil"].toString();
     state = userDetails["State"].toString();
     phoneNum = userDetails["PhoneNum"].toString();
+    name = userDetails["Name"].toString();
+    surName = userDetails["Surname"].toString();
     return Scaffold(
       appBar: AppBar(
         title: Text(
@@ -520,7 +524,9 @@ class _SellProductState extends State<SellProduct> {
             sellLevel,
             dist!,
             tal!,
-            vil!);
+            vil!,
+            name!,
+            surName!);
       } else {
         Get.snackbar(
           "तसदीबद्दल क्षमस्व",

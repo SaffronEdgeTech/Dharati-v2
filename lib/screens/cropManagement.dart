@@ -77,7 +77,11 @@ class _CropManagementState extends State<CropManagement> {
   TextEditingController _date = TextEditingController();
   num dateInMs = 0;
   final mainCrops = ["ऊस"];
-
+  TextStyle labelTextStyle = TextStyle(
+    fontSize: 16,
+    fontWeight: FontWeight.w700,
+    color: Colors.green.shade600,
+  );
   List<dynamic> cropTypes = [
     {"id": "तृणधान्य पीक", "label": "तृणधान्य पीक"},
     {"id": "कडधान्य पीक", "label": "कडधान्य पीक"},
@@ -204,7 +208,7 @@ class _CropManagementState extends State<CropManagement> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                Container(
+                /*Container(
                   child: InputDecorator(
                     decoration: InputDecoration(
                       labelText: "एकूण शेतजमीन",
@@ -322,99 +326,223 @@ class _CropManagementState extends State<CropManagement> {
                 ),
                 SizedBox(
                   height: 20,
-                ),
-                ButtonTheme(
-                  alignedDropdown: true,
-                  child: DropdownButtonFormField(
-                    decoration: InputDecoration(
-                      labelText: "पीक प्रकार",
-                      labelStyle: TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.w900,
-                        color: Colors.green.shade900,
-                      ),
-                      border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(10),
-                      ),
-                      enabledBorder: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(10),
-                        borderSide:
-                            BorderSide(color: Colors.green.shade500, width: 2),
+                ),*/
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Expanded(
+                      child: Text(
+                        "एकूण शेतजमीन",
+                        style: labelTextStyle,
+                        textAlign: TextAlign.center,
                       ),
                     ),
-                    borderRadius: BorderRadius.circular(10),
-                    menuMaxHeight: 250,
-                    isExpanded: true,
-                    isDense: true,
-                    hint: Text("पीक प्रकार निवडा"),
-                    value: selectedMainCrop,
-                    items: cropTypes
-                        .map((e) => DropdownMenuItem<String>(
-                              child: Text(e["label"]),
-                              value: e["id"],
-                            ))
-                        .toList(),
-                    onChanged: (value) => setState(() {
-                      selectedSubCrop = null;
-                      availableCrops.clear();
-                      selectedMainCrop = value;
-                      setState(() {
-                        availableCrops = cropNames
-                            .where((element) =>
-                                element["parentId"] == selectedMainCrop)
-                            .toList();
-                      });
-                    }),
-                    onSaved: ((newValue) => setState(() {
-                          selectedMainCrop = newValue;
-                        })),
-                    validator: (value) =>
-                        value == null ? "कृपया मुख्य पीक निवडा" : null,
-                  ),
+                    ButtonTheme(
+                      alignedDropdown: true,
+                      child: Expanded(
+                        child: DropdownButtonFormField(
+                          decoration: InputDecoration(
+                            labelText: "एकर",
+                            labelStyle: TextStyle(
+                              fontSize: 20,
+                              fontWeight: FontWeight.w900,
+                              color: Colors.green.shade900,
+                            ),
+                            border: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(5),
+                            ),
+                            enabledBorder: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(5),
+                              borderSide: BorderSide(
+                                  color: Colors.green.shade300, width: 1),
+                            ),
+                          ),
+                          borderRadius: BorderRadius.circular(5),
+                          menuMaxHeight: 250,
+                          hint: Text("एकर"),
+                          value: selectedAcre,
+                          validator: (value) =>
+                              (value == "0" && selectedGuntha == "0")
+                                  ? "कृपया एकर निवडा"
+                                  : null,
+                          items: _acres
+                              .map((e) => DropdownMenuItem(
+                                    child: Text(e),
+                                    value: e,
+                                  ))
+                              .toList(),
+                          onChanged: (value) {
+                            setState(() {
+                              selectedAcre = value;
+                            });
+                          },
+                          onSaved: ((newValue) => setState(() {
+                                selectedAcre = newValue;
+                              })),
+                        ),
+                      ),
+                    ),
+                    SizedBox(
+                      width: 20,
+                    ),
+                    ButtonTheme(
+                      alignedDropdown: true,
+                      child: Expanded(
+                        child: DropdownButtonFormField(
+                          decoration: InputDecoration(
+                            labelText: "गुंठा",
+                            floatingLabelAlignment:
+                                FloatingLabelAlignment.start,
+                            labelStyle: TextStyle(
+                              fontSize: 20,
+                              fontWeight: FontWeight.w900,
+                              color: Colors.green.shade900,
+                            ),
+                            border: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(5),
+                            ),
+                            enabledBorder: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(5),
+                              borderSide: BorderSide(
+                                  color: Colors.green.shade300, width: 1),
+                            ),
+                          ),
+                          borderRadius: BorderRadius.circular(5),
+                          menuMaxHeight: 250,
+                          hint: Text("गुंठा"),
+                          value: selectedGuntha,
+                          validator: (value) =>
+                              (value == "0" && selectedAcre == "0")
+                                  ? "कृपया गुंठा निवडा"
+                                  : null,
+                          items: _gunthas
+                              .map((e) => DropdownMenuItem(
+                                    child: Text(e),
+                                    value: e,
+                                  ))
+                              .toList(),
+                          onChanged: (value) => setState(() {
+                            selectedGuntha = value;
+                          }),
+                          onSaved: ((newValue) => setState(() {
+                                selectedGuntha = newValue;
+                              })),
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
                 SizedBox(
                   height: 20,
                 ),
-                ButtonTheme(
-                  alignedDropdown: true,
-                  child: DropdownButtonFormField(
-                    decoration: InputDecoration(
-                      labelText: "पिकाचे नाव",
-                      labelStyle: TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.w900,
-                        color: Colors.green.shade900,
-                      ),
-                      border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(10),
-                      ),
-                      enabledBorder: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(10),
-                        borderSide:
-                            BorderSide(color: Colors.green.shade500, width: 2),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Expanded(
+                      child: Text(
+                        "पीक प्रकार",
+                        style: labelTextStyle,
+                        textAlign: TextAlign.center,
                       ),
                     ),
-                    borderRadius: BorderRadius.circular(10),
-                    menuMaxHeight: 250,
-                    isExpanded: true,
-                    isDense: true,
-                    hint: Text("पिकाचे नाव निवडा"),
-                    value: selectedSubCrop,
-                    items: availableCrops
-                        .map((e) => DropdownMenuItem<String>(
-                              child: Text(e["label"]),
-                              value: e["id"],
-                            ))
-                        .toList(),
-                    onChanged: (value) => setState(() {
-                      selectedSubCrop = value;
-                    }),
-                    onSaved: ((newValue) => setState(() {
-                          selectedSubCrop = newValue;
-                        })),
-                    validator: (value) =>
-                        value == null ? "कृपया पिकाचे नाव निवडा" : null,
-                  ),
+                    ButtonTheme(
+                      alignedDropdown: true,
+                      child: Expanded(
+                        child: DropdownButtonFormField(
+                          decoration: InputDecoration(
+                            border: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(10),
+                            ),
+                            enabledBorder: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(10),
+                              borderSide: BorderSide(
+                                  color: Colors.green.shade500, width: 2),
+                            ),
+                          ),
+                          borderRadius: BorderRadius.circular(10),
+                          menuMaxHeight: 250,
+                          isExpanded: true,
+                          isDense: true,
+                          hint: Text("पीक प्रकार निवडा"),
+                          value: selectedMainCrop,
+                          items: cropTypes
+                              .map((e) => DropdownMenuItem<String>(
+                                    child: Text(e["label"]),
+                                    value: e["id"],
+                                  ))
+                              .toList(),
+                          onChanged: (value) => setState(() {
+                            selectedSubCrop = null;
+                            availableCrops.clear();
+                            selectedMainCrop = value;
+                            setState(() {
+                              availableCrops = cropNames
+                                  .where((element) =>
+                                      element["parentId"] == selectedMainCrop)
+                                  .toList();
+                            });
+                          }),
+                          onSaved: ((newValue) => setState(() {
+                                selectedMainCrop = newValue;
+                              })),
+                          validator: (value) =>
+                              value == null ? "कृपया मुख्य पीक निवडा" : null,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Expanded(
+                      child: Text(
+                        "पिकाचे नाव",
+                        style: labelTextStyle,
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                    ButtonTheme(
+                      alignedDropdown: true,
+                      child: Expanded(
+                        child: DropdownButtonFormField(
+                          decoration: InputDecoration(
+                            border: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(10),
+                            ),
+                            enabledBorder: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(10),
+                              borderSide: BorderSide(
+                                  color: Colors.green.shade500, width: 2),
+                            ),
+                          ),
+                          borderRadius: BorderRadius.circular(10),
+                          menuMaxHeight: 250,
+                          isExpanded: true,
+                          isDense: true,
+                          hint: Text("पिकाचे नाव निवडा"),
+                          value: selectedSubCrop,
+                          items: availableCrops
+                              .map((e) => DropdownMenuItem<String>(
+                                    child: Text(e["label"]),
+                                    value: e["id"],
+                                  ))
+                              .toList(),
+                          onChanged: (value) => setState(() {
+                            selectedSubCrop = value;
+                          }),
+                          onSaved: ((newValue) => setState(() {
+                                selectedSubCrop = newValue;
+                              })),
+                          validator: (value) =>
+                              value == null ? "कृपया पिकाचे नाव निवडा" : null,
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
                 SizedBox(
                   height: 20,
@@ -425,10 +553,8 @@ class _CropManagementState extends State<CropManagement> {
                     Expanded(
                       child: Text(
                         "पीक लागण दिनांक",
-                        style: TextStyle(
-                            fontSize: 16,
-                            fontWeight: FontWeight.w700,
-                            color: Colors.green.shade600),
+                        style: labelTextStyle,
+                        textAlign: TextAlign.center,
                       ),
                     ),
                     Expanded(
@@ -438,12 +564,12 @@ class _CropManagementState extends State<CropManagement> {
                           prefixIcon: Icon(Icons.calendar_month_rounded),
                           hintText: "पीक लागण दिनांक निवडा",
                           border: OutlineInputBorder(
-                            borderRadius: BorderRadius.circular(5),
+                            borderRadius: BorderRadius.circular(10),
                           ),
                           enabledBorder: OutlineInputBorder(
-                            borderRadius: BorderRadius.circular(5),
+                            borderRadius: BorderRadius.circular(10),
                             borderSide: BorderSide(
-                                color: Colors.green.shade300, width: 1),
+                                color: Colors.green.shade500, width: 2),
                           ),
                         ),
                         readOnly: true,
@@ -474,178 +600,211 @@ class _CropManagementState extends State<CropManagement> {
                 SizedBox(
                   height: 20,
                 ),
-                ButtonTheme(
-                  alignedDropdown: true,
-                  child: DropdownButtonFormField(
-                    decoration: InputDecoration(
-                      labelText: "अंतर्गत पीक",
-                      labelStyle: TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.w900,
-                        color: Colors.green.shade900,
-                      ),
-                      border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(10),
-                      ),
-                      enabledBorder: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(10),
-                        borderSide:
-                            BorderSide(color: Colors.green.shade500, width: 2),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Expanded(
+                      child: Text(
+                        "अंतर्गत पीक",
+                        style: labelTextStyle,
+                        textAlign: TextAlign.center,
                       ),
                     ),
-                    borderRadius: BorderRadius.circular(10),
-                    menuMaxHeight: 250,
-                    isExpanded: true,
-                    isDense: true,
-                    hint: Text("अंतर्गत पीक"),
-                    value: selectedInternalCrop,
-                    items: internalCrops
-                        .map((e) => DropdownMenuItem<String>(
-                              child: Text(e),
-                              value: e,
-                            ))
-                        .toList(),
-                    onChanged: (value) => setState(() {
-                      selectedInternalCrop = value;
-                    }),
-                    onSaved: ((newValue) => setState(() {
-                          selectedInternalCrop = newValue;
-                        })),
-                    validator: (value) =>
-                        value == null ? "कृपया अंतर्गत पीक निवडा" : null,
-                  ),
+                    ButtonTheme(
+                      alignedDropdown: true,
+                      child: Expanded(
+                        child: DropdownButtonFormField(
+                          decoration: InputDecoration(
+                            border: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(10),
+                            ),
+                            enabledBorder: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(10),
+                              borderSide: BorderSide(
+                                  color: Colors.green.shade500, width: 2),
+                            ),
+                          ),
+                          borderRadius: BorderRadius.circular(10),
+                          menuMaxHeight: 250,
+                          isExpanded: true,
+                          isDense: true,
+                          hint: Text("अंतर्गत पीक"),
+                          value: selectedInternalCrop,
+                          items: internalCrops
+                              .map((e) => DropdownMenuItem<String>(
+                                    child: Text(e),
+                                    value: e,
+                                  ))
+                              .toList(),
+                          onChanged: (value) => setState(() {
+                            selectedInternalCrop = value;
+                          }),
+                          onSaved: ((newValue) => setState(() {
+                                selectedInternalCrop = newValue;
+                              })),
+                          validator: (value) =>
+                              value == null ? "कृपया अंतर्गत पीक निवडा" : null,
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
                 SizedBox(
                   height: 20,
                 ),
-                ButtonTheme(
-                  alignedDropdown: true,
-                  child: DropdownButtonFormField(
-                    decoration: InputDecoration(
-                      labelText: "सिंचन प्रकार",
-                      labelStyle: TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.w900,
-                        color: Colors.green.shade900,
-                      ),
-                      border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(10),
-                      ),
-                      enabledBorder: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(10),
-                        borderSide:
-                            BorderSide(color: Colors.green.shade500, width: 2),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Expanded(
+                      child: Text(
+                        "सिंचन प्रकार",
+                        style: labelTextStyle,
+                        textAlign: TextAlign.center,
                       ),
                     ),
-                    borderRadius: BorderRadius.circular(10),
-                    menuMaxHeight: 250,
-                    isExpanded: true,
-                    isDense: true,
-                    hint: Text("सिंचन प्रकार निवडा"),
-                    value: selectedInrrigationType,
-                    items: irrigationTypes
-                        .map((e) => DropdownMenuItem<String>(
-                              child: Text(e),
-                              value: e,
-                            ))
-                        .toList(),
-                    onChanged: (value) => setState(() {
-                      selectedInrrigationType = value;
-                    }),
-                    onSaved: ((newValue) => setState(() {
-                          selectedInrrigationType = newValue;
-                        })),
-                    validator: (value) =>
-                        value == null ? "कृपया सिंचन प्रकार निवडा" : null,
-                  ),
+                    ButtonTheme(
+                      alignedDropdown: true,
+                      child: Expanded(
+                        child: DropdownButtonFormField(
+                          decoration: InputDecoration(
+                            border: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(10),
+                            ),
+                            enabledBorder: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(10),
+                              borderSide: BorderSide(
+                                  color: Colors.green.shade500, width: 2),
+                            ),
+                          ),
+                          borderRadius: BorderRadius.circular(10),
+                          menuMaxHeight: 250,
+                          isExpanded: true,
+                          isDense: true,
+                          hint: Text("सिंचन प्रकार निवडा"),
+                          value: selectedInrrigationType,
+                          items: irrigationTypes
+                              .map((e) => DropdownMenuItem<String>(
+                                    child: Text(e),
+                                    value: e,
+                                  ))
+                              .toList(),
+                          onChanged: (value) => setState(() {
+                            selectedInrrigationType = value;
+                          }),
+                          onSaved: ((newValue) => setState(() {
+                                selectedInrrigationType = newValue;
+                              })),
+                          validator: (value) =>
+                              value == null ? "कृपया सिंचन प्रकार निवडा" : null,
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
                 SizedBox(
                   height: 20,
                 ),
-                ButtonTheme(
-                  alignedDropdown: true,
-                  child: DropdownButtonFormField(
-                    decoration: InputDecoration(
-                      labelText: "सिंचन स्त्रोत",
-                      labelStyle: TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.w900,
-                        color: Colors.green.shade900,
-                      ),
-                      border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(10),
-                      ),
-                      enabledBorder: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(10),
-                        borderSide:
-                            BorderSide(color: Colors.green.shade500, width: 2),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Expanded(
+                      child: Text(
+                        "सिंचन स्त्रोत",
+                        style: labelTextStyle,
+                        textAlign: TextAlign.center,
                       ),
                     ),
-                    borderRadius: BorderRadius.circular(10),
-                    menuMaxHeight: 250,
-                    isExpanded: true,
-                    isDense: true,
-                    hint: Text("सिंचन स्त्रोत निवडा"),
-                    value: selectedInrrigationSource,
-                    items: irrigationSources
-                        .map((e) => DropdownMenuItem<String>(
-                              child: Text(e),
-                              value: e,
-                            ))
-                        .toList(),
-                    onChanged: (value) => setState(() {
-                      selectedInrrigationSource = value;
-                    }),
-                    onSaved: ((newValue) => setState(() {
-                          selectedInrrigationSource = newValue;
-                        })),
-                    validator: (value) =>
-                        value == null ? "कृपया सिंचन स्त्रोत निवडा" : null,
-                  ),
+                    ButtonTheme(
+                      alignedDropdown: true,
+                      child: Expanded(
+                        child: DropdownButtonFormField(
+                          decoration: InputDecoration(
+                            border: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(10),
+                            ),
+                            enabledBorder: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(10),
+                              borderSide: BorderSide(
+                                  color: Colors.green.shade500, width: 2),
+                            ),
+                          ),
+                          borderRadius: BorderRadius.circular(10),
+                          menuMaxHeight: 250,
+                          isExpanded: true,
+                          isDense: true,
+                          hint: Text("सिंचन स्त्रोत निवडा"),
+                          value: selectedInrrigationSource,
+                          items: irrigationSources
+                              .map((e) => DropdownMenuItem<String>(
+                                    child: Text(e),
+                                    value: e,
+                                  ))
+                              .toList(),
+                          onChanged: (value) => setState(() {
+                            selectedInrrigationSource = value;
+                          }),
+                          onSaved: ((newValue) => setState(() {
+                                selectedInrrigationSource = newValue;
+                              })),
+                          validator: (value) => value == null
+                              ? "कृपया सिंचन स्त्रोत निवडा"
+                              : null,
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
                 SizedBox(
                   height: 20,
                 ),
-                ButtonTheme(
-                  alignedDropdown: true,
-                  child: DropdownButtonFormField(
-                    decoration: InputDecoration(
-                      labelText: "खत प्रकार",
-                      labelStyle: TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.w900,
-                        color: Colors.green.shade900,
-                      ),
-                      border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(10),
-                      ),
-                      enabledBorder: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(10),
-                        borderSide:
-                            BorderSide(color: Colors.green.shade500, width: 2),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Expanded(
+                      child: Text(
+                        "खत प्रकार",
+                        style: labelTextStyle,
+                        textAlign: TextAlign.center,
                       ),
                     ),
-                    borderRadius: BorderRadius.circular(10),
-                    menuMaxHeight: 250,
-                    isExpanded: true,
-                    isDense: true,
-                    hint: Text("खत प्रकार निवडा"),
-                    value: seletedFertilizerType,
-                    items: fertilizerTypes
-                        .map((e) => DropdownMenuItem<String>(
-                              child: Text(e),
-                              value: e,
-                            ))
-                        .toList(),
-                    onChanged: (value) => setState(() {
-                      seletedFertilizerType = value;
-                    }),
-                    onSaved: ((newValue) => setState(() {
-                          seletedFertilizerType = newValue;
-                        })),
-                    validator: (value) =>
-                        value == null ? "कृपया खत प्रकार निवडा" : null,
-                  ),
+                    ButtonTheme(
+                      alignedDropdown: true,
+                      child: Expanded(
+                        child: DropdownButtonFormField(
+                          decoration: InputDecoration(
+                            border: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(10),
+                            ),
+                            enabledBorder: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(10),
+                              borderSide: BorderSide(
+                                  color: Colors.green.shade500, width: 2),
+                            ),
+                          ),
+                          borderRadius: BorderRadius.circular(10),
+                          menuMaxHeight: 250,
+                          isExpanded: true,
+                          isDense: true,
+                          hint: Text("खत प्रकार निवडा"),
+                          value: seletedFertilizerType,
+                          items: fertilizerTypes
+                              .map((e) => DropdownMenuItem<String>(
+                                    child: Text(e),
+                                    value: e,
+                                  ))
+                              .toList(),
+                          onChanged: (value) => setState(() {
+                            seletedFertilizerType = value;
+                          }),
+                          onSaved: ((newValue) => setState(() {
+                                seletedFertilizerType = newValue;
+                              })),
+                          validator: (value) =>
+                              value == null ? "कृपया खत प्रकार निवडा" : null,
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
                 SizedBox(
                   height: 20,

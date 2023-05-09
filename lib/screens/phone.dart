@@ -7,7 +7,6 @@ import 'package:intl_phone_field/intl_phone_field.dart';
 
 class PhoneNum extends StatefulWidget {
   const PhoneNum({super.key});
-  
 
   @override
   State<PhoneNum> createState() => _PhoneNumState();
@@ -31,9 +30,9 @@ class _PhoneNumState extends State<PhoneNum> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Image.asset(
-                'assets/Agriculture.jpg',
-                width: 200,
-                height: 200,
+                'assets/Krushee-Sanskrutee.png',
+                width: 300,
+                height: 300,
               ),
               SizedBox(
                 height: 5,

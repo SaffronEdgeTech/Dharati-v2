@@ -42,9 +42,9 @@ class _OTPVerificationState extends State<OTPVerification> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Image.asset(
-                'assets/Agriculture.jpg',
-                width: 200,
-                height: 200,
+                'assets/Krushee-Sanskrutee.png',
+                width: 300,
+                height: 300,
               ),
               SizedBox(
                 height: 5,

@@ -1335,11 +1335,6 @@
     "parentId": "Jamkhed"
   },
   {
-    "id": "Vanjarwadi",
-    "label": "Vanjarwadi",
-    "parentId": "Jamkhed"
-  },
-  {
     "id": "Wagha",
     "label": "Wagha",
     "parentId": "Jamkhed"
@@ -1405,8 +1400,8 @@
     "parentId": "Karjat"
   },
   {
-    "id": "Baradgaon  Dagadi",
-    "label": "Baradgaon  Dagadi",
+    "id": "Baradgaon Dagadi",
+    "label": "Baradgaon Dagadi",
     "parentId": "Karjat"
   },
   {
@@ -2845,11 +2840,6 @@
     "parentId": "Nagar"
   },
   {
-    "id": "Sonewadi",
-    "label": "Sonewadi",
-    "parentId": "Nagar"
-  },
-  {
     "id": "Sujalpur",
     "label": "Sujalpur",
     "parentId": "Nagar"
@@ -2890,8 +2880,8 @@
     "parentId": "Nagar"
   },
   {
-    "id": "Wadarwadi  (N.V.)",
-    "label": "Wadarwadi  (N.V.)",
+    "id": "Wadarwadi (N.V.)",
+    "label": "Wadarwadi (N.V.)",
     "parentId": "Nagar"
   },
   {
@@ -3040,11 +3030,6 @@
     "parentId": "Nevasa"
   },
   {
-    "id": "Dhangarwadi",
-    "label": "Dhangarwadi",
-    "parentId": "Nevasa"
-  },
-  {
     "id": "Dighi",
     "label": "Dighi",
     "parentId": "Nevasa"
@@ -3185,8 +3170,8 @@
     "parentId": "Nevasa"
   },
   {
-    "id": "Khalal  Pimpri",
-    "label": "Khalal  Pimpri",
+    "id": "Khalal Pimpri",
+    "label": "Khalal Pimpri",
     "parentId": "Nevasa"
   },
   {
@@ -3490,8 +3475,8 @@
     "parentId": "Nevasa"
   },
   {
-    "id": "Suregaon  Gangapur",
-    "label": "Suregaon  Gangapur",
+    "id": "Suregaon Gangapur",
+    "label": "Suregaon Gangapur",
     "parentId": "Nevasa"
   },
   {
@@ -4355,11 +4340,6 @@
     "parentId": "Pathardi"
   },
   {
-    "id": "Damalwadi",
-    "label": "Damalwadi",
-    "parentId": "Pathardi"
-  },
-  {
     "id": "Dangewadi",
     "label": "Dangewadi",
     "parentId": "Pathardi"
@@ -4372,11 +4352,6 @@
   {
     "id": "Dhaitadakwadi",
     "label": "Dhaitadakwadi",
-    "parentId": "Pathardi"
-  },
-  {
-    "id": "Dhakanwadi",
-    "label": "Dhakanwadi",
     "parentId": "Pathardi"
   },
   {
@@ -6595,8 +6570,8 @@
     "parentId": "Shevgaon"
   },
   {
-    "id": "Balam  Takali",
-    "label": "Balam  Takali",
+    "id": "Balam Takali",
+    "label": "Balam Takali",
     "parentId": "Shevgaon"
   },
   {
@@ -6665,8 +6640,8 @@
     "parentId": "Shevgaon"
   },
   {
-    "id": "Dahigaon  She",
-    "label": "Dahigaon  She",
+    "id": "Dahigaon She",
+    "label": "Dahigaon She",
     "parentId": "Shevgaon"
   },
   {
@@ -7285,11 +7260,6 @@
     "parentId": "Shrigonda"
   },
   {
-    "id": "Gavhanewadi",
-    "label": "Gavhanewadi",
-    "parentId": "Shrigonda"
-  },
-  {
     "id": "Ghargaon",
     "label": "Ghargaon",
     "parentId": "Shrigonda"
@@ -7427,11 +7397,6 @@
   {
     "id": "Madhewadgaon",
     "label": "Madhewadgaon",
-    "parentId": "Shrigonda"
-  },
-  {
-    "id": "Mahadeowadi",
-    "label": "Mahadeowadi",
     "parentId": "Shrigonda"
   },
   {
@@ -7835,8 +7800,8 @@
     "parentId": "Shrirampur"
   },
   {
-    "id": "Malunje  Bk.",
-    "label": "Malunje  Bk.",
+    "id": "Malunje Bk.",
+    "label": "Malunje Bk.",
     "parentId": "Shrirampur"
   },
   {
@@ -7950,11 +7915,6 @@
     "parentId": "Shrirampur"
   },
   {
-    "id": "Agar",
-    "label": "Agar",
-    "parentId": "Akola"
-  },
-  {
     "id": "Akhatwada",
     "label": "Akhatwada",
     "parentId": "Akola"
@@ -8065,11 +8025,6 @@
     "parentId": "Akola"
   },
   {
-    "id": "Bondarkhed",
-    "label": "Bondarkhed",
-    "parentId": "Akola"
-  },
-  {
     "id": "Borgaon Kh",
     "label": "Borgaon Kh",
     "parentId": "Akola"
@@ -8172,11 +8127,6 @@
   {
     "id": "Dodaki",
     "label": "Dodaki",
-    "parentId": "Akola"
-  },
-  {
-    "id": "Dongargaon",
-    "label": "Dongargaon",
     "parentId": "Akola"
   },
   {
@@ -8360,8 +8310,8 @@
     "parentId": "Akola"
   },
   {
-    "id": "Kasli  Bk",
-    "label": "Kasli  Bk",
+    "id": "Kasli Bk",
+    "label": "Kasli Bk",
     "parentId": "Akola"
   },
   {
@@ -8412,16 +8362,6 @@
   {
     "id": "Khambora",
     "label": "Khambora",
-    "parentId": "Akola"
-  },
-  {
-    "id": "Khanapur",
-    "label": "Khanapur",
-    "parentId": "Akola"
-  },
-  {
-    "id": "Khanapur",
-    "label": "Khanapur",
     "parentId": "Akola"
   },
   {
@@ -8532,11 +8472,6 @@
   {
     "id": "Mhatodi",
     "label": "Mhatodi",
-    "parentId": "Akola"
-  },
-  {
-    "id": "Mirzapur",
-    "label": "Mirzapur",
     "parentId": "Akola"
   },
   {
@@ -8710,11 +8645,6 @@
     "parentId": "Akola"
   },
   {
-    "id": "Shahapur",
-    "label": "Shahapur",
-    "parentId": "Akola"
-  },
-  {
     "id": "Shahnawajpur",
     "label": "Shahnawajpur",
     "parentId": "Akola"
@@ -8872,11 +8802,6 @@
   {
     "id": "Wakapur",
     "label": "Wakapur",
-    "parentId": "Akola"
-  },
-  {
-    "id": "Waki",
-    "label": "Waki",
     "parentId": "Akola"
   },
   {
@@ -9070,11 +8995,6 @@
     "parentId": "Akot"
   },
   {
-    "id": "Chinchkhed Kh",
-    "label": "Chinchkhed Kh",
-    "parentId": "Akot"
-  },
-  {
     "id": "Chinchpani",
     "label": "Chinchpani",
     "parentId": "Akot"
@@ -9117,11 +9037,6 @@
   {
     "id": "Deori",
     "label": "Deori",
-    "parentId": "Akot"
-  },
-  {
-    "id": "Deulgaon",
-    "label": "Deulgaon",
     "parentId": "Akot"
   },
   {
@@ -9250,8 +9165,8 @@
     "parentId": "Akot"
   },
   {
-    "id": "Januna   Bk",
-    "label": "Januna   Bk",
+    "id": "Januna Bk",
+    "label": "Januna Bk",
     "parentId": "Akot"
   },
   {
@@ -9305,11 +9220,6 @@
     "parentId": "Akot"
   },
   {
-    "id": "Karatwadi",
-    "label": "Karatwadi",
-    "parentId": "Akot"
-  },
-  {
     "id": "Karodi",
     "label": "Karodi",
     "parentId": "Akot"
@@ -9342,11 +9252,6 @@
   {
     "id": "Kawasa Kh",
     "label": "Kawasa Kh",
-    "parentId": "Akot"
-  },
-  {
-    "id": "Keliweli",
-    "label": "Keliweli",
     "parentId": "Akot"
   },
   {
@@ -10380,11 +10285,6 @@
     "parentId": "Barshitakli"
   },
   {
-    "id": "Atkali",
-    "label": "Atkali",
-    "parentId": "Barshitakli"
-  },
-  {
     "id": "Bagayat Barshitakli",
     "label": "Bagayat Barshitakli",
     "parentId": "Barshitakli"
@@ -10595,11 +10495,6 @@
     "parentId": "Barshitakli"
   },
   {
-    "id": "Januna",
-    "label": "Januna",
-    "parentId": "Barshitakli"
-  },
-  {
     "id": "Jogalkhed",
     "label": "Jogalkhed",
     "parentId": "Barshitakli"
@@ -10692,11 +10587,6 @@
   {
     "id": "Lohgadtanda (N.V.)",
     "label": "Lohgadtanda (N.V.)",
-    "parentId": "Barshitakli"
-  },
-  {
-    "id": "Mahagaon",
-    "label": "Mahagaon",
     "parentId": "Barshitakli"
   },
   {
@@ -11070,11 +10960,6 @@
     "parentId": "Barshitakli"
   },
   {
-    "id": "Wadala",
-    "label": "Wadala",
-    "parentId": "Barshitakli"
-  },
-  {
     "id": "Wagha Bk.",
     "label": "Wagha Bk.",
     "parentId": "Barshitakli"
@@ -11420,11 +11305,6 @@
     "parentId": "Murtijapur"
   },
   {
-    "id": "Jamthi Kh.",
-    "label": "Jamthi Kh.",
-    "parentId": "Murtijapur"
-  },
-  {
     "id": "Jethapur",
     "label": "Jethapur",
     "parentId": "Murtijapur"
@@ -11615,11 +11495,6 @@
     "parentId": "Murtijapur"
   },
   {
-    "id": "Matoda",
-    "label": "Matoda",
-    "parentId": "Murtijapur"
-  },
-  {
     "id": "Mirapur",
     "label": "Mirapur",
     "parentId": "Murtijapur"
@@ -11790,11 +11665,6 @@
     "parentId": "Murtijapur"
   },
   {
-    "id": "Sanjapur",
-    "label": "Sanjapur",
-    "parentId": "Murtijapur"
-  },
-  {
     "id": "Saudapur",
     "label": "Saudapur",
     "parentId": "Murtijapur"
@@ -11862,11 +11732,6 @@
   {
     "id": "Sonori (Bopari)",
     "label": "Sonori (Bopari)",
-    "parentId": "Murtijapur"
-  },
-  {
-    "id": "Sultanpur",
-    "label": "Sultanpur",
     "parentId": "Murtijapur"
   },
   {
@@ -12945,8 +12810,8 @@
     "parentId": "Achalpur"
   },
   {
-    "id": "Ambada  Kandari",
-    "label": "Ambada  Kandari",
+    "id": "Ambada Kandari",
+    "label": "Ambada Kandari",
     "parentId": "Achalpur"
   },
   {
@@ -12967,11 +12832,6 @@
   {
     "id": "Asatpur",
     "label": "Asatpur",
-    "parentId": "Achalpur"
-  },
-  {
-    "id": "Aurangpur",
-    "label": "Aurangpur",
     "parentId": "Achalpur"
   },
   {
@@ -13020,11 +12880,6 @@
     "parentId": "Achalpur"
   },
   {
-    "id": "Bhopapur",
-    "label": "Bhopapur",
-    "parentId": "Achalpur"
-  },
-  {
     "id": "Bhugaon",
     "label": "Bhugaon",
     "parentId": "Achalpur"
@@ -13065,13 +12920,13 @@
     "parentId": "Achalpur"
   },
   {
-    "id": "Chamak  Kh",
-    "label": "Chamak  Kh",
+    "id": "Chamak Kh",
+    "label": "Chamak Kh",
     "parentId": "Achalpur"
   },
   {
-    "id": "Chandura   Jahagir",
-    "label": "Chandura   Jahagir",
+    "id": "Chandura Jahagir",
+    "label": "Chandura Jahagir",
     "parentId": "Achalpur"
   },
   {
@@ -13335,11 +13190,6 @@
     "parentId": "Achalpur"
   },
   {
-    "id": "Khushalpur",
-    "label": "Khushalpur",
-    "parentId": "Achalpur"
-  },
-  {
     "id": "Kolha",
     "label": "Kolha",
     "parentId": "Achalpur"
@@ -13385,8 +13235,8 @@
     "parentId": "Achalpur"
   },
   {
-    "id": "Malkapur   Kh.",
-    "label": "Malkapur   Kh.",
+    "id": "Malkapur Kh.",
+    "label": "Malkapur Kh.",
     "parentId": "Achalpur"
   },
   {
@@ -13530,11 +13380,6 @@
     "parentId": "Achalpur"
   },
   {
-    "id": "Raipur",
-    "label": "Raipur",
-    "parentId": "Achalpur"
-  },
-  {
     "id": "Raipura",
     "label": "Raipura",
     "parentId": "Achalpur"
@@ -13560,8 +13405,8 @@
     "parentId": "Achalpur"
   },
   {
-    "id": "Ramapur  Kh",
-    "label": "Ramapur  Kh",
+    "id": "Ramapur Kh",
+    "label": "Ramapur Kh",
     "parentId": "Achalpur"
   },
   {
@@ -13600,8 +13445,8 @@
     "parentId": "Achalpur"
   },
   {
-    "id": "Sahapur N  Wadgaon",
-    "label": "Sahapur N  Wadgaon",
+    "id": "Sahapur N Wadgaon",
+    "label": "Sahapur N Wadgaon",
     "parentId": "Achalpur"
   },
   {
@@ -13670,8 +13515,8 @@
     "parentId": "Achalpur"
   },
   {
-    "id": "Sindi  Bk.",
-    "label": "Sindi  Bk.",
+    "id": "Sindi Bk.",
+    "label": "Sindi Bk.",
     "parentId": "Achalpur"
   },
   {
@@ -13765,13 +13610,13 @@
     "parentId": "Achalpur"
   },
   {
-    "id": "Wasani  Bk.",
-    "label": "Wasani  Bk.",
+    "id": "Wasani Bk.",
+    "label": "Wasani Bk.",
     "parentId": "Achalpur"
   },
   {
-    "id": "Wasani   Kh.",
-    "label": "Wasani   Kh.",
+    "id": "Wasani Kh.",
+    "label": "Wasani Kh.",
     "parentId": "Achalpur"
   },
   {
@@ -14110,16 +13955,6 @@
     "parentId": "Amravati"
   },
   {
-    "id": "Malegaon",
-    "label": "Malegaon",
-    "parentId": "Amravati"
-  },
-  {
-    "id": "Malkapur",
-    "label": "Malkapur",
-    "parentId": "Amravati"
-  },
-  {
     "id": "Malkapur",
     "label": "Malkapur",
     "parentId": "Amravati"
@@ -14225,11 +14060,6 @@
     "parentId": "Amravati"
   },
   {
-    "id": "Pimpri",
-    "label": "Pimpri",
-    "parentId": "Amravati"
-  },
-  {
     "id": "Pohara",
     "label": "Pohara",
     "parentId": "Amravati"
@@ -14252,11 +14082,6 @@
   {
     "id": "Ramgaon",
     "label": "Ramgaon",
-    "parentId": "Amravati"
-  },
-  {
-    "id": "Rasulpur",
-    "label": "Rasulpur",
     "parentId": "Amravati"
   },
   {
@@ -14330,11 +14155,6 @@
     "parentId": "Amravati"
   },
   {
-    "id": "Sultanpur",
-    "label": "Sultanpur",
-    "parentId": "Amravati"
-  },
-  {
     "id": "Takli Jaha",
     "label": "Takli Jaha",
     "parentId": "Amravati"
@@ -14377,11 +14197,6 @@
   {
     "id": "Ukali",
     "label": "Ukali",
-    "parentId": "Amravati"
-  },
-  {
-    "id": "Vitthalapur",
-    "label": "Vitthalapur",
     "parentId": "Amravati"
   },
   {
@@ -14450,8 +14265,8 @@
     "parentId": "Anjangaon Surji"
   },
   {
-    "id": "Adgaon   Ade",
-    "label": "Adgaon   Ade",
+    "id": "Adgaon Ade",
+    "label": "Adgaon Ade",
     "parentId": "Anjangaon Surji"
   },
   {
@@ -14545,8 +14360,8 @@
     "parentId": "Anjangaon Surji"
   },
   {
-    "id": "Dahigaon  Kh.",
-    "label": "Dahigaon  Kh.",
+    "id": "Dahigaon Kh.",
+    "label": "Dahigaon Kh.",
     "parentId": "Anjangaon Surji"
   },
   {
@@ -14597,11 +14412,6 @@
   {
     "id": "Fattepur",
     "label": "Fattepur",
-    "parentId": "Anjangaon Surji"
-  },
-  {
-    "id": "Ganeshpur",
-    "label": "Ganeshpur",
     "parentId": "Anjangaon Surji"
   },
   {
@@ -14805,8 +14615,8 @@
     "parentId": "Anjangaon Surji"
   },
   {
-    "id": "Kumbhargaon  Kh.",
-    "label": "Kumbhargaon  Kh.",
+    "id": "Kumbhargaon Kh.",
+    "label": "Kumbhargaon Kh.",
     "parentId": "Anjangaon Surji"
   },
   {
@@ -14860,8 +14670,8 @@
     "parentId": "Anjangaon Surji"
   },
   {
-    "id": "Murha   Kh.",
-    "label": "Murha   Kh.",
+    "id": "Murha Kh.",
+    "label": "Murha Kh.",
     "parentId": "Anjangaon Surji"
   },
   {
@@ -14890,8 +14700,8 @@
     "parentId": "Anjangaon Surji"
   },
   {
-    "id": "Nimkhed  Ade",
-    "label": "Nimkhed  Ade",
+    "id": "Nimkhed Ade",
+    "label": "Nimkhed Ade",
     "parentId": "Anjangaon Surji"
   },
   {
@@ -14955,18 +14765,8 @@
     "parentId": "Anjangaon Surji"
   },
   {
-    "id": "Ratnapur",
-    "label": "Ratnapur",
-    "parentId": "Anjangaon Surji"
-  },
-  {
     "id": "Raundalpur",
     "label": "Raundalpur",
-    "parentId": "Anjangaon Surji"
-  },
-  {
-    "id": "Saidapur",
-    "label": "Saidapur",
     "parentId": "Anjangaon Surji"
   },
   {
@@ -14987,11 +14787,6 @@
   {
     "id": "Saray",
     "label": "Saray",
-    "parentId": "Anjangaon Surji"
-  },
-  {
-    "id": "Sarfabad",
-    "label": "Sarfabad",
     "parentId": "Anjangaon Surji"
   },
   {
@@ -15055,13 +14850,13 @@
     "parentId": "Anjangaon Surji"
   },
   {
-    "id": "Vihigaon   Bk.",
-    "label": "Vihigaon   Bk.",
+    "id": "Vihigaon Bk.",
+    "label": "Vihigaon Bk.",
     "parentId": "Anjangaon Surji"
   },
   {
-    "id": "Vihigaon  Kh.",
-    "label": "Vihigaon  Kh.",
+    "id": "Vihigaon Kh.",
+    "label": "Vihigaon Kh.",
     "parentId": "Anjangaon Surji"
   },
   {
@@ -15235,11 +15030,6 @@
     "parentId": "Bhatkuli"
   },
   {
-    "id": "Degurkheda",
-    "label": "Degurkheda",
-    "parentId": "Bhatkuli"
-  },
-  {
     "id": "Deori",
     "label": "Deori",
     "parentId": "Bhatkuli"
@@ -15347,11 +15137,6 @@
   {
     "id": "Ismailpur",
     "label": "Ismailpur",
-    "parentId": "Bhatkuli"
-  },
-  {
-    "id": "Jaitapur",
-    "label": "Jaitapur",
     "parentId": "Bhatkuli"
   },
   {
@@ -15512,11 +15297,6 @@
   {
     "id": "Nanded Kh",
     "label": "Nanded Kh",
-    "parentId": "Bhatkuli"
-  },
-  {
-    "id": "Narayanpur",
-    "label": "Narayanpur",
     "parentId": "Bhatkuli"
   },
   {
@@ -15985,11 +15765,6 @@
     "parentId": "Chandurbazar"
   },
   {
-    "id": "Govindpur",
-    "label": "Govindpur",
-    "parentId": "Chandurbazar"
-  },
-  {
     "id": "Haidatpur",
     "label": "Haidatpur",
     "parentId": "Chandurbazar"
@@ -16075,11 +15850,6 @@
     "parentId": "Chandurbazar"
   },
   {
-    "id": "Jasapur",
-    "label": "Jasapur",
-    "parentId": "Chandurbazar"
-  },
-  {
     "id": "Jawara",
     "label": "Jawara",
     "parentId": "Chandurbazar"
@@ -16140,8 +15910,8 @@
     "parentId": "Chandurbazar"
   },
   {
-    "id": "Khel  Khushal  Kurha",
-    "label": "Khel  Khushal  Kurha",
+    "id": "Khel Khushal Kurha",
+    "label": "Khel Khushal Kurha",
     "parentId": "Chandurbazar"
   },
   {
@@ -16172,11 +15942,6 @@
   {
     "id": "Kotgawandi",
     "label": "Kotgawandi",
-    "parentId": "Chandurbazar"
-  },
-  {
-    "id": "Krishnapur",
-    "label": "Krishnapur",
     "parentId": "Chandurbazar"
   },
   {
@@ -16292,11 +16057,6 @@
   {
     "id": "Pandhari",
     "label": "Pandhari",
-    "parentId": "Chandurbazar"
-  },
-  {
-    "id": "Parsoda",
-    "label": "Parsoda",
     "parentId": "Chandurbazar"
   },
   {
@@ -16430,8 +16190,8 @@
     "parentId": "Chandurbazar"
   },
   {
-    "id": "Shirajgaon  Kasba",
-    "label": "Shirajgaon  Kasba",
+    "id": "Shirajgaon Kasba",
+    "label": "Shirajgaon Kasba",
     "parentId": "Chandurbazar"
   },
   {
@@ -16477,11 +16237,6 @@
   {
     "id": "Subhanpur",
     "label": "Subhanpur",
-    "parentId": "Chandurbazar"
-  },
-  {
-    "id": "Sultanpur",
-    "label": "Sultanpur",
     "parentId": "Chandurbazar"
   },
   {
@@ -16577,11 +16332,6 @@
   {
     "id": "Wadala",
     "label": "Wadala",
-    "parentId": "Chandurbazar"
-  },
-  {
-    "id": "Wadura",
-    "label": "Wadura",
     "parentId": "Chandurbazar"
   },
   {
@@ -17040,11 +16790,6 @@
     "parentId": "Chandur Railway"
   },
   {
-    "id": "Wai",
-    "label": "Wai",
-    "parentId": "Chandur Railway"
-  },
-  {
     "id": "Wajradevi",
     "label": "Wajradevi",
     "parentId": "Chandur Railway"
@@ -17165,18 +16910,8 @@
     "parentId": "Chikhaldara"
   },
   {
-    "id": "Bhandum",
-    "label": "Bhandum",
-    "parentId": "Chikhaldara"
-  },
-  {
     "id": "Bhawai",
     "label": "Bhawai",
-    "parentId": "Chikhaldara"
-  },
-  {
-    "id": "Bhilkheda",
-    "label": "Bhilkheda",
     "parentId": "Chikhaldara"
   },
   {
@@ -17300,11 +17035,6 @@
     "parentId": "Chikhaldara"
   },
   {
-    "id": "Churni",
-    "label": "Churni",
-    "parentId": "Chikhaldara"
-  },
-  {
     "id": "Dabiya",
     "label": "Dabiya",
     "parentId": "Chikhaldara"
@@ -17327,16 +17057,6 @@
   {
     "id": "Dhomnipata",
     "label": "Dhomnipata",
-    "parentId": "Chikhaldara"
-  },
-  {
-    "id": "Dolar",
-    "label": "Dolar",
-    "parentId": "Chikhaldara"
-  },
-  {
-    "id": "Dolar",
-    "label": "Dolar",
     "parentId": "Chikhaldara"
   },
   {
@@ -17537,11 +17257,6 @@
   {
     "id": "Khari",
     "label": "Khari",
-    "parentId": "Chikhaldara"
-  },
-  {
-    "id": "Khatkali",
-    "label": "Khatkali",
     "parentId": "Chikhaldara"
   },
   {
@@ -18015,11 +17730,6 @@
     "parentId": "Daryapur"
   },
   {
-    "id": "Antargaon",
-    "label": "Antargaon",
-    "parentId": "Daryapur"
-  },
-  {
     "id": "Arala",
     "label": "Arala",
     "parentId": "Daryapur"
@@ -18130,8 +17840,8 @@
     "parentId": "Daryapur"
   },
   {
-    "id": "Dhamane  Kh.",
-    "label": "Dhamane  Kh.",
+    "id": "Dhamane Kh.",
+    "label": "Dhamane Kh.",
     "parentId": "Daryapur"
   },
   {
@@ -18247,11 +17957,6 @@
   {
     "id": "Jagarwadi",
     "label": "Jagarwadi",
-    "parentId": "Daryapur"
-  },
-  {
-    "id": "Jahanpur",
-    "label": "Jahanpur",
     "parentId": "Daryapur"
   },
   {
@@ -18900,18 +18605,8 @@
     "parentId": "Dhamangaon Railway"
   },
   {
-    "id": "Haibatpur",
-    "label": "Haibatpur",
-    "parentId": "Dhamangaon Railway"
-  },
-  {
     "id": "Hingangaon",
     "label": "Hingangaon",
-    "parentId": "Dhamangaon Railway"
-  },
-  {
-    "id": "Hirapur",
-    "label": "Hirapur",
     "parentId": "Dhamangaon Railway"
   },
   {
@@ -18982,11 +18677,6 @@
   {
     "id": "Kawali",
     "label": "Kawali",
-    "parentId": "Dhamangaon Railway"
-  },
-  {
-    "id": "Khanapur",
-    "label": "Khanapur",
     "parentId": "Dhamangaon Railway"
   },
   {
@@ -19795,11 +19485,6 @@
     "parentId": "Dharni"
   },
   {
-    "id": "Malur",
-    "label": "Malur",
-    "parentId": "Dharni"
-  },
-  {
     "id": "Mandu",
     "label": "Mandu",
     "parentId": "Dharni"
@@ -20090,11 +19775,6 @@
     "parentId": "Morshi"
   },
   {
-    "id": "Ahmadpur",
-    "label": "Ahmadpur",
-    "parentId": "Morshi"
-  },
-  {
     "id": "Ajampur",
     "label": "Ajampur",
     "parentId": "Morshi"
@@ -20137,11 +19817,6 @@
   {
     "id": "Bahirampur",
     "label": "Bahirampur",
-    "parentId": "Morshi"
-  },
-  {
-    "id": "Barhanpur",
-    "label": "Barhanpur",
     "parentId": "Morshi"
   },
   {
@@ -20290,13 +19965,13 @@
     "parentId": "Morshi"
   },
   {
-    "id": "Ghoddeo  Bk.",
-    "label": "Ghoddeo  Bk.",
+    "id": "Ghoddeo Bk.",
+    "label": "Ghoddeo Bk.",
     "parentId": "Morshi"
   },
   {
-    "id": "Ghoddeo  Kh.",
-    "label": "Ghoddeo  Kh.",
+    "id": "Ghoddeo Kh.",
+    "label": "Ghoddeo Kh.",
     "parentId": "Morshi"
   },
   {
@@ -20365,11 +20040,6 @@
     "parentId": "Morshi"
   },
   {
-    "id": "Ismailpur",
-    "label": "Ismailpur",
-    "parentId": "Morshi"
-  },
-  {
     "id": "Jamathi",
     "label": "Jamathi",
     "parentId": "Morshi"
@@ -20397,11 +20067,6 @@
   {
     "id": "Karajgaon",
     "label": "Karajgaon",
-    "parentId": "Morshi"
-  },
-  {
-    "id": "Kashimpur",
-    "label": "Kashimpur",
     "parentId": "Morshi"
   },
   {
@@ -20650,8 +20315,8 @@
     "parentId": "Morshi"
   },
   {
-    "id": "Rasulpur  Kopra",
-    "label": "Rasulpur  Kopra",
+    "id": "Rasulpur Kopra",
+    "label": "Rasulpur Kopra",
     "parentId": "Morshi"
   },
   {
@@ -20702,11 +20367,6 @@
   {
     "id": "Sambhapur",
     "label": "Sambhapur",
-    "parentId": "Morshi"
-  },
-  {
-    "id": "Sawarkhed",
-    "label": "Sawarkhed",
     "parentId": "Morshi"
   },
   {
@@ -20780,8 +20440,8 @@
     "parentId": "Morshi"
   },
   {
-    "id": "Surwadi  Bk.",
-    "label": "Surwadi  Bk.",
+    "id": "Surwadi Bk.",
+    "label": "Surwadi Bk.",
     "parentId": "Morshi"
   },
   {
@@ -20797,11 +20457,6 @@
   {
     "id": "Talni",
     "label": "Talni",
-    "parentId": "Morshi"
-  },
-  {
-    "id": "Taroda",
-    "label": "Taroda",
     "parentId": "Morshi"
   },
   {
@@ -20827,16 +20482,6 @@
   {
     "id": "Trimalpur",
     "label": "Trimalpur",
-    "parentId": "Morshi"
-  },
-  {
-    "id": "Tuljapur",
-    "label": "Tuljapur",
-    "parentId": "Morshi"
-  },
-  {
-    "id": "Tuljapur",
-    "label": "Tuljapur",
     "parentId": "Morshi"
   },
   {
@@ -21320,11 +20965,6 @@
     "parentId": "Nandgaon-Khandeshwar"
   },
   {
-    "id": "Mirzapur",
-    "label": "Mirzapur",
-    "parentId": "Nandgaon-Khandeshwar"
-  },
-  {
     "id": "Mokhad",
     "label": "Mokhad",
     "parentId": "Nandgaon-Khandeshwar"
@@ -21420,8 +21060,8 @@
     "parentId": "Nandgaon-Khandeshwar"
   },
   {
-    "id": "Onkar  Kheda",
-    "label": "Onkar  Kheda",
+    "id": "Onkar Kheda",
+    "label": "Onkar Kheda",
     "parentId": "Nandgaon-Khandeshwar"
   },
   {
@@ -21607,11 +21247,6 @@
   {
     "id": "Sukhli Gurav",
     "label": "Sukhli Gurav",
-    "parentId": "Nandgaon-Khandeshwar"
-  },
-  {
-    "id": "Sultanpur",
-    "label": "Sultanpur",
     "parentId": "Nandgaon-Khandeshwar"
   },
   {
@@ -21855,11 +21490,6 @@
     "parentId": "Teosa"
   },
   {
-    "id": "Fattepur",
-    "label": "Fattepur",
-    "parentId": "Teosa"
-  },
-  {
     "id": "Gavha Balapur",
     "label": "Gavha Balapur",
     "parentId": "Teosa"
@@ -21915,11 +21545,6 @@
     "parentId": "Teosa"
   },
   {
-    "id": "Jawara",
-    "label": "Jawara",
-    "parentId": "Teosa"
-  },
-  {
     "id": "Karajgaon",
     "label": "Karajgaon",
     "parentId": "Teosa"
@@ -21942,11 +21567,6 @@
   {
     "id": "Kawadgavhan",
     "label": "Kawadgavhan",
-    "parentId": "Teosa"
-  },
-  {
-    "id": "Kolwan",
-    "label": "Kolwan",
     "parentId": "Teosa"
   },
   {
@@ -22350,11 +21970,6 @@
     "parentId": "Warud"
   },
   {
-    "id": "Gaulkheda",
-    "label": "Gaulkheda",
-    "parentId": "Warud"
-  },
-  {
     "id": "Gavhankund",
     "label": "Gavhankund",
     "parentId": "Warud"
@@ -22387,11 +22002,6 @@
   {
     "id": "Isambari",
     "label": "Isambari",
-    "parentId": "Warud"
-  },
-  {
-    "id": "Isapur",
-    "label": "Isapur",
     "parentId": "Warud"
   },
   {
@@ -22657,11 +22267,6 @@
   {
     "id": "Pethmangruli",
     "label": "Pethmangruli",
-    "parentId": "Warud"
-  },
-  {
-    "id": "Pimpalkhuta",
-    "label": "Pimpalkhuta",
     "parentId": "Warud"
   },
   {
@@ -23575,8 +23180,8 @@
     "parentId": "Aurangabad"
   },
   {
-    "id": "Rahalpatti  Tanda",
-    "label": "Rahalpatti  Tanda",
+    "id": "Rahalpatti Tanda",
+    "label": "Rahalpatti Tanda",
     "parentId": "Aurangabad"
   },
   {
@@ -23707,11 +23312,6 @@
   {
     "id": "Sirasmal Tanda",
     "label": "Sirasmal Tanda",
-    "parentId": "Aurangabad"
-  },
-  {
-    "id": "Sultanpur",
-    "label": "Sultanpur",
     "parentId": "Aurangabad"
   },
   {
@@ -23867,11 +23467,6 @@
   {
     "id": "Anantpur (Ct)",
     "label": "Anantpur (Ct)",
-    "parentId": "Gangapur"
-  },
-  {
-    "id": "Antapur",
-    "label": "Antapur",
     "parentId": "Gangapur"
   },
   {
@@ -24155,11 +23750,6 @@
     "parentId": "Gangapur"
   },
   {
-    "id": "Haibatpur",
-    "label": "Haibatpur",
-    "parentId": "Gangapur"
-  },
-  {
     "id": "Hakikatpur",
     "label": "Hakikatpur",
     "parentId": "Gangapur"
@@ -24335,11 +23925,6 @@
     "parentId": "Gangapur"
   },
   {
-    "id": "Mahmadpur",
-    "label": "Mahmadpur",
-    "parentId": "Gangapur"
-  },
-  {
     "id": "Maholi",
     "label": "Maholi",
     "parentId": "Gangapur"
@@ -24437,11 +24022,6 @@
   {
     "id": "Mustafabad",
     "label": "Mustafabad",
-    "parentId": "Gangapur"
-  },
-  {
-    "id": "Nagapur",
-    "label": "Nagapur",
     "parentId": "Gangapur"
   },
   {
@@ -24695,11 +24275,6 @@
     "parentId": "Gangapur"
   },
   {
-    "id": "Shankarpur",
-    "label": "Shankarpur",
-    "parentId": "Gangapur"
-  },
-  {
     "id": "Shekta",
     "label": "Shekta",
     "parentId": "Gangapur"
@@ -24785,16 +24360,6 @@
     "parentId": "Gangapur"
   },
   {
-    "id": "Sultanpur",
-    "label": "Sultanpur",
-    "parentId": "Gangapur"
-  },
-  {
-    "id": "Sultanpur",
-    "label": "Sultanpur",
-    "parentId": "Gangapur"
-  },
-  {
     "id": "Surewadi",
     "label": "Surewadi",
     "parentId": "Gangapur"
@@ -24817,11 +24382,6 @@
   {
     "id": "Talpimpri",
     "label": "Talpimpri",
-    "parentId": "Gangapur"
-  },
-  {
-    "id": "Tandulwadi",
-    "label": "Tandulwadi",
     "parentId": "Gangapur"
   },
   {
@@ -25845,8 +25405,8 @@
     "parentId": "Kannad"
   },
   {
-    "id": "Sirjapur  (Sirjapur Tanda)",
-    "label": "Sirjapur  (Sirjapur Tanda)",
+    "id": "Sirjapur (Sirjapur Tanda)",
+    "label": "Sirjapur (Sirjapur Tanda)",
     "parentId": "Kannad"
   },
   {
@@ -25985,8 +25545,8 @@
     "parentId": "Kannad"
   },
   {
-    "id": "Waki  Kadim",
-    "label": "Waki  Kadim",
+    "id": "Waki Kadim",
+    "label": "Waki Kadim",
     "parentId": "Kannad"
   },
   {
@@ -27330,8 +26890,8 @@
     "parentId": "Phulambri"
   },
   {
-    "id": "Adgaon  Kh.",
-    "label": "Adgaon  Kh.",
+    "id": "Adgaon Kh.",
+    "label": "Adgaon Kh.",
     "parentId": "Phulambri"
   },
   {
@@ -27552,11 +27112,6 @@
   {
     "id": "Murshadabadwadi",
     "label": "Murshadabadwadi",
-    "parentId": "Phulambri"
-  },
-  {
-    "id": "Naigaon",
-    "label": "Naigaon",
     "parentId": "Phulambri"
   },
   {
@@ -28730,8 +28285,8 @@
     "parentId": "Soegaon"
   },
   {
-    "id": "Pimpri  Antur",
-    "label": "Pimpri  Antur",
+    "id": "Pimpri Antur",
+    "label": "Pimpri Antur",
     "parentId": "Soegaon"
   },
   {
@@ -30275,11 +29830,6 @@
     "parentId": "Ashti"
   },
   {
-    "id": "Balewadi",
-    "label": "Balewadi",
-    "parentId": "Ashti"
-  },
-  {
     "id": "Bandkhel",
     "label": "Bandkhel",
     "parentId": "Ashti"
@@ -30412,11 +29962,6 @@
   {
     "id": "Dhamangaon",
     "label": "Dhamangaon",
-    "parentId": "Ashti"
-  },
-  {
-    "id": "Dhangarwadi",
-    "label": "Dhangarwadi",
     "parentId": "Ashti"
   },
   {
@@ -31090,11 +30635,6 @@
     "parentId": "Ashti"
   },
   {
-    "id": "Wanvewadi",
-    "label": "Wanvewadi",
-    "parentId": "Ashti"
-  },
-  {
     "id": "Watanwadi",
     "label": "Watanwadi",
     "parentId": "Ashti"
@@ -31142,11 +30682,6 @@
   {
     "id": "Ambil Wadgaon",
     "label": "Ambil Wadgaon",
-    "parentId": "Bid"
-  },
-  {
-    "id": "Anandwadi",
-    "label": "Anandwadi",
     "parentId": "Bid"
   },
   {
@@ -31815,8 +31350,8 @@
     "parentId": "Bid"
   },
   {
-    "id": "Nagpur  Kh.",
-    "label": "Nagpur  Kh.",
+    "id": "Nagpur Kh.",
+    "label": "Nagpur Kh.",
     "parentId": "Bid"
   },
   {
@@ -32840,11 +32375,6 @@
     "parentId": "Georai"
   },
   {
-    "id": "Gangawadi",
-    "label": "Gangawadi",
-    "parentId": "Georai"
-  },
-  {
     "id": "Gaonkhor Tanda (N.V.)",
     "label": "Gaonkhor Tanda (N.V.)",
     "parentId": "Georai"
@@ -32877,11 +32407,6 @@
   {
     "id": "Gopat Pimpalgaon",
     "label": "Gopat Pimpalgaon",
-    "parentId": "Georai"
-  },
-  {
-    "id": "Govindwadi",
-    "label": "Govindwadi",
     "parentId": "Georai"
   },
   {
@@ -33660,8 +33185,8 @@
     "parentId": "Kaij"
   },
   {
-    "id": "Borgaon  Bk.",
-    "label": "Borgaon  Bk.",
+    "id": "Borgaon Bk.",
+    "label": "Borgaon Bk.",
     "parentId": "Kaij"
   },
   {
@@ -34050,8 +33575,8 @@
     "parentId": "Kaij"
   },
   {
-    "id": "Sangvi  (S)",
-    "label": "Sangvi  (S)",
+    "id": "Sangvi (S)",
+    "label": "Sangvi (S)",
     "parentId": "Kaij"
   },
   {
@@ -34755,11 +34280,6 @@
     "parentId": "Manjlegaon"
   },
   {
-    "id": "Sultanpur",
-    "label": "Sultanpur",
-    "parentId": "Manjlegaon"
-  },
-  {
     "id": "Surdi Najik",
     "label": "Surdi Najik",
     "parentId": "Manjlegaon"
@@ -35380,11 +34900,6 @@
     "parentId": "Patoda"
   },
   {
-    "id": "Bedarwadi",
-    "label": "Bedarwadi",
-    "parentId": "Patoda"
-  },
-  {
     "id": "Bedukwadi",
     "label": "Bedukwadi",
     "parentId": "Patoda"
@@ -35487,11 +35002,6 @@
   {
     "id": "Gandalwadi",
     "label": "Gandalwadi",
-    "parentId": "Patoda"
-  },
-  {
-    "id": "Gandhanwadi",
-    "label": "Gandhanwadi",
     "parentId": "Patoda"
   },
   {
@@ -35875,18 +35385,8 @@
     "parentId": "Patoda"
   },
   {
-    "id": "Yewalwadi",
-    "label": "Yewalwadi",
-    "parentId": "Patoda"
-  },
-  {
     "id": "Anandgaon",
     "label": "Anandgaon",
-    "parentId": "Shirur (Kasar)"
-  },
-  {
-    "id": "Anandwadi",
-    "label": "Anandwadi",
     "parentId": "Shirur (Kasar)"
   },
   {
@@ -36277,11 +35777,6 @@
   {
     "id": "Takalwadi",
     "label": "Takalwadi",
-    "parentId": "Shirur (Kasar)"
-  },
-  {
-    "id": "Taradgavhan",
-    "label": "Taradgavhan",
     "parentId": "Shirur (Kasar)"
   },
   {
@@ -36720,11 +36215,6 @@
     "parentId": "Bhandara"
   },
   {
-    "id": "Dawadipar",
-    "label": "Dawadipar",
-    "parentId": "Bhandara"
-  },
-  {
     "id": "Dawwa",
     "label": "Dawwa",
     "parentId": "Bhandara"
@@ -36835,11 +36325,6 @@
     "parentId": "Bhandara"
   },
   {
-    "id": "Jakh",
-    "label": "Jakh",
-    "parentId": "Bhandara"
-  },
-  {
     "id": "Jamgaon",
     "label": "Jamgaon",
     "parentId": "Bhandara"
@@ -36895,11 +36380,6 @@
     "parentId": "Bhandara"
   },
   {
-    "id": "Khairi",
-    "label": "Khairi",
-    "parentId": "Bhandara"
-  },
-  {
     "id": "Khairlanji",
     "label": "Khairlanji",
     "parentId": "Bhandara"
@@ -36912,11 +36392,6 @@
   {
     "id": "Khamata",
     "label": "Khamata",
-    "parentId": "Bhandara"
-  },
-  {
-    "id": "Khapa",
-    "label": "Khapa",
     "parentId": "Bhandara"
   },
   {
@@ -36947,11 +36422,6 @@
   {
     "id": "Kholapur",
     "label": "Kholapur",
-    "parentId": "Bhandara"
-  },
-  {
-    "id": "Khurshipar",
-    "label": "Khurshipar",
     "parentId": "Bhandara"
   },
   {
@@ -37125,11 +36595,6 @@
     "parentId": "Bhandara"
   },
   {
-    "id": "Nawegaon",
-    "label": "Nawegaon",
-    "parentId": "Bhandara"
-  },
-  {
     "id": "Nerodi",
     "label": "Nerodi",
     "parentId": "Bhandara"
@@ -37187,11 +36652,6 @@
   {
     "id": "Pimpalgaon",
     "label": "Pimpalgaon",
-    "parentId": "Bhandara"
-  },
-  {
-    "id": "Pindkepar",
-    "label": "Pindkepar",
     "parentId": "Bhandara"
   },
   {
@@ -37315,11 +36775,6 @@
     "parentId": "Bhandara"
   },
   {
-    "id": "Singori",
-    "label": "Singori",
-    "parentId": "Bhandara"
-  },
-  {
     "id": "Sirasghat",
     "label": "Sirasghat",
     "parentId": "Bhandara"
@@ -37327,11 +36782,6 @@
   {
     "id": "Sirasghat(Punarvasit)",
     "label": "Sirasghat(Punarvasit)",
-    "parentId": "Bhandara"
-  },
-  {
-    "id": "Sitepar",
-    "label": "Sitepar",
     "parentId": "Bhandara"
   },
   {
@@ -37367,11 +36817,6 @@
   {
     "id": "Tawepar",
     "label": "Tawepar",
-    "parentId": "Bhandara"
-  },
-  {
-    "id": "Tekepar",
-    "label": "Tekepar",
     "parentId": "Bhandara"
   },
   {
@@ -37437,11 +36882,6 @@
   {
     "id": "Wakeshwar",
     "label": "Wakeshwar",
-    "parentId": "Bhandara"
-  },
-  {
-    "id": "Yetewahi",
-    "label": "Yetewahi",
     "parentId": "Bhandara"
   },
   {
@@ -37910,11 +37350,6 @@
     "parentId": "Lakhani"
   },
   {
-    "id": "Alesur",
-    "label": "Alesur",
-    "parentId": "Lakhani"
-  },
-  {
     "id": "Bandrazari",
     "label": "Bandrazari",
     "parentId": "Lakhani"
@@ -38072,11 +37507,6 @@
   {
     "id": "Kesalwada (Waghaye)",
     "label": "Kesalwada (Waghaye)",
-    "parentId": "Lakhani"
-  },
-  {
-    "id": "Khairi",
-    "label": "Khairi",
     "parentId": "Lakhani"
   },
   {
@@ -38495,11 +37925,6 @@
     "parentId": "Mohadi"
   },
   {
-    "id": "Bothali",
-    "label": "Bothali",
-    "parentId": "Mohadi"
-  },
-  {
     "id": "Chichkheda",
     "label": "Chichkheda",
     "parentId": "Mohadi"
@@ -38760,11 +38185,6 @@
     "parentId": "Mohadi"
   },
   {
-    "id": "Navegaon",
-    "label": "Navegaon",
-    "parentId": "Mohadi"
-  },
-  {
     "id": "Navegaon Buj.",
     "label": "Navegaon Buj.",
     "parentId": "Mohadi"
@@ -38820,11 +38240,6 @@
     "parentId": "Mohadi"
   },
   {
-    "id": "Panjara",
-    "label": "Panjara",
-    "parentId": "Mohadi"
-  },
-  {
     "id": "Panjara (Bori)",
     "label": "Panjara (Bori)",
     "parentId": "Mohadi"
@@ -38837,11 +38252,6 @@
   {
     "id": "Pardi",
     "label": "Pardi",
-    "parentId": "Mohadi"
-  },
-  {
-    "id": "Pimpalgaon",
-    "label": "Pimpalgaon",
     "parentId": "Mohadi"
   },
   {
@@ -38950,11 +38360,6 @@
     "parentId": "Mohadi"
   },
   {
-    "id": "Wadegaon",
-    "label": "Wadegaon",
-    "parentId": "Mohadi"
-  },
-  {
     "id": "Warthi (Ct)",
     "label": "Warthi (Ct)",
     "parentId": "Mohadi"
@@ -38987,11 +38392,6 @@
   {
     "id": "Amgaon (Adarsh)",
     "label": "Amgaon (Adarsh)",
-    "parentId": "Pauni"
-  },
-  {
-    "id": "Asgaon",
-    "label": "Asgaon",
     "parentId": "Pauni"
   },
   {
@@ -39850,11 +39250,6 @@
     "parentId": "Sakoli"
   },
   {
-    "id": "Girola",
-    "label": "Girola",
-    "parentId": "Sakoli"
-  },
-  {
     "id": "Gondumari",
     "label": "Gondumari",
     "parentId": "Sakoli"
@@ -40432,16 +39827,6 @@
   {
     "id": "Gonditola",
     "label": "Gonditola",
-    "parentId": "Tumsar"
-  },
-  {
-    "id": "Gonditola",
-    "label": "Gonditola",
-    "parentId": "Tumsar"
-  },
-  {
-    "id": "Gowaritola",
-    "label": "Gowaritola",
     "parentId": "Tumsar"
   },
   {
@@ -41025,11 +40410,6 @@
     "parentId": "Buldana"
   },
   {
-    "id": "Borkhed",
-    "label": "Borkhed",
-    "parentId": "Buldana"
-  },
-  {
     "id": "Buldana (Rural)",
     "label": "Buldana (Rural)",
     "parentId": "Buldana"
@@ -41122,11 +40502,6 @@
   {
     "id": "Girda",
     "label": "Girda",
-    "parentId": "Buldana"
-  },
-  {
-    "id": "Gondhankhed",
-    "label": "Gondhankhed",
     "parentId": "Buldana"
   },
   {
@@ -41337,11 +40712,6 @@
   {
     "id": "Raipur",
     "label": "Raipur",
-    "parentId": "Buldana"
-  },
-  {
-    "id": "Ruikhed",
-    "label": "Ruikhed",
     "parentId": "Buldana"
   },
   {
@@ -41577,11 +40947,6 @@
   {
     "id": "Borakhedi",
     "label": "Borakhedi",
-    "parentId": "Chikhli"
-  },
-  {
-    "id": "Borala",
-    "label": "Borala",
     "parentId": "Chikhli"
   },
   {
@@ -41925,8 +41290,8 @@
     "parentId": "Chikhli"
   },
   {
-    "id": "Mera  Bk.",
-    "label": "Mera  Bk.",
+    "id": "Mera Bk.",
+    "label": "Mera Bk.",
     "parentId": "Chikhli"
   },
   {
@@ -41970,8 +41335,8 @@
     "parentId": "Chikhli"
   },
   {
-    "id": "Palaskhed  Daulat",
-    "label": "Palaskhed  Daulat",
+    "id": "Palaskhed Daulat",
+    "label": "Palaskhed Daulat",
     "parentId": "Chikhli"
   },
   {
@@ -42070,8 +41435,8 @@
     "parentId": "Chikhli"
   },
   {
-    "id": "Shelgaon  Atol",
-    "label": "Shelgaon  Atol",
+    "id": "Shelgaon Atol",
+    "label": "Shelgaon Atol",
     "parentId": "Chikhli"
   },
   {
@@ -42270,8 +41635,8 @@
     "parentId": "Deolgaon Raja"
   },
   {
-    "id": "Digras  Kh.",
-    "label": "Digras  Kh.",
+    "id": "Digras Kh.",
+    "label": "Digras Kh.",
     "parentId": "Deolgaon Raja"
   },
   {
@@ -42335,8 +41700,8 @@
     "parentId": "Deolgaon Raja"
   },
   {
-    "id": "Khalyal  Gavhan",
-    "label": "Khalyal  Gavhan",
+    "id": "Khalyal Gavhan",
+    "label": "Khalyal Gavhan",
     "parentId": "Deolgaon Raja"
   },
   {
@@ -42495,8 +41860,8 @@
     "parentId": "Deolgaon Raja"
   },
   {
-    "id": "Waki  Bk.",
-    "label": "Waki  Bk.",
+    "id": "Waki Bk.",
+    "label": "Waki Bk.",
     "parentId": "Deolgaon Raja"
   },
   {
@@ -42510,8 +41875,8 @@
     "parentId": "Jalgaon (Jamod)"
   },
   {
-    "id": "Adol  Kh.",
-    "label": "Adol  Kh.",
+    "id": "Adol Kh.",
+    "label": "Adol Kh.",
     "parentId": "Jalgaon (Jamod)"
   },
   {
@@ -42540,13 +41905,13 @@
     "parentId": "Jalgaon (Jamod)"
   },
   {
-    "id": "Bhendwad  Bk.",
-    "label": "Bhendwad  Bk.",
+    "id": "Bhendwad Bk.",
+    "label": "Bhendwad Bk.",
     "parentId": "Jalgaon (Jamod)"
   },
   {
-    "id": "Bhendwad  Kh.",
-    "label": "Bhendwad  Kh.",
+    "id": "Bhendwad Kh.",
+    "label": "Bhendwad Kh.",
     "parentId": "Jalgaon (Jamod)"
   },
   {
@@ -42620,8 +41985,8 @@
     "parentId": "Jalgaon (Jamod)"
   },
   {
-    "id": "Gadagaon  Kh.",
-    "label": "Gadagaon  Kh.",
+    "id": "Gadagaon Kh.",
+    "label": "Gadagaon Kh.",
     "parentId": "Jalgaon (Jamod)"
   },
   {
@@ -42790,8 +42155,8 @@
     "parentId": "Jalgaon (Jamod)"
   },
   {
-    "id": "Kherda  Bk.",
-    "label": "Kherda  Bk.",
+    "id": "Kherda Bk.",
+    "label": "Kherda Bk.",
     "parentId": "Jalgaon (Jamod)"
   },
   {
@@ -42815,8 +42180,8 @@
     "parentId": "Jalgaon (Jamod)"
   },
   {
-    "id": "Kurangad  Bk.",
-    "label": "Kurangad  Bk.",
+    "id": "Kurangad Bk.",
+    "label": "Kurangad Bk.",
     "parentId": "Jalgaon (Jamod)"
   },
   {
@@ -42835,8 +42200,8 @@
     "parentId": "Jalgaon (Jamod)"
   },
   {
-    "id": "Madakhed  Kh.",
-    "label": "Madakhed  Kh.",
+    "id": "Madakhed Kh.",
+    "label": "Madakhed Kh.",
     "parentId": "Jalgaon (Jamod)"
   },
   {
@@ -42880,13 +42245,13 @@
     "parentId": "Jalgaon (Jamod)"
   },
   {
-    "id": "Nimbhora  Bk.",
-    "label": "Nimbhora  Bk.",
+    "id": "Nimbhora Bk.",
+    "label": "Nimbhora Bk.",
     "parentId": "Jalgaon (Jamod)"
   },
   {
-    "id": "Nimbhora  Kh.",
-    "label": "Nimbhora  Kh.",
+    "id": "Nimbhora Kh.",
+    "label": "Nimbhora Kh.",
     "parentId": "Jalgaon (Jamod)"
   },
   {
@@ -43075,13 +42440,13 @@
     "parentId": "Jalgaon (Jamod)"
   },
   {
-    "id": "Wadgaon  Patan",
-    "label": "Wadgaon  Patan",
+    "id": "Wadgaon Patan",
+    "label": "Wadgaon Patan",
     "parentId": "Jalgaon (Jamod)"
   },
   {
-    "id": "Wadi  Bk.",
-    "label": "Wadi  Bk.",
+    "id": "Wadi Bk.",
+    "label": "Wadi Bk.",
     "parentId": "Jalgaon (Jamod)"
   },
   {
@@ -43425,13 +42790,13 @@
     "parentId": "Khamgaon"
   },
   {
-    "id": "Karegaon  Bk.",
-    "label": "Karegaon  Bk.",
+    "id": "Karegaon Bk.",
+    "label": "Karegaon Bk.",
     "parentId": "Khamgaon"
   },
   {
-    "id": "Karegaon  Kh.",
-    "label": "Karegaon  Kh.",
+    "id": "Karegaon Kh.",
+    "label": "Karegaon Kh.",
     "parentId": "Khamgaon"
   },
   {
@@ -43447,11 +42812,6 @@
   {
     "id": "Khamgaon (R)",
     "label": "Khamgaon (R)",
-    "parentId": "Khamgaon"
-  },
-  {
-    "id": "Kherdi",
-    "label": "Kherdi",
     "parentId": "Khamgaon"
   },
   {
@@ -43655,8 +43015,8 @@
     "parentId": "Khamgaon"
   },
   {
-    "id": "Pimpri  Gawli",
-    "label": "Pimpri  Gawli",
+    "id": "Pimpri Gawli",
+    "label": "Pimpri Gawli",
     "parentId": "Khamgaon"
   },
   {
@@ -43705,18 +43065,13 @@
     "parentId": "Khamgaon"
   },
   {
-    "id": "Sarola",
-    "label": "Sarola",
-    "parentId": "Khamgaon"
-  },
-  {
     "id": "Sawargaon Bk.",
     "label": "Sawargaon Bk.",
     "parentId": "Khamgaon"
   },
   {
-    "id": "Sawargaon  Kh.",
-    "label": "Sawargaon  Kh.",
+    "id": "Sawargaon Kh.",
+    "label": "Sawargaon Kh.",
     "parentId": "Khamgaon"
   },
   {
@@ -43732,11 +43087,6 @@
   {
     "id": "Shelodi",
     "label": "Shelodi",
-    "parentId": "Khamgaon"
-  },
-  {
-    "id": "Shendri",
-    "label": "Shendri",
     "parentId": "Khamgaon"
   },
   {
@@ -43775,8 +43125,8 @@
     "parentId": "Khamgaon"
   },
   {
-    "id": "Sutala  Kh.",
-    "label": "Sutala  Kh.",
+    "id": "Sutala Kh.",
+    "label": "Sutala Kh.",
     "parentId": "Khamgaon"
   },
   {
@@ -43835,8 +43185,8 @@
     "parentId": "Khamgaon"
   },
   {
-    "id": "Wahala  Kh.",
-    "label": "Wahala  Kh.",
+    "id": "Wahala Kh.",
+    "label": "Wahala Kh.",
     "parentId": "Khamgaon"
   },
   {
@@ -44530,8 +43880,8 @@
     "parentId": "Malkapur"
   },
   {
-    "id": "Malkapur  (Rural)",
-    "label": "Malkapur  (Rural)",
+    "id": "Malkapur (Rural)",
+    "label": "Malkapur (Rural)",
     "parentId": "Malkapur"
   },
   {
@@ -45085,11 +44435,6 @@
     "parentId": "Mehkar"
   },
   {
-    "id": "Malkhed",
-    "label": "Malkhed",
-    "parentId": "Mehkar"
-  },
-  {
     "id": "Mandwa (Forest)",
     "label": "Mandwa (Forest)",
     "parentId": "Mehkar"
@@ -45295,11 +44640,6 @@
     "parentId": "Mehkar"
   },
   {
-    "id": "Ratnapur",
-    "label": "Ratnapur",
-    "parentId": "Mehkar"
-  },
-  {
     "id": "Sabra",
     "label": "Sabra",
     "parentId": "Mehkar"
@@ -45335,8 +44675,8 @@
     "parentId": "Mehkar"
   },
   {
-    "id": "Shelgaon  Deshmukh",
-    "label": "Shelgaon  Deshmukh",
+    "id": "Shelgaon Deshmukh",
+    "label": "Shelgaon Deshmukh",
     "parentId": "Mehkar"
   },
   {
@@ -45637,11 +44977,6 @@
   {
     "id": "Gulbheli",
     "label": "Gulbheli",
-    "parentId": "Motala"
-  },
-  {
-    "id": "Hanwatkhed",
-    "label": "Hanwatkhed",
     "parentId": "Motala"
   },
   {
@@ -46650,8 +45985,8 @@
     "parentId": "Nandura"
   },
   {
-    "id": "Wasadi  Kh.",
-    "label": "Wasadi  Kh.",
+    "id": "Wasadi Kh.",
+    "label": "Wasadi Kh.",
     "parentId": "Nandura"
   },
   {
@@ -47330,8 +46665,8 @@
     "parentId": "Shegaon"
   },
   {
-    "id": "Gaigaon   Bk.",
-    "label": "Gaigaon   Bk.",
+    "id": "Gaigaon Bk.",
+    "label": "Gaigaon Bk.",
     "parentId": "Shegaon"
   },
   {
@@ -47430,13 +46765,13 @@
     "parentId": "Shegaon"
   },
   {
-    "id": "Lasura  Bk.",
-    "label": "Lasura  Bk.",
+    "id": "Lasura Bk.",
+    "label": "Lasura Bk.",
     "parentId": "Shegaon"
   },
   {
-    "id": "Lasura  Kh.",
-    "label": "Lasura  Kh.",
+    "id": "Lasura Kh.",
+    "label": "Lasura Kh.",
     "parentId": "Shegaon"
   },
   {
@@ -47715,11 +47050,6 @@
     "parentId": "Sindkhed Raja"
   },
   {
-    "id": "Daregaon",
-    "label": "Daregaon",
-    "parentId": "Sindkhed Raja"
-  },
-  {
     "id": "Dattapur",
     "label": "Dattapur",
     "parentId": "Sindkhed Raja"
@@ -47782,11 +47112,6 @@
   {
     "id": "Gunj Matha",
     "label": "Gunj Matha",
-    "parentId": "Sindkhed Raja"
-  },
-  {
-    "id": "Hanwatkhed",
-    "label": "Hanwatkhed",
     "parentId": "Sindkhed Raja"
   },
   {
@@ -47867,11 +47192,6 @@
   {
     "id": "Kumbefal",
     "label": "Kumbefal",
-    "parentId": "Sindkhed Raja"
-  },
-  {
-    "id": "Linga",
-    "label": "Linga",
     "parentId": "Sindkhed Raja"
   },
   {
@@ -48120,16 +47440,6 @@
     "parentId": "Sindkhed Raja"
   },
   {
-    "id": "Tandulwadi",
-    "label": "Tandulwadi",
-    "parentId": "Sindkhed Raja"
-  },
-  {
-    "id": "Tandulwadi",
-    "label": "Tandulwadi",
-    "parentId": "Sindkhed Raja"
-  },
-  {
     "id": "Ugala",
     "label": "Ugala",
     "parentId": "Sindkhed Raja"
@@ -48180,8 +47490,8 @@
     "parentId": "Sindkhed Raja"
   },
   {
-    "id": "Wakad  Jahagir",
-    "label": "Wakad  Jahagir",
+    "id": "Wakad Jahagir",
+    "label": "Wakad Jahagir",
     "parentId": "Sindkhed Raja"
   },
   {
@@ -48470,11 +47780,6 @@
     "parentId": "Bhadravati"
   },
   {
-    "id": "Chalbardi",
-    "label": "Chalbardi",
-    "parentId": "Bhadravati"
-  },
-  {
     "id": "Chandan Kheda",
     "label": "Chandan Kheda",
     "parentId": "Bhadravati"
@@ -48520,8 +47825,8 @@
     "parentId": "Bhadravati"
   },
   {
-    "id": "Chinchala  Rith",
-    "label": "Chinchala  Rith",
+    "id": "Chinchala Rith",
+    "label": "Chinchala Rith",
     "parentId": "Bhadravati"
   },
   {
@@ -48795,8 +48100,8 @@
     "parentId": "Bhadravati"
   },
   {
-    "id": "Mandapur  Rt.",
-    "label": "Mandapur  Rt.",
+    "id": "Mandapur Rt.",
+    "label": "Mandapur Rt.",
     "parentId": "Bhadravati"
   },
   {
@@ -50105,11 +49410,6 @@
     "parentId": "Chandrapur"
   },
   {
-    "id": "Nagala",
-    "label": "Nagala",
-    "parentId": "Chandrapur"
-  },
-  {
     "id": "Nagala (Mahadwadi)",
     "label": "Nagala (Mahadwadi)",
     "parentId": "Chandrapur"
@@ -50330,11 +49630,6 @@
     "parentId": "Chimur"
   },
   {
-    "id": "Adegaon",
-    "label": "Adegaon",
-    "parentId": "Chimur"
-  },
-  {
     "id": "Adegaon Chak",
     "label": "Adegaon Chak",
     "parentId": "Chimur"
@@ -50342,11 +49637,6 @@
   {
     "id": "Adhyali",
     "label": "Adhyali",
-    "parentId": "Chimur"
-  },
-  {
-    "id": "Ajgaon",
-    "label": "Ajgaon",
     "parentId": "Chimur"
   },
   {
@@ -50387,11 +49677,6 @@
   {
     "id": "Bamhangaon",
     "label": "Bamhangaon",
-    "parentId": "Chimur"
-  },
-  {
-    "id": "Bamhani",
-    "label": "Bamhani",
     "parentId": "Chimur"
   },
   {
@@ -50457,11 +49742,6 @@
   {
     "id": "Borgaon Tukum Rith",
     "label": "Borgaon Tukum Rith",
-    "parentId": "Chimur"
-  },
-  {
-    "id": "Bothali",
-    "label": "Bothali",
     "parentId": "Chimur"
   },
   {
@@ -50650,11 +49930,6 @@
     "parentId": "Chimur"
   },
   {
-    "id": "Dongargaon Rith",
-    "label": "Dongargaon Rith",
-    "parentId": "Chimur"
-  },
-  {
     "id": "Dongarla",
     "label": "Dongarla",
     "parentId": "Chimur"
@@ -50662,11 +49937,6 @@
   {
     "id": "Gadgaon",
     "label": "Gadgaon",
-    "parentId": "Chimur"
-  },
-  {
-    "id": "Gadpipari",
-    "label": "Gadpipari",
     "parentId": "Chimur"
   },
   {
@@ -50795,11 +50065,6 @@
     "parentId": "Chimur"
   },
   {
-    "id": "Kalamgaon",
-    "label": "Kalamgaon",
-    "parentId": "Chimur"
-  },
-  {
     "id": "Kanhalgaon",
     "label": "Kanhalgaon",
     "parentId": "Chimur"
@@ -50837,11 +50102,6 @@
   {
     "id": "Kasaba Pipari",
     "label": "Kasaba Pipari",
-    "parentId": "Chimur"
-  },
-  {
-    "id": "Kasarbodi",
-    "label": "Kasarbodi",
     "parentId": "Chimur"
   },
   {
@@ -50910,23 +50170,8 @@
     "parentId": "Chimur"
   },
   {
-    "id": "Khandala",
-    "label": "Khandala",
-    "parentId": "Chimur"
-  },
-  {
     "id": "Khangaon",
     "label": "Khangaon",
-    "parentId": "Chimur"
-  },
-  {
-    "id": "Khapari",
-    "label": "Khapari",
-    "parentId": "Chimur"
-  },
-  {
-    "id": "Khapari",
-    "label": "Khapari",
     "parentId": "Chimur"
   },
   {
@@ -50980,11 +50225,6 @@
     "parentId": "Chimur"
   },
   {
-    "id": "Kitadi",
-    "label": "Kitadi",
-    "parentId": "Chimur"
-  },
-  {
     "id": "Kitadi Tukum",
     "label": "Kitadi Tukum",
     "parentId": "Chimur"
@@ -51025,11 +50265,6 @@
     "parentId": "Chimur"
   },
   {
-    "id": "Kotgaon",
-    "label": "Kotgaon",
-    "parentId": "Chimur"
-  },
-  {
     "id": "Kothari",
     "label": "Kothari",
     "parentId": "Chimur"
@@ -51042,11 +50277,6 @@
   {
     "id": "Ladegaon",
     "label": "Ladegaon",
-    "parentId": "Chimur"
-  },
-  {
-    "id": "Lawari",
-    "label": "Lawari",
     "parentId": "Chimur"
   },
   {
@@ -51195,11 +50425,6 @@
     "parentId": "Chimur"
   },
   {
-    "id": "Minzari",
-    "label": "Minzari",
-    "parentId": "Chimur"
-  },
-  {
     "id": "Mokhala",
     "label": "Mokhala",
     "parentId": "Chimur"
@@ -51207,11 +50432,6 @@
   {
     "id": "Motegaon",
     "label": "Motegaon",
-    "parentId": "Chimur"
-  },
-  {
-    "id": "Murpar",
-    "label": "Murpar",
     "parentId": "Chimur"
   },
   {
@@ -51295,11 +50515,6 @@
     "parentId": "Chimur"
   },
   {
-    "id": "Panjarepar",
-    "label": "Panjarepar",
-    "parentId": "Chimur"
-  },
-  {
     "id": "Paradpar",
     "label": "Paradpar",
     "parentId": "Chimur"
@@ -51360,11 +50575,6 @@
     "parentId": "Chimur"
   },
   {
-    "id": "Pitichua",
-    "label": "Pitichua",
-    "parentId": "Chimur"
-  },
-  {
     "id": "Puyardand",
     "label": "Puyardand",
     "parentId": "Chimur"
@@ -51397,11 +50607,6 @@
   {
     "id": "Saradpar",
     "label": "Saradpar",
-    "parentId": "Chimur"
-  },
-  {
-    "id": "Satara",
-    "label": "Satara",
     "parentId": "Chimur"
   },
   {
@@ -51480,11 +50685,6 @@
     "parentId": "Chimur"
   },
   {
-    "id": "Sonegaon",
-    "label": "Sonegaon",
-    "parentId": "Chimur"
-  },
-  {
     "id": "Sonegaon Begde",
     "label": "Sonegaon Begde",
     "parentId": "Chimur"
@@ -51522,11 +50722,6 @@
   {
     "id": "Talodhi Tukum",
     "label": "Talodhi Tukum",
-    "parentId": "Chimur"
-  },
-  {
-    "id": "Tekadi",
-    "label": "Tekadi",
     "parentId": "Chimur"
   },
   {
@@ -51625,11 +50820,6 @@
     "parentId": "Chimur"
   },
   {
-    "id": "Vinoli",
-    "label": "Vinoli",
-    "parentId": "Chimur"
-  },
-  {
     "id": "Wadala",
     "label": "Wadala",
     "parentId": "Chimur"
@@ -51687,11 +50877,6 @@
   {
     "id": "Yerkheda",
     "label": "Yerkheda",
-    "parentId": "Chimur"
-  },
-  {
-    "id": "Zari",
-    "label": "Zari",
     "parentId": "Chimur"
   },
   {
@@ -51827,11 +51012,6 @@
   {
     "id": "Chak Vithalwada",
     "label": "Chak Vithalwada",
-    "parentId": "Gondpipri"
-  },
-  {
-    "id": "Chak Wedgaon",
-    "label": "Chak Wedgaon",
     "parentId": "Gondpipri"
   },
   {
@@ -52305,8 +51485,8 @@
     "parentId": "Jiwati"
   },
   {
-    "id": "Gadh  Pandharwani",
-    "label": "Gadh  Pandharwani",
+    "id": "Gadh Pandharwani",
+    "label": "Gadh Pandharwani",
     "parentId": "Jiwati"
   },
   {
@@ -53330,11 +52510,6 @@
     "parentId": "Mul"
   },
   {
-    "id": "Akapur",
-    "label": "Akapur",
-    "parentId": "Mul"
-  },
-  {
     "id": "Akapur Raiyyatwari",
     "label": "Akapur Raiyyatwari",
     "parentId": "Mul"
@@ -53895,11 +53070,6 @@
     "parentId": "Nagbhir"
   },
   {
-    "id": "Bamhani",
-    "label": "Bamhani",
-    "parentId": "Nagbhir"
-  },
-  {
     "id": "Banvahi Mal",
     "label": "Banvahi Mal",
     "parentId": "Nagbhir"
@@ -54097,11 +53267,6 @@
   {
     "id": "Kasarla",
     "label": "Kasarla",
-    "parentId": "Nagbhir"
-  },
-  {
-    "id": "Khadki",
-    "label": "Khadki",
     "parentId": "Nagbhir"
   },
   {
@@ -54455,11 +53620,6 @@
     "parentId": "Nagbhir"
   },
   {
-    "id": "Sonuli",
-    "label": "Sonuli",
-    "parentId": "Nagbhir"
-  },
-  {
     "id": "Sonuli Bk.",
     "label": "Sonuli Bk.",
     "parentId": "Nagbhir"
@@ -54547,11 +53707,6 @@
   {
     "id": "Wasala Mendha",
     "label": "Wasala Mendha",
-    "parentId": "Nagbhir"
-  },
-  {
-    "id": "Yenoli",
-    "label": "Yenoli",
     "parentId": "Nagbhir"
   },
   {
@@ -54697,11 +53852,6 @@
   {
     "id": "Chakthane Wasana",
     "label": "Chakthane Wasana",
-    "parentId": "Pombhurna"
-  },
-  {
-    "id": "Chimana Heti",
-    "label": "Chimana Heti",
     "parentId": "Pombhurna"
   },
   {
@@ -55035,8 +54185,8 @@
     "parentId": "Rajura"
   },
   {
-    "id": "Bhurkunda  Kh.",
-    "label": "Bhurkunda  Kh.",
+    "id": "Bhurkunda Kh.",
+    "label": "Bhurkunda Kh.",
     "parentId": "Rajura"
   },
   {
@@ -55845,11 +54995,6 @@
     "parentId": "Sawali"
   },
   {
-    "id": "Meha Chak",
-    "label": "Meha Chak",
-    "parentId": "Sawali"
-  },
-  {
     "id": "Meha Kh.",
     "label": "Meha Kh.",
     "parentId": "Sawali"
@@ -55862,11 +55007,6 @@
   {
     "id": "Mokhala",
     "label": "Mokhala",
-    "parentId": "Sawali"
-  },
-  {
-    "id": "Mowad Chak",
-    "label": "Mowad Chak",
     "parentId": "Sawali"
   },
   {
@@ -56200,8 +55340,8 @@
     "parentId": "Sindewahi"
   },
   {
-    "id": "Dongargaon  Salodkar",
-    "label": "Dongargaon  Salodkar",
+    "id": "Dongargaon Salodkar",
+    "label": "Dongargaon Salodkar",
     "parentId": "Sindewahi"
   },
   {
@@ -56565,11 +55705,6 @@
     "parentId": "Sindewahi"
   },
   {
-    "id": "Saradpar",
-    "label": "Saradpar",
-    "parentId": "Sindewahi"
-  },
-  {
     "id": "Saradpar Chak",
     "label": "Saradpar Chak",
     "parentId": "Sindewahi"
@@ -56842,11 +55977,6 @@
   {
     "id": "Bodakha",
     "label": "Bodakha",
-    "parentId": "Warora"
-  },
-  {
-    "id": "Bopapur",
-    "label": "Bopapur",
     "parentId": "Warora"
   },
   {
@@ -57315,11 +56445,6 @@
     "parentId": "Warora"
   },
   {
-    "id": "Nandara",
-    "label": "Nandara",
-    "parentId": "Warora"
-  },
-  {
     "id": "Nawargaon",
     "label": "Nawargaon",
     "parentId": "Warora"
@@ -57567,16 +56692,6 @@
   {
     "id": "Waddha Tukum Rith",
     "label": "Waddha Tukum Rith",
-    "parentId": "Warora"
-  },
-  {
-    "id": "Wadgaon",
-    "label": "Wadgaon",
-    "parentId": "Warora"
-  },
-  {
-    "id": "Wadgaon",
-    "label": "Wadgaon",
     "parentId": "Warora"
   },
   {
@@ -57947,11 +57062,6 @@
   {
     "id": "Hendrun",
     "label": "Hendrun",
-    "parentId": "Dhule"
-  },
-  {
-    "id": "Henkalwadi",
-    "label": "Henkalwadi",
     "parentId": "Dhule"
   },
   {
@@ -58370,8 +57480,8 @@
     "parentId": "Dhule"
   },
   {
-    "id": "Shirdane  Pr.Ner",
-    "label": "Shirdane  Pr.Ner",
+    "id": "Shirdane Pr.Ner",
+    "label": "Shirdane Pr.Ner",
     "parentId": "Dhule"
   },
   {
@@ -58542,11 +57652,6 @@
   {
     "id": "Amkhel",
     "label": "Amkhel",
-    "parentId": "Sakri"
-  },
-  {
-    "id": "Amode",
-    "label": "Amode",
     "parentId": "Sakri"
   },
   {
@@ -58782,11 +57887,6 @@
   {
     "id": "Dhangai",
     "label": "Dhangai",
-    "parentId": "Sakri"
-  },
-  {
-    "id": "Dhavali Vihir",
-    "label": "Dhavali Vihir",
     "parentId": "Sakri"
   },
   {
@@ -59875,11 +58975,6 @@
     "parentId": "Shirpur"
   },
   {
-    "id": "Fattepur",
-    "label": "Fattepur",
-    "parentId": "Shirpur"
-  },
-  {
     "id": "Gadhaddeo",
     "label": "Gadhaddeo",
     "parentId": "Shirpur"
@@ -60905,11 +60000,6 @@
     "parentId": "Sindkhede"
   },
   {
-    "id": "Shewade",
-    "label": "Shewade",
-    "parentId": "Sindkhede"
-  },
-  {
     "id": "Shindkhede",
     "label": "Shindkhede",
     "parentId": "Sindkhede"
@@ -61260,18 +60350,18 @@
     "parentId": "Aheri"
   },
   {
-    "id": "Dechali  S",
-    "label": "Dechali  S",
+    "id": "Dechali S",
+    "label": "Dechali S",
     "parentId": "Aheri"
   },
   {
-    "id": "Devalmari  M",
-    "label": "Devalmari  M",
+    "id": "Devalmari M",
+    "label": "Devalmari M",
     "parentId": "Aheri"
   },
   {
-    "id": "Devalmari  S",
-    "label": "Devalmari  S",
+    "id": "Devalmari S",
+    "label": "Devalmari S",
     "parentId": "Aheri"
   },
   {
@@ -61330,8 +60420,8 @@
     "parentId": "Aheri"
   },
   {
-    "id": "Gundera  S",
-    "label": "Gundera  S",
+    "id": "Gundera S",
+    "label": "Gundera S",
     "parentId": "Aheri"
   },
   {
@@ -61350,8 +60440,8 @@
     "parentId": "Aheri"
   },
   {
-    "id": "Indaram  S",
-    "label": "Indaram  S",
+    "id": "Indaram S",
+    "label": "Indaram S",
     "parentId": "Aheri"
   },
   {
@@ -61365,13 +60455,8 @@
     "parentId": "Aheri"
   },
   {
-    "id": "Jimmalgatta  S",
-    "label": "Jimmalgatta  S",
-    "parentId": "Aheri"
-  },
-  {
-    "id": "Joganguda",
-    "label": "Joganguda",
+    "id": "Jimmalgatta S",
+    "label": "Jimmalgatta S",
     "parentId": "Aheri"
   },
   {
@@ -61415,13 +60500,13 @@
     "parentId": "Aheri"
   },
   {
-    "id": "Katepalli  M",
-    "label": "Katepalli  M",
+    "id": "Katepalli M",
+    "label": "Katepalli M",
     "parentId": "Aheri"
   },
   {
-    "id": "Katepalli  S",
-    "label": "Katepalli  S",
+    "id": "Katepalli S",
+    "label": "Katepalli S",
     "parentId": "Aheri"
   },
   {
@@ -61430,13 +60515,13 @@
     "parentId": "Aheri"
   },
   {
-    "id": "Kerneli  M",
-    "label": "Kerneli  M",
+    "id": "Kerneli M",
+    "label": "Kerneli M",
     "parentId": "Aheri"
   },
   {
-    "id": "Kerneli  S",
-    "label": "Kerneli  S",
+    "id": "Kerneli S",
+    "label": "Kerneli S",
     "parentId": "Aheri"
   },
   {
@@ -61455,13 +60540,13 @@
     "parentId": "Aheri"
   },
   {
-    "id": "Kodsepalli  M",
-    "label": "Kodsepalli  M",
+    "id": "Kodsepalli M",
+    "label": "Kodsepalli M",
     "parentId": "Aheri"
   },
   {
-    "id": "Kodsepalli  S",
-    "label": "Kodsepalli  S",
+    "id": "Kodsepalli S",
+    "label": "Kodsepalli S",
     "parentId": "Aheri"
   },
   {
@@ -61470,8 +60555,8 @@
     "parentId": "Aheri"
   },
   {
-    "id": "Kolapalli  M",
-    "label": "Kolapalli  M",
+    "id": "Kolapalli M",
+    "label": "Kolapalli M",
     "parentId": "Aheri"
   },
   {
@@ -61500,13 +60585,13 @@
     "parentId": "Aheri"
   },
   {
-    "id": "Krishnapur  M",
-    "label": "Krishnapur  M",
+    "id": "Krishnapur M",
+    "label": "Krishnapur M",
     "parentId": "Aheri"
   },
   {
-    "id": "Krishnapur  S",
-    "label": "Krishnapur  S",
+    "id": "Krishnapur S",
+    "label": "Krishnapur S",
     "parentId": "Aheri"
   },
   {
@@ -61530,18 +60615,18 @@
     "parentId": "Aheri"
   },
   {
-    "id": "Lakhanguda  S",
-    "label": "Lakhanguda  S",
+    "id": "Lakhanguda S",
+    "label": "Lakhanguda S",
     "parentId": "Aheri"
   },
   {
-    "id": "Lankachan  S",
-    "label": "Lankachan  S",
+    "id": "Lankachan S",
+    "label": "Lankachan S",
     "parentId": "Aheri"
   },
   {
-    "id": "Lankachen  M",
-    "label": "Lankachen  M",
+    "id": "Lankachen M",
+    "label": "Lankachen M",
     "parentId": "Aheri"
   },
   {
@@ -61565,8 +60650,8 @@
     "parentId": "Aheri"
   },
   {
-    "id": "Mahagaon  M",
-    "label": "Mahagaon  M",
+    "id": "Mahagaon M",
+    "label": "Mahagaon M",
     "parentId": "Aheri"
   },
   {
@@ -61580,8 +60665,8 @@
     "parentId": "Aheri"
   },
   {
-    "id": "Marneli  M",
-    "label": "Marneli  M",
+    "id": "Marneli M",
+    "label": "Marneli M",
     "parentId": "Aheri"
   },
   {
@@ -61612,11 +60697,6 @@
   {
     "id": "Mirkal M",
     "label": "Mirkal M",
-    "parentId": "Aheri"
-  },
-  {
-    "id": "Modumadgu",
-    "label": "Modumadgu",
     "parentId": "Aheri"
   },
   {
@@ -61697,11 +60777,6 @@
   {
     "id": "Patanil",
     "label": "Patanil",
-    "parentId": "Aheri"
-  },
-  {
-    "id": "Pattigaon M",
-    "label": "Pattigaon M",
     "parentId": "Aheri"
   },
   {
@@ -61950,8 +61025,8 @@
     "parentId": "Aheri"
   },
   {
-    "id": "Watra Kh  S",
-    "label": "Watra Kh  S",
+    "id": "Watra Kh S",
+    "label": "Watra Kh S",
     "parentId": "Aheri"
   },
   {
@@ -62110,8 +61185,8 @@
     "parentId": "Armori"
   },
   {
-    "id": "Deloda  Kh",
-    "label": "Deloda  Kh",
+    "id": "Deloda Kh",
+    "label": "Deloda Kh",
     "parentId": "Armori"
   },
   {
@@ -62267,11 +61342,6 @@
   {
     "id": "Mangewada",
     "label": "Mangewada",
-    "parentId": "Armori"
-  },
-  {
-    "id": "Mendha",
-    "label": "Mendha",
     "parentId": "Armori"
   },
   {
@@ -62877,11 +61947,6 @@
   {
     "id": "Krisnar S",
     "label": "Krisnar S",
-    "parentId": "Bhamragad"
-  },
-  {
-    "id": "Kucher (M)",
-    "label": "Kucher (M)",
     "parentId": "Bhamragad"
   },
   {
@@ -63970,11 +63035,6 @@
     "parentId": "Chamorshi"
   },
   {
-    "id": "Rampur",
-    "label": "Rampur",
-    "parentId": "Chamorshi"
-  },
-  {
     "id": "Ramsagar",
     "label": "Ramsagar",
     "parentId": "Chamorshi"
@@ -64002,11 +63062,6 @@
   {
     "id": "Rekhegaon",
     "label": "Rekhegaon",
-    "parentId": "Chamorshi"
-  },
-  {
-    "id": "Saganapur",
-    "label": "Saganapur",
     "parentId": "Chamorshi"
   },
   {
@@ -64325,13 +63380,13 @@
     "parentId": "Desaiganj (Vadasa)"
   },
   {
-    "id": "Shelda  Lambe",
-    "label": "Shelda  Lambe",
+    "id": "Shelda Lambe",
+    "label": "Shelda Lambe",
     "parentId": "Desaiganj (Vadasa)"
   },
   {
-    "id": "Shelda  Tukum",
-    "label": "Shelda  Tukum",
+    "id": "Shelda Tukum",
+    "label": "Shelda Tukum",
     "parentId": "Desaiganj (Vadasa)"
   },
   {
@@ -64770,16 +63825,6 @@
     "parentId": "Dhanora"
   },
   {
-    "id": "Kanhalgaon",
-    "label": "Kanhalgaon",
-    "parentId": "Dhanora"
-  },
-  {
-    "id": "Kanhalgaon",
-    "label": "Kanhalgaon",
-    "parentId": "Dhanora"
-  },
-  {
     "id": "Kanhaltola",
     "label": "Kanhaltola",
     "parentId": "Dhanora"
@@ -64797,11 +63842,6 @@
   {
     "id": "Karwafa",
     "label": "Karwafa",
-    "parentId": "Dhanora"
-  },
-  {
-    "id": "Katezari",
-    "label": "Katezari",
     "parentId": "Dhanora"
   },
   {
@@ -64945,11 +63985,6 @@
     "parentId": "Dhanora"
   },
   {
-    "id": "Mahawada",
-    "label": "Mahawada",
-    "parentId": "Dhanora"
-  },
-  {
     "id": "Makepayli",
     "label": "Makepayli",
     "parentId": "Dhanora"
@@ -64967,16 +64002,6 @@
   {
     "id": "Man Jewada",
     "label": "Man Jewada",
-    "parentId": "Dhanora"
-  },
-  {
-    "id": "Markagaon",
-    "label": "Markagaon",
-    "parentId": "Dhanora"
-  },
-  {
-    "id": "Markagaon",
-    "label": "Markagaon",
     "parentId": "Dhanora"
   },
   {
@@ -65005,11 +64030,6 @@
     "parentId": "Dhanora"
   },
   {
-    "id": "Mendha",
-    "label": "Mendha",
-    "parentId": "Dhanora"
-  },
-  {
     "id": "Mendhatola",
     "label": "Mendhatola",
     "parentId": "Dhanora"
@@ -65017,11 +64037,6 @@
   {
     "id": "Metejangada",
     "label": "Metejangada",
-    "parentId": "Dhanora"
-  },
-  {
-    "id": "Michagaon",
-    "label": "Michagaon",
     "parentId": "Dhanora"
   },
   {
@@ -65052,11 +64067,6 @@
   {
     "id": "Moholi",
     "label": "Moholi",
-    "parentId": "Dhanora"
-  },
-  {
-    "id": "Morchul",
-    "label": "Morchul",
     "parentId": "Dhanora"
   },
   {
@@ -65125,11 +64135,6 @@
     "parentId": "Dhanora"
   },
   {
-    "id": "Nimgaon",
-    "label": "Nimgaon",
-    "parentId": "Dhanora"
-  },
-  {
     "id": "Padaboriya",
     "label": "Padaboriya",
     "parentId": "Dhanora"
@@ -65167,11 +64172,6 @@
   {
     "id": "Paraswadi",
     "label": "Paraswadi",
-    "parentId": "Dhanora"
-  },
-  {
-    "id": "Pathargota",
-    "label": "Pathargota",
     "parentId": "Dhanora"
   },
   {
@@ -65305,11 +64305,6 @@
     "parentId": "Dhanora"
   },
   {
-    "id": "Salebhatti",
-    "label": "Salebhatti",
-    "parentId": "Dhanora"
-  },
-  {
     "id": "Saranda Bk",
     "label": "Saranda Bk",
     "parentId": "Dhanora"
@@ -65345,11 +64340,6 @@
     "parentId": "Dhanora"
   },
   {
-    "id": "Sindesur",
-    "label": "Sindesur",
-    "parentId": "Dhanora"
-  },
-  {
     "id": "Sindewahi",
     "label": "Sindewahi",
     "parentId": "Dhanora"
@@ -65357,11 +64347,6 @@
   {
     "id": "Singapur",
     "label": "Singapur",
-    "parentId": "Dhanora"
-  },
-  {
-    "id": "Sinsur",
-    "label": "Sinsur",
     "parentId": "Dhanora"
   },
   {
@@ -65445,16 +64430,6 @@
     "parentId": "Dhanora"
   },
   {
-    "id": "Wadgaon",
-    "label": "Wadgaon",
-    "parentId": "Dhanora"
-  },
-  {
-    "id": "Waghbhumi",
-    "label": "Waghbhumi",
-    "parentId": "Dhanora"
-  },
-  {
     "id": "Waghbhumi",
     "label": "Waghbhumi",
     "parentId": "Dhanora"
@@ -65530,8 +64505,8 @@
     "parentId": "Etapalli"
   },
   {
-    "id": "Alenga  M",
-    "label": "Alenga  M",
+    "id": "Alenga M",
+    "label": "Alenga M",
     "parentId": "Etapalli"
   },
   {
@@ -65915,11 +64890,6 @@
     "parentId": "Etapalli"
   },
   {
-    "id": "Karrem (M)",
-    "label": "Karrem (M)",
-    "parentId": "Etapalli"
-  },
-  {
     "id": "Kasansur",
     "label": "Kasansur",
     "parentId": "Etapalli"
@@ -66215,11 +65185,6 @@
     "parentId": "Etapalli"
   },
   {
-    "id": "Petha (S)",
-    "label": "Petha (S)",
-    "parentId": "Etapalli"
-  },
-  {
     "id": "Pindiguddam(M)",
     "label": "Pindiguddam(M)",
     "parentId": "Etapalli"
@@ -66365,8 +65330,8 @@
     "parentId": "Etapalli"
   },
   {
-    "id": "Todsa  (S)",
-    "label": "Todsa  (S)",
+    "id": "Todsa (S)",
+    "label": "Todsa (S)",
     "parentId": "Etapalli"
   },
   {
@@ -67120,11 +66085,6 @@
     "parentId": "Korchi"
   },
   {
-    "id": "Ambekhari",
-    "label": "Ambekhari",
-    "parentId": "Korchi"
-  },
-  {
     "id": "Antargaon",
     "label": "Antargaon",
     "parentId": "Korchi"
@@ -67352,11 +66312,6 @@
   {
     "id": "Jambhali",
     "label": "Jambhali",
-    "parentId": "Korchi"
-  },
-  {
-    "id": "Jamnara",
-    "label": "Jamnara",
     "parentId": "Korchi"
   },
   {
@@ -67625,11 +66580,6 @@
     "parentId": "Korchi"
   },
   {
-    "id": "Rajatola",
-    "label": "Rajatola",
-    "parentId": "Korchi"
-  },
-  {
     "id": "Ramsaytola",
     "label": "Ramsaytola",
     "parentId": "Korchi"
@@ -67637,11 +66587,6 @@
   {
     "id": "Rankatta",
     "label": "Rankatta",
-    "parentId": "Korchi"
-  },
-  {
-    "id": "Salhe",
-    "label": "Salhe",
     "parentId": "Korchi"
   },
   {
@@ -67757,11 +66702,6 @@
   {
     "id": "Ambezari",
     "label": "Ambezari",
-    "parentId": "Kurkheda"
-  },
-  {
-    "id": "Andhali",
-    "label": "Andhali",
     "parentId": "Kurkheda"
   },
   {
@@ -67945,11 +66885,6 @@
     "parentId": "Kurkheda"
   },
   {
-    "id": "Dongargaon",
-    "label": "Dongargaon",
-    "parentId": "Kurkheda"
-  },
-  {
     "id": "Fari",
     "label": "Fari",
     "parentId": "Kurkheda"
@@ -68090,11 +67025,6 @@
     "parentId": "Kurkheda"
   },
   {
-    "id": "Khedegaon",
-    "label": "Khedegaon",
-    "parentId": "Kurkheda"
-  },
-  {
     "id": "Khobramendha",
     "label": "Khobramendha",
     "parentId": "Kurkheda"
@@ -68162,11 +67092,6 @@
   {
     "id": "Maushi",
     "label": "Maushi",
-    "parentId": "Kurkheda"
-  },
-  {
-    "id": "Mendha",
-    "label": "Mendha",
     "parentId": "Kurkheda"
   },
   {
@@ -68740,8 +67665,8 @@
     "parentId": "Sironcha"
   },
   {
-    "id": "Aipeta  Ry.",
-    "label": "Aipeta  Ry.",
+    "id": "Aipeta Ry.",
+    "label": "Aipeta Ry.",
     "parentId": "Sironcha"
   },
   {
@@ -69260,13 +68185,13 @@
     "parentId": "Sironcha"
   },
   {
-    "id": "Ramannapetha  Ray",
-    "label": "Ramannapetha  Ray",
+    "id": "Ramannapetha Ray",
+    "label": "Ramannapetha Ray",
     "parentId": "Sironcha"
   },
   {
-    "id": "Ramanuja  Ganpati",
-    "label": "Ramanuja  Ganpati",
+    "id": "Ramanuja Ganpati",
+    "label": "Ramanuja Ganpati",
     "parentId": "Sironcha"
   },
   {
@@ -69785,11 +68710,6 @@
     "parentId": "Amgaon"
   },
   {
-    "id": "Pipartola",
-    "label": "Pipartola",
-    "parentId": "Amgaon"
-  },
-  {
     "id": "Ramatola",
     "label": "Ramatola",
     "parentId": "Amgaon"
@@ -69892,16 +68812,6 @@
   {
     "id": "Ambhora",
     "label": "Ambhora",
-    "parentId": "Arjuni Morgaon"
-  },
-  {
-    "id": "Arattondi",
-    "label": "Arattondi",
-    "parentId": "Arjuni Morgaon"
-  },
-  {
-    "id": "Arattondi",
-    "label": "Arattondi",
     "parentId": "Arjuni Morgaon"
   },
   {
@@ -70045,11 +68955,6 @@
     "parentId": "Arjuni Morgaon"
   },
   {
-    "id": "Dewalgaon",
-    "label": "Dewalgaon",
-    "parentId": "Arjuni Morgaon"
-  },
-  {
     "id": "Dhabetekadi",
     "label": "Dhabetekadi",
     "parentId": "Arjuni Morgaon"
@@ -70077,21 +68982,6 @@
   {
     "id": "Doma",
     "label": "Doma",
-    "parentId": "Arjuni Morgaon"
-  },
-  {
-    "id": "Dongargaon",
-    "label": "Dongargaon",
-    "parentId": "Arjuni Morgaon"
-  },
-  {
-    "id": "Dongargaon",
-    "label": "Dongargaon",
-    "parentId": "Arjuni Morgaon"
-  },
-  {
-    "id": "Dongargaon",
-    "label": "Dongargaon",
     "parentId": "Arjuni Morgaon"
   },
   {
@@ -70175,16 +69065,6 @@
     "parentId": "Arjuni Morgaon"
   },
   {
-    "id": "Jambhali",
-    "label": "Jambhali",
-    "parentId": "Arjuni Morgaon"
-  },
-  {
-    "id": "Jambhali",
-    "label": "Jambhali",
-    "parentId": "Arjuni Morgaon"
-  },
-  {
     "id": "Janawa",
     "label": "Janawa",
     "parentId": "Arjuni Morgaon"
@@ -70212,16 +69092,6 @@
   {
     "id": "Kaneri",
     "label": "Kaneri",
-    "parentId": "Arjuni Morgaon"
-  },
-  {
-    "id": "Kanhalgaon",
-    "label": "Kanhalgaon",
-    "parentId": "Arjuni Morgaon"
-  },
-  {
-    "id": "Kanhalgaon",
-    "label": "Kanhalgaon",
     "parentId": "Arjuni Morgaon"
   },
   {
@@ -70365,11 +69235,6 @@
     "parentId": "Arjuni Morgaon"
   },
   {
-    "id": "Mandokhal",
-    "label": "Mandokhal",
-    "parentId": "Arjuni Morgaon"
-  },
-  {
     "id": "Mohgaon (R.H.V.)",
     "label": "Mohgaon (R.H.V.)",
     "parentId": "Arjuni Morgaon"
@@ -70397,11 +69262,6 @@
   {
     "id": "Nilaj",
     "label": "Nilaj",
-    "parentId": "Arjuni Morgaon"
-  },
-  {
-    "id": "Nimgaon",
-    "label": "Nimgaon",
     "parentId": "Arjuni Morgaon"
   },
   {
@@ -70545,11 +69405,6 @@
     "parentId": "Arjuni Morgaon"
   },
   {
-    "id": "Somalpur",
-    "label": "Somalpur",
-    "parentId": "Arjuni Morgaon"
-  },
-  {
     "id": "Sonegaon",
     "label": "Sonegaon",
     "parentId": "Arjuni Morgaon"
@@ -70590,11 +69445,6 @@
     "parentId": "Arjuni Morgaon"
   },
   {
-    "id": "Tidka",
-    "label": "Tidka",
-    "parentId": "Arjuni Morgaon"
-  },
-  {
     "id": "Tirkhuri",
     "label": "Tirkhuri",
     "parentId": "Arjuni Morgaon"
@@ -70602,11 +69452,6 @@
   {
     "id": "Tukum Narayan",
     "label": "Tukum Narayan",
-    "parentId": "Arjuni Morgaon"
-  },
-  {
-    "id": "Tumdimendha",
-    "label": "Tumdimendha",
     "parentId": "Arjuni Morgaon"
   },
   {
@@ -70652,21 +69497,6 @@
   {
     "id": "Yelodi",
     "label": "Yelodi",
-    "parentId": "Arjuni Morgaon"
-  },
-  {
-    "id": "Yerandi",
-    "label": "Yerandi",
-    "parentId": "Arjuni Morgaon"
-  },
-  {
-    "id": "Yerandi",
-    "label": "Yerandi",
-    "parentId": "Arjuni Morgaon"
-  },
-  {
-    "id": "Yerandi",
-    "label": "Yerandi",
     "parentId": "Arjuni Morgaon"
   },
   {
@@ -70730,11 +69560,6 @@
     "parentId": "Deori"
   },
   {
-    "id": "Bhagi",
-    "label": "Bhagi",
-    "parentId": "Deori"
-  },
-  {
     "id": "Bhandari (R.H.V.)",
     "label": "Bhandari (R.H.V.)",
     "parentId": "Deori"
@@ -70762,16 +69587,6 @@
   {
     "id": "Borgaon",
     "label": "Borgaon",
-    "parentId": "Deori"
-  },
-  {
-    "id": "Borgaon",
-    "label": "Borgaon",
-    "parentId": "Deori"
-  },
-  {
-    "id": "Charbhata",
-    "label": "Charbhata",
     "parentId": "Deori"
   },
   {
@@ -70835,11 +69650,6 @@
     "parentId": "Deori"
   },
   {
-    "id": "Dhamditola",
-    "label": "Dhamditola",
-    "parentId": "Deori"
-  },
-  {
     "id": "Dhanori",
     "label": "Dhanori",
     "parentId": "Deori"
@@ -70862,11 +69672,6 @@
   {
     "id": "Dhodhara",
     "label": "Dhodhara",
-    "parentId": "Deori"
-  },
-  {
-    "id": "Dongargaon",
-    "label": "Dongargaon",
     "parentId": "Deori"
   },
   {
@@ -71120,11 +69925,6 @@
     "parentId": "Deori"
   },
   {
-    "id": "Murpar",
-    "label": "Murpar",
-    "parentId": "Deori"
-  },
-  {
     "id": "Murpar Rithi",
     "label": "Murpar Rithi",
     "parentId": "Deori"
@@ -71142,11 +69942,6 @@
   {
     "id": "Owara",
     "label": "Owara",
-    "parentId": "Deori"
-  },
-  {
-    "id": "Padampur",
-    "label": "Padampur",
     "parentId": "Deori"
   },
   {
@@ -71192,11 +69987,6 @@
   {
     "id": "Paulzola",
     "label": "Paulzola",
-    "parentId": "Deori"
-  },
-  {
-    "id": "Pindakepar",
-    "label": "Pindakepar",
     "parentId": "Deori"
   },
   {
@@ -71277,11 +70067,6 @@
   {
     "id": "Singandoh",
     "label": "Singandoh",
-    "parentId": "Deori"
-  },
-  {
-    "id": "Sirpur",
-    "label": "Sirpur",
     "parentId": "Deori"
   },
   {
@@ -71437,11 +70222,6 @@
   {
     "id": "Bijaitola",
     "label": "Bijaitola",
-    "parentId": "Gondiya"
-  },
-  {
-    "id": "Birsi",
-    "label": "Birsi",
     "parentId": "Gondiya"
   },
   {
@@ -71620,18 +70400,8 @@
     "parentId": "Gondiya"
   },
   {
-    "id": "Gondi Tola",
-    "label": "Gondi Tola",
-    "parentId": "Gondiya"
-  },
-  {
     "id": "Gudama",
     "label": "Gudama",
-    "parentId": "Gondiya"
-  },
-  {
-    "id": "Halbi Tola",
-    "label": "Halbi Tola",
     "parentId": "Gondiya"
   },
   {
@@ -71690,11 +70460,6 @@
     "parentId": "Gondiya"
   },
   {
-    "id": "Kanhartola",
-    "label": "Kanhartola",
-    "parentId": "Gondiya"
-  },
-  {
     "id": "Karanja",
     "label": "Karanja",
     "parentId": "Gondiya"
@@ -71712,11 +70477,6 @@
   {
     "id": "Katangi Kala (Ct)",
     "label": "Katangi Kala (Ct)",
-    "parentId": "Gondiya"
-  },
-  {
-    "id": "Katang Tola",
-    "label": "Katang Tola",
     "parentId": "Gondiya"
   },
   {
@@ -71805,16 +70565,6 @@
     "parentId": "Gondiya"
   },
   {
-    "id": "Lodhi Tola",
-    "label": "Lodhi Tola",
-    "parentId": "Gondiya"
-  },
-  {
-    "id": "Lodhi Tola",
-    "label": "Lodhi Tola",
-    "parentId": "Gondiya"
-  },
-  {
     "id": "Lohara",
     "label": "Lohara",
     "parentId": "Gondiya"
@@ -71832,11 +70582,6 @@
   {
     "id": "Makadi",
     "label": "Makadi",
-    "parentId": "Gondiya"
-  },
-  {
-    "id": "Marartola",
-    "label": "Marartola",
     "parentId": "Gondiya"
   },
   {
@@ -71952,11 +70697,6 @@
   {
     "id": "Pindkepartola",
     "label": "Pindkepartola",
-    "parentId": "Gondiya"
-  },
-  {
-    "id": "Pipartola",
-    "label": "Pipartola",
     "parentId": "Gondiya"
   },
   {
@@ -72620,11 +71360,6 @@
     "parentId": "Sadak-Arjuni"
   },
   {
-    "id": "Bamhani",
-    "label": "Bamhani",
-    "parentId": "Sadak-Arjuni"
-  },
-  {
     "id": "Baudhnagar",
     "label": "Baudhnagar",
     "parentId": "Sadak-Arjuni"
@@ -72702,11 +71437,6 @@
   {
     "id": "Dodke",
     "label": "Dodke",
-    "parentId": "Sadak-Arjuni"
-  },
-  {
-    "id": "Dongargaon",
-    "label": "Dongargaon",
     "parentId": "Sadak-Arjuni"
   },
   {
@@ -72825,8 +71555,8 @@
     "parentId": "Sadak-Arjuni"
   },
   {
-    "id": "Khari Hamesh  Rithi",
-    "label": "Khari Hamesh  Rithi",
+    "id": "Khari Hamesh Rithi",
+    "label": "Khari Hamesh Rithi",
     "parentId": "Sadak-Arjuni"
   },
   {
@@ -72852,11 +71582,6 @@
   {
     "id": "Kohalipar",
     "label": "Kohalipar",
-    "parentId": "Sadak-Arjuni"
-  },
-  {
-    "id": "Kohalitola",
-    "label": "Kohalitola",
     "parentId": "Sadak-Arjuni"
   },
   {
@@ -72965,16 +71690,6 @@
     "parentId": "Sadak-Arjuni"
   },
   {
-    "id": "Mundipar",
-    "label": "Mundipar",
-    "parentId": "Sadak-Arjuni"
-  },
-  {
-    "id": "Murpar",
-    "label": "Murpar",
-    "parentId": "Sadak-Arjuni"
-  },
-  {
     "id": "Murpar",
     "label": "Murpar",
     "parentId": "Sadak-Arjuni"
@@ -72995,18 +71710,8 @@
     "parentId": "Sadak-Arjuni"
   },
   {
-    "id": "Palasgaon",
-    "label": "Palasgaon",
-    "parentId": "Sadak-Arjuni"
-  },
-  {
     "id": "Pandhari",
     "label": "Pandhari",
-    "parentId": "Sadak-Arjuni"
-  },
-  {
-    "id": "Pandharwani",
-    "label": "Pandharwani",
     "parentId": "Sadak-Arjuni"
   },
   {
@@ -73065,11 +71770,6 @@
     "parentId": "Sadak-Arjuni"
   },
   {
-    "id": "Rengepar",
-    "label": "Rengepar",
-    "parentId": "Sadak-Arjuni"
-  },
-  {
     "id": "Sadakarjuni",
     "label": "Sadakarjuni",
     "parentId": "Sadak-Arjuni"
@@ -73117,11 +71817,6 @@
   {
     "id": "Temani",
     "label": "Temani",
-    "parentId": "Sadak-Arjuni"
-  },
-  {
-    "id": "Thadezari",
-    "label": "Thadezari",
     "parentId": "Sadak-Arjuni"
   },
   {
@@ -73302,11 +71997,6 @@
   {
     "id": "Gorre",
     "label": "Gorre",
-    "parentId": "Salekasa"
-  },
-  {
-    "id": "Halbitola",
-    "label": "Halbitola",
     "parentId": "Salekasa"
   },
   {
@@ -73652,11 +72342,6 @@
   {
     "id": "Belati Bk",
     "label": "Belati Bk",
-    "parentId": "Tirora"
-  },
-  {
-    "id": "Berdipar",
-    "label": "Berdipar",
     "parentId": "Tirora"
   },
   {
@@ -74665,8 +73350,8 @@
     "parentId": "Aundha (Nagnath)"
   },
   {
-    "id": "Sanghanaik  Tanda",
-    "label": "Sanghanaik  Tanda",
+    "id": "Sanghanaik Tanda",
+    "label": "Sanghanaik Tanda",
     "parentId": "Aundha (Nagnath)"
   },
   {
@@ -76325,8 +75010,8 @@
     "parentId": "Hingoli"
   },
   {
-    "id": "Wadhona  Pr. Washim",
-    "label": "Wadhona  Pr. Washim",
+    "id": "Wadhona Pr. Washim",
+    "label": "Wadhona Pr. Washim",
     "parentId": "Hingoli"
   },
   {
@@ -76732,11 +75417,6 @@
   {
     "id": "Krishnapur Tarf Shewala",
     "label": "Krishnapur Tarf Shewala",
-    "parentId": "Kalamnuri"
-  },
-  {
-    "id": "Kumbharwadi",
-    "label": "Kumbharwadi",
     "parentId": "Kalamnuri"
   },
   {
@@ -77195,11 +75875,6 @@
     "parentId": "Sengaon"
   },
   {
-    "id": "Borkhadi",
-    "label": "Borkhadi",
-    "parentId": "Sengaon"
-  },
-  {
     "id": "Bramhanwada Pra Washim",
     "label": "Bramhanwada Pra Washim",
     "parentId": "Sengaon"
@@ -77272,11 +75947,6 @@
   {
     "id": "Ganeshpur",
     "label": "Ganeshpur",
-    "parentId": "Sengaon"
-  },
-  {
-    "id": "Garkheda",
-    "label": "Garkheda",
     "parentId": "Sengaon"
   },
   {
@@ -79335,8 +78005,8 @@
     "parentId": "Bodvad"
   },
   {
-    "id": "Varad  Bk.",
-    "label": "Varad  Bk.",
+    "id": "Varad Bk.",
+    "label": "Varad Bk.",
     "parentId": "Bodvad"
   },
   {
@@ -80335,11 +79005,6 @@
     "parentId": "Chopda"
   },
   {
-    "id": "Karjane",
-    "label": "Karjane",
-    "parentId": "Chopda"
-  },
-  {
     "id": "Kathore",
     "label": "Kathore",
     "parentId": "Chopda"
@@ -80715,8 +79380,8 @@
     "parentId": "Dharangaon"
   },
   {
-    "id": "Bambhori  Pracha",
-    "label": "Bambhori  Pracha",
+    "id": "Bambhori Pracha",
+    "label": "Bambhori Pracha",
     "parentId": "Dharangaon"
   },
   {
@@ -82190,8 +80855,8 @@
     "parentId": "Jamner"
   },
   {
-    "id": "Kodoli      .",
-    "label": "Kodoli      .",
+    "id": "Kodoli .",
+    "label": "Kodoli .",
     "parentId": "Jamner"
   },
   {
@@ -82290,8 +80955,8 @@
     "parentId": "Jamner"
   },
   {
-    "id": "Morad      .",
-    "label": "Morad      .",
+    "id": "Morad .",
+    "label": "Morad .",
     "parentId": "Jamner"
   },
   {
@@ -82320,8 +80985,8 @@
     "parentId": "Jamner"
   },
   {
-    "id": "Nagan  Kh .",
-    "label": "Nagan  Kh .",
+    "id": "Nagan Kh .",
+    "label": "Nagan Kh .",
     "parentId": "Jamner"
   },
   {
@@ -82945,8 +81610,8 @@
     "parentId": "Muktainagar (Edlabad)"
   },
   {
-    "id": "Nimkhedi  Bk.",
-    "label": "Nimkhedi  Bk.",
+    "id": "Nimkhedi Bk.",
+    "label": "Nimkhedi Bk.",
     "parentId": "Muktainagar (Edlabad)"
   },
   {
@@ -83355,8 +82020,8 @@
     "parentId": "Pachora"
   },
   {
-    "id": "Lakh         .",
-    "label": "Lakh         .",
+    "id": "Lakh .",
+    "label": "Lakh .",
     "parentId": "Pachora"
   },
   {
@@ -84170,8 +82835,8 @@
     "parentId": "Parola"
   },
   {
-    "id": "Shevage  Bk.",
-    "label": "Shevage  Bk.",
+    "id": "Shevage Bk.",
+    "label": "Shevage Bk.",
     "parentId": "Parola"
   },
   {
@@ -84675,8 +83340,8 @@
     "parentId": "Raver"
   },
   {
-    "id": "Nimbhore  Bk.",
-    "label": "Nimbhore  Bk.",
+    "id": "Nimbhore Bk.",
+    "label": "Nimbhore Bk.",
     "parentId": "Raver"
   },
   {
@@ -84870,8 +83535,8 @@
     "parentId": "Raver"
   },
   {
-    "id": "Udhali  Kh",
-    "label": "Udhali  Kh",
+    "id": "Udhali Kh",
+    "label": "Udhali Kh",
     "parentId": "Raver"
   },
   {
@@ -84912,11 +83577,6 @@
   {
     "id": "Waghode Bk.",
     "label": "Waghode Bk.",
-    "parentId": "Raver"
-  },
-  {
-    "id": "Waghode Kh",
-    "label": "Waghode Kh",
     "parentId": "Raver"
   },
   {
@@ -84975,8 +83635,8 @@
     "parentId": "Yawal"
   },
   {
-    "id": "Bhorkhede  Kh",
-    "label": "Bhorkhede  Kh",
+    "id": "Bhorkhede Kh",
+    "label": "Bhorkhede Kh",
     "parentId": "Yawal"
   },
   {
@@ -84990,8 +83650,8 @@
     "parentId": "Yawal"
   },
   {
-    "id": "Borawal  Bk",
-    "label": "Borawal  Bk",
+    "id": "Borawal Bk",
+    "label": "Borawal Bk",
     "parentId": "Yawal"
   },
   {
@@ -85355,8 +84015,8 @@
     "parentId": "Yawal"
   },
   {
-    "id": "Viravali  Bk",
-    "label": "Viravali  Bk",
+    "id": "Viravali Bk",
+    "label": "Viravali Bk",
     "parentId": "Yawal"
   },
   {
@@ -86415,11 +85075,6 @@
     "parentId": "Badnapur"
   },
   {
-    "id": "Rajewadi",
-    "label": "Rajewadi",
-    "parentId": "Badnapur"
-  },
-  {
     "id": "Rala",
     "label": "Rala",
     "parentId": "Badnapur"
@@ -87395,8 +86050,8 @@
     "parentId": "Ghansawangi"
   },
   {
-    "id": "Bodkha    Bk.",
-    "label": "Bodkha    Bk.",
+    "id": "Bodkha Bk.",
+    "label": "Bodkha Bk.",
     "parentId": "Ghansawangi"
   },
   {
@@ -87635,8 +86290,8 @@
     "parentId": "Ghansawangi"
   },
   {
-    "id": "Machindranath  Chincholi",
-    "label": "Machindranath  Chincholi",
+    "id": "Machindranath Chincholi",
+    "label": "Machindranath Chincholi",
     "parentId": "Ghansawangi"
   },
   {
@@ -89060,11 +87715,6 @@
     "parentId": "Jalna"
   },
   {
-    "id": "Tandulwadi",
-    "label": "Tandulwadi",
-    "parentId": "Jalna"
-  },
-  {
     "id": "Tatewadi",
     "label": "Tatewadi",
     "parentId": "Jalna"
@@ -89127,11 +87777,6 @@
   {
     "id": "Wanjar Umrad",
     "label": "Wanjar Umrad",
-    "parentId": "Jalna"
-  },
-  {
-    "id": "Warkheda",
-    "label": "Warkheda",
     "parentId": "Jalna"
   },
   {
@@ -89500,8 +88145,8 @@
     "parentId": "Mantha"
   },
   {
-    "id": "Naigaon  P. Bamhani",
-    "label": "Naigaon  P. Bamhani",
+    "id": "Naigaon P. Bamhani",
+    "label": "Naigaon P. Bamhani",
     "parentId": "Mantha"
   },
   {
@@ -91260,8 +89905,8 @@
     "parentId": "Bhudargad"
   },
   {
-    "id": "Minache  Bk",
-    "label": "Minache  Bk",
+    "id": "Minache Bk",
+    "label": "Minache Bk",
     "parentId": "Bhudargad"
   },
   {
@@ -92345,8 +90990,8 @@
     "parentId": "Gadhinglaj"
   },
   {
-    "id": "Basarge  Kh",
-    "label": "Basarge  Kh",
+    "id": "Basarge Kh",
+    "label": "Basarge Kh",
     "parentId": "Gadhinglaj"
   },
   {
@@ -92375,8 +91020,8 @@
     "parentId": "Gadhinglaj"
   },
   {
-    "id": "Bugadi  Katti",
-    "label": "Bugadi  Katti",
+    "id": "Bugadi Katti",
+    "label": "Bugadi Katti",
     "parentId": "Gadhinglaj"
   },
   {
@@ -92570,8 +91215,8 @@
     "parentId": "Gadhinglaj"
   },
   {
-    "id": "Khamale  Hatti",
-    "label": "Khamale  Hatti",
+    "id": "Khamale Hatti",
+    "label": "Khamale Hatti",
     "parentId": "Gadhinglaj"
   },
   {
@@ -92590,13 +91235,13 @@
     "parentId": "Gadhinglaj"
   },
   {
-    "id": "Lingnoor  K.Nesari",
-    "label": "Lingnoor  K.Nesari",
+    "id": "Lingnoor K.Nesari",
+    "label": "Lingnoor K.Nesari",
     "parentId": "Gadhinglaj"
   },
   {
-    "id": "Lingnoor  K. Nool",
-    "label": "Lingnoor  K. Nool",
+    "id": "Lingnoor K. Nool",
+    "label": "Lingnoor K. Nool",
     "parentId": "Gadhinglaj"
   },
   {
@@ -93925,8 +92570,8 @@
     "parentId": "Karvir"
   },
   {
-    "id": "Nigave  Dumala",
-    "label": "Nigave  Dumala",
+    "id": "Nigave Dumala",
+    "label": "Nigave Dumala",
     "parentId": "Karvir"
   },
   {
@@ -94480,11 +93125,6 @@
     "parentId": "Panhala"
   },
   {
-    "id": "Malwadi",
-    "label": "Malwadi",
-    "parentId": "Panhala"
-  },
-  {
     "id": "Manewadi",
     "label": "Manewadi",
     "parentId": "Panhala"
@@ -94590,8 +93230,8 @@
     "parentId": "Panhala"
   },
   {
-    "id": "Panhala  (Rural)",
-    "label": "Panhala  (Rural)",
+    "id": "Panhala (Rural)",
+    "label": "Panhala (Rural)",
     "parentId": "Panhala"
   },
   {
@@ -94700,18 +93340,13 @@
     "parentId": "Panhala"
   },
   {
-    "id": "Sawarde  T.Satave",
-    "label": "Sawarde  T.Satave",
+    "id": "Sawarde T.Satave",
+    "label": "Sawarde T.Satave",
     "parentId": "Panhala"
   },
   {
     "id": "Shahapur",
     "label": "Shahapur",
-    "parentId": "Panhala"
-  },
-  {
-    "id": "Shindewadi",
-    "label": "Shindewadi",
     "parentId": "Panhala"
   },
   {
@@ -95282,11 +93917,6 @@
   {
     "id": "Sarvade",
     "label": "Sarvade",
-    "parentId": "Radhanagari"
-  },
-  {
-    "id": "Savarde",
-    "label": "Savarde",
     "parentId": "Radhanagari"
   },
   {
@@ -96337,11 +94967,6 @@
   {
     "id": "Ambegaon",
     "label": "Ambegaon",
-    "parentId": "Ahmadpur"
-  },
-  {
-    "id": "Anandwadi",
-    "label": "Anandwadi",
     "parentId": "Ahmadpur"
   },
   {
@@ -97775,11 +96400,6 @@
     "parentId": "Chakur"
   },
   {
-    "id": "Hatkarwadi",
-    "label": "Hatkarwadi",
-    "parentId": "Chakur"
-  },
-  {
     "id": "Hipalner",
     "label": "Hipalner",
     "parentId": "Chakur"
@@ -97850,8 +96470,8 @@
     "parentId": "Chakur"
   },
   {
-    "id": "Mahalangra  Wadi",
-    "label": "Mahalangra  Wadi",
+    "id": "Mahalangra Wadi",
+    "label": "Mahalangra Wadi",
     "parentId": "Chakur"
   },
   {
@@ -98750,8 +97370,8 @@
     "parentId": "Latur"
   },
   {
-    "id": "Harangul  Bk",
-    "label": "Harangul  Bk",
+    "id": "Harangul Bk",
+    "label": "Harangul Bk",
     "parentId": "Latur"
   },
   {
@@ -98900,8 +97520,8 @@
     "parentId": "Latur"
   },
   {
-    "id": "Murud  Akola",
-    "label": "Murud  Akola",
+    "id": "Murud Akola",
+    "label": "Murud Akola",
     "parentId": "Latur"
   },
   {
@@ -99555,11 +98175,6 @@
     "parentId": "Nilanga"
   },
   {
-    "id": "Kamshetwadi",
-    "label": "Kamshetwadi",
-    "parentId": "Nilanga"
-  },
-  {
     "id": "Kasar Balkunda",
     "label": "Kasar Balkunda",
     "parentId": "Nilanga"
@@ -99855,8 +98470,8 @@
     "parentId": "Nilanga"
   },
   {
-    "id": "Sirshi  (Hangarga)",
-    "label": "Sirshi  (Hangarga)",
+    "id": "Sirshi (Hangarga)",
+    "label": "Sirshi (Hangarga)",
     "parentId": "Nilanga"
   },
   {
@@ -101375,11 +99990,6 @@
     "parentId": "Bhiwapur"
   },
   {
-    "id": "Kharkada",
-    "label": "Kharkada",
-    "parentId": "Bhiwapur"
-  },
-  {
     "id": "Khatkheda",
     "label": "Khatkheda",
     "parentId": "Bhiwapur"
@@ -101452,11 +100062,6 @@
   {
     "id": "Malharpur",
     "label": "Malharpur",
-    "parentId": "Bhiwapur"
-  },
-  {
-    "id": "Mandwa",
-    "label": "Mandwa",
     "parentId": "Bhiwapur"
   },
   {
@@ -101552,11 +100157,6 @@
   {
     "id": "Pandharwani",
     "label": "Pandharwani",
-    "parentId": "Bhiwapur"
-  },
-  {
-    "id": "Panjarepar",
-    "label": "Panjarepar",
     "parentId": "Bhiwapur"
   },
   {
@@ -101672,11 +100272,6 @@
   {
     "id": "Shiwapur",
     "label": "Shiwapur",
-    "parentId": "Bhiwapur"
-  },
-  {
-    "id": "Somanala",
-    "label": "Somanala",
     "parentId": "Bhiwapur"
   },
   {
@@ -101820,16 +100415,6 @@
     "parentId": "Hingna"
   },
   {
-    "id": "Amgaon",
-    "label": "Amgaon",
-    "parentId": "Hingna"
-  },
-  {
-    "id": "Amgaon",
-    "label": "Amgaon",
-    "parentId": "Hingna"
-  },
-  {
     "id": "Asola",
     "label": "Asola",
     "parentId": "Hingna"
@@ -101930,11 +100515,6 @@
     "parentId": "Hingna"
   },
   {
-    "id": "Devali",
-    "label": "Devali",
-    "parentId": "Hingna"
-  },
-  {
     "id": "Devali (Amgaon)",
     "label": "Devali (Amgaon)",
     "parentId": "Hingna"
@@ -101952,16 +100532,6 @@
   {
     "id": "Dewapur",
     "label": "Dewapur",
-    "parentId": "Hingna"
-  },
-  {
-    "id": "Dhanoli",
-    "label": "Dhanoli",
-    "parentId": "Hingna"
-  },
-  {
-    "id": "Dhanoli",
-    "label": "Dhanoli",
     "parentId": "Hingna"
   },
   {
@@ -102157,26 +100727,6 @@
   {
     "id": "Kinhala",
     "label": "Kinhala",
-    "parentId": "Hingna"
-  },
-  {
-    "id": "Kinhi",
-    "label": "Kinhi",
-    "parentId": "Hingna"
-  },
-  {
-    "id": "Kinhi",
-    "label": "Kinhi",
-    "parentId": "Hingna"
-  },
-  {
-    "id": "Kinhi",
-    "label": "Kinhi",
-    "parentId": "Hingna"
-  },
-  {
-    "id": "Kinhi",
-    "label": "Kinhi",
     "parentId": "Hingna"
   },
   {
@@ -102440,11 +100990,6 @@
     "parentId": "Hingna"
   },
   {
-    "id": "Sukali",
-    "label": "Sukali",
-    "parentId": "Hingna"
-  },
-  {
     "id": "Sukali (Gharpure)",
     "label": "Sukali (Gharpure)",
     "parentId": "Hingna"
@@ -102500,11 +101045,6 @@
     "parentId": "Hingna"
   },
   {
-    "id": "Umari",
-    "label": "Umari",
-    "parentId": "Hingna"
-  },
-  {
     "id": "Waddhamana (Ct)",
     "label": "Waddhamana (Ct)",
     "parentId": "Hingna"
@@ -102517,11 +101057,6 @@
   {
     "id": "Wadgaon Bakshi",
     "label": "Wadgaon Bakshi",
-    "parentId": "Hingna"
-  },
-  {
-    "id": "Wagdara",
-    "label": "Wagdara",
     "parentId": "Hingna"
   },
   {
@@ -102905,11 +101440,6 @@
     "parentId": "Kalameshwar"
   },
   {
-    "id": "Pilkapar",
-    "label": "Pilkapar",
-    "parentId": "Kalameshwar"
-  },
-  {
     "id": "Pipla",
     "label": "Pipla",
     "parentId": "Kalameshwar"
@@ -102965,11 +101495,6 @@
     "parentId": "Kalameshwar"
   },
   {
-    "id": "Sawangi",
-    "label": "Sawangi",
-    "parentId": "Kalameshwar"
-  },
-  {
     "id": "Selu",
     "label": "Selu",
     "parentId": "Kalameshwar"
@@ -102985,11 +101510,6 @@
     "parentId": "Kalameshwar"
   },
   {
-    "id": "Sindi",
-    "label": "Sindi",
-    "parentId": "Kalameshwar"
-  },
-  {
     "id": "Sonapar",
     "label": "Sonapar",
     "parentId": "Kalameshwar"
@@ -102997,11 +101517,6 @@
   {
     "id": "Sonegaon",
     "label": "Sonegaon",
-    "parentId": "Kalameshwar"
-  },
-  {
-    "id": "Sonoli",
-    "label": "Sonoli",
     "parentId": "Kalameshwar"
   },
   {
@@ -103552,11 +102067,6 @@
   {
     "id": "Bordoh",
     "label": "Bordoh",
-    "parentId": "Katol"
-  },
-  {
-    "id": "Borgaon",
-    "label": "Borgaon",
     "parentId": "Katol"
   },
   {
@@ -104245,11 +102755,6 @@
     "parentId": "Katol"
   },
   {
-    "id": "Salai (Bk)",
-    "label": "Salai (Bk)",
-    "parentId": "Katol"
-  },
-  {
     "id": "Salai (Kh)",
     "label": "Salai (Kh)",
     "parentId": "Katol"
@@ -104430,11 +102935,6 @@
     "parentId": "Kuhi"
   },
   {
-    "id": "Ajni",
-    "label": "Ajni",
-    "parentId": "Kuhi"
-  },
-  {
     "id": "Akoli",
     "label": "Akoli",
     "parentId": "Kuhi"
@@ -104592,11 +103092,6 @@
   {
     "id": "Chichal",
     "label": "Chichal",
-    "parentId": "Kuhi"
-  },
-  {
-    "id": "Chichghat",
-    "label": "Chichghat",
     "parentId": "Kuhi"
   },
   {
@@ -104945,16 +103440,6 @@
     "parentId": "Kuhi"
   },
   {
-    "id": "Navegaon",
-    "label": "Navegaon",
-    "parentId": "Kuhi"
-  },
-  {
-    "id": "Navegaon",
-    "label": "Navegaon",
-    "parentId": "Kuhi"
-  },
-  {
     "id": "Navegaon (Devi)",
     "label": "Navegaon (Devi)",
     "parentId": "Kuhi"
@@ -105000,18 +103485,8 @@
     "parentId": "Kuhi"
   },
   {
-    "id": "Paoni",
-    "label": "Paoni",
-    "parentId": "Kuhi"
-  },
-  {
     "id": "Pardi",
     "label": "Pardi",
-    "parentId": "Kuhi"
-  },
-  {
-    "id": "Parsodi",
-    "label": "Parsodi",
     "parentId": "Kuhi"
   },
   {
@@ -105092,11 +103567,6 @@
   {
     "id": "Ridhora",
     "label": "Ridhora",
-    "parentId": "Kuhi"
-  },
-  {
-    "id": "Ruyad",
-    "label": "Ruyad",
     "parentId": "Kuhi"
   },
   {
@@ -105195,23 +103665,8 @@
     "parentId": "Kuhi"
   },
   {
-    "id": "Sonegaon",
-    "label": "Sonegaon",
-    "parentId": "Kuhi"
-  },
-  {
-    "id": "Sonegaon",
-    "label": "Sonegaon",
-    "parentId": "Kuhi"
-  },
-  {
     "id": "Sonpuri",
     "label": "Sonpuri",
-    "parentId": "Kuhi"
-  },
-  {
-    "id": "Takli",
-    "label": "Takli",
     "parentId": "Kuhi"
   },
   {
@@ -105337,11 +103792,6 @@
   {
     "id": "Aroli",
     "label": "Aroli",
-    "parentId": "Mauda"
-  },
-  {
-    "id": "Ashti",
-    "label": "Ashti",
     "parentId": "Mauda"
   },
   {
@@ -105515,11 +103965,6 @@
     "parentId": "Mauda"
   },
   {
-    "id": "Hiwara",
-    "label": "Hiwara",
-    "parentId": "Mauda"
-  },
-  {
     "id": "Indora",
     "label": "Indora",
     "parentId": "Mauda"
@@ -105542,11 +103987,6 @@
   {
     "id": "Kathalabodi",
     "label": "Kathalabodi",
-    "parentId": "Mauda"
-  },
-  {
-    "id": "Khandala",
-    "label": "Khandala",
     "parentId": "Mauda"
   },
   {
@@ -105710,11 +104150,6 @@
     "parentId": "Mauda"
   },
   {
-    "id": "Nandgaon",
-    "label": "Nandgaon",
-    "parentId": "Mauda"
-  },
-  {
     "id": "Narsala",
     "label": "Narsala",
     "parentId": "Mauda"
@@ -105722,11 +104157,6 @@
   {
     "id": "Nawargaon",
     "label": "Nawargaon",
-    "parentId": "Mauda"
-  },
-  {
-    "id": "Nawegaon",
-    "label": "Nawegaon",
     "parentId": "Mauda"
   },
   {
@@ -105910,8 +104340,8 @@
     "parentId": "Mauda"
   },
   {
-    "id": "Wagholi  (Rithi)",
-    "label": "Wagholi  (Rithi)",
+    "id": "Wagholi (Rithi)",
+    "label": "Wagholi (Rithi)",
     "parentId": "Mauda"
   },
   {
@@ -106075,11 +104505,6 @@
     "parentId": "Nagpur (Rural)"
   },
   {
-    "id": "Chicholi",
-    "label": "Chicholi",
-    "parentId": "Nagpur (Rural)"
-  },
-  {
     "id": "Chikana",
     "label": "Chikana",
     "parentId": "Nagpur (Rural)"
@@ -106140,11 +104565,6 @@
     "parentId": "Nagpur (Rural)"
   },
   {
-    "id": "Dongargaon",
-    "label": "Dongargaon",
-    "parentId": "Nagpur (Rural)"
-  },
-  {
     "id": "Drugdhamna",
     "label": "Drugdhamna",
     "parentId": "Nagpur (Rural)"
@@ -106195,11 +104615,6 @@
     "parentId": "Nagpur (Rural)"
   },
   {
-    "id": "Gonhi",
-    "label": "Gonhi",
-    "parentId": "Nagpur (Rural)"
-  },
-  {
     "id": "Gopalpur",
     "label": "Gopalpur",
     "parentId": "Nagpur (Rural)"
@@ -106220,8 +104635,8 @@
     "parentId": "Nagpur (Rural)"
   },
   {
-    "id": "Hudkeshwar  Kh.",
-    "label": "Hudkeshwar  Kh.",
+    "id": "Hudkeshwar Kh.",
+    "label": "Hudkeshwar Kh.",
     "parentId": "Nagpur (Rural)"
   },
   {
@@ -106262,11 +104677,6 @@
   {
     "id": "Kalkuhi",
     "label": "Kalkuhi",
-    "parentId": "Nagpur (Rural)"
-  },
-  {
-    "id": "Kanhalgaon",
-    "label": "Kanhalgaon",
     "parentId": "Nagpur (Rural)"
   },
   {
@@ -106355,11 +104765,6 @@
     "parentId": "Nagpur (Rural)"
   },
   {
-    "id": "Kirnapur",
-    "label": "Kirnapur",
-    "parentId": "Nagpur (Rural)"
-  },
-  {
     "id": "Kolar",
     "label": "Kolar",
     "parentId": "Nagpur (Rural)"
@@ -106415,11 +104820,6 @@
     "parentId": "Nagpur (Rural)"
   },
   {
-    "id": "Mohgaon",
-    "label": "Mohgaon",
-    "parentId": "Nagpur (Rural)"
-  },
-  {
     "id": "Mohgaon Bk.",
     "label": "Mohgaon Bk.",
     "parentId": "Nagpur (Rural)"
@@ -106450,11 +104850,6 @@
     "parentId": "Nagpur (Rural)"
   },
   {
-    "id": "Nawegaon",
-    "label": "Nawegaon",
-    "parentId": "Nagpur (Rural)"
-  },
-  {
     "id": "Nimbha",
     "label": "Nimbha",
     "parentId": "Nagpur (Rural)"
@@ -106465,8 +104860,8 @@
     "parentId": "Nagpur (Rural)"
   },
   {
-    "id": "Padri  Khapa",
-    "label": "Padri  Khapa",
+    "id": "Padri Khapa",
+    "label": "Padri Khapa",
     "parentId": "Nagpur (Rural)"
   },
   {
@@ -106487,11 +104882,6 @@
   {
     "id": "Pardi",
     "label": "Pardi",
-    "parentId": "Nagpur (Rural)"
-  },
-  {
-    "id": "Parsodi",
-    "label": "Parsodi",
     "parentId": "Nagpur (Rural)"
   },
   {
@@ -106755,11 +105145,6 @@
     "parentId": "Narkhed"
   },
   {
-    "id": "Ambada",
-    "label": "Ambada",
-    "parentId": "Narkhed"
-  },
-  {
     "id": "Ambada (Deshmukh)",
     "label": "Ambada (Deshmukh)",
     "parentId": "Narkhed"
@@ -106782,11 +105167,6 @@
   {
     "id": "Bamhani",
     "label": "Bamhani",
-    "parentId": "Narkhed"
-  },
-  {
-    "id": "Banor",
-    "label": "Banor",
     "parentId": "Narkhed"
   },
   {
@@ -107605,8 +105985,8 @@
     "parentId": "Parseoni"
   },
   {
-    "id": "Bori  (Singori)",
-    "label": "Bori  (Singori)",
+    "id": "Bori (Singori)",
+    "label": "Bori (Singori)",
     "parentId": "Parseoni"
   },
   {
@@ -107725,8 +106105,8 @@
     "parentId": "Parseoni"
   },
   {
-    "id": "Hiwara   (Gahu)",
-    "label": "Hiwara   (Gahu)",
+    "id": "Hiwara (Gahu)",
+    "label": "Hiwara (Gahu)",
     "parentId": "Parseoni"
   },
   {
@@ -107740,8 +106120,8 @@
     "parentId": "Parseoni"
   },
   {
-    "id": "Juni  Kamptee",
-    "label": "Juni  Kamptee",
+    "id": "Juni Kamptee",
+    "label": "Juni Kamptee",
     "parentId": "Parseoni"
   },
   {
@@ -107785,8 +106165,8 @@
     "parentId": "Parseoni"
   },
   {
-    "id": "Khandala   (Ghatate)",
-    "label": "Khandala   (Ghatate)",
+    "id": "Khandala (Ghatate)",
+    "label": "Khandala (Ghatate)",
     "parentId": "Parseoni"
   },
   {
@@ -107917,11 +106297,6 @@
   {
     "id": "Panjara (Ri)",
     "label": "Panjara (Ri)",
-    "parentId": "Parseoni"
-  },
-  {
-    "id": "Pardi",
-    "label": "Pardi",
     "parentId": "Parseoni"
   },
   {
@@ -108175,11 +106550,6 @@
     "parentId": "Ramtek"
   },
   {
-    "id": "Chargaon",
-    "label": "Chargaon",
-    "parentId": "Ramtek"
-  },
-  {
     "id": "Chaugan",
     "label": "Chaugan",
     "parentId": "Ramtek"
@@ -108282,16 +106652,6 @@
   {
     "id": "Garra",
     "label": "Garra",
-    "parentId": "Ramtek"
-  },
-  {
-    "id": "Ghoti",
-    "label": "Ghoti",
-    "parentId": "Ramtek"
-  },
-  {
-    "id": "Ghoti",
-    "label": "Ghoti",
     "parentId": "Ramtek"
   },
   {
@@ -108475,11 +106835,6 @@
     "parentId": "Ramtek"
   },
   {
-    "id": "Kirnapur",
-    "label": "Kirnapur",
-    "parentId": "Ramtek"
-  },
-  {
     "id": "Lakhapur",
     "label": "Lakhapur",
     "parentId": "Ramtek"
@@ -108522,11 +106877,6 @@
   {
     "id": "Mandri",
     "label": "Mandri",
-    "parentId": "Ramtek"
-  },
-  {
-    "id": "Manegaon",
-    "label": "Manegaon",
     "parentId": "Ramtek"
   },
   {
@@ -108602,11 +106952,6 @@
   {
     "id": "Nahabi",
     "label": "Nahabi",
-    "parentId": "Ramtek"
-  },
-  {
-    "id": "Navegaon",
-    "label": "Navegaon",
     "parentId": "Ramtek"
   },
   {
@@ -108720,11 +107065,6 @@
     "parentId": "Ramtek"
   },
   {
-    "id": "Salai",
-    "label": "Salai",
-    "parentId": "Ramtek"
-  },
-  {
     "id": "Salaimeta",
     "label": "Salaimeta",
     "parentId": "Ramtek"
@@ -108790,11 +107130,6 @@
     "parentId": "Ramtek"
   },
   {
-    "id": "Sitapur",
-    "label": "Sitapur",
-    "parentId": "Ramtek"
-  },
-  {
     "id": "Sivani (Rithi)",
     "label": "Sivani (Rithi)",
     "parentId": "Ramtek"
@@ -108822,16 +107157,6 @@
   {
     "id": "Tuyapar",
     "label": "Tuyapar",
-    "parentId": "Ramtek"
-  },
-  {
-    "id": "Tuyapar",
-    "label": "Tuyapar",
-    "parentId": "Ramtek"
-  },
-  {
-    "id": "Umri",
-    "label": "Umri",
     "parentId": "Ramtek"
   },
   {
@@ -109230,18 +107555,8 @@
     "parentId": "Savner"
   },
   {
-    "id": "Kusumbi",
-    "label": "Kusumbi",
-    "parentId": "Savner"
-  },
-  {
     "id": "Maharkund",
     "label": "Maharkund",
-    "parentId": "Savner"
-  },
-  {
-    "id": "Malegaon",
-    "label": "Malegaon",
     "parentId": "Savner"
   },
   {
@@ -109505,8 +107820,8 @@
     "parentId": "Savner"
   },
   {
-    "id": "Umari  Jambhalpani",
-    "label": "Umari  Jambhalpani",
+    "id": "Umari Jambhalpani",
+    "label": "Umari Jambhalpani",
     "parentId": "Savner"
   },
   {
@@ -109635,21 +107950,6 @@
     "parentId": "Umred"
   },
   {
-    "id": "Borgaon",
-    "label": "Borgaon",
-    "parentId": "Umred"
-  },
-  {
-    "id": "Borgaon",
-    "label": "Borgaon",
-    "parentId": "Umred"
-  },
-  {
-    "id": "Borgaon",
-    "label": "Borgaon",
-    "parentId": "Umred"
-  },
-  {
     "id": "Borgaon (Kari)",
     "label": "Borgaon (Kari)",
     "parentId": "Umred"
@@ -109662,11 +107962,6 @@
   {
     "id": "Bori Majara",
     "label": "Bori Majara",
-    "parentId": "Umred"
-  },
-  {
-    "id": "Bothali",
-    "label": "Bothali",
     "parentId": "Umred"
   },
   {
@@ -109880,11 +108175,6 @@
     "parentId": "Umred"
   },
   {
-    "id": "Kalamana",
-    "label": "Kalamana",
-    "parentId": "Umred"
-  },
-  {
     "id": "Kalandri",
     "label": "Kalandri",
     "parentId": "Umred"
@@ -109957,16 +108247,6 @@
   {
     "id": "Khursapar",
     "label": "Khursapar",
-    "parentId": "Umred"
-  },
-  {
-    "id": "Khursapar",
-    "label": "Khursapar",
-    "parentId": "Umred"
-  },
-  {
-    "id": "Kinhala",
-    "label": "Kinhala",
     "parentId": "Umred"
   },
   {
@@ -110160,11 +108440,6 @@
     "parentId": "Umred"
   },
   {
-    "id": "Parsodi",
-    "label": "Parsodi",
-    "parentId": "Umred"
-  },
-  {
     "id": "Pavni",
     "label": "Pavni",
     "parentId": "Umred"
@@ -110350,11 +108625,6 @@
     "parentId": "Umred"
   },
   {
-    "id": "Sukli",
-    "label": "Sukli",
-    "parentId": "Umred"
-  },
-  {
     "id": "Sukli (Ri)",
     "label": "Sukli (Ri)",
     "parentId": "Umred"
@@ -110387,11 +108657,6 @@
   {
     "id": "Telkawadsi",
     "label": "Telkawadsi",
-    "parentId": "Umred"
-  },
-  {
-    "id": "Thana",
-    "label": "Thana",
     "parentId": "Umred"
   },
   {
@@ -110995,8 +109260,8 @@
     "parentId": "Bhokar"
   },
   {
-    "id": "Kolgaon  Kh.",
-    "label": "Kolgaon  Kh.",
+    "id": "Kolgaon Kh.",
+    "label": "Kolgaon Kh.",
     "parentId": "Bhokar"
   },
   {
@@ -112015,8 +110280,8 @@
     "parentId": "Deglur"
   },
   {
-    "id": "Sangvi  Karadkhed",
-    "label": "Sangvi  Karadkhed",
+    "id": "Sangvi Karadkhed",
+    "label": "Sangvi Karadkhed",
     "parentId": "Deglur"
   },
   {
@@ -112070,8 +110335,8 @@
     "parentId": "Deglur"
   },
   {
-    "id": "Sundgi  Bk.",
-    "label": "Sundgi  Bk.",
+    "id": "Sundgi Bk.",
+    "label": "Sundgi Bk.",
     "parentId": "Deglur"
   },
   {
@@ -113095,8 +111360,8 @@
     "parentId": "Hadgaon"
   },
   {
-    "id": "Umri  Kh",
-    "label": "Umri  Kh",
+    "id": "Umri Kh",
+    "label": "Umri Kh",
     "parentId": "Hadgaon"
   },
   {
@@ -113120,13 +111385,13 @@
     "parentId": "Hadgaon"
   },
   {
-    "id": "Wai Pana  Bk",
-    "label": "Wai Pana  Bk",
+    "id": "Wai Pana Bk",
+    "label": "Wai Pana Bk",
     "parentId": "Hadgaon"
   },
   {
-    "id": "Wai Pana  Kh",
-    "label": "Wai Pana  Kh",
+    "id": "Wai Pana Kh",
+    "label": "Wai Pana Kh",
     "parentId": "Hadgaon"
   },
   {
@@ -113295,8 +111560,8 @@
     "parentId": "Himayatnagar"
   },
   {
-    "id": "Kandli  (Bk)",
-    "label": "Kandli  (Bk)",
+    "id": "Kandli (Bk)",
+    "label": "Kandli (Bk)",
     "parentId": "Himayatnagar"
   },
   {
@@ -113900,8 +112165,8 @@
     "parentId": "Kandhar"
   },
   {
-    "id": "Lath  Kh.",
-    "label": "Lath  Kh.",
+    "id": "Lath Kh.",
+    "label": "Lath Kh.",
     "parentId": "Kandhar"
   },
   {
@@ -114210,8 +112475,8 @@
     "parentId": "Kinwat"
   },
   {
-    "id": "Andhbori  (Chi.)",
-    "label": "Andhbori  (Chi.)",
+    "id": "Andhbori (Chi.)",
+    "label": "Andhbori (Chi.)",
     "parentId": "Kinwat"
   },
   {
@@ -114860,8 +113125,8 @@
     "parentId": "Kinwat"
   },
   {
-    "id": "Patoda  Bk.",
-    "label": "Patoda  Bk.",
+    "id": "Patoda Bk.",
+    "label": "Patoda Bk.",
     "parentId": "Kinwat"
   },
   {
@@ -115105,13 +113370,13 @@
     "parentId": "Kinwat"
   },
   {
-    "id": "Walki  Bk",
-    "label": "Walki  Bk",
+    "id": "Walki Bk",
+    "label": "Walki Bk",
     "parentId": "Kinwat"
   },
   {
-    "id": "Walki  Kh.",
-    "label": "Walki  Kh.",
+    "id": "Walki Kh.",
+    "label": "Walki Kh.",
     "parentId": "Kinwat"
   },
   {
@@ -115160,8 +113425,8 @@
     "parentId": "Loha"
   },
   {
-    "id": "Bamni  P.U.",
-    "label": "Bamni  P.U.",
+    "id": "Bamni P.U.",
+    "label": "Bamni P.U.",
     "parentId": "Loha"
   },
   {
@@ -115205,8 +113470,8 @@
     "parentId": "Loha"
   },
   {
-    "id": "Chincholi  P.U.",
-    "label": "Chincholi  P.U.",
+    "id": "Chincholi P.U.",
+    "label": "Chincholi P.U.",
     "parentId": "Loha"
   },
   {
@@ -115255,8 +113520,8 @@
     "parentId": "Loha"
   },
   {
-    "id": "Dhanaj  Bk.",
-    "label": "Dhanaj  Bk.",
+    "id": "Dhanaj Bk.",
+    "label": "Dhanaj Bk.",
     "parentId": "Loha"
   },
   {
@@ -115610,8 +113875,8 @@
     "parentId": "Loha"
   },
   {
-    "id": "Pimpalgaon   Dhage",
-    "label": "Pimpalgaon   Dhage",
+    "id": "Pimpalgaon Dhage",
+    "label": "Pimpalgaon Dhage",
     "parentId": "Loha"
   },
   {
@@ -115675,8 +113940,8 @@
     "parentId": "Loha"
   },
   {
-    "id": "Shivani  Jamga",
-    "label": "Shivani  Jamga",
+    "id": "Shivani Jamga",
+    "label": "Shivani Jamga",
     "parentId": "Loha"
   },
   {
@@ -115745,8 +114010,8 @@
     "parentId": "Loha"
   },
   {
-    "id": "Walki  Kh.",
-    "label": "Walki  Kh.",
+    "id": "Walki Kh.",
+    "label": "Walki Kh.",
     "parentId": "Loha"
   },
   {
@@ -116190,8 +114455,8 @@
     "parentId": "Mahoor"
   },
   {
-    "id": "Vasram  Tanda",
-    "label": "Vasram  Tanda",
+    "id": "Vasram Tanda",
+    "label": "Vasram Tanda",
     "parentId": "Mahoor"
   },
   {
@@ -116415,8 +114680,8 @@
     "parentId": "Mudkhed"
   },
   {
-    "id": "Rohi Pimpalgaon  Tanda",
-    "label": "Rohi Pimpalgaon  Tanda",
+    "id": "Rohi Pimpalgaon Tanda",
+    "label": "Rohi Pimpalgaon Tanda",
     "parentId": "Mudkhed"
   },
   {
@@ -116737,11 +115002,6 @@
   {
     "id": "Hangarga Pm",
     "label": "Hangarga Pm",
-    "parentId": "Mukhed"
-  },
-  {
-    "id": "Hasnal",
-    "label": "Hasnal",
     "parentId": "Mukhed"
   },
   {
@@ -117980,8 +116240,8 @@
     "parentId": "Nanded"
   },
   {
-    "id": "Pimpalgaon  (Mistri)",
-    "label": "Pimpalgaon  (Mistri)",
+    "id": "Pimpalgaon (Mistri)",
+    "label": "Pimpalgaon (Mistri)",
     "parentId": "Nanded"
   },
   {
@@ -118502,11 +116762,6 @@
   {
     "id": "Ambaribar",
     "label": "Ambaribar",
-    "parentId": "Akkalkuwa"
-  },
-  {
-    "id": "Ankushvihir (Bri)",
-    "label": "Ankushvihir (Bri)",
     "parentId": "Akkalkuwa"
   },
   {
@@ -119895,11 +118150,6 @@
     "parentId": "Akrani"
   },
   {
-    "id": "Mal",
-    "label": "Mal",
-    "parentId": "Akrani"
-  },
-  {
     "id": "Mandvi Bk",
     "label": "Mandvi Bk",
     "parentId": "Akrani"
@@ -121090,11 +119340,6 @@
     "parentId": "Nawapur"
   },
   {
-    "id": "Bedkipada",
-    "label": "Bedkipada",
-    "parentId": "Nawapur"
-  },
-  {
     "id": "Bhadwad",
     "label": "Bhadwad",
     "parentId": "Nawapur"
@@ -121212,11 +119457,6 @@
   {
     "id": "Dapur",
     "label": "Dapur",
-    "parentId": "Nawapur"
-  },
-  {
-    "id": "Deolipada",
-    "label": "Deolipada",
     "parentId": "Nawapur"
   },
   {
@@ -121532,11 +119772,6 @@
   {
     "id": "Navi Sawarat",
     "label": "Navi Sawarat",
-    "parentId": "Nawapur"
-  },
-  {
-    "id": "Nawapada",
-    "label": "Nawapada",
     "parentId": "Nawapur"
   },
   {
@@ -121982,11 +120217,6 @@
   {
     "id": "Bupkari",
     "label": "Bupkari",
-    "parentId": "Shahade"
-  },
-  {
-    "id": "Chandsaili",
-    "label": "Chandsaili",
     "parentId": "Shahade"
   },
   {
@@ -126560,8 +124790,8 @@
     "parentId": "Kalwan"
   },
   {
-    "id": "Devali  Karhad",
-    "label": "Devali  Karhad",
+    "id": "Devali Karhad",
+    "label": "Devali Karhad",
     "parentId": "Kalwan"
   },
   {
@@ -129700,11 +127930,6 @@
     "parentId": "Peth"
   },
   {
-    "id": "Hanumantpada",
-    "label": "Hanumantpada",
-    "parentId": "Peth"
-  },
-  {
     "id": "Harangaon",
     "label": "Harangaon",
     "parentId": "Peth"
@@ -129985,11 +128210,6 @@
     "parentId": "Peth"
   },
   {
-    "id": "Phanaspada",
-    "label": "Phanaspada",
-    "parentId": "Peth"
-  },
-  {
     "id": "Pimpalpada",
     "label": "Pimpalpada",
     "parentId": "Peth"
@@ -130017,11 +128237,6 @@
   {
     "id": "Ruipetha",
     "label": "Ruipetha",
-    "parentId": "Peth"
-  },
-  {
-    "id": "Sadadpada",
-    "label": "Sadadpada",
     "parentId": "Peth"
   },
   {
@@ -130995,11 +129210,6 @@
     "parentId": "Surgana"
   },
   {
-    "id": "Chinchpada",
-    "label": "Chinchpada",
-    "parentId": "Surgana"
-  },
-  {
     "id": "Chirai",
     "label": "Chirai",
     "parentId": "Surgana"
@@ -131390,11 +129600,6 @@
     "parentId": "Surgana"
   },
   {
-    "id": "Mohapada",
-    "label": "Mohapada",
-    "parentId": "Surgana"
-  },
-  {
     "id": "Morchonda",
     "label": "Morchonda",
     "parentId": "Surgana"
@@ -131722,11 +129927,6 @@
   {
     "id": "Vijaynagar",
     "label": "Vijaynagar",
-    "parentId": "Surgana"
-  },
-  {
-    "id": "Wadpada",
-    "label": "Wadpada",
     "parentId": "Surgana"
   },
   {
@@ -132275,11 +130475,6 @@
     "parentId": "Trimbakeshwar"
   },
   {
-    "id": "Shirasgaon",
-    "label": "Shirasgaon",
-    "parentId": "Trimbakeshwar"
-  },
-  {
     "id": "Shivaji Nagar",
     "label": "Shivaji Nagar",
     "parentId": "Trimbakeshwar"
@@ -132312,11 +130507,6 @@
   {
     "id": "Thanapada",
     "label": "Thanapada",
-    "parentId": "Trimbakeshwar"
-  },
-  {
-    "id": "Torangan",
-    "label": "Torangan",
     "parentId": "Trimbakeshwar"
   },
   {
@@ -133100,11 +131290,6 @@
     "parentId": "Bhum"
   },
   {
-    "id": "Bhawanwadi",
-    "label": "Bhawanwadi",
-    "parentId": "Bhum"
-  },
-  {
     "id": "Bhogalgaon",
     "label": "Bhogalgaon",
     "parentId": "Bhum"
@@ -133422,11 +131607,6 @@
   {
     "id": "Sannewadi",
     "label": "Sannewadi",
-    "parentId": "Bhum"
-  },
-  {
-    "id": "Sawargaon",
-    "label": "Sawargaon",
     "parentId": "Bhum"
   },
   {
@@ -134517,11 +132697,6 @@
   {
     "id": "Kaudgaon(Ambi)",
     "label": "Kaudgaon(Ambi)",
-    "parentId": "Osmanabad"
-  },
-  {
-    "id": "Kaudgaon (Bavi)",
-    "label": "Kaudgaon (Bavi)",
     "parentId": "Osmanabad"
   },
   {
@@ -135630,11 +133805,6 @@
     "parentId": "Tuljapur"
   },
   {
-    "id": "Jalkotwadi",
-    "label": "Jalkotwadi",
-    "parentId": "Tuljapur"
-  },
-  {
     "id": "Jawalga Mesai",
     "label": "Jawalga Mesai",
     "parentId": "Tuljapur"
@@ -136377,11 +134547,6 @@
   {
     "id": "Nai Chakur",
     "label": "Nai Chakur",
-    "parentId": "Umarga"
-  },
-  {
-    "id": "Naiknagar",
-    "label": "Naiknagar",
     "parentId": "Umarga"
   },
   {
@@ -137345,11 +135510,6 @@
     "parentId": "Dahanu"
   },
   {
-    "id": "Patilpada",
-    "label": "Patilpada",
-    "parentId": "Dahanu"
-  },
-  {
     "id": "Pavan",
     "label": "Pavan",
     "parentId": "Dahanu"
@@ -137397,11 +135557,6 @@
   {
     "id": "Raitali",
     "label": "Raitali",
-    "parentId": "Dahanu"
-  },
-  {
-    "id": "Rampur",
-    "label": "Rampur",
     "parentId": "Dahanu"
   },
   {
@@ -137965,11 +136120,6 @@
     "parentId": "Jawhar"
   },
   {
-    "id": "Ramnagar",
-    "label": "Ramnagar",
-    "parentId": "Jawhar"
-  },
-  {
     "id": "Rampur",
     "label": "Rampur",
     "parentId": "Jawhar"
@@ -138022,16 +136172,6 @@
   {
     "id": "Shrirampur",
     "label": "Shrirampur",
-    "parentId": "Jawhar"
-  },
-  {
-    "id": "Shrirampur",
-    "label": "Shrirampur",
-    "parentId": "Jawhar"
-  },
-  {
-    "id": "Suryanagar",
-    "label": "Suryanagar",
     "parentId": "Jawhar"
   },
   {
@@ -139690,16 +137830,6 @@
     "parentId": "Talasari"
   },
   {
-    "id": "Patilpada",
-    "label": "Patilpada",
-    "parentId": "Talasari"
-  },
-  {
-    "id": "Patilpada",
-    "label": "Patilpada",
-    "parentId": "Talasari"
-  },
-  {
     "id": "Sagarshet",
     "label": "Sagarshet",
     "parentId": "Talasari"
@@ -139732,11 +137862,6 @@
   {
     "id": "Talasari",
     "label": "Talasari",
-    "parentId": "Talasari"
-  },
-  {
-    "id": "Thakarpada",
-    "label": "Thakarpada",
     "parentId": "Talasari"
   },
   {
@@ -140015,8 +138140,8 @@
     "parentId": "Vada"
   },
   {
-    "id": "Gates   Kh.",
-    "label": "Gates   Kh.",
+    "id": "Gates Kh.",
+    "label": "Gates Kh.",
     "parentId": "Vada"
   },
   {
@@ -140560,8 +138685,8 @@
     "parentId": "Vada"
   },
   {
-    "id": "Vaitarna  Nagar",
-    "label": "Vaitarna  Nagar",
+    "id": "Vaitarna Nagar",
+    "label": "Vaitarna Nagar",
     "parentId": "Vada"
   },
   {
@@ -140595,8 +138720,8 @@
     "parentId": "Vada"
   },
   {
-    "id": "Vasuri  Bk",
-    "label": "Vasuri  Bk",
+    "id": "Vasuri Bk",
+    "label": "Vasuri Bk",
     "parentId": "Vada"
   },
   {
@@ -141115,8 +139240,8 @@
     "parentId": "Vikramgad"
   },
   {
-    "id": "Madacha  Pada",
-    "label": "Madacha  Pada",
+    "id": "Madacha Pada",
+    "label": "Madacha Pada",
     "parentId": "Vikramgad"
   },
   {
@@ -141227,11 +139352,6 @@
   {
     "id": "Shelpada",
     "label": "Shelpada",
-    "parentId": "Vikramgad"
-  },
-  {
-    "id": "Shil",
-    "label": "Shil",
     "parentId": "Vikramgad"
   },
   {
@@ -141377,11 +139497,6 @@
   {
     "id": "Anand Nagar",
     "label": "Anand Nagar",
-    "parentId": "Gangakhed"
-  },
-  {
-    "id": "Anandwadi",
-    "label": "Anandwadi",
     "parentId": "Gangakhed"
   },
   {
@@ -142347,11 +140462,6 @@
   {
     "id": "Kurhadi",
     "label": "Kurhadi",
-    "parentId": "Jintur"
-  },
-  {
-    "id": "Limbala",
-    "label": "Limbala",
     "parentId": "Jintur"
   },
   {
@@ -144245,8 +142355,8 @@
     "parentId": "Pathri"
   },
   {
-    "id": "Masla  Kh",
-    "label": "Masla  Kh",
+    "id": "Masla Kh",
+    "label": "Masla Kh",
     "parentId": "Pathri"
   },
   {
@@ -144497,11 +142607,6 @@
   {
     "id": "Govindpur",
     "label": "Govindpur",
-    "parentId": "Purna"
-  },
-  {
-    "id": "Hatkarwadi",
-    "label": "Hatkarwadi",
     "parentId": "Purna"
   },
   {
@@ -145162,11 +143267,6 @@
   {
     "id": "Pimprala Kh.",
     "label": "Pimprala Kh.",
-    "parentId": "Sailu"
-  },
-  {
-    "id": "Pimpri Bk",
-    "label": "Pimpri Bk",
     "parentId": "Sailu"
   },
   {
@@ -146960,8 +145060,8 @@
     "parentId": "Bhor"
   },
   {
-    "id": "Bare  Kh.",
-    "label": "Bare  Kh.",
+    "id": "Bare Kh.",
+    "label": "Bare Kh.",
     "parentId": "Bhor"
   },
   {
@@ -147170,8 +145270,8 @@
     "parentId": "Bhor"
   },
   {
-    "id": "Hatve  Kh.",
-    "label": "Hatve  Kh.",
+    "id": "Hatve Kh.",
+    "label": "Hatve Kh.",
     "parentId": "Bhor"
   },
   {
@@ -149720,11 +147820,6 @@
     "parentId": "Indapur"
   },
   {
-    "id": "Thoratwadi",
-    "label": "Thoratwadi",
-    "parentId": "Indapur"
-  },
-  {
     "id": "Udhat",
     "label": "Udhat",
     "parentId": "Indapur"
@@ -149930,11 +148025,6 @@
     "parentId": "Junnar"
   },
   {
-    "id": "Bhorwadi",
-    "label": "Bhorwadi",
-    "parentId": "Junnar"
-  },
-  {
     "id": "Bori Bk.",
     "label": "Bori Bk.",
     "parentId": "Junnar"
@@ -150047,11 +148137,6 @@
   {
     "id": "Gulunchwadi",
     "label": "Gulunchwadi",
-    "parentId": "Junnar"
-  },
-  {
-    "id": "Gunjalwadi",
-    "label": "Gunjalwadi",
     "parentId": "Junnar"
   },
   {
@@ -150180,11 +148265,6 @@
     "parentId": "Junnar"
   },
   {
-    "id": "Khamgaon",
-    "label": "Khamgaon",
-    "parentId": "Junnar"
-  },
-  {
     "id": "Khamundi",
     "label": "Khamundi",
     "parentId": "Junnar"
@@ -150222,11 +148302,6 @@
   {
     "id": "Kolhewadi",
     "label": "Kolhewadi",
-    "parentId": "Junnar"
-  },
-  {
-    "id": "Kolwadi",
-    "label": "Kolwadi",
     "parentId": "Junnar"
   },
   {
@@ -151805,11 +149880,6 @@
     "parentId": "Mawal"
   },
   {
-    "id": "Brahmanwadi",
-    "label": "Brahmanwadi",
-    "parentId": "Mawal"
-  },
-  {
     "id": "Brahman Wadi",
     "label": "Brahman Wadi",
     "parentId": "Mawal"
@@ -151952,16 +150022,6 @@
   {
     "id": "Jambhavali",
     "label": "Jambhavali",
-    "parentId": "Mawal"
-  },
-  {
-    "id": "Jambhul",
-    "label": "Jambhul",
-    "parentId": "Mawal"
-  },
-  {
-    "id": "Jambhul",
-    "label": "Jambhul",
     "parentId": "Mawal"
   },
   {
@@ -153030,8 +151090,8 @@
     "parentId": "Mulshi"
   },
   {
-    "id": "Mahalunge  (N.V.)",
-    "label": "Mahalunge  (N.V.)",
+    "id": "Mahalunge (N.V.)",
+    "label": "Mahalunge (N.V.)",
     "parentId": "Mulshi"
   },
   {
@@ -153830,8 +151890,8 @@
     "parentId": "Purandhar"
   },
   {
-    "id": "Supe  Kh.",
-    "label": "Supe  Kh.",
+    "id": "Supe Kh.",
+    "label": "Supe Kh.",
     "parentId": "Purandhar"
   },
   {
@@ -156255,8 +154315,8 @@
     "parentId": "Karjat"
   },
   {
-    "id": "Ambiwadi T.   Kothal Khalati",
-    "label": "Ambiwadi T.   Kothal Khalati",
+    "id": "Ambiwadi T. Kothal Khalati",
+    "label": "Ambiwadi T. Kothal Khalati",
     "parentId": "Karjat"
   },
   {
@@ -156275,13 +154335,13 @@
     "parentId": "Karjat"
   },
   {
-    "id": "Antrat T.   Need",
-    "label": "Antrat T.   Need",
+    "id": "Antrat T. Need",
+    "label": "Antrat T. Need",
     "parentId": "Karjat"
   },
   {
-    "id": "Antrat T.   Waredi",
-    "label": "Antrat T.   Waredi",
+    "id": "Antrat T. Waredi",
+    "label": "Antrat T. Waredi",
     "parentId": "Karjat"
   },
   {
@@ -156515,11 +154575,6 @@
     "parentId": "Karjat"
   },
   {
-    "id": "Diksal",
-    "label": "Diksal",
-    "parentId": "Karjat"
-  },
-  {
     "id": "Done",
     "label": "Done",
     "parentId": "Karjat"
@@ -156705,8 +154760,8 @@
     "parentId": "Karjat"
   },
   {
-    "id": "Malegaon T.   Kothal Khalati",
-    "label": "Malegaon T.   Kothal Khalati",
+    "id": "Malegaon T. Kothal Khalati",
+    "label": "Malegaon T. Kothal Khalati",
     "parentId": "Karjat"
   },
   {
@@ -156730,8 +154785,8 @@
     "parentId": "Karjat"
   },
   {
-    "id": "Mangaon T.   Wasare",
-    "label": "Mangaon T.   Wasare",
+    "id": "Mangaon T. Wasare",
+    "label": "Mangaon T. Wasare",
     "parentId": "Karjat"
   },
   {
@@ -156770,8 +154825,8 @@
     "parentId": "Karjat"
   },
   {
-    "id": "Mohili T.   Wasare",
-    "label": "Mohili T.   Wasare",
+    "id": "Mohili T. Wasare",
+    "label": "Mohili T. Wasare",
     "parentId": "Karjat"
   },
   {
@@ -156780,18 +154835,13 @@
     "parentId": "Karjat"
   },
   {
-    "id": "Mulgaon T.   Wasare",
-    "label": "Mulgaon T.   Wasare",
+    "id": "Mulgaon T. Wasare",
+    "label": "Mulgaon T. Wasare",
     "parentId": "Karjat"
   },
   {
     "id": "Naldhe",
     "label": "Naldhe",
-    "parentId": "Karjat"
-  },
-  {
-    "id": "Nandgaon",
-    "label": "Nandgaon",
     "parentId": "Karjat"
   },
   {
@@ -156815,11 +154865,6 @@
     "parentId": "Karjat"
   },
   {
-    "id": "Newali",
-    "label": "Newali",
-    "parentId": "Karjat"
-  },
-  {
     "id": "Nikhop",
     "label": "Nikhop",
     "parentId": "Karjat"
@@ -156835,13 +154880,13 @@
     "parentId": "Karjat"
   },
   {
-    "id": "Pali T.   Kothal Khalathi",
-    "label": "Pali T.   Kothal Khalathi",
+    "id": "Pali T. Kothal Khalathi",
+    "label": "Pali T. Kothal Khalathi",
     "parentId": "Karjat"
   },
   {
-    "id": "Pali T.   Waredi",
-    "label": "Pali T.   Waredi",
+    "id": "Pali T. Waredi",
+    "label": "Pali T. Waredi",
     "parentId": "Karjat"
   },
   {
@@ -156915,8 +154960,8 @@
     "parentId": "Karjat"
   },
   {
-    "id": "Salokh T.   Need",
-    "label": "Salokh T.   Need",
+    "id": "Salokh T. Need",
+    "label": "Salokh T. Need",
     "parentId": "Karjat"
   },
   {
@@ -157990,8 +156035,8 @@
     "parentId": "Mahad"
   },
   {
-    "id": "Gherakilla  Raigad(Raigadwadi)",
-    "label": "Gherakilla  Raigad(Raigadwadi)",
+    "id": "Gherakilla Raigad(Raigadwadi)",
+    "label": "Gherakilla Raigad(Raigadwadi)",
     "parentId": "Mahad"
   },
   {
@@ -159425,13 +157470,13 @@
     "parentId": "Mangaon"
   },
   {
-    "id": "Talegaon  Tarf  Goregaon",
-    "label": "Talegaon  Tarf  Goregaon",
+    "id": "Talegaon Tarf Goregaon",
+    "label": "Talegaon Tarf Goregaon",
     "parentId": "Mangaon"
   },
   {
-    "id": "Tamhane  Tarf  Goregaon",
-    "label": "Tamhane  Tarf  Goregaon",
+    "id": "Tamhane Tarf Goregaon",
+    "label": "Tamhane Tarf Goregaon",
     "parentId": "Mangaon"
   },
   {
@@ -159580,8 +157625,8 @@
     "parentId": "Mangaon"
   },
   {
-    "id": "Wave  Diwali",
-    "label": "Wave  Diwali",
+    "id": "Wave Diwali",
+    "label": "Wave Diwali",
     "parentId": "Mangaon"
   },
   {
@@ -161200,8 +159245,8 @@
     "parentId": "Panvel"
   },
   {
-    "id": "Usarli  Kh",
-    "label": "Usarli  Kh",
+    "id": "Usarli Kh",
+    "label": "Usarli Kh",
     "parentId": "Panvel"
   },
   {
@@ -161460,8 +159505,8 @@
     "parentId": "Pen"
   },
   {
-    "id": "Dutarfa  Sapoli",
-    "label": "Dutarfa  Sapoli",
+    "id": "Dutarfa Sapoli",
+    "label": "Dutarfa Sapoli",
     "parentId": "Pen"
   },
   {
@@ -163770,8 +161815,8 @@
     "parentId": "Shrivardhan"
   },
   {
-    "id": "Shrivardhan ®",
-    "label": "Shrivardhan ®",
+    "id": "Shrivardhan ��",
+    "label": "Shrivardhan ��",
     "parentId": "Shrivardhan"
   },
   {
@@ -164370,8 +162415,8 @@
     "parentId": "Tala"
   },
   {
-    "id": "Borghar  Haveli",
-    "label": "Borghar  Haveli",
+    "id": "Borghar Haveli",
+    "label": "Borghar Haveli",
     "parentId": "Tala"
   },
   {
@@ -164590,8 +162635,8 @@
     "parentId": "Tala"
   },
   {
-    "id": "Tamhane  Tarf  Tale",
-    "label": "Tamhane  Tarf  Tale",
+    "id": "Tamhane Tarf Tale",
+    "label": "Tamhane Tarf Tale",
     "parentId": "Tala"
   },
   {
@@ -164630,18 +162675,18 @@
     "parentId": "Tala"
   },
   {
-    "id": "Washi  Haveli",
-    "label": "Washi  Haveli",
+    "id": "Washi Haveli",
+    "label": "Washi Haveli",
     "parentId": "Tala"
   },
   {
-    "id": "Washi  Mahagaon",
-    "label": "Washi  Mahagaon",
+    "id": "Washi Mahagaon",
+    "label": "Washi Mahagaon",
     "parentId": "Tala"
   },
   {
-    "id": "Wave  Haveli",
-    "label": "Wave  Haveli",
+    "id": "Wave Haveli",
+    "label": "Wave Haveli",
     "parentId": "Tala"
   },
   {
@@ -166500,16 +164545,6 @@
     "parentId": "Dapoli"
   },
   {
-    "id": "Shivajinagar",
-    "label": "Shivajinagar",
-    "parentId": "Dapoli"
-  },
-  {
-    "id": "Shivajinagar",
-    "label": "Shivajinagar",
-    "parentId": "Dapoli"
-  },
-  {
     "id": "Shiwnari",
     "label": "Shiwnari",
     "parentId": "Dapoli"
@@ -167835,11 +165870,6 @@
     "parentId": "Khed"
   },
   {
-    "id": "Koregaon Kh.",
-    "label": "Koregaon Kh.",
-    "parentId": "Khed"
-  },
-  {
     "id": "Kotwali",
     "label": "Kotwali",
     "parentId": "Khed"
@@ -167887,11 +165917,6 @@
   {
     "id": "Lote",
     "label": "Lote",
-    "parentId": "Khed"
-  },
-  {
-    "id": "Mahalunge",
-    "label": "Mahalunge",
     "parentId": "Khed"
   },
   {
@@ -168155,11 +166180,6 @@
     "parentId": "Khed"
   },
   {
-    "id": "Shirgaon",
-    "label": "Shirgaon",
-    "parentId": "Khed"
-  },
-  {
     "id": "Shirgaon Kh.",
     "label": "Shirgaon Kh.",
     "parentId": "Khed"
@@ -168372,11 +166392,6 @@
   {
     "id": "Adavali",
     "label": "Adavali",
-    "parentId": "Lanja"
-  },
-  {
-    "id": "Agargaon",
-    "label": "Agargaon",
     "parentId": "Lanja"
   },
   {
@@ -169665,11 +167680,6 @@
     "parentId": "Rajapur"
   },
   {
-    "id": "Burbewadi",
-    "label": "Burbewadi",
-    "parentId": "Rajapur"
-  },
-  {
     "id": "Chauke",
     "label": "Chauke",
     "parentId": "Rajapur"
@@ -170007,11 +168017,6 @@
   {
     "id": "Khalchi Bhandarwadi",
     "label": "Khalchi Bhandarwadi",
-    "parentId": "Rajapur"
-  },
-  {
-    "id": "Khalchiwadi",
-    "label": "Khalchiwadi",
     "parentId": "Rajapur"
   },
   {
@@ -170775,11 +168780,6 @@
     "parentId": "Ratnagiri"
   },
   {
-    "id": "Bhandarwada",
-    "label": "Bhandarwada",
-    "parentId": "Ratnagiri"
-  },
-  {
     "id": "Bhandarwadi",
     "label": "Bhandarwadi",
     "parentId": "Ratnagiri"
@@ -171110,11 +169110,6 @@
     "parentId": "Ratnagiri"
   },
   {
-    "id": "Kharviwada",
-    "label": "Kharviwada",
-    "parentId": "Ratnagiri"
-  },
-  {
     "id": "Khedshi",
     "label": "Khedshi",
     "parentId": "Ratnagiri"
@@ -171205,11 +169200,6 @@
     "parentId": "Ratnagiri"
   },
   {
-    "id": "Madhaliwadi",
-    "label": "Madhaliwadi",
-    "parentId": "Ratnagiri"
-  },
-  {
     "id": "Madhliwadi",
     "label": "Madhliwadi",
     "parentId": "Ratnagiri"
@@ -171227,16 +169217,6 @@
   {
     "id": "Marathewadi",
     "label": "Marathewadi",
-    "parentId": "Ratnagiri"
-  },
-  {
-    "id": "Marathewadi",
-    "label": "Marathewadi",
-    "parentId": "Ratnagiri"
-  },
-  {
-    "id": "Marathwada",
-    "label": "Marathwada",
     "parentId": "Ratnagiri"
   },
   {
@@ -171292,16 +169272,6 @@
   {
     "id": "Mulgaon",
     "label": "Mulgaon",
-    "parentId": "Ratnagiri"
-  },
-  {
-    "id": "Musalmanwadi",
-    "label": "Musalmanwadi",
-    "parentId": "Ratnagiri"
-  },
-  {
-    "id": "Musalmanwadi",
-    "label": "Musalmanwadi",
     "parentId": "Ratnagiri"
   },
   {
@@ -172960,11 +170930,6 @@
     "parentId": "Atpadi"
   },
   {
-    "id": "Pujarwadi",
-    "label": "Pujarwadi",
-    "parentId": "Atpadi"
-  },
-  {
     "id": "Rajewadi",
     "label": "Rajewadi",
     "parentId": "Atpadi"
@@ -173365,11 +171330,6 @@
     "parentId": "Jat"
   },
   {
-    "id": "Lamantanda",
-    "label": "Lamantanda",
-    "parentId": "Jat"
-  },
-  {
     "id": "Lavanga",
     "label": "Lavanga",
     "parentId": "Jat"
@@ -173417,11 +171377,6 @@
   {
     "id": "Morbagi",
     "label": "Morbagi",
-    "parentId": "Jat"
-  },
-  {
-    "id": "Motewadi",
-    "label": "Motewadi",
     "parentId": "Jat"
   },
   {
@@ -173872,11 +171827,6 @@
   {
     "id": "Tondoli",
     "label": "Tondoli",
-    "parentId": "Kadegaon"
-  },
-  {
-    "id": "Tupewadi",
-    "label": "Tupewadi",
     "parentId": "Kadegaon"
   },
   {
@@ -176275,8 +174225,8 @@
     "parentId": "Walwa"
   },
   {
-    "id": "Rethare  Harnaksha",
-    "label": "Rethare  Harnaksha",
+    "id": "Rethare Harnaksha",
+    "label": "Rethare Harnaksha",
     "parentId": "Walwa"
   },
   {
@@ -176425,8 +174375,8 @@
     "parentId": "Jaoli"
   },
   {
-    "id": "Ambeghar  T Medha",
-    "label": "Ambeghar  T Medha",
+    "id": "Ambeghar T Medha",
+    "label": "Ambeghar T Medha",
     "parentId": "Jaoli"
   },
   {
@@ -176690,8 +174640,8 @@
     "parentId": "Jaoli"
   },
   {
-    "id": "Kasbe  Bamnoli",
-    "label": "Kasbe  Bamnoli",
+    "id": "Kasbe Bamnoli",
+    "label": "Kasbe Bamnoli",
     "parentId": "Jaoli"
   },
   {
@@ -176730,8 +174680,8 @@
     "parentId": "Jaoli"
   },
   {
-    "id": "Kharshi  Baramure",
-    "label": "Kharshi  Baramure",
+    "id": "Kharshi Baramure",
+    "label": "Kharshi Baramure",
     "parentId": "Jaoli"
   },
   {
@@ -176785,8 +174735,8 @@
     "parentId": "Jaoli"
   },
   {
-    "id": "Majare  Shevandi",
-    "label": "Majare  Shevandi",
+    "id": "Majare Shevandi",
+    "label": "Majare Shevandi",
     "parentId": "Jaoli"
   },
   {
@@ -177250,8 +175200,8 @@
     "parentId": "Karad"
   },
   {
-    "id": "Belavade  Bk",
-    "label": "Belavade  Bk",
+    "id": "Belavade Bk",
+    "label": "Belavade Bk",
     "parentId": "Karad"
   },
   {
@@ -177905,11 +175855,6 @@
     "parentId": "Karad"
   },
   {
-    "id": "Pawarwadi",
-    "label": "Pawarwadi",
-    "parentId": "Karad"
-  },
-  {
     "id": "Pimpari",
     "label": "Pimpari",
     "parentId": "Karad"
@@ -177962,11 +175907,6 @@
   {
     "id": "Salshirambe",
     "label": "Salshirambe",
-    "parentId": "Karad"
-  },
-  {
-    "id": "Sanjaynagar",
-    "label": "Sanjaynagar",
     "parentId": "Karad"
   },
   {
@@ -178032,16 +175972,6 @@
   {
     "id": "Shere",
     "label": "Shere",
-    "parentId": "Karad"
-  },
-  {
-    "id": "Shevalwadi",
-    "label": "Shevalwadi",
-    "parentId": "Karad"
-  },
-  {
-    "id": "Shevalwadi",
-    "label": "Shevalwadi",
     "parentId": "Karad"
   },
   {
@@ -178825,11 +176755,6 @@
     "parentId": "Khatav"
   },
   {
-    "id": "Ganeshwadi",
-    "label": "Ganeshwadi",
-    "parentId": "Khatav"
-  },
-  {
     "id": "Garalewadi",
     "label": "Garalewadi",
     "parentId": "Khatav"
@@ -178855,8 +176780,8 @@
     "parentId": "Khatav"
   },
   {
-    "id": "Goregaon  (N) (Vangi)",
-    "label": "Goregaon  (N) (Vangi)",
+    "id": "Goregaon (N) (Vangi)",
+    "label": "Goregaon (N) (Vangi)",
     "parentId": "Khatav"
   },
   {
@@ -179515,11 +177440,6 @@
     "parentId": "Koregaon"
   },
   {
-    "id": "Bodhewadi",
-    "label": "Bodhewadi",
-    "parentId": "Koregaon"
-  },
-  {
     "id": "Borgaon",
     "label": "Borgaon",
     "parentId": "Koregaon"
@@ -179647,11 +177567,6 @@
   {
     "id": "Golewadi",
     "label": "Golewadi",
-    "parentId": "Koregaon"
-  },
-  {
-    "id": "Gujarwadi",
-    "label": "Gujarwadi",
     "parentId": "Koregaon"
   },
   {
@@ -179835,11 +177750,6 @@
     "parentId": "Koregaon"
   },
   {
-    "id": "Nalavadewadi",
-    "label": "Nalavadewadi",
-    "parentId": "Koregaon"
-  },
-  {
     "id": "Nandwal",
     "label": "Nandwal",
     "parentId": "Koregaon"
@@ -179932,11 +177842,6 @@
   {
     "id": "Rui",
     "label": "Rui",
-    "parentId": "Koregaon"
-  },
-  {
-    "id": "Saigaon",
-    "label": "Saigaon",
     "parentId": "Koregaon"
   },
   {
@@ -180075,11 +177980,6 @@
     "parentId": "Koregaon"
   },
   {
-    "id": "Velang",
-    "label": "Velang",
-    "parentId": "Koregaon"
-  },
-  {
     "id": "Velu",
     "label": "Velu",
     "parentId": "Koregaon"
@@ -180205,8 +178105,8 @@
     "parentId": "Mahabaleshwar"
   },
   {
-    "id": "Dabhe  Dabhekar",
-    "label": "Dabhe  Dabhekar",
+    "id": "Dabhe Dabhekar",
+    "label": "Dabhe Dabhekar",
     "parentId": "Mahabaleshwar"
   },
   {
@@ -180340,8 +178240,8 @@
     "parentId": "Mahabaleshwar"
   },
   {
-    "id": "Kalamgaon  Kalamkar",
-    "label": "Kalamgaon  Kalamkar",
+    "id": "Kalamgaon Kalamkar",
+    "label": "Kalamgaon Kalamkar",
     "parentId": "Mahabaleshwar"
   },
   {
@@ -180530,8 +178430,8 @@
     "parentId": "Mahabaleshwar"
   },
   {
-    "id": "Pimpri  T. Tamb",
-    "label": "Pimpri  T. Tamb",
+    "id": "Pimpri T. Tamb",
+    "label": "Pimpri T. Tamb",
     "parentId": "Mahabaleshwar"
   },
   {
@@ -181415,16 +179315,6 @@
     "parentId": "Patan"
   },
   {
-    "id": "Borgewadi",
-    "label": "Borgewadi",
-    "parentId": "Patan"
-  },
-  {
-    "id": "Borgewadi",
-    "label": "Borgewadi",
-    "parentId": "Patan"
-  },
-  {
     "id": "Chafal",
     "label": "Chafal",
     "parentId": "Patan"
@@ -181450,8 +179340,8 @@
     "parentId": "Patan"
   },
   {
-    "id": "Chavanwadi  (Dhamani )",
-    "label": "Chavanwadi  (Dhamani )",
+    "id": "Chavanwadi (Dhamani )",
+    "label": "Chavanwadi (Dhamani )",
     "parentId": "Patan"
   },
   {
@@ -181485,18 +179375,13 @@
     "parentId": "Patan"
   },
   {
-    "id": "Chougulewadi",
-    "label": "Chougulewadi",
-    "parentId": "Patan"
-  },
-  {
     "id": "Dadholi",
     "label": "Dadholi",
     "parentId": "Patan"
   },
   {
-    "id": "Dakewadi  (Kalgaon )",
-    "label": "Dakewadi  (Kalgaon )",
+    "id": "Dakewadi (Kalgaon )",
+    "label": "Dakewadi (Kalgaon )",
     "parentId": "Patan"
   },
   {
@@ -181640,8 +179525,8 @@
     "parentId": "Patan"
   },
   {
-    "id": "Gadhav  Khop",
-    "label": "Gadhav  Khop",
+    "id": "Gadhav Khop",
+    "label": "Gadhav Khop",
     "parentId": "Patan"
   },
   {
@@ -181815,11 +179700,6 @@
     "parentId": "Patan"
   },
   {
-    "id": "Jadhavwadi",
-    "label": "Jadhavwadi",
-    "parentId": "Patan"
-  },
-  {
     "id": "Jaichiwadi",
     "label": "Jaichiwadi",
     "parentId": "Patan"
@@ -181885,8 +179765,8 @@
     "parentId": "Patan"
   },
   {
-    "id": "Kadave  Bk.",
-    "label": "Kadave  Bk.",
+    "id": "Kadave Bk.",
+    "label": "Kadave Bk.",
     "parentId": "Patan"
   },
   {
@@ -182210,18 +180090,8 @@
     "parentId": "Patan"
   },
   {
-    "id": "Manyachiwadi",
-    "label": "Manyachiwadi",
-    "parentId": "Patan"
-  },
-  {
     "id": "Marali",
     "label": "Marali",
-    "parentId": "Patan"
-  },
-  {
-    "id": "Marathwadi",
-    "label": "Marathwadi",
     "parentId": "Patan"
   },
   {
@@ -182247,11 +180117,6 @@
   {
     "id": "Marul Tarf Patan",
     "label": "Marul Tarf Patan",
-    "parentId": "Patan"
-  },
-  {
-    "id": "Maskarwadi",
-    "label": "Maskarwadi",
     "parentId": "Patan"
   },
   {
@@ -182522,11 +180387,6 @@
   {
     "id": "Pathavade",
     "label": "Pathavade",
-    "parentId": "Patan"
-  },
-  {
-    "id": "Pawarwadi",
-    "label": "Pawarwadi",
     "parentId": "Patan"
   },
   {
@@ -182830,11 +180690,6 @@
     "parentId": "Patan"
   },
   {
-    "id": "Vajegaon",
-    "label": "Vajegaon",
-    "parentId": "Patan"
-  },
-  {
     "id": "Vajroshi",
     "label": "Vajroshi",
     "parentId": "Patan"
@@ -182980,13 +180835,13 @@
     "parentId": "Phaltan"
   },
   {
-    "id": "Bhadali  Bk.",
-    "label": "Bhadali  Bk.",
+    "id": "Bhadali Bk.",
+    "label": "Bhadali Bk.",
     "parentId": "Phaltan"
   },
   {
-    "id": "Bhadali  Kh.",
-    "label": "Bhadali  Kh.",
+    "id": "Bhadali Kh.",
+    "label": "Bhadali Kh.",
     "parentId": "Phaltan"
   },
   {
@@ -183042,11 +180897,6 @@
   {
     "id": "Dhaval",
     "label": "Dhaval",
-    "parentId": "Phaltan"
-  },
-  {
-    "id": "Dhavalewadi",
-    "label": "Dhavalewadi",
     "parentId": "Phaltan"
   },
   {
@@ -183135,11 +180985,6 @@
     "parentId": "Phaltan"
   },
   {
-    "id": "Jadhavwadi",
-    "label": "Jadhavwadi",
-    "parentId": "Phaltan"
-  },
-  {
     "id": "Jadhavwadi Phl",
     "label": "Jadhavwadi Phl",
     "parentId": "Phaltan"
@@ -183220,8 +181065,8 @@
     "parentId": "Phaltan"
   },
   {
-    "id": "Kurvali  Bk.",
-    "label": "Kurvali  Bk.",
+    "id": "Kurvali Bk.",
+    "label": "Kurvali Bk.",
     "parentId": "Phaltan"
   },
   {
@@ -183267,11 +181112,6 @@
   {
     "id": "Mirdhe",
     "label": "Mirdhe",
-    "parentId": "Phaltan"
-  },
-  {
-    "id": "Mirewadi",
-    "label": "Mirewadi",
     "parentId": "Phaltan"
   },
   {
@@ -183350,18 +181190,8 @@
     "parentId": "Phaltan"
   },
   {
-    "id": "Pimpalwadi",
-    "label": "Pimpalwadi",
-    "parentId": "Phaltan"
-  },
-  {
     "id": "Pimparad",
     "label": "Pimparad",
-    "parentId": "Phaltan"
-  },
-  {
-    "id": "Pirachiwadi",
-    "label": "Pirachiwadi",
     "parentId": "Phaltan"
   },
   {
@@ -183427,11 +181257,6 @@
   {
     "id": "Sawantwadi",
     "label": "Sawantwadi",
-    "parentId": "Phaltan"
-  },
-  {
-    "id": "Sherechiwadi",
-    "label": "Sherechiwadi",
     "parentId": "Phaltan"
   },
   {
@@ -183630,8 +181455,8 @@
     "parentId": "Satara"
   },
   {
-    "id": "Ambavade  Bk",
-    "label": "Ambavade  Bk",
+    "id": "Ambavade Bk",
+    "label": "Ambavade Bk",
     "parentId": "Satara"
   },
   {
@@ -183805,8 +181630,8 @@
     "parentId": "Satara"
   },
   {
-    "id": "Chinchaner  Vandan",
-    "label": "Chinchaner  Vandan",
+    "id": "Chinchaner Vandan",
+    "label": "Chinchaner Vandan",
     "parentId": "Satara"
   },
   {
@@ -183865,11 +181690,6 @@
     "parentId": "Satara"
   },
   {
-    "id": "Dhangarwadi",
-    "label": "Dhangarwadi",
-    "parentId": "Satara"
-  },
-  {
     "id": "Dhavali",
     "label": "Dhavali",
     "parentId": "Satara"
@@ -183877,11 +181697,6 @@
   {
     "id": "Dhawadshi",
     "label": "Dhawadshi",
-    "parentId": "Satara"
-  },
-  {
-    "id": "Dhondewadi",
-    "label": "Dhondewadi",
     "parentId": "Satara"
   },
   {
@@ -184030,8 +181845,8 @@
     "parentId": "Satara"
   },
   {
-    "id": "Karanje  T.Parali",
-    "label": "Karanje  T.Parali",
+    "id": "Karanje T.Parali",
+    "label": "Karanje T.Parali",
     "parentId": "Satara"
   },
   {
@@ -184155,8 +181970,8 @@
     "parentId": "Satara"
   },
   {
-    "id": "Kus  Bk.",
-    "label": "Kus  Bk.",
+    "id": "Kus Bk.",
+    "label": "Kus Bk.",
     "parentId": "Satara"
   },
   {
@@ -184550,8 +182365,8 @@
     "parentId": "Satara"
   },
   {
-    "id": "Sonegaon T  Satara",
-    "label": "Sonegaon T  Satara",
+    "id": "Sonegaon T Satara",
+    "label": "Sonegaon T Satara",
     "parentId": "Satara"
   },
   {
@@ -184730,8 +182545,8 @@
     "parentId": "Wai"
   },
   {
-    "id": "Badewadi  (N.V.)",
-    "label": "Badewadi  (N.V.)",
+    "id": "Badewadi (N.V.)",
+    "label": "Badewadi (N.V.)",
     "parentId": "Wai"
   },
   {
@@ -184795,13 +182610,13 @@
     "parentId": "Wai"
   },
   {
-    "id": "Borgaon    Bk.",
-    "label": "Borgaon    Bk.",
+    "id": "Borgaon Bk.",
+    "label": "Borgaon Bk.",
     "parentId": "Wai"
   },
   {
-    "id": "Borgaon  Kh.",
-    "label": "Borgaon  Kh.",
+    "id": "Borgaon Kh.",
+    "label": "Borgaon Kh.",
     "parentId": "Wai"
   },
   {
@@ -185025,8 +182840,8 @@
     "parentId": "Wai"
   },
   {
-    "id": "Kondhavali  Bk",
-    "label": "Kondhavali  Bk",
+    "id": "Kondhavali Bk",
+    "label": "Kondhavali Bk",
     "parentId": "Wai"
   },
   {
@@ -185520,11 +183335,6 @@
     "parentId": "Devgad"
   },
   {
-    "id": "Kotkamate Sherapera",
-    "label": "Kotkamate Sherapera",
-    "parentId": "Devgad"
-  },
-  {
     "id": "Kotkamte",
     "label": "Kotkamte",
     "parentId": "Devgad"
@@ -185552,11 +183362,6 @@
   {
     "id": "Mahalunge",
     "label": "Mahalunge",
-    "parentId": "Devgad"
-  },
-  {
-    "id": "Malegaon",
-    "label": "Malegaon",
     "parentId": "Devgad"
   },
   {
@@ -186567,11 +184372,6 @@
   {
     "id": "Saliste",
     "label": "Saliste",
-    "parentId": "Kankavli"
-  },
-  {
-    "id": "Sambhajinagar",
-    "label": "Sambhajinagar",
     "parentId": "Kankavli"
   },
   {
@@ -189400,8 +187200,8 @@
     "parentId": "Akkalkot"
   },
   {
-    "id": "Gaudgaon  Bk.",
-    "label": "Gaudgaon  Bk.",
+    "id": "Gaudgaon Bk.",
+    "label": "Gaudgaon Bk.",
     "parentId": "Akkalkot"
   },
   {
@@ -190272,11 +188072,6 @@
   {
     "id": "Mahagaon",
     "label": "Mahagaon",
-    "parentId": "Barshi"
-  },
-  {
-    "id": "Malegaon",
-    "label": "Malegaon",
     "parentId": "Barshi"
   },
   {
@@ -191355,11 +189150,6 @@
     "parentId": "Madha"
   },
   {
-    "id": "Chavhanwadi",
-    "label": "Chavhanwadi",
-    "parentId": "Madha"
-  },
-  {
     "id": "Chinchgaon",
     "label": "Chinchgaon",
     "parentId": "Madha"
@@ -191427,11 +189217,6 @@
   {
     "id": "Hole Kh.",
     "label": "Hole Kh.",
-    "parentId": "Madha"
-  },
-  {
-    "id": "Jadhavwadi",
-    "label": "Jadhavwadi",
     "parentId": "Madha"
   },
   {
@@ -191775,16 +189560,6 @@
     "parentId": "Madha"
   },
   {
-    "id": "Wadachiwadi",
-    "label": "Wadachiwadi",
-    "parentId": "Madha"
-  },
-  {
-    "id": "Wadachiwadi",
-    "label": "Wadachiwadi",
-    "parentId": "Madha"
-  },
-  {
     "id": "Wadoli",
     "label": "Wadoli",
     "parentId": "Madha"
@@ -191912,11 +189687,6 @@
   {
     "id": "Dhulenagar N.V.)",
     "label": "Dhulenagar N.V.)",
-    "parentId": "Malshiras"
-  },
-  {
-    "id": "Dombalwadi",
-    "label": "Dombalwadi",
     "parentId": "Malshiras"
   },
   {
@@ -192105,11 +189875,6 @@
     "parentId": "Malshiras"
   },
   {
-    "id": "Malewadi",
-    "label": "Malewadi",
-    "parentId": "Malshiras"
-  },
-  {
     "id": "Malinagar",
     "label": "Malinagar",
     "parentId": "Malshiras"
@@ -192157,11 +189922,6 @@
   {
     "id": "Morochi",
     "label": "Morochi",
-    "parentId": "Malshiras"
-  },
-  {
-    "id": "Motewadi",
-    "label": "Motewadi",
     "parentId": "Malshiras"
   },
   {
@@ -193890,11 +191650,6 @@
     "parentId": "Sangole"
   },
   {
-    "id": "Bandgarwadi",
-    "label": "Bandgarwadi",
-    "parentId": "Sangole"
-  },
-  {
     "id": "Bhopasewadi",
     "label": "Bhopasewadi",
     "parentId": "Sangole"
@@ -194090,16 +191845,6 @@
     "parentId": "Sangole"
   },
   {
-    "id": "Karandewadi",
-    "label": "Karandewadi",
-    "parentId": "Sangole"
-  },
-  {
-    "id": "Karandewadi",
-    "label": "Karandewadi",
-    "parentId": "Sangole"
-  },
-  {
     "id": "Katfal",
     "label": "Katfal",
     "parentId": "Sangole"
@@ -194135,8 +191880,8 @@
     "parentId": "Sangole"
   },
   {
-    "id": "Laxminagar  (D.Wadi)",
-    "label": "Laxminagar  (D.Wadi)",
+    "id": "Laxminagar (D.Wadi)",
+    "label": "Laxminagar (D.Wadi)",
     "parentId": "Sangole"
   },
   {
@@ -194690,11 +192435,6 @@
     "parentId": "Solapur South"
   },
   {
-    "id": "Doddi",
-    "label": "Doddi",
-    "parentId": "Solapur South"
-  },
-  {
     "id": "Gangewadi",
     "label": "Gangewadi",
     "parentId": "Solapur South"
@@ -194845,8 +192585,8 @@
     "parentId": "Solapur South"
   },
   {
-    "id": "Mulegaon  Tanda",
-    "label": "Mulegaon  Tanda",
+    "id": "Mulegaon Tanda",
+    "label": "Mulegaon Tanda",
     "parentId": "Solapur South"
   },
   {
@@ -195195,8 +192935,8 @@
     "parentId": "Ambarnath"
   },
   {
-    "id": "Karavale  Kh",
-    "label": "Karavale  Kh",
+    "id": "Karavale Kh",
+    "label": "Karavale Kh",
     "parentId": "Ambarnath"
   },
   {
@@ -195490,8 +193230,8 @@
     "parentId": "Bhiwandi"
   },
   {
-    "id": "Borivali  Tarf Sonale",
-    "label": "Borivali  Tarf Sonale",
+    "id": "Borivali Tarf Sonale",
+    "label": "Borivali Tarf Sonale",
     "parentId": "Bhiwandi"
   },
   {
@@ -195520,13 +193260,13 @@
     "parentId": "Bhiwandi"
   },
   {
-    "id": "Chinchavali  Tarf Rahur",
-    "label": "Chinchavali  Tarf Rahur",
+    "id": "Chinchavali Tarf Rahur",
+    "label": "Chinchavali Tarf Rahur",
     "parentId": "Bhiwandi"
   },
   {
-    "id": "Chinchavali  Tarf Sonale",
-    "label": "Chinchavali  Tarf Sonale",
+    "id": "Chinchavali Tarf Sonale",
+    "label": "Chinchavali Tarf Sonale",
     "parentId": "Bhiwandi"
   },
   {
@@ -195730,8 +193470,8 @@
     "parentId": "Bhiwandi"
   },
   {
-    "id": "Jambhivali  Tarf Kunde",
-    "label": "Jambhivali  Tarf Kunde",
+    "id": "Jambhivali Tarf Kunde",
+    "label": "Jambhivali Tarf Kunde",
     "parentId": "Bhiwandi"
   },
   {
@@ -195845,8 +193585,8 @@
     "parentId": "Bhiwandi"
   },
   {
-    "id": "Khadaki   Bk.",
-    "label": "Khadaki   Bk.",
+    "id": "Khadaki Bk.",
+    "label": "Khadaki Bk.",
     "parentId": "Bhiwandi"
   },
   {
@@ -195910,13 +193650,13 @@
     "parentId": "Bhiwandi"
   },
   {
-    "id": "Kiravali  Duravali",
-    "label": "Kiravali  Duravali",
+    "id": "Kiravali Duravali",
+    "label": "Kiravali Duravali",
     "parentId": "Bhiwandi"
   },
   {
-    "id": "Kiravali Tarf  Sonale",
-    "label": "Kiravali Tarf  Sonale",
+    "id": "Kiravali Tarf Sonale",
+    "label": "Kiravali Tarf Sonale",
     "parentId": "Bhiwandi"
   },
   {
@@ -196190,8 +193930,8 @@
     "parentId": "Bhiwandi"
   },
   {
-    "id": "Pimpalshet  Bhuishet",
-    "label": "Pimpalshet  Bhuishet",
+    "id": "Pimpalshet Bhuishet",
+    "label": "Pimpalshet Bhuishet",
     "parentId": "Bhiwandi"
   },
   {
@@ -196350,8 +194090,8 @@
     "parentId": "Bhiwandi"
   },
   {
-    "id": "Talavali  Tarf Rahur",
-    "label": "Talavali  Tarf Rahur",
+    "id": "Talavali Tarf Rahur",
+    "label": "Talavali Tarf Rahur",
     "parentId": "Bhiwandi"
   },
   {
@@ -196415,13 +194155,13 @@
     "parentId": "Bhiwandi"
   },
   {
-    "id": "Vadvali  Tarf Rahur",
-    "label": "Vadvali  Tarf Rahur",
+    "id": "Vadvali Tarf Rahur",
+    "label": "Vadvali Tarf Rahur",
     "parentId": "Bhiwandi"
   },
   {
-    "id": "Vadvali Tarf  Sonale",
-    "label": "Vadvali Tarf  Sonale",
+    "id": "Vadvali Tarf Sonale",
+    "label": "Vadvali Tarf Sonale",
     "parentId": "Bhiwandi"
   },
   {
@@ -196510,8 +194250,8 @@
     "parentId": "Kalyan"
   },
   {
-    "id": "Ambivali  Tarf   Chon",
-    "label": "Ambivali  Tarf   Chon",
+    "id": "Ambivali Tarf Chon",
+    "label": "Ambivali Tarf Chon",
     "parentId": "Kalyan"
   },
   {
@@ -197085,11 +194825,6 @@
     "parentId": "Murbad"
   },
   {
-    "id": "Dahigaon",
-    "label": "Dahigaon",
-    "parentId": "Murbad"
-  },
-  {
     "id": "Dahivali",
     "label": "Dahivali",
     "parentId": "Murbad"
@@ -197187,11 +194922,6 @@
   {
     "id": "Fansoli",
     "label": "Fansoli",
-    "parentId": "Murbad"
-  },
-  {
-    "id": "Ganeshpur",
-    "label": "Ganeshpur",
     "parentId": "Murbad"
   },
   {
@@ -197477,11 +195207,6 @@
   {
     "id": "Mandwat",
     "label": "Mandwat",
-    "parentId": "Murbad"
-  },
-  {
-    "id": "Mangaon",
-    "label": "Mangaon",
     "parentId": "Murbad"
   },
   {
@@ -197990,11 +195715,6 @@
     "parentId": "Shahapur"
   },
   {
-    "id": "Ambivali",
-    "label": "Ambivali",
-    "parentId": "Shahapur"
-  },
-  {
     "id": "Andad",
     "label": "Andad",
     "parentId": "Shahapur"
@@ -198075,11 +195795,6 @@
     "parentId": "Shahapur"
   },
   {
-    "id": "Belwali",
-    "label": "Belwali",
-    "parentId": "Shahapur"
-  },
-  {
     "id": "Bendekon",
     "label": "Bendekon",
     "parentId": "Shahapur"
@@ -198120,8 +195835,8 @@
     "parentId": "Shahapur"
   },
   {
-    "id": "Borsheti  Bk.",
-    "label": "Borsheti  Bk.",
+    "id": "Borsheti Bk.",
+    "label": "Borsheti Bk.",
     "parentId": "Shahapur"
   },
   {
@@ -199000,8 +196715,8 @@
     "parentId": "Shahapur"
   },
   {
-    "id": "Vashala  Bk",
-    "label": "Vashala  Bk",
+    "id": "Vashala Bk",
+    "label": "Vashala Bk",
     "parentId": "Shahapur"
   },
   {
@@ -199035,8 +196750,8 @@
     "parentId": "Shahapur"
   },
   {
-    "id": "Vehloli   Kh.",
-    "label": "Vehloli   Kh.",
+    "id": "Vehloli Kh.",
+    "label": "Vehloli Kh.",
     "parentId": "Shahapur"
   },
   {
@@ -199230,11 +196945,6 @@
     "parentId": "Arvi"
   },
   {
-    "id": "Bhadod",
-    "label": "Bhadod",
-    "parentId": "Arvi"
-  },
-  {
     "id": "Bhaipur",
     "label": "Bhaipur",
     "parentId": "Arvi"
@@ -199260,18 +196970,8 @@
     "parentId": "Arvi"
   },
   {
-    "id": "Borgaon",
-    "label": "Borgaon",
-    "parentId": "Arvi"
-  },
-  {
     "id": "Bori",
     "label": "Bori",
-    "parentId": "Arvi"
-  },
-  {
-    "id": "Borkhedi",
-    "label": "Borkhedi",
     "parentId": "Arvi"
   },
   {
@@ -199292,11 +196992,6 @@
   {
     "id": "Brahmanwada",
     "label": "Brahmanwada",
-    "parentId": "Arvi"
-  },
-  {
-    "id": "Chandani",
-    "label": "Chandani",
     "parentId": "Arvi"
   },
   {
@@ -199372,11 +197067,6 @@
   {
     "id": "Dhanodi Kh",
     "label": "Dhanodi Kh",
-    "parentId": "Arvi"
-  },
-  {
-    "id": "Dighi",
-    "label": "Dighi",
     "parentId": "Arvi"
   },
   {
@@ -199482,11 +197172,6 @@
   {
     "id": "Hiwara",
     "label": "Hiwara",
-    "parentId": "Arvi"
-  },
-  {
-    "id": "Husenpur",
-    "label": "Husenpur",
     "parentId": "Arvi"
   },
   {
@@ -199685,11 +197370,6 @@
     "parentId": "Arvi"
   },
   {
-    "id": "Mahamadpur",
-    "label": "Mahamadpur",
-    "parentId": "Arvi"
-  },
-  {
     "id": "Maiwadi",
     "label": "Maiwadi",
     "parentId": "Arvi"
@@ -199750,11 +197430,6 @@
     "parentId": "Arvi"
   },
   {
-    "id": "Mirzapur",
-    "label": "Mirzapur",
-    "parentId": "Arvi"
-  },
-  {
     "id": "Morangana",
     "label": "Morangana",
     "parentId": "Arvi"
@@ -199800,11 +197475,6 @@
     "parentId": "Arvi"
   },
   {
-    "id": "Nagazari",
-    "label": "Nagazari",
-    "parentId": "Arvi"
-  },
-  {
     "id": "Nandora",
     "label": "Nandora",
     "parentId": "Arvi"
@@ -199840,18 +197510,13 @@
     "parentId": "Arvi"
   },
   {
-    "id": "Pachod",
-    "label": "Pachod",
-    "parentId": "Arvi"
-  },
-  {
     "id": "Panjara",
     "label": "Panjara",
     "parentId": "Arvi"
   },
   {
-    "id": "Panjara  Bothali",
-    "label": "Panjara  Bothali",
+    "id": "Panjara Bothali",
+    "label": "Panjara Bothali",
     "parentId": "Arvi"
   },
   {
@@ -199877,11 +197542,6 @@
   {
     "id": "Patan",
     "label": "Patan",
-    "parentId": "Arvi"
-  },
-  {
-    "id": "Pimpalgaon",
-    "label": "Pimpalgaon",
     "parentId": "Arvi"
   },
   {
@@ -200020,11 +197680,6 @@
     "parentId": "Arvi"
   },
   {
-    "id": "Shahapur",
-    "label": "Shahapur",
-    "parentId": "Arvi"
-  },
-  {
     "id": "Shirpur",
     "label": "Shirpur",
     "parentId": "Arvi"
@@ -200047,16 +197702,6 @@
   {
     "id": "Sorta",
     "label": "Sorta",
-    "parentId": "Arvi"
-  },
-  {
-    "id": "Sukli",
-    "label": "Sukli",
-    "parentId": "Arvi"
-  },
-  {
-    "id": "Sukli",
-    "label": "Sukli",
     "parentId": "Arvi"
   },
   {
@@ -200095,8 +197740,8 @@
     "parentId": "Arvi"
   },
   {
-    "id": "Theka  Ambazari",
-    "label": "Theka  Ambazari",
+    "id": "Theka Ambazari",
+    "label": "Theka Ambazari",
     "parentId": "Arvi"
   },
   {
@@ -200140,11 +197785,6 @@
     "parentId": "Arvi"
   },
   {
-    "id": "Umari",
-    "label": "Umari",
-    "parentId": "Arvi"
-  },
-  {
     "id": "Virul",
     "label": "Virul",
     "parentId": "Arvi"
@@ -200162,11 +197802,6 @@
   {
     "id": "Wadgaon",
     "label": "Wadgaon",
-    "parentId": "Arvi"
-  },
-  {
-    "id": "Wadhona",
-    "label": "Wadhona",
     "parentId": "Arvi"
   },
   {
@@ -200235,11 +197870,6 @@
     "parentId": "Ashti"
   },
   {
-    "id": "Ajitpur",
-    "label": "Ajitpur",
-    "parentId": "Ashti"
-  },
-  {
     "id": "Allipur",
     "label": "Allipur",
     "parentId": "Ashti"
@@ -200252,11 +197882,6 @@
   {
     "id": "Ambikapur",
     "label": "Ambikapur",
-    "parentId": "Ashti"
-  },
-  {
-    "id": "Anandwadi",
-    "label": "Anandwadi",
     "parentId": "Ashti"
   },
   {
@@ -200325,11 +197950,6 @@
     "parentId": "Ashti"
   },
   {
-    "id": "Borkhedi",
-    "label": "Borkhedi",
-    "parentId": "Ashti"
-  },
-  {
     "id": "Bramhanwada",
     "label": "Bramhanwada",
     "parentId": "Ashti"
@@ -200357,11 +197977,6 @@
   {
     "id": "Chichkumbha",
     "label": "Chichkumbha",
-    "parentId": "Ashti"
-  },
-  {
-    "id": "Chincholi",
-    "label": "Chincholi",
     "parentId": "Ashti"
   },
   {
@@ -200440,11 +198055,6 @@
     "parentId": "Ashti"
   },
   {
-    "id": "Husnabad",
-    "label": "Husnabad",
-    "parentId": "Ashti"
-  },
-  {
     "id": "Indarmari",
     "label": "Indarmari",
     "parentId": "Ashti"
@@ -200475,11 +198085,6 @@
     "parentId": "Ashti"
   },
   {
-    "id": "Jamgaon",
-    "label": "Jamgaon",
-    "parentId": "Ashti"
-  },
-  {
     "id": "Jatashankar",
     "label": "Jatashankar",
     "parentId": "Ashti"
@@ -200492,11 +198097,6 @@
   {
     "id": "Junona",
     "label": "Junona",
-    "parentId": "Ashti"
-  },
-  {
-    "id": "Kakaddara",
-    "label": "Kakaddara",
     "parentId": "Ashti"
   },
   {
@@ -200527,11 +198127,6 @@
   {
     "id": "Khambit",
     "label": "Khambit",
-    "parentId": "Ashti"
-  },
-  {
-    "id": "Khanapur",
-    "label": "Khanapur",
     "parentId": "Ashti"
   },
   {
@@ -200615,11 +198210,6 @@
     "parentId": "Ashti"
   },
   {
-    "id": "Mubarakpur",
-    "label": "Mubarakpur",
-    "parentId": "Ashti"
-  },
-  {
     "id": "Munimpur",
     "label": "Munimpur",
     "parentId": "Ashti"
@@ -200627,11 +198217,6 @@
   {
     "id": "Nababpur",
     "label": "Nababpur",
-    "parentId": "Ashti"
-  },
-  {
-    "id": "Nagazari",
-    "label": "Nagazari",
     "parentId": "Ashti"
   },
   {
@@ -200830,11 +198415,6 @@
     "parentId": "Ashti"
   },
   {
-    "id": "Shekapur",
-    "label": "Shekapur",
-    "parentId": "Ashti"
-  },
-  {
     "id": "Sherpur",
     "label": "Sherpur",
     "parentId": "Ashti"
@@ -200872,11 +198452,6 @@
   {
     "id": "Subda",
     "label": "Subda",
-    "parentId": "Ashti"
-  },
-  {
-    "id": "Sujatpur",
-    "label": "Sujatpur",
     "parentId": "Ashti"
   },
   {
@@ -200990,11 +198565,6 @@
     "parentId": "Ashti"
   },
   {
-    "id": "Yenada",
-    "label": "Yenada",
-    "parentId": "Ashti"
-  },
-  {
     "id": "Zadgaon",
     "label": "Zadgaon",
     "parentId": "Ashti"
@@ -201060,16 +198630,6 @@
     "parentId": "Deoli"
   },
   {
-    "id": "Babapur",
-    "label": "Babapur",
-    "parentId": "Deoli"
-  },
-  {
-    "id": "Babhulgaon",
-    "label": "Babhulgaon",
-    "parentId": "Deoli"
-  },
-  {
     "id": "Babhulgaon",
     "label": "Babhulgaon",
     "parentId": "Deoli"
@@ -201107,11 +198667,6 @@
   {
     "id": "Bhojankheda",
     "label": "Bhojankheda",
-    "parentId": "Deoli"
-  },
-  {
-    "id": "Bopapur",
-    "label": "Bopapur",
     "parentId": "Deoli"
   },
   {
@@ -201295,11 +198850,6 @@
     "parentId": "Deoli"
   },
   {
-    "id": "Husnapur",
-    "label": "Husnapur",
-    "parentId": "Deoli"
-  },
-  {
     "id": "Inzala",
     "label": "Inzala",
     "parentId": "Deoli"
@@ -201397,11 +198947,6 @@
   {
     "id": "Khatkheda",
     "label": "Khatkheda",
-    "parentId": "Deoli"
-  },
-  {
-    "id": "Kolhapur",
-    "label": "Kolhapur",
     "parentId": "Deoli"
   },
   {
@@ -201580,11 +199125,6 @@
     "parentId": "Deoli"
   },
   {
-    "id": "Raipur",
-    "label": "Raipur",
-    "parentId": "Deoli"
-  },
-  {
     "id": "Rangnathpur",
     "label": "Rangnathpur",
     "parentId": "Deoli"
@@ -201622,11 +199162,6 @@
   {
     "id": "Sawangi",
     "label": "Sawangi",
-    "parentId": "Deoli"
-  },
-  {
-    "id": "Sekapur",
-    "label": "Sekapur",
     "parentId": "Deoli"
   },
   {
@@ -201770,11 +199305,6 @@
     "parentId": "Hinganghat"
   },
   {
-    "id": "Ajmatpur",
-    "label": "Ajmatpur",
-    "parentId": "Hinganghat"
-  },
-  {
     "id": "Alamdoh",
     "label": "Alamdoh",
     "parentId": "Hinganghat"
@@ -201797,11 +199327,6 @@
   {
     "id": "Ashti",
     "label": "Ashti",
-    "parentId": "Hinganghat"
-  },
-  {
-    "id": "Babapur",
-    "label": "Babapur",
     "parentId": "Hinganghat"
   },
   {
@@ -201880,11 +199405,6 @@
     "parentId": "Hinganghat"
   },
   {
-    "id": "Borgaon",
-    "label": "Borgaon",
-    "parentId": "Hinganghat"
-  },
-  {
     "id": "Bori",
     "label": "Bori",
     "parentId": "Hinganghat"
@@ -201922,11 +199442,6 @@
   {
     "id": "Chikmoh",
     "label": "Chikmoh",
-    "parentId": "Hinganghat"
-  },
-  {
-    "id": "Chincholi",
-    "label": "Chincholi",
     "parentId": "Hinganghat"
   },
   {
@@ -202015,23 +199530,8 @@
     "parentId": "Hinganghat"
   },
   {
-    "id": "Gadegaon",
-    "label": "Gadegaon",
-    "parentId": "Hinganghat"
-  },
-  {
     "id": "Ganeshpur",
     "label": "Ganeshpur",
-    "parentId": "Hinganghat"
-  },
-  {
-    "id": "Gangapur",
-    "label": "Gangapur",
-    "parentId": "Hinganghat"
-  },
-  {
-    "id": "Gangapur",
-    "label": "Gangapur",
     "parentId": "Hinganghat"
   },
   {
@@ -202210,11 +199710,6 @@
     "parentId": "Hinganghat"
   },
   {
-    "id": "Khapri",
-    "label": "Khapri",
-    "parentId": "Hinganghat"
-  },
-  {
     "id": "Khardi",
     "label": "Khardi",
     "parentId": "Hinganghat"
@@ -202232,11 +199727,6 @@
   {
     "id": "Kingaon",
     "label": "Kingaon",
-    "parentId": "Hinganghat"
-  },
-  {
-    "id": "Kolhi",
-    "label": "Kolhi",
     "parentId": "Hinganghat"
   },
   {
@@ -202345,11 +199835,6 @@
     "parentId": "Hinganghat"
   },
   {
-    "id": "Nandgaon",
-    "label": "Nandgaon",
-    "parentId": "Hinganghat"
-  },
-  {
     "id": "Nandra",
     "label": "Nandra",
     "parentId": "Hinganghat"
@@ -202390,18 +199875,8 @@
     "parentId": "Hinganghat"
   },
   {
-    "id": "Parsoda",
-    "label": "Parsoda",
-    "parentId": "Hinganghat"
-  },
-  {
     "id": "Pawani",
     "label": "Pawani",
-    "parentId": "Hinganghat"
-  },
-  {
-    "id": "Pimpalgaon",
-    "label": "Pimpalgaon",
     "parentId": "Hinganghat"
   },
   {
@@ -202485,16 +199960,6 @@
     "parentId": "Hinganghat"
   },
   {
-    "id": "Sawangi",
-    "label": "Sawangi",
-    "parentId": "Hinganghat"
-  },
-  {
-    "id": "Sawangi",
-    "label": "Sawangi",
-    "parentId": "Hinganghat"
-  },
-  {
     "id": "Sawli (Wagh)",
     "label": "Sawli (Wagh)",
     "parentId": "Hinganghat"
@@ -202512,11 +199977,6 @@
   {
     "id": "Sekapur (Bai)",
     "label": "Sekapur (Bai)",
-    "parentId": "Hinganghat"
-  },
-  {
-    "id": "Selu",
-    "label": "Selu",
     "parentId": "Hinganghat"
   },
   {
@@ -202547,16 +200007,6 @@
   {
     "id": "Sirud",
     "label": "Sirud",
-    "parentId": "Hinganghat"
-  },
-  {
-    "id": "Sonegaon",
-    "label": "Sonegaon",
-    "parentId": "Hinganghat"
-  },
-  {
-    "id": "Sonegaon",
-    "label": "Sonegaon",
     "parentId": "Hinganghat"
   },
   {
@@ -203205,21 +200655,6 @@
     "parentId": "Karanja"
   },
   {
-    "id": "Sonegaon",
-    "label": "Sonegaon",
-    "parentId": "Karanja"
-  },
-  {
-    "id": "Sonegaon",
-    "label": "Sonegaon",
-    "parentId": "Karanja"
-  },
-  {
-    "id": "Sonegaon",
-    "label": "Sonegaon",
-    "parentId": "Karanja"
-  },
-  {
     "id": "Susund",
     "label": "Susund",
     "parentId": "Karanja"
@@ -203227,11 +200662,6 @@
   {
     "id": "Susundra",
     "label": "Susundra",
-    "parentId": "Karanja"
-  },
-  {
-    "id": "Taroda",
-    "label": "Taroda",
     "parentId": "Karanja"
   },
   {
@@ -203262,11 +200692,6 @@
   {
     "id": "Umar Vihiri",
     "label": "Umar Vihiri",
-    "parentId": "Karanja"
-  },
-  {
-    "id": "Waghoda",
-    "label": "Waghoda",
     "parentId": "Karanja"
   },
   {
@@ -203327,11 +200752,6 @@
   {
     "id": "Aurangapur",
     "label": "Aurangapur",
-    "parentId": "Samudrapur"
-  },
-  {
-    "id": "Aurangpur",
-    "label": "Aurangpur",
     "parentId": "Samudrapur"
   },
   {
@@ -203440,11 +200860,6 @@
     "parentId": "Samudrapur"
   },
   {
-    "id": "Chincholi",
-    "label": "Chincholi",
-    "parentId": "Samudrapur"
-  },
-  {
     "id": "Chopan",
     "label": "Chopan",
     "parentId": "Samudrapur"
@@ -203490,11 +200905,6 @@
     "parentId": "Samudrapur"
   },
   {
-    "id": "Dhamangaon",
-    "label": "Dhamangaon",
-    "parentId": "Samudrapur"
-  },
-  {
     "id": "Dhanoli",
     "label": "Dhanoli",
     "parentId": "Samudrapur"
@@ -203515,11 +200925,6 @@
     "parentId": "Samudrapur"
   },
   {
-    "id": "Dongargaon",
-    "label": "Dongargaon",
-    "parentId": "Samudrapur"
-  },
-  {
     "id": "Faridpur",
     "label": "Faridpur",
     "parentId": "Samudrapur"
@@ -203532,21 +200937,6 @@
   {
     "id": "Gadhavdev",
     "label": "Gadhavdev",
-    "parentId": "Samudrapur"
-  },
-  {
-    "id": "Ganeshpur",
-    "label": "Ganeshpur",
-    "parentId": "Samudrapur"
-  },
-  {
-    "id": "Ganeshpur",
-    "label": "Ganeshpur",
-    "parentId": "Samudrapur"
-  },
-  {
-    "id": "Ganeshpur",
-    "label": "Ganeshpur",
     "parentId": "Samudrapur"
   },
   {
@@ -203587,11 +200977,6 @@
   {
     "id": "Girgaon",
     "label": "Girgaon",
-    "parentId": "Samudrapur"
-  },
-  {
-    "id": "Govindpur",
-    "label": "Govindpur",
     "parentId": "Samudrapur"
   },
   {
@@ -203695,11 +201080,6 @@
     "parentId": "Samudrapur"
   },
   {
-    "id": "Karur",
-    "label": "Karur",
-    "parentId": "Samudrapur"
-  },
-  {
     "id": "Kasarpeth",
     "label": "Kasarpeth",
     "parentId": "Samudrapur"
@@ -203737,16 +201117,6 @@
   {
     "id": "Khanjirpur",
     "label": "Khanjirpur",
-    "parentId": "Samudrapur"
-  },
-  {
-    "id": "Khapri",
-    "label": "Khapri",
-    "parentId": "Samudrapur"
-  },
-  {
-    "id": "Khapri",
-    "label": "Khapri",
     "parentId": "Samudrapur"
   },
   {
@@ -203920,21 +201290,6 @@
     "parentId": "Samudrapur"
   },
   {
-    "id": "Narayanpur",
-    "label": "Narayanpur",
-    "parentId": "Samudrapur"
-  },
-  {
-    "id": "Narayanpur",
-    "label": "Narayanpur",
-    "parentId": "Samudrapur"
-  },
-  {
-    "id": "Narayanpur",
-    "label": "Narayanpur",
-    "parentId": "Samudrapur"
-  },
-  {
     "id": "Nhavi",
     "label": "Nhavi",
     "parentId": "Samudrapur"
@@ -204055,11 +201410,6 @@
     "parentId": "Samudrapur"
   },
   {
-    "id": "Rampur",
-    "label": "Rampur",
-    "parentId": "Samudrapur"
-  },
-  {
     "id": "Ranumari",
     "label": "Ranumari",
     "parentId": "Samudrapur"
@@ -204117,11 +201467,6 @@
   {
     "id": "Satghari",
     "label": "Satghari",
-    "parentId": "Samudrapur"
-  },
-  {
-    "id": "Savangi",
-    "label": "Savangi",
     "parentId": "Samudrapur"
   },
   {
@@ -204195,11 +201540,6 @@
     "parentId": "Samudrapur"
   },
   {
-    "id": "Sonegaon",
-    "label": "Sonegaon",
-    "parentId": "Samudrapur"
-  },
-  {
     "id": "Sonegaon Rithi",
     "label": "Sonegaon Rithi",
     "parentId": "Samudrapur"
@@ -204207,11 +201547,6 @@
   {
     "id": "Sujatpur",
     "label": "Sujatpur",
-    "parentId": "Samudrapur"
-  },
-  {
-    "id": "Sukali",
-    "label": "Sukali",
     "parentId": "Samudrapur"
   },
   {
@@ -204285,11 +201620,6 @@
     "parentId": "Samudrapur"
   },
   {
-    "id": "Umri",
-    "label": "Umri",
-    "parentId": "Samudrapur"
-  },
-  {
     "id": "Undirgaon",
     "label": "Undirgaon",
     "parentId": "Samudrapur"
@@ -204307,11 +201637,6 @@
   {
     "id": "Vikhani",
     "label": "Vikhani",
-    "parentId": "Samudrapur"
-  },
-  {
-    "id": "Wadgaon",
-    "label": "Wadgaon",
     "parentId": "Samudrapur"
   },
   {
@@ -204347,11 +201672,6 @@
   {
     "id": "Waksur",
     "label": "Waksur",
-    "parentId": "Samudrapur"
-  },
-  {
-    "id": "Wanarchuwa",
-    "label": "Wanarchuwa",
     "parentId": "Samudrapur"
   },
   {
@@ -204400,11 +201720,6 @@
     "parentId": "Seloo"
   },
   {
-    "id": "Akoli",
-    "label": "Akoli",
-    "parentId": "Seloo"
-  },
-  {
     "id": "Algaon",
     "label": "Algaon",
     "parentId": "Seloo"
@@ -204412,16 +201727,6 @@
   {
     "id": "Ambora",
     "label": "Ambora",
-    "parentId": "Seloo"
-  },
-  {
-    "id": "Amgaon",
-    "label": "Amgaon",
-    "parentId": "Seloo"
-  },
-  {
-    "id": "Amgaon",
-    "label": "Amgaon",
     "parentId": "Seloo"
   },
   {
@@ -204545,16 +201850,6 @@
     "parentId": "Seloo"
   },
   {
-    "id": "Chincholi",
-    "label": "Chincholi",
-    "parentId": "Seloo"
-  },
-  {
-    "id": "Chincholi",
-    "label": "Chincholi",
-    "parentId": "Seloo"
-  },
-  {
     "id": "Dabalapur",
     "label": "Dabalapur",
     "parentId": "Seloo"
@@ -204562,11 +201857,6 @@
   {
     "id": "Dahegaon (Gosai)",
     "label": "Dahegaon (Gosai)",
-    "parentId": "Seloo"
-  },
-  {
-    "id": "Daulatpur",
-    "label": "Daulatpur",
     "parentId": "Seloo"
   },
   {
@@ -204630,18 +201920,8 @@
     "parentId": "Seloo"
   },
   {
-    "id": "Dorli",
-    "label": "Dorli",
-    "parentId": "Seloo"
-  },
-  {
     "id": "Gaimukh",
     "label": "Gaimukh",
-    "parentId": "Seloo"
-  },
-  {
-    "id": "Ganeshpur",
-    "label": "Ganeshpur",
     "parentId": "Seloo"
   },
   {
@@ -204707,16 +201987,6 @@
   {
     "id": "Hingni",
     "label": "Hingni",
-    "parentId": "Seloo"
-  },
-  {
-    "id": "Hiwara",
-    "label": "Hiwara",
-    "parentId": "Seloo"
-  },
-  {
-    "id": "Hiwara",
-    "label": "Hiwara",
     "parentId": "Seloo"
   },
   {
@@ -204810,11 +202080,6 @@
     "parentId": "Seloo"
   },
   {
-    "id": "Kashimpur",
-    "label": "Kashimpur",
-    "parentId": "Seloo"
-  },
-  {
     "id": "Keli",
     "label": "Keli",
     "parentId": "Seloo"
@@ -204837,16 +202102,6 @@
   {
     "id": "Khadki",
     "label": "Khadki",
-    "parentId": "Seloo"
-  },
-  {
-    "id": "Khadki",
-    "label": "Khadki",
-    "parentId": "Seloo"
-  },
-  {
-    "id": "Khairi",
-    "label": "Khairi",
     "parentId": "Seloo"
   },
   {
@@ -204957,11 +202212,6 @@
   {
     "id": "Mohadara",
     "label": "Mohadara",
-    "parentId": "Seloo"
-  },
-  {
-    "id": "Mohanapur",
-    "label": "Mohanapur",
     "parentId": "Seloo"
   },
   {
@@ -205190,11 +202440,6 @@
     "parentId": "Seloo"
   },
   {
-    "id": "Tuljapur",
-    "label": "Tuljapur",
-    "parentId": "Seloo"
-  },
-  {
     "id": "Umargaon",
     "label": "Umargaon",
     "parentId": "Seloo"
@@ -205340,11 +202585,6 @@
     "parentId": "Wardha"
   },
   {
-    "id": "Balapur",
-    "label": "Balapur",
-    "parentId": "Wardha"
-  },
-  {
     "id": "Banpur",
     "label": "Banpur",
     "parentId": "Wardha"
@@ -205372,11 +202612,6 @@
   {
     "id": "Bhawanpur",
     "label": "Bhawanpur",
-    "parentId": "Wardha"
-  },
-  {
-    "id": "Bhiwapur",
-    "label": "Bhiwapur",
     "parentId": "Wardha"
   },
   {
@@ -205460,16 +202695,6 @@
     "parentId": "Wardha"
   },
   {
-    "id": "Dattapur",
-    "label": "Dattapur",
-    "parentId": "Wardha"
-  },
-  {
-    "id": "Dattapur",
-    "label": "Dattapur",
-    "parentId": "Wardha"
-  },
-  {
     "id": "Degaon",
     "label": "Degaon",
     "parentId": "Wardha"
@@ -205500,11 +202725,6 @@
     "parentId": "Wardha"
   },
   {
-    "id": "Dhotra",
-    "label": "Dhotra",
-    "parentId": "Wardha"
-  },
-  {
     "id": "Dhulwa",
     "label": "Dhulwa",
     "parentId": "Wardha"
@@ -205512,11 +202732,6 @@
   {
     "id": "Digraj",
     "label": "Digraj",
-    "parentId": "Wardha"
-  },
-  {
-    "id": "Dorli",
-    "label": "Dorli",
     "parentId": "Wardha"
   },
   {
@@ -205645,11 +202860,6 @@
     "parentId": "Wardha"
   },
   {
-    "id": "Kurzadi",
-    "label": "Kurzadi",
-    "parentId": "Wardha"
-  },
-  {
     "id": "Kutki",
     "label": "Kutki",
     "parentId": "Wardha"
@@ -205715,11 +202925,6 @@
     "parentId": "Wardha"
   },
   {
-    "id": "Mudhapur",
-    "label": "Mudhapur",
-    "parentId": "Wardha"
-  },
-  {
     "id": "Nagapur",
     "label": "Nagapur",
     "parentId": "Wardha"
@@ -205745,16 +202950,6 @@
     "parentId": "Wardha"
   },
   {
-    "id": "Narayanpur",
-    "label": "Narayanpur",
-    "parentId": "Wardha"
-  },
-  {
-    "id": "Narayanpur",
-    "label": "Narayanpur",
-    "parentId": "Wardha"
-  },
-  {
     "id": "Narsula",
     "label": "Narsula",
     "parentId": "Wardha"
@@ -205767,16 +202962,6 @@
   {
     "id": "Navabpur",
     "label": "Navabpur",
-    "parentId": "Wardha"
-  },
-  {
-    "id": "Neri",
-    "label": "Neri",
-    "parentId": "Wardha"
-  },
-  {
-    "id": "Neri",
-    "label": "Neri",
     "parentId": "Wardha"
   },
   {
@@ -205980,11 +203165,6 @@
     "parentId": "Wardha"
   },
   {
-    "id": "Talegaon",
-    "label": "Talegaon",
-    "parentId": "Wardha"
-  },
-  {
     "id": "Tanapur",
     "label": "Tanapur",
     "parentId": "Wardha"
@@ -206017,11 +203197,6 @@
   {
     "id": "Waifad",
     "label": "Waifad",
-    "parentId": "Wardha"
-  },
-  {
-    "id": "Waigaon",
-    "label": "Waigaon",
     "parentId": "Wardha"
   },
   {
@@ -206063,11 +203238,6 @@
     "id": "Zadgaon",
     "label": "Zadgaon",
     "parentId": "Wardha"
-  },
-  {
-    "id": "Ajampur",
-    "label": "Ajampur",
-    "parentId": "Karanja"
   },
   {
     "id": "Ajampur",
@@ -206230,8 +203400,8 @@
     "parentId": "Karanja"
   },
   {
-    "id": "Dhanj  Bk",
-    "label": "Dhanj  Bk",
+    "id": "Dhanj Bk",
+    "label": "Dhanj Bk",
     "parentId": "Karanja"
   },
   {
@@ -206257,11 +203427,6 @@
   {
     "id": "Donad Bk.",
     "label": "Donad Bk.",
-    "parentId": "Karanja"
-  },
-  {
-    "id": "Dongargaon",
-    "label": "Dongargaon",
     "parentId": "Karanja"
   },
   {
@@ -206327,11 +203492,6 @@
   {
     "id": "Inza",
     "label": "Inza",
-    "parentId": "Karanja"
-  },
-  {
-    "id": "Isafpur",
-    "label": "Isafpur",
     "parentId": "Karanja"
   },
   {
@@ -206500,11 +203660,6 @@
     "parentId": "Karanja"
   },
   {
-    "id": "Malegaon",
-    "label": "Malegaon",
-    "parentId": "Karanja"
-  },
-  {
     "id": "Malkapur",
     "label": "Malkapur",
     "parentId": "Karanja"
@@ -206572,11 +203727,6 @@
   {
     "id": "Murtijapur",
     "label": "Murtijapur",
-    "parentId": "Karanja"
-  },
-  {
-    "id": "Nagalwadi",
-    "label": "Nagalwadi",
     "parentId": "Karanja"
   },
   {
@@ -206665,11 +203815,6 @@
     "parentId": "Karanja"
   },
   {
-    "id": "Rahati",
-    "label": "Rahati",
-    "parentId": "Karanja"
-  },
-  {
     "id": "Ramnagar",
     "label": "Ramnagar",
     "parentId": "Karanja"
@@ -206755,11 +203900,6 @@
     "parentId": "Karanja"
   },
   {
-    "id": "Sukali",
-    "label": "Sukali",
-    "parentId": "Karanja"
-  },
-  {
     "id": "Takali Bk.",
     "label": "Takali Bk.",
     "parentId": "Karanja"
@@ -206822,11 +203962,6 @@
   {
     "id": "Virgavhan",
     "label": "Virgavhan",
-    "parentId": "Karanja"
-  },
-  {
-    "id": "Wadgaon",
-    "label": "Wadgaon",
     "parentId": "Karanja"
   },
   {
@@ -207955,11 +205090,6 @@
     "parentId": "Mangrulpir"
   },
   {
-    "id": "Pimpalgaon",
-    "label": "Pimpalgaon",
-    "parentId": "Mangrulpir"
-  },
-  {
     "id": "Pimpalkhuta",
     "label": "Pimpalkhuta",
     "parentId": "Mangrulpir"
@@ -208475,11 +205605,6 @@
     "parentId": "Manora"
   },
   {
-    "id": "Jamdara",
-    "label": "Jamdara",
-    "parentId": "Manora"
-  },
-  {
     "id": "Jamni",
     "label": "Jamni",
     "parentId": "Manora"
@@ -208825,11 +205950,6 @@
     "parentId": "Manora"
   },
   {
-    "id": "Wadgaon",
-    "label": "Wadgaon",
-    "parentId": "Manora"
-  },
-  {
     "id": "Wagdari",
     "label": "Wagdari",
     "parentId": "Manora"
@@ -208985,11 +206105,6 @@
     "parentId": "Risod"
   },
   {
-    "id": "Ganeshpur",
-    "label": "Ganeshpur",
-    "parentId": "Risod"
-  },
-  {
     "id": "Gaundhala",
     "label": "Gaundhala",
     "parentId": "Risod"
@@ -209107,16 +206222,6 @@
   {
     "id": "Koyali Bk.",
     "label": "Koyali Bk.",
-    "parentId": "Risod"
-  },
-  {
-    "id": "Koyali Bk.",
-    "label": "Koyali Bk.",
-    "parentId": "Risod"
-  },
-  {
-    "id": "Koyali Kh.",
-    "label": "Koyali Kh.",
     "parentId": "Risod"
   },
   {
@@ -210075,11 +207180,6 @@
     "parentId": "Arni"
   },
   {
-    "id": "Bhandari",
-    "label": "Bhandari",
-    "parentId": "Arni"
-  },
-  {
     "id": "Bhansara",
     "label": "Bhansara",
     "parentId": "Arni"
@@ -210092,11 +207192,6 @@
   {
     "id": "Bilayat",
     "label": "Bilayat",
-    "parentId": "Arni"
-  },
-  {
-    "id": "Borgaon",
-    "label": "Borgaon",
     "parentId": "Arni"
   },
   {
@@ -210265,11 +207360,6 @@
     "parentId": "Arni"
   },
   {
-    "id": "Kelzara",
-    "label": "Kelzara",
-    "parentId": "Arni"
-  },
-  {
     "id": "Khadaka",
     "label": "Khadaka",
     "parentId": "Arni"
@@ -210307,11 +207397,6 @@
   {
     "id": "Krishnanagar",
     "label": "Krishnanagar",
-    "parentId": "Arni"
-  },
-  {
-    "id": "Kurha",
-    "label": "Kurha",
     "parentId": "Arni"
   },
   {
@@ -210472,11 +207557,6 @@
   {
     "id": "Shekalgaon",
     "label": "Shekalgaon",
-    "parentId": "Arni"
-  },
-  {
-    "id": "Shelu",
-    "label": "Shelu",
     "parentId": "Arni"
   },
   {
@@ -210905,11 +207985,6 @@
     "parentId": "Babulgaon"
   },
   {
-    "id": "Mahamadpur",
-    "label": "Mahamadpur",
-    "parentId": "Babulgaon"
-  },
-  {
     "id": "Mahuli",
     "label": "Mahuli",
     "parentId": "Babulgaon"
@@ -210950,11 +208025,6 @@
     "parentId": "Babulgaon"
   },
   {
-    "id": "Mitanapur",
-    "label": "Mitanapur",
-    "parentId": "Babulgaon"
-  },
-  {
     "id": "Mubarakpur",
     "label": "Mubarakpur",
     "parentId": "Babulgaon"
@@ -210972,11 +208042,6 @@
   {
     "id": "Nade Sawangi",
     "label": "Nade Sawangi",
-    "parentId": "Babulgaon"
-  },
-  {
-    "id": "Nagargaon",
-    "label": "Nagargaon",
     "parentId": "Babulgaon"
   },
   {
@@ -211042,11 +208107,6 @@
   {
     "id": "Parsodi",
     "label": "Parsodi",
-    "parentId": "Babulgaon"
-  },
-  {
-    "id": "Pimpalgaon",
-    "label": "Pimpalgaon",
     "parentId": "Babulgaon"
   },
   {
@@ -211455,11 +208515,6 @@
     "parentId": "Darwha"
   },
   {
-    "id": "Dolhari",
-    "label": "Dolhari",
-    "parentId": "Darwha"
-  },
-  {
     "id": "Dudhgaon",
     "label": "Dudhgaon",
     "parentId": "Darwha"
@@ -211472,11 +208527,6 @@
   {
     "id": "Gajipur",
     "label": "Gajipur",
-    "parentId": "Darwha"
-  },
-  {
-    "id": "Ganeshpur",
-    "label": "Ganeshpur",
     "parentId": "Darwha"
   },
   {
@@ -211600,8 +208650,8 @@
     "parentId": "Darwha"
   },
   {
-    "id": "Khopdi  Kh",
-    "label": "Khopdi  Kh",
+    "id": "Khopdi Kh",
+    "label": "Khopdi Kh",
     "parentId": "Darwha"
   },
   {
@@ -211740,11 +208790,6 @@
     "parentId": "Darwha"
   },
   {
-    "id": "Nandgavhan",
-    "label": "Nandgavhan",
-    "parentId": "Darwha"
-  },
-  {
     "id": "Nilona",
     "label": "Nilona",
     "parentId": "Darwha"
@@ -211782,11 +208827,6 @@
   {
     "id": "Pekarda",
     "label": "Pekarda",
-    "parentId": "Darwha"
-  },
-  {
-    "id": "Pimpalgaon",
-    "label": "Pimpalgaon",
     "parentId": "Darwha"
   },
   {
@@ -212080,8 +209120,8 @@
     "parentId": "Digras"
   },
   {
-    "id": "Dhanora  Bk.",
-    "label": "Dhanora  Bk.",
+    "id": "Dhanora Bk.",
+    "label": "Dhanora Bk.",
     "parentId": "Digras"
   },
   {
@@ -212385,11 +209425,6 @@
     "parentId": "Digras"
   },
   {
-    "id": "Wai",
-    "label": "Wai",
-    "parentId": "Digras"
-  },
-  {
     "id": "Warandali",
     "label": "Warandali",
     "parentId": "Digras"
@@ -212450,11 +209485,6 @@
     "parentId": "Ghatanji"
   },
   {
-    "id": "Chincholi",
-    "label": "Chincholi",
-    "parentId": "Ghatanji"
-  },
-  {
     "id": "Choramba",
     "label": "Choramba",
     "parentId": "Ghatanji"
@@ -212472,11 +209502,6 @@
   {
     "id": "Dangargaon",
     "label": "Dangargaon",
-    "parentId": "Ghatanji"
-  },
-  {
-    "id": "Dattapur",
-    "label": "Dattapur",
     "parentId": "Ghatanji"
   },
   {
@@ -212600,11 +209625,6 @@
     "parentId": "Ghatanji"
   },
   {
-    "id": "Khapri",
-    "label": "Khapri",
-    "parentId": "Ghatanji"
-  },
-  {
     "id": "Kharoni",
     "label": "Kharoni",
     "parentId": "Ghatanji"
@@ -212612,16 +209632,6 @@
   {
     "id": "Kinhi",
     "label": "Kinhi",
-    "parentId": "Ghatanji"
-  },
-  {
-    "id": "Kinhi",
-    "label": "Kinhi",
-    "parentId": "Ghatanji"
-  },
-  {
-    "id": "Kochi",
-    "label": "Kochi",
     "parentId": "Ghatanji"
   },
   {
@@ -212647,11 +209657,6 @@
   {
     "id": "Kopra",
     "label": "Kopra",
-    "parentId": "Ghatanji"
-  },
-  {
-    "id": "Kopri",
-    "label": "Kopri",
     "parentId": "Ghatanji"
   },
   {
@@ -212827,11 +209832,6 @@
   {
     "id": "Rahati",
     "label": "Rahati",
-    "parentId": "Ghatanji"
-  },
-  {
-    "id": "Rajegaon",
-    "label": "Rajegaon",
     "parentId": "Ghatanji"
   },
   {
@@ -213255,11 +210255,6 @@
     "parentId": "Kalamb"
   },
   {
-    "id": "Khadki",
-    "label": "Khadki",
-    "parentId": "Kalamb"
-  },
-  {
     "id": "Khairi",
     "label": "Khairi",
     "parentId": "Kalamb"
@@ -213327,21 +210322,6 @@
   {
     "id": "Mahitapur",
     "label": "Mahitapur",
-    "parentId": "Kalamb"
-  },
-  {
-    "id": "Malkapur",
-    "label": "Malkapur",
-    "parentId": "Kalamb"
-  },
-  {
-    "id": "Mangrul",
-    "label": "Mangrul",
-    "parentId": "Kalamb"
-  },
-  {
-    "id": "Mangrul",
-    "label": "Mangrul",
     "parentId": "Kalamb"
   },
   {
@@ -213505,11 +210485,6 @@
     "parentId": "Kalamb"
   },
   {
-    "id": "Pimpalkhuti",
-    "label": "Pimpalkhuti",
-    "parentId": "Kalamb"
-  },
-  {
     "id": "Pimpalshenda",
     "label": "Pimpalshenda",
     "parentId": "Kalamb"
@@ -213562,11 +210537,6 @@
   {
     "id": "Sasladevi (Vangram)",
     "label": "Sasladevi (Vangram)",
-    "parentId": "Kalamb"
-  },
-  {
-    "id": "Satephal",
-    "label": "Satephal",
     "parentId": "Kalamb"
   },
   {
@@ -213625,11 +210595,6 @@
     "parentId": "Kalamb"
   },
   {
-    "id": "Sonkhas",
-    "label": "Sonkhas",
-    "parentId": "Kalamb"
-  },
-  {
     "id": "Sukali",
     "label": "Sukali",
     "parentId": "Kalamb"
@@ -213652,11 +210617,6 @@
   {
     "id": "Tirzada",
     "label": "Tirzada",
-    "parentId": "Kalamb"
-  },
-  {
-    "id": "Tuljapur",
-    "label": "Tuljapur",
     "parentId": "Kalamb"
   },
   {
@@ -213830,18 +210790,8 @@
     "parentId": "Kelapur"
   },
   {
-    "id": "Dhoki",
-    "label": "Dhoki",
-    "parentId": "Kelapur"
-  },
-  {
     "id": "Dongargaon",
     "label": "Dongargaon",
-    "parentId": "Kelapur"
-  },
-  {
-    "id": "Ganeshpur",
-    "label": "Ganeshpur",
     "parentId": "Kelapur"
   },
   {
@@ -214020,11 +210970,6 @@
     "parentId": "Kelapur"
   },
   {
-    "id": "Lingati",
-    "label": "Lingati",
-    "parentId": "Kelapur"
-  },
-  {
     "id": "Mahandoli",
     "label": "Mahandoli",
     "parentId": "Kelapur"
@@ -214177,11 +211122,6 @@
   {
     "id": "Pimpalkhuti",
     "label": "Pimpalkhuti",
-    "parentId": "Kelapur"
-  },
-  {
-    "id": "Pimpalshenda",
-    "label": "Pimpalshenda",
     "parentId": "Kelapur"
   },
   {
@@ -214585,11 +211525,6 @@
     "parentId": "Mahagaon"
   },
   {
-    "id": "Hiwardari",
-    "label": "Hiwardari",
-    "parentId": "Mahagaon"
-  },
-  {
     "id": "Hiwari",
     "label": "Hiwari",
     "parentId": "Mahagaon"
@@ -214790,11 +211725,6 @@
     "parentId": "Mahagaon"
   },
   {
-    "id": "Pimpalgaon",
-    "label": "Pimpalgaon",
-    "parentId": "Mahagaon"
-  },
-  {
     "id": "Pimpari",
     "label": "Pimpari",
     "parentId": "Mahagaon"
@@ -214932,11 +211862,6 @@
   {
     "id": "Vasant Nagar",
     "label": "Vasant Nagar",
-    "parentId": "Mahagaon"
-  },
-  {
-    "id": "Wadad",
-    "label": "Wadad",
     "parentId": "Mahagaon"
   },
   {
@@ -215205,23 +212130,8 @@
     "parentId": "Maregaon"
   },
   {
-    "id": "Kanhalgaon",
-    "label": "Kanhalgaon",
-    "parentId": "Maregaon"
-  },
-  {
-    "id": "Kanhalgaon",
-    "label": "Kanhalgaon",
-    "parentId": "Maregaon"
-  },
-  {
     "id": "Karanwadi",
     "label": "Karanwadi",
-    "parentId": "Maregaon"
-  },
-  {
-    "id": "Kegaon",
-    "label": "Kegaon",
     "parentId": "Maregaon"
   },
   {
@@ -215237,11 +212147,6 @@
   {
     "id": "Khadaki (Vangram)",
     "label": "Khadaki (Vangram)",
-    "parentId": "Maregaon"
-  },
-  {
-    "id": "Khairgaon",
-    "label": "Khairgaon",
     "parentId": "Maregaon"
   },
   {
@@ -215612,11 +212517,6 @@
   {
     "id": "Bhawarkhed",
     "label": "Bhawarkhed",
-    "parentId": "Ner"
-  },
-  {
-    "id": "Borgaon",
-    "label": "Borgaon",
     "parentId": "Ner"
   },
   {
@@ -216070,11 +212970,6 @@
     "parentId": "Ner"
   },
   {
-    "id": "Tembhi",
-    "label": "Tembhi",
-    "parentId": "Ner"
-  },
-  {
     "id": "Udapur",
     "label": "Udapur",
     "parentId": "Ner"
@@ -216312,11 +213207,6 @@
   {
     "id": "Dahiwad Bk",
     "label": "Dahiwad Bk",
-    "parentId": "Pusad"
-  },
-  {
-    "id": "Deogavhan",
-    "label": "Deogavhan",
     "parentId": "Pusad"
   },
   {
@@ -216845,11 +213735,6 @@
     "parentId": "Pusad"
   },
   {
-    "id": "Pimpalgaon",
-    "label": "Pimpalgaon",
-    "parentId": "Pusad"
-  },
-  {
     "id": "Pimpalgaon Ijara",
     "label": "Pimpalgaon Ijara",
     "parentId": "Pusad"
@@ -216962,11 +213847,6 @@
   {
     "id": "Shilona",
     "label": "Shilona",
-    "parentId": "Pusad"
-  },
-  {
-    "id": "Shivaji Nagar",
-    "label": "Shivaji Nagar",
     "parentId": "Pusad"
   },
   {
@@ -217190,11 +214070,6 @@
     "parentId": "Ralegaon"
   },
   {
-    "id": "Chikhali",
-    "label": "Chikhali",
-    "parentId": "Ralegaon"
-  },
-  {
     "id": "Chincholi",
     "label": "Chincholi",
     "parentId": "Ralegaon"
@@ -217277,11 +214152,6 @@
   {
     "id": "Hirapur",
     "label": "Hirapur",
-    "parentId": "Ralegaon"
-  },
-  {
-    "id": "Hiwari",
-    "label": "Hiwari",
     "parentId": "Ralegaon"
   },
   {
@@ -217430,11 +214300,6 @@
     "parentId": "Ralegaon"
   },
   {
-    "id": "Mudhapur",
-    "label": "Mudhapur",
-    "parentId": "Ralegaon"
-  },
-  {
     "id": "Mukhrampur",
     "label": "Mukhrampur",
     "parentId": "Ralegaon"
@@ -217457,11 +214322,6 @@
   {
     "id": "Palas Kund",
     "label": "Palas Kund",
-    "parentId": "Ralegaon"
-  },
-  {
-    "id": "Pardi",
-    "label": "Pardi",
     "parentId": "Ralegaon"
   },
   {
@@ -217890,8 +214750,8 @@
     "parentId": "Umarkhed"
   },
   {
-    "id": "Chincholi  Dhanki",
-    "label": "Chincholi  Dhanki",
+    "id": "Chincholi Dhanki",
+    "label": "Chincholi Dhanki",
     "parentId": "Umarkhed"
   },
   {
@@ -217910,8 +214770,8 @@
     "parentId": "Umarkhed"
   },
   {
-    "id": "Daheli  (Van)",
-    "label": "Daheli  (Van)",
+    "id": "Daheli (Van)",
+    "label": "Daheli (Van)",
     "parentId": "Umarkhed"
   },
   {
@@ -218110,8 +214970,8 @@
     "parentId": "Umarkhed"
   },
   {
-    "id": "Kharus  Bk",
-    "label": "Kharus  Bk",
+    "id": "Kharus Bk",
+    "label": "Kharus Bk",
     "parentId": "Umarkhed"
   },
   {
@@ -218190,8 +215050,8 @@
     "parentId": "Umarkhed"
   },
   {
-    "id": "Masalga  (Van)",
-    "label": "Masalga  (Van)",
+    "id": "Masalga (Van)",
+    "label": "Masalga (Van)",
     "parentId": "Umarkhed"
   },
   {
@@ -218205,8 +215065,8 @@
     "parentId": "Umarkhed"
   },
   {
-    "id": "Mohadi  (Van)",
-    "label": "Mohadi  (Van)",
+    "id": "Mohadi (Van)",
+    "label": "Mohadi (Van)",
     "parentId": "Umarkhed"
   },
   {
@@ -218227,11 +215087,6 @@
   {
     "id": "Murli",
     "label": "Murli",
-    "parentId": "Umarkhed"
-  },
-  {
-    "id": "Nagapur",
-    "label": "Nagapur",
     "parentId": "Umarkhed"
   },
   {
@@ -218290,8 +215145,8 @@
     "parentId": "Umarkhed"
   },
   {
-    "id": "Pardi  (Van)",
-    "label": "Pardi  (Van)",
+    "id": "Pardi (Van)",
+    "label": "Pardi (Van)",
     "parentId": "Umarkhed"
   },
   {
@@ -218370,8 +215225,8 @@
     "parentId": "Umarkhed"
   },
   {
-    "id": "Satala  (Van)",
-    "label": "Satala  (Van)",
+    "id": "Satala (Van)",
+    "label": "Satala (Van)",
     "parentId": "Umarkhed"
   },
   {
@@ -218435,11 +215290,6 @@
     "parentId": "Umarkhed"
   },
   {
-    "id": "Takali",
-    "label": "Takali",
-    "parentId": "Umarkhed"
-  },
-  {
     "id": "Takali (Bandi)",
     "label": "Takali (Bandi)",
     "parentId": "Umarkhed"
@@ -218455,8 +215305,8 @@
     "parentId": "Umarkhed"
   },
   {
-    "id": "Thar Bk  (Van)",
-    "label": "Thar Bk  (Van)",
+    "id": "Thar Bk (Van)",
+    "label": "Thar Bk (Van)",
     "parentId": "Umarkhed"
   },
   {
@@ -218465,8 +215315,8 @@
     "parentId": "Umarkhed"
   },
   {
-    "id": "Titavi  (Van)",
-    "label": "Titavi  (Van)",
+    "id": "Titavi (Van)",
+    "label": "Titavi (Van)",
     "parentId": "Umarkhed"
   },
   {
@@ -218505,8 +215355,8 @@
     "parentId": "Umarkhed"
   },
   {
-    "id": "Wadgaon  (Van)",
-    "label": "Wadgaon  (Van)",
+    "id": "Wadgaon (Van)",
+    "label": "Wadgaon (Van)",
     "parentId": "Umarkhed"
   },
   {
@@ -218520,13 +215370,8 @@
     "parentId": "Umarkhed"
   },
   {
-    "id": "Warud  Bibi",
-    "label": "Warud  Bibi",
-    "parentId": "Umarkhed"
-  },
-  {
-    "id": "Zadgaon",
-    "label": "Zadgaon",
+    "id": "Warud Bibi",
+    "label": "Warud Bibi",
     "parentId": "Umarkhed"
   },
   {
@@ -218600,11 +215445,6 @@
     "parentId": "Wani"
   },
   {
-    "id": "Borgaon",
-    "label": "Borgaon",
-    "parentId": "Wani"
-  },
-  {
     "id": "Borgoan",
     "label": "Borgoan",
     "parentId": "Wani"
@@ -218652,11 +215492,6 @@
   {
     "id": "Chincholi",
     "label": "Chincholi",
-    "parentId": "Wani"
-  },
-  {
-    "id": "Dahegaon",
-    "label": "Dahegaon",
     "parentId": "Wani"
   },
   {
@@ -218742,16 +215577,6 @@
   {
     "id": "Gopalpur",
     "label": "Gopalpur",
-    "parentId": "Wani"
-  },
-  {
-    "id": "Gopalpur",
-    "label": "Gopalpur",
-    "parentId": "Wani"
-  },
-  {
-    "id": "Gowari",
-    "label": "Gowari",
     "parentId": "Wani"
   },
   {
@@ -219065,16 +215890,6 @@
     "parentId": "Wani"
   },
   {
-    "id": "Pardi",
-    "label": "Pardi",
-    "parentId": "Wani"
-  },
-  {
-    "id": "Parsoda",
-    "label": "Parsoda",
-    "parentId": "Wani"
-  },
-  {
     "id": "Parsoda",
     "label": "Parsoda",
     "parentId": "Wani"
@@ -219125,11 +215940,6 @@
     "parentId": "Wani"
   },
   {
-    "id": "Purad",
-    "label": "Purad",
-    "parentId": "Wani"
-  },
-  {
     "id": "Rajur (Ct)",
     "label": "Rajur (Ct)",
     "parentId": "Wani"
@@ -219142,11 +215952,6 @@
   {
     "id": "Rasa",
     "label": "Rasa",
-    "parentId": "Wani"
-  },
-  {
-    "id": "Sakhara",
-    "label": "Sakhara",
     "parentId": "Wani"
   },
   {
@@ -219405,11 +216210,6 @@
     "parentId": "Yavatmal"
   },
   {
-    "id": "Bhosa",
-    "label": "Bhosa",
-    "parentId": "Yavatmal"
-  },
-  {
     "id": "Bhoyar",
     "label": "Bhoyar",
     "parentId": "Yavatmal"
@@ -219482,11 +216282,6 @@
   {
     "id": "Dhamani",
     "label": "Dhamani",
-    "parentId": "Yavatmal"
-  },
-  {
-    "id": "Dhanora",
-    "label": "Dhanora",
     "parentId": "Yavatmal"
   },
   {
@@ -219830,16 +216625,6 @@
     "parentId": "Yavatmal"
   },
   {
-    "id": "Ramnagar",
-    "label": "Ramnagar",
-    "parentId": "Yavatmal"
-  },
-  {
-    "id": "Ramnagar",
-    "label": "Ramnagar",
-    "parentId": "Yavatmal"
-  },
-  {
     "id": "Ramwakdi",
     "label": "Ramwakdi",
     "parentId": "Yavatmal"
@@ -219867,11 +216652,6 @@
   {
     "id": "Saikheda Bk",
     "label": "Saikheda Bk",
-    "parentId": "Yavatmal"
-  },
-  {
-    "id": "Saikheda Kh.",
-    "label": "Saikheda Kh.",
     "parentId": "Yavatmal"
   },
   {
@@ -220017,16 +216797,6 @@
   {
     "id": "Wai",
     "label": "Wai",
-    "parentId": "Yavatmal"
-  },
-  {
-    "id": "Wai",
-    "label": "Wai",
-    "parentId": "Yavatmal"
-  },
-  {
-    "id": "Waki",
-    "label": "Waki",
     "parentId": "Yavatmal"
   },
   {
@@ -220250,11 +217020,6 @@
     "parentId": "Zari-Jamani"
   },
   {
-    "id": "Dongargaon",
-    "label": "Dongargaon",
-    "parentId": "Zari-Jamani"
-  },
-  {
     "id": "Dorli",
     "label": "Dorli",
     "parentId": "Zari-Jamani"
@@ -220307,11 +217072,6 @@
   {
     "id": "Jamani",
     "label": "Jamani",
-    "parentId": "Zari-Jamani"
-  },
-  {
-    "id": "Junoni",
-    "label": "Junoni",
     "parentId": "Zari-Jamani"
   },
   {
@@ -220522,16 +217282,6 @@
   {
     "id": "Paramba",
     "label": "Paramba",
-    "parentId": "Zari-Jamani"
-  },
-  {
-    "id": "Pardi",
-    "label": "Pardi",
-    "parentId": "Zari-Jamani"
-  },
-  {
-    "id": "Pardi",
-    "label": "Pardi",
     "parentId": "Zari-Jamani"
   },
   {

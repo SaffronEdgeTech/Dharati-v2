@@ -35,29 +35,12 @@ class DharatiApp extends StatefulWidget {
 }
 
 class _DharatiAppState extends State<DharatiApp> {
-  bool userLoggedIn = false;
-
-  late StreamSubscription subscription;
-  var isDeviceConnected = false;
-  bool isAlertSet = false;
-  @override
-  void initState() {
-    checkLoginStatus();
-    super.initState();
-  }
-
-  @override
-  void dispose() {
-    subscription.cancel();
-    super.dispose();
-  }
-
   @override
   Widget build(BuildContext context) {
     var controller = Get.put(FirebaseAllServices());
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: userLoggedIn ? const ChooseService() : const PhoneNum(),
+      home: const SplashScreen(),
       routes: {
         '/phone': (context) => const PhoneNum(),
         '/otp': (context) => const OTPVerification(),
@@ -75,18 +58,40 @@ class _DharatiAppState extends State<DharatiApp> {
       },
     );
   }
+}
 
-  checkLoginStatus() async {
-    FirebaseAuth.instance.authStateChanges().listen((User? user) {
-      if (user != null && mounted) {
-        setState(() {
-          userLoggedIn = true;
-        });
-      } else {
-        setState(() {
-          userLoggedIn = false;
-        });
-      }
+class SplashScreen extends StatefulWidget {
+  const SplashScreen({super.key});
+
+  @override
+  State<SplashScreen> createState() => _SplashScreenState();
+}
+
+class _SplashScreenState extends State<SplashScreen> {
+  @override
+  void initState() {
+    super.initState();
+    Timer(const Duration(seconds: 5), () {
+      FirebaseAuth.instance.authStateChanges().listen((User? user) {
+        if (user != null && mounted) {
+          Get.offNamedUntil("/chooseService", (route) => false);
+        } else {
+          Get.offNamedUntil("/phone", (route) => false);
+        }
+      });
     });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Center(
+        child: Image.asset(
+          'assets/Krushee-Sanskrutee.png',
+          width: 500,
+          height: 500,
+        ),
+      ),
+    );
   }
 }

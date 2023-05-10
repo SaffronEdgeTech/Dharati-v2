@@ -71,7 +71,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    Timer(const Duration(seconds: 5), () {
+    Timer(const Duration(seconds: 3), () {
       FirebaseAuth.instance.authStateChanges().listen((User? user) {
         if (user != null && mounted) {
           Get.offNamedUntil("/chooseService", (route) => false);
@@ -88,8 +88,8 @@ class _SplashScreenState extends State<SplashScreen> {
       body: Center(
         child: Image.asset(
           'assets/Krushee-Sanskrutee.png',
-          width: 500,
-          height: 500,
+          width: 400,
+          height: 400,
         ),
       ),
     );

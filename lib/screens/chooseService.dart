@@ -97,7 +97,7 @@ class _ChooseServiceState extends State<ChooseService> {
                           children: [
                             Expanded(
                               child: RadioListTile(
-                                title: Text("पीक व्यवस्थापन व तज्ञ सल्ला"),
+                                title: Text("पीक व्यवस्थापन"),
                                 value: "/cropManagement",
                                 groupValue: nextPage,
                                 onChanged: (value) {

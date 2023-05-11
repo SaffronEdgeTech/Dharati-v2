@@ -73,6 +73,7 @@ class _PhoneNumState extends State<PhoneNum> {
                   fontSize: 18,
                   fontWeight: FontWeight.w300,
                 ),
+                countries: ["IN"],
                 invalidNumberMessage: "अवैध संपर्क क्रमांक",
                 initialCountryCode: countryISOCode,
                 inputFormatters: <TextInputFormatter>[

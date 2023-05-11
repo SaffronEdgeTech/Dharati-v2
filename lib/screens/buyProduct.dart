@@ -73,7 +73,7 @@ class _BuyProductState extends State<BuyProduct> {
     {"id": "दुय्यम तेलवर्गीय पीक", "label": "दुय्यम तेलवर्गीय पीक", "parentId": "गळीतधान्य पीक"},
 
     {"id": "ऊस", "label": "ऊस", "parentId": "नगदी पीक"},
-    {"id": "ऊस-खोडवा", "label": ",ऊस-खोडवा", "parentId": "नगदी पीक"},
+    {"id": "ऊस-खोडवा", "label": "ऊस-खोडवा", "parentId": "नगदी पीक"},
     {"id": "कापूस", "label": "कापूस", "parentId": "नगदी पीक"},
 
     {"id": "ज्वारी", "label": "ज्वारी", "parentId": "चारा"},

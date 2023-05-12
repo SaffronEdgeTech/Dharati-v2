@@ -4,9 +4,8 @@ pipeline {
     stages { 
         stage('Build') {
             steps {
-                sh 'flutter clean'
                 sh 'flutter packages get'
-                sh 'flutter build apk --release'
+                sh 'flutter build apk'
             }
         }
         stage('Archive APK') {

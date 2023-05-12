@@ -816,7 +816,7 @@ class _CropManagementState extends State<CropManagement> {
                       if (_formKey.currentState!.validate()) {
                         FirebaseStorage.instance
                             .ref()
-                            .child("Crops/$selectedSubCrop.pdf")
+                            .child("$selectedMainCrop/$selectedSubCrop.pdf")
                             .getDownloadURL()
                             .then((value) {
                           Navigator.push(

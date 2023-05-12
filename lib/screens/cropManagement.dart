@@ -107,7 +107,7 @@ class _CropManagementState extends State<CropManagement> {
     {"id": "तूर", "label": "तूर", "parentId": "कडधान्य पीक"},
     {"id": "मूग", "label": "मूग", "parentId": "कडधान्य पीक"},
     {"id": "उडीद", "label": "उडीद", "parentId": "कडधान्य पीक"},
-    {"id": "कुळीथ ", "label": "कुळीथ", "parentId": "कडधान्य पीक"},
+    {"id": "कुळीथ", "label": "कुळीथ", "parentId": "कडधान्य पीक"},
     {"id": "मटकी", "label": "मटकी", "parentId": "कडधान्य पीक"},
     {"id": "राजमा", "label": "राजमा", "parentId": "कडधान्य पीक"},
     {"id": "चवळी", "label": "चवळी", "parentId": "कडधान्य पीक"},

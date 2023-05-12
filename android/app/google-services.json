@@ -22,6 +22,14 @@
           }
         },
         {
+          "client_id": "524024832715-77r0r7s1fh23i98bjrv8qa8std06qd8o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dharati",
+            "certificate_hash": "c3d145bd2e525542b4bb29d01ff6be95c70d98a3"
+          }
+        },
+        {
           "client_id": "524024832715-i0s8r4418ia6hfab1e642ffbo0ch9gsm.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
@@ -35,6 +43,14 @@
           "android_info": {
             "package_name": "com.example.dharati",
             "certificate_hash": "f843ddc50c7e284e59a604f3f877790738441b05"
+          }
+        },
+        {
+          "client_id": "524024832715-vohhhfv9v5fjoqr23b7hemcaoqkvfj33.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dharati",
+            "certificate_hash": "3ef2b7eb350dd3990c60ed059ca38e221b289814"
           }
         },
         {

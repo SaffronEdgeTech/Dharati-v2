@@ -8,9 +8,10 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
+import 'package:internet_file/internet_file.dart';
 import 'package:intl/intl.dart';
 import 'package:firebase_storage/firebase_storage.dart';
-import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
+import 'package:pdfx/pdfx.dart';
 
 class CropManagement extends StatefulWidget {
   const CropManagement({super.key});
@@ -932,10 +933,22 @@ class _ViewPDFState extends State<ViewPDF> {
   String newDoc;
   String docName;
   _ViewPDFState(this.newDoc, this.docName);
+  static const int _initialPage = 1;
+  late PdfControllerPinch pdfPinchController;
+
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
+    pdfPinchController = PdfControllerPinch(
+      document: PdfDocument.openData(InternetFile.get(newDoc)),
+      initialPage: _initialPage,
+    );
+  }
+
+  @override
+  void dispose() {
+    super.dispose();
+    pdfPinchController.dispose();
   }
 
   @override
@@ -954,13 +967,15 @@ class _ViewPDFState extends State<ViewPDF> {
         backgroundColor: Colors.green,
       ),
       body: Container(
-        child: SfPdfViewer.network(
-          newDoc,
-          canShowPageLoadingIndicator: true,
-          canShowPaginationDialog: false,
-          enableDoubleTapZooming: true,
-          pageLayoutMode: PdfPageLayoutMode.continuous,
-          scrollDirection: PdfScrollDirection.vertical,
+        child: PdfViewPinch(
+          builders: PdfViewPinchBuilders<DefaultBuilderOptions>(
+            options: const DefaultBuilderOptions(),
+            documentLoaderBuilder: (_) =>
+                const Center(child: CircularProgressIndicator()),
+            pageLoaderBuilder: (_) =>
+                const Center(child: CircularProgressIndicator()),
+          ),
+          controller: pdfPinchController,
         ),
       ),
     );

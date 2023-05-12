@@ -28,13 +28,12 @@ class _BuyProductState extends State<BuyProduct> {
   var distTalVil = {};
   TextEditingController _startDate = TextEditingController();
   List<dynamic> documents = [];
-  
-  num dateStartInMs=0;
-  
+
+  num dateStartInMs = 0;
 
   String? _valueLevel = "Village";
   List<dynamic> mainCropType = [
-   {"id": "तृणधान्य पीक", "label": "तृणधान्य पीक"},
+    {"id": "तृणधान्य पीक", "label": "तृणधान्य पीक"},
     {"id": "कडधान्य पीक", "label": "कडधान्य पीक"},
     {"id": "गळीतधान्य पीक", "label": "गळीतधान्य पीक"},
     {"id": "नगदी पीक", "label": "नगदी पीक"},
@@ -55,7 +54,6 @@ class _BuyProductState extends State<BuyProduct> {
     {"id": "नाचणी", "label": "नाचणी", "parentId": "तृणधान्य पीक"},
     {"id": "वरी", "label": "वरी", "parentId": "तृणधान्य पीक"},
     {"id": "बर्टी", "label": "बर्टी", "parentId": "तृणधान्य पीक"},
-
     {"id": "हरभरा", "label": "हरभरा", "parentId": "कडधान्य पीक"},
     {"id": "तूर", "label": "तूर", "parentId": "कडधान्य पीक"},
     {"id": "मूग", "label": "मूग", "parentId": "कडधान्य पीक"},
@@ -64,18 +62,19 @@ class _BuyProductState extends State<BuyProduct> {
     {"id": "मटकी", "label": "मटकी", "parentId": "कडधान्य पीक"},
     {"id": "राजमा", "label": "राजमा", "parentId": "कडधान्य पीक"},
     {"id": "चवळी", "label": "चवळी", "parentId": "कडधान्य पीक"},
-
     {"id": "भुईमूग", "label": "भुईमूग", "parentId": "गळीतधान्य पीक"},
     {"id": "सोयाबीन", "label": "सोयाबीन", "parentId": "गळीतधान्य पीक"},
     {"id": "सूर्यफूल", "label": "सूर्यफूल", "parentId": "गळीतधान्य पीक"},
     {"id": "करडई", "label": "करडई", "parentId": "गळीतधान्य पीक"},
     {"id": "तीळ", "label": "तीळ", "parentId": "गळीतधान्य पीक"},
-    {"id": "दुय्यम तेलवर्गीय पीक", "label": "दुय्यम तेलवर्गीय पीक", "parentId": "गळीतधान्य पीक"},
-
+    {
+      "id": "दुय्यम तेलवर्गीय पीक",
+      "label": "दुय्यम तेलवर्गीय पीक",
+      "parentId": "गळीतधान्य पीक"
+    },
     {"id": "ऊस", "label": "ऊस", "parentId": "नगदी पीक"},
     {"id": "ऊस-खोडवा", "label": "ऊस-खोडवा", "parentId": "नगदी पीक"},
     {"id": "कापूस", "label": "कापूस", "parentId": "नगदी पीक"},
-
     {"id": "ज्वारी", "label": "ज्वारी", "parentId": "चारा"},
     {"id": "बाजरी", "label": "बाजरी", "parentId": "चारा"},
     {"id": "मका", "label": "मका", "parentId": "चारा"},
@@ -83,14 +82,16 @@ class _BuyProductState extends State<BuyProduct> {
     {"id": "ओट", "label": "ओट", "parentId": "चारा"},
     {"id": "बरसीम (घोडा घास)", "label": "बरसीम (घोडा घास)", "parentId": "चारा"},
     {"id": "लसूण घास", "label": "लसूण घास", "parentId": "चारा"},
-    {"id": "संकरित नेपियर गवत", "label": "संकरित नेपियर गवत", "parentId": "चारा"},
+    {
+      "id": "संकरित नेपियर गवत",
+      "label": "संकरित नेपियर गवत",
+      "parentId": "चारा"
+    },
     {"id": "स्टायलो", "label": "स्टायलो", "parentId": "चारा"},
-
     {"id": "आंबा", "label": "आंबा", "parentId": "फळे"},
     {"id": "केळी", "label": "केळी", "parentId": "फळे"},
     {"id": "द्राक्षे", "label": "द्राक्षे", "parentId": "फळे"},
     {"id": "डाळिंब", "label": "डाळिंब", "parentId": "फळे"},
-
     {"id": "कांदा", "label": "कांदा", "parentId": "भाजीपाला"},
     {"id": "मिरची", "label": "मिरची", "parentId": "भाजीपाला"},
     {"id": "टोमॅटो", "label": "टोमॅटो", "parentId": "भाजीपाला"},
@@ -106,14 +107,12 @@ class _BuyProductState extends State<BuyProduct> {
     {"id": "वाटाणा", "label": "वाटाणा", "parentId": "भाजीपाला"},
     {"id": "हळद", "label": "हळद", "parentId": "भाजीपाला"},
     {"id": "आले", "label": "आले", "parentId": "भाजीपाला"},
-
     {"id": "म्हैस", "label": "म्हैस", "parentId": "पशुधन"},
     {"id": "बैल", "label": "बैल", "parentId": "पशुधन"},
     {"id": "गाय", "label": "गाय", "parentId": "पशुधन"},
     {"id": "बकरी", "label": "बकरी", "parentId": "पशुधन"},
     {"id": "मेंढी", "label": "मेंढी", "parentId": "पशुधन"},
     {"id": "गावरान कोंबडी", "label": "गावरान कोंबडी", "parentId": "पशुधन"},
-
     {"id": "ट्रॅक्टर", "label": "ट्रॅक्टर", "parentId": "कृषी अवजारे"},
     {"id": "पलटी नांगर", "label": "पलटी नांगर", "parentId": "कृषी अवजारे"},
     {"id": "रोटाव्हेटर", "label": "रोटाव्हेटर", "parentId": "कृषी अवजारे"},
@@ -122,8 +121,16 @@ class _BuyProductState extends State<BuyProduct> {
     {"id": "तोडणी यंत्र", "label": "तोडणी यंत्र", "parentId": "कृषी अवजारे"},
     {"id": "ट्रॅक्टर फळी", "label": "ट्रॅक्टर फळी", "parentId": "कृषी अवजारे"},
     {"id": "मळणी यंत्र ", "label": "मळणी यंत्र", "parentId": "कृषी अवजारे"},
-    {"id": "कल्टिव्हेटर / मशागत", "label": "कल्टिव्हेटर / मशागत", "parentId": "कृषी अवजारे"},
-    {"id": "हॅरो / दंताळे", "label": "हॅरो / दंताळे", "parentId": "कृषी अवजारे"},
+    {
+      "id": "कल्टिव्हेटर / मशागत",
+      "label": "कल्टिव्हेटर / मशागत",
+      "parentId": "कृषी अवजारे"
+    },
+    {
+      "id": "हॅरो / दंताळे",
+      "label": "हॅरो / दंताळे",
+      "parentId": "कृषी अवजारे"
+    },
     {"id": "पेरणी यंत्र", "label": "पेरणी यंत्र", "parentId": "कृषी अवजारे"},
     {"id": "ड्रोन", "label": "ड्रोन", "parentId": "कृषी अवजारे"},
     {"id": "हार्वेस्टर", "label": "हार्वेस्टर", "parentId": "कृषी अवजारे"},
@@ -131,10 +138,9 @@ class _BuyProductState extends State<BuyProduct> {
     {"id": "बोअरवेल", "label": "बोअरवेल", "parentId": "कृषी अवजारे"}
   ];
 
-  var cropTypes = []; 
+  var cropTypes = [];
   String? selectedMainType;
   String? selectedSubType;
-
 
   @override
   Widget build(BuildContext context) {
@@ -278,51 +284,51 @@ class _BuyProductState extends State<BuyProduct> {
                     height: 20,
                   ),
                   Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    Expanded(
-                      child: Text(
-                        "खरेदी दिवस",
-                        style: labelTextStyle,
-                        textAlign: TextAlign.center,
-                      ),
-                    ),
-                    Expanded(
-                      child: TextFormField(
-                        controller: _startDate,
-                        decoration: InputDecoration(
-                          prefixIcon: Icon(Icons.calendar_month_rounded),
-                          hintText: "दिवस निवडा",
-                          border: OutlineInputBorder(
-                            borderRadius: BorderRadius.circular(5),
-                          ),
-                          enabledBorder: OutlineInputBorder(
-                            borderRadius: BorderRadius.circular(5),
-                            borderSide: BorderSide(
-                                color: Colors.green.shade300, width: 1),
-                          ),
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      Expanded(
+                        child: Text(
+                          "खरेदी दिवस",
+                          style: labelTextStyle,
+                          textAlign: TextAlign.center,
                         ),
-                        readOnly: true,
-                        onTap: () async {
-                          DateTime? selectedDate = await showDatePicker(
-                            context: context,
-                            initialDate: DateTime.now(),
-                            firstDate: DateTime.now(),
-                            lastDate: DateTime.now().add(
-                              const Duration(days: 730),
+                      ),
+                      Expanded(
+                        child: TextFormField(
+                          controller: _startDate,
+                          decoration: InputDecoration(
+                            prefixIcon: Icon(Icons.calendar_month_rounded),
+                            hintText: "दिवस निवडा",
+                            border: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(5),
                             ),
-                          );
+                            enabledBorder: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(5),
+                              borderSide: BorderSide(
+                                  color: Colors.green.shade300, width: 1),
+                            ),
+                          ),
+                          readOnly: true,
+                          onTap: () async {
+                            DateTime? selectedDate = await showDatePicker(
+                              context: context,
+                              initialDate: DateTime.now(),
+                              firstDate: DateTime.now(),
+                              lastDate: DateTime.now().add(
+                                const Duration(days: 730),
+                              ),
+                            );
                             if (selectedDate != null) {
-                            setState(() {
-                              _startDate.text =
-                                  DateFormat("dd-MM-yyyy").format(selectedDate);
-                              dateStartInMs =
-                                  selectedDate.millisecondsSinceEpoch;
-                            });
-                          }
+                              setState(() {
+                                _startDate.text = DateFormat("dd-MM-yyyy")
+                                    .format(selectedDate);
+                                dateStartInMs =
+                                    selectedDate.millisecondsSinceEpoch;
+                              });
+                            }
                           },
                           validator: (value) =>
-                            _startDate.text == "" ? "कृपया दिवस निवडा" : null,
+                              _startDate.text == "" ? "कृपया दिवस निवडा" : null,
                         ),
                       )
                     ],
@@ -343,74 +349,74 @@ class _BuyProductState extends State<BuyProduct> {
                   SizedBox(
                     height: 20,
                   ),
-                 SizedBox(
-                  height: 40,
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    Expanded(
-                      child: RadioListTile(
-                        title: Text("गाव पातळी"),
-                        value: "Village",
-                        groupValue: _valueLevel,
-                        onChanged: (value) {
-                          setState(() {
-                            _valueLevel = value.toString();
-                          });
-                        },
-                        activeColor: Colors.green,
+                  SizedBox(
+                    height: 40,
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      Expanded(
+                        child: RadioListTile(
+                          title: Text("गाव पातळी"),
+                          value: "Village",
+                          groupValue: _valueLevel,
+                          onChanged: (value) {
+                            setState(() {
+                              _valueLevel = value.toString();
+                            });
+                          },
+                          activeColor: Colors.green,
+                        ),
                       ),
-                    ),
-                    Expanded(
-                      child: RadioListTile(
-                        title: Text("तालुका पातळी"),
-                        value: "Taluka",
-                        groupValue:_valueLevel,
-                        onChanged: (value) {
-                          setState(() {
-                            _valueLevel = value.toString();
-                          });
-                        },
-                        activeColor: Colors.green,
+                      Expanded(
+                        child: RadioListTile(
+                          title: Text("तालुका पातळी"),
+                          value: "Taluka",
+                          groupValue: _valueLevel,
+                          onChanged: (value) {
+                            setState(() {
+                              _valueLevel = value.toString();
+                            });
+                          },
+                          activeColor: Colors.green,
+                        ),
                       ),
-                    ),
-                  ],
-                ),
-                SizedBox(
-                  height: 10,
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    Expanded(
-                      child: RadioListTile(
-                        title: Text("जिल्हा पातळी"),
-                        value: "District",
-                        groupValue: _valueLevel,
-                        onChanged: (value) {
-                          setState(() {
-                            _valueLevel = value.toString();
-                          });
-                        },
-                        activeColor: Colors.green,
+                    ],
+                  ),
+                  SizedBox(
+                    height: 10,
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      Expanded(
+                        child: RadioListTile(
+                          title: Text("जिल्हा पातळी"),
+                          value: "District",
+                          groupValue: _valueLevel,
+                          onChanged: (value) {
+                            setState(() {
+                              _valueLevel = value.toString();
+                            });
+                          },
+                          activeColor: Colors.green,
+                        ),
                       ),
-                    ),
-                    Expanded(
-                      child: RadioListTile(
-                        title: Text("राज्य पातळी"),
-                        value: "State",
-                        groupValue: _valueLevel,
-                        onChanged: (value) {
-                          setState(() {
-                            _valueLevel = value.toString();
-                          });
-                        },
-                        activeColor: Colors.green,
+                      Expanded(
+                        child: RadioListTile(
+                          title: Text("राज्य पातळी"),
+                          value: "State",
+                          groupValue: _valueLevel,
+                          onChanged: (value) {
+                            setState(() {
+                              _valueLevel = value.toString();
+                            });
+                          },
+                          activeColor: Colors.green,
+                        ),
                       ),
-                    ),
-                  ],
-                ),
+                    ],
+                  ),
                   SizedBox(
                     height: 20,
                   ),

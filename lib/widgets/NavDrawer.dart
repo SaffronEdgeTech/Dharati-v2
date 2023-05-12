@@ -1,6 +1,7 @@
 import 'package:dharati/services/FirebaseAllServices.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class NavDrawer extends StatelessWidget {
   final details;
@@ -19,7 +20,7 @@ class NavDrawer extends StatelessWidget {
         children: [
           UserAccountsDrawerHeader(
             accountName: Text(
-              details["Name"].toString()+" "+details["Surname"].toString(),  
+              details["Name"].toString() + " " + details["Surname"].toString(),
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.w800,
@@ -74,6 +75,31 @@ class NavDrawer extends StatelessWidget {
             onTap: () {
               Navigator.pop(context);
               Get.toNamed("/myFarmingServices", arguments: details);
+            },
+          ),
+          ListTile(
+            leading: Icon(
+              Icons.phone,
+              color: Colors.black,
+            ),
+            title: Text("संपर्क", style: listOptionsTextStyle),
+            onTap: () async {
+              final Uri url = Uri(scheme: "tel", path: "+919766560193");
+              if (await canLaunchUrl(url)) {
+                await launchUrl(url);
+              } else {
+                Get.snackbar(
+                  "तसदीबद्दल क्षमस्व",
+                  "",
+                  snackPosition: SnackPosition.BOTTOM,
+                  backgroundColor: Colors.red,
+                  isDismissible: true,
+                  dismissDirection: DismissDirection.horizontal,
+                  margin: EdgeInsets.all(15),
+                  forwardAnimationCurve: Curves.easeOutBack,
+                  colorText: Colors.white,
+                );
+              }
             },
           ),
           ListTile(

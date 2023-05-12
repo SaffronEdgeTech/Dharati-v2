@@ -156,6 +156,15 @@ class _CropManagementState extends State<CropManagement> {
     {"id": "वाटाणा", "label": "वाटाणा", "parentId": "भाजीपाला"},
     {"id": "हळद", "label": "हळद", "parentId": "भाजीपाला"},
     {"id": "आले", "label": "आले", "parentId": "भाजीपाला"},
+    {"id": "काकडी", "label": "काकडी", "parentId": "भाजीपाला"},
+    {"id": "कारली", "label": "कारली", "parentId": "भाजीपाला"},
+    {"id": "गवार", "label": "गवार", "parentId": "भाजीपाला"},
+    {"id": "घेवडा", "label": "घेवडा", "parentId": "भाजीपाला"},
+    {"id": "टरबूज (कलिंगड)", "label": "टरबूज (कलिंगड)", "parentId": "भाजीपाला"},
+    {"id": "दुधी भोपळा", "label": "दुधी भोपळा", "parentId": "भाजीपाला"},
+    {"id": "दोडका", "label": "दोडका", "parentId": "भाजीपाला"},
+    {"id": "मुळा", "label": "मुळा", "parentId": "भाजीपाला"},
+    {"id": "लसूण", "label": "लसूण", "parentId": "भाजीपाला"},
   ];
 
   var availableCrops = [];

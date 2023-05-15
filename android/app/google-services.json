@@ -22,6 +22,14 @@
           }
         },
         {
+          "client_id": "524024832715-bh62n67rdgggluvtg11nik1tfp27gbtf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dharati",
+            "certificate_hash": "4dbc1d81a899ffe8a872d1b5a32dc2e077efe551"
+          }
+        },
+        {
           "client_id": "524024832715-i0s8r4418ia6hfab1e642ffbo0ch9gsm.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

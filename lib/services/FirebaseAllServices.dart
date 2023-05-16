@@ -668,7 +668,7 @@ class FirebaseAllServices extends GetxController {
     await db
         .collection("Products")
         .doc(id)
-        .collection(mainType + subType)
+        .collection(tempService + tempServiceType)
         .doc(id)
         .set(
       {
@@ -677,8 +677,8 @@ class FirebaseAllServices extends GetxController {
         "District": dist,
         "Taluka": tal,
         "Village": vil,
-        "Main Type": tempService,
-        "Sub Type": tempServiceType,
+        "Main Type": mainType,
+        "Sub Type": subType,
         "Start Date": sellStartDate,
         "Start Date ms": sellStartDateInMs,
         "End Date": sellEndDate,

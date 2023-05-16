@@ -1,72 +1,64 @@
 {
   "project_info": {
-    "project_number": "524024832715",
-    "project_id": "dharati-cb793",
-    "storage_bucket": "dharati-cb793.appspot.com"
+    "project_number": "327649660070",
+    "project_id": "krushee-sanskrutee",
+    "storage_bucket": "krushee-sanskrutee.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:524024832715:android:d103e1d88523934784314e",
+        "mobilesdk_app_id": "1:327649660070:android:c14c79f963fba3bf77f867",
         "android_client_info": {
-          "package_name": "com.example.dharati"
+          "package_name": "com.saffronedgetech.krusheesanskrutee"
         }
       },
       "oauth_client": [
         {
-          "client_id": "524024832715-2tqsdnb47tkn6345803v9kqvnriko6a9.apps.googleusercontent.com",
+          "client_id": "327649660070-0vrv335tjqj5jb9ivbi2n67s4ascprmv.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.dharati",
-            "certificate_hash": "f37936dc6f3ea63d1240a0cbbfa59c74ca1a442b"
-          }
-        },
-        {
-          "client_id": "524024832715-bh62n67rdgggluvtg11nik1tfp27gbtf.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.dharati",
-            "certificate_hash": "4dbc1d81a899ffe8a872d1b5a32dc2e077efe551"
-          }
-        },
-        {
-          "client_id": "524024832715-i0s8r4418ia6hfab1e642ffbo0ch9gsm.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.dharati",
-            "certificate_hash": "137889cb9fce5785914ce919386d8d625796e9ed"
-          }
-        },
-        {
-          "client_id": "524024832715-io6fof7u3tug7s9aikm8mtnacf5kini9.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.dharati",
+            "package_name": "com.saffronedgetech.krusheesanskrutee",
             "certificate_hash": "f843ddc50c7e284e59a604f3f877790738441b05"
           }
         },
         {
-          "client_id": "524024832715-p2vh4gqd4gqmcc02f2bi270roips5hsq.apps.googleusercontent.com",
+          "client_id": "327649660070-a7rvurpl1pn4t55mie5qcgc62vmibqmu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.saffronedgetech.krusheesanskrutee",
+            "certificate_hash": "137889cb9fce5785914ce919386d8d625796e9ed"
+          }
+        },
+        {
+          "client_id": "327649660070-d5utul66ee3k1eork8lo8rqsn289d6e5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.saffronedgetech.krusheesanskrutee",
+            "certificate_hash": "f37936dc6f3ea63d1240a0cbbfa59c74ca1a442b"
+          }
+        },
+        {
+          "client_id": "327649660070-6cjalhakvs8nmf5gtadag2mnik0rt9qm.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDLL22w5JABNzdRLV1akCLKPRuFj5koWi0"
+          "current_key": "AIzaSyCLdiefdPNzQEIiOkJrEdjIlxawWIYP5jA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "524024832715-p2vh4gqd4gqmcc02f2bi270roips5hsq.apps.googleusercontent.com",
+              "client_id": "327649660070-6cjalhakvs8nmf5gtadag2mnik0rt9qm.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "524024832715-2l6nqg1epb7sp816i0mjsrh3aisns9nd.apps.googleusercontent.com",
+              "client_id": "327649660070-13tkgdmmcobhh3uj2l0pmv7vdvhjvk7e.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.example.dharati"
+                "bundle_id": "com.saffronedgetech.krusheesanskrutee"
               }
             }
           ]

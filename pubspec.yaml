@@ -45,6 +45,7 @@ dependencies:
   firebase_storage: ^11.1.2
   pdfx: ^2.3.0
   internet_file: ^1.2.0
+  rename: ^2.1.1
 
   
 

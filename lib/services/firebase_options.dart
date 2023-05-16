@@ -44,42 +44,42 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCQ_E9yeCAk6PVJgHDm7oPPOKz8LxjB59k',
-    appId: '1:524024832715:web:e9117868bdd79ff184314e',
-    messagingSenderId: '524024832715',
-    projectId: 'dharati-cb793',
-    authDomain: 'dharati-cb793.firebaseapp.com',
-    storageBucket: 'dharati-cb793.appspot.com',
-    measurementId: 'G-7VHHDBKRQK',
+    apiKey: 'AIzaSyDHhZNEgFHmSBkpIvasEC4gCZx3-nQApKM',
+    appId: '1:327649660070:web:3a2a4a5fd629d19277f867',
+    messagingSenderId: '327649660070',
+    projectId: 'krushee-sanskrutee',
+    authDomain: 'krushee-sanskrutee.firebaseapp.com',
+    storageBucket: 'krushee-sanskrutee.appspot.com',
+    measurementId: 'G-NZ6N0HT88S',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDLL22w5JABNzdRLV1akCLKPRuFj5koWi0',
-    appId: '1:524024832715:android:d103e1d88523934784314e',
-    messagingSenderId: '524024832715',
-    projectId: 'dharati-cb793',
-    storageBucket: 'dharati-cb793.appspot.com',
+    apiKey: 'AIzaSyCLdiefdPNzQEIiOkJrEdjIlxawWIYP5jA',
+    appId: '1:327649660070:android:c14c79f963fba3bf77f867',
+    messagingSenderId: '327649660070',
+    projectId: 'krushee-sanskrutee',
+    storageBucket: 'krushee-sanskrutee.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyD9Bl0BAZQBdRmIBKKz1yfdlVoiPpCZPWk',
-    appId: '1:524024832715:ios:1b22c449e60aee5584314e',
-    messagingSenderId: '524024832715',
-    projectId: 'dharati-cb793',
-    storageBucket: 'dharati-cb793.appspot.com',
-    androidClientId: '524024832715-2tqsdnb47tkn6345803v9kqvnriko6a9.apps.googleusercontent.com',
-    iosClientId: '524024832715-2l6nqg1epb7sp816i0mjsrh3aisns9nd.apps.googleusercontent.com',
-    iosBundleId: 'com.example.dharati',
+    apiKey: 'AIzaSyBQellfEbBWsCc6H9dVdAi8j8qLG71Azkg',
+    appId: '1:327649660070:ios:ee5bc42838613b8377f867',
+    messagingSenderId: '327649660070',
+    projectId: 'krushee-sanskrutee',
+    storageBucket: 'krushee-sanskrutee.appspot.com',
+    androidClientId: '327649660070-0vrv335tjqj5jb9ivbi2n67s4ascprmv.apps.googleusercontent.com',
+    iosClientId: '327649660070-13tkgdmmcobhh3uj2l0pmv7vdvhjvk7e.apps.googleusercontent.com',
+    iosBundleId: 'com.saffronedgetech.krusheesanskrutee',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyD9Bl0BAZQBdRmIBKKz1yfdlVoiPpCZPWk',
-    appId: '1:524024832715:ios:1b22c449e60aee5584314e',
-    messagingSenderId: '524024832715',
-    projectId: 'dharati-cb793',
-    storageBucket: 'dharati-cb793.appspot.com',
-    androidClientId: '524024832715-2tqsdnb47tkn6345803v9kqvnriko6a9.apps.googleusercontent.com',
-    iosClientId: '524024832715-2l6nqg1epb7sp816i0mjsrh3aisns9nd.apps.googleusercontent.com',
-    iosBundleId: 'com.example.dharati',
+    apiKey: 'AIzaSyBQellfEbBWsCc6H9dVdAi8j8qLG71Azkg',
+    appId: '1:327649660070:ios:ee5bc42838613b8377f867',
+    messagingSenderId: '327649660070',
+    projectId: 'krushee-sanskrutee',
+    storageBucket: 'krushee-sanskrutee.appspot.com',
+    androidClientId: '327649660070-0vrv335tjqj5jb9ivbi2n67s4ascprmv.apps.googleusercontent.com',
+    iosClientId: '327649660070-13tkgdmmcobhh3uj2l0pmv7vdvhjvk7e.apps.googleusercontent.com',
+    iosBundleId: 'com.saffronedgetech.krusheesanskrutee',
   );
 }

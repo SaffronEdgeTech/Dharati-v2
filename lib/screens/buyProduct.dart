@@ -469,6 +469,10 @@ class _BuyProductState extends State<BuyProduct> {
       forwardAnimationCurve: Curves.easeOutBack,
       colorText: Colors.white,
     );
+    mainType = mainType.replaceAll(" ", "");
+    subType = subType.replaceAll(" ", "");
+    mainType = mainType.replaceAll("/", "");
+    subType = subType.replaceAll("/", "");
     FirebaseFirestore.instance
         .collectionGroup(mainType + subType)
         .get()

@@ -22,6 +22,14 @@
           }
         },
         {
+          "client_id": "327649660070-a3gr6nckn667iidm229l50a62nac2t4a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.saffronedgetech.krusheesanskrutee",
+            "certificate_hash": "38343cc64afe83b01eccaefa23bea207f3d93447"
+          }
+        },
+        {
           "client_id": "327649660070-a7rvurpl1pn4t55mie5qcgc62vmibqmu.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

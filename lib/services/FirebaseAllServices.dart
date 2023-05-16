@@ -652,6 +652,12 @@ class FirebaseAllServices extends GetxController {
       String vil,
       String name,
       String surName) async {
+    String tempService = mainType;
+    String tempServiceType = subType;
+    tempService = tempService.replaceAll(" ", "");
+    tempService = tempService.replaceAll("/", "");
+    tempServiceType = tempServiceType.replaceAll(" ", "");
+    tempServiceType = tempServiceType.replaceAll("/", "");
     final user = _auth.currentUser!;
     final id = user.uid;
     final phoneNo = user.phoneNumber;

@@ -22,7 +22,7 @@ class _SellProductState extends State<SellProduct> {
   String? tal;
   String? vil;
   String? state;
-  var verifyId = ''.obs;
+  String verifyId = "";
   final FirebaseAuth _auth = FirebaseAuth.instance;
   final _formKey = GlobalKey<FormState>();
   TextStyle labelTextStyle = TextStyle(
@@ -602,10 +602,10 @@ class _SellProductState extends State<SellProduct> {
           );
         },
         codeSent: (verificationId, resendToken) {
-          this.verifyId.value = verificationId;
+          this.verifyId = verificationId;
         },
         codeAutoRetrievalTimeout: (verificationId) {
-          this.verifyId.value = verificationId;
+          this.verifyId = verificationId;
         },
         timeout: Duration(seconds: 60),
       );
@@ -636,9 +636,31 @@ class _SellProductState extends State<SellProduct> {
     }
   }
 
+  Future<bool> OTPVerification(String otp) async {
+    try {
+      PhoneAuthCredential credential = PhoneAuthProvider.credential(
+          verificationId: this.verifyId, smsCode: otp);
+      var credentials = await _auth.signInWithCredential(credential);
+      return credentials.user != null ? true : false;
+    } on FirebaseAuthException catch (e) {
+      Get.snackbar(
+        "तसदीबद्दल क्षमस्व",
+        e.message!,
+        snackPosition: SnackPosition.BOTTOM,
+        backgroundColor: Colors.red,
+        isDismissible: true,
+        dismissDirection: DismissDirection.horizontal,
+        margin: EdgeInsets.all(15),
+        forwardAnimationCurve: Curves.easeOutBack,
+        colorText: Colors.white,
+      );
+    }
+    return false;
+  }
+
   void verifyOTP() async {
     if (otp.length == 6) {
-      var isVerified = await FirebaseAllServices.instance.verifyOTP(otp.text);
+      var isVerified = await OTPVerification(otp.text);
       if (isVerified) {
         Navigator.pop(context);
         addData();

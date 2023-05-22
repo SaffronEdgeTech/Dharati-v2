@@ -114,7 +114,8 @@ class _PhoneNumState extends State<PhoneNum> {
                     int len = number.length;
                     if (len >= minLength && len <= maxLength) {
                       FirebaseAllServices.instance
-                          .phoneAuthentication(completeNumber, "/otp");
+                          .phoneAuthentication(completeNumber);
+                      Get.toNamed("/otp", arguments: completeNumber);
                     } else {
                       Get.snackbar(
                         "तसदीबद्दल क्षमस्व",

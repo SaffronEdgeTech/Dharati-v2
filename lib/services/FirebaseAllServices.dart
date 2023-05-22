@@ -10,12 +10,14 @@ class FirebaseAllServices extends GetxController {
 
   var verifyId = ''.obs;
 
-  Future<void> phoneAuthentication(String phoneNum, String nextPage) async {
+  Future<void> phoneAuthentication(String phoneNum) async {
     try {
       await _auth.verifyPhoneNumber(
         phoneNumber: phoneNum,
         verificationCompleted: (credential) async {
-          await _auth.signInWithCredential(credential);
+          await _auth.signInWithCredential(credential).then((value) {
+            Get.offNamedUntil("/chooseService", (route) => false);
+          });
         },
         verificationFailed: (FirebaseAuthException e) {
           Get.snackbar(
@@ -32,9 +34,6 @@ class FirebaseAllServices extends GetxController {
         },
         codeSent: (verificationId, resendToken) {
           this.verifyId.value = verificationId;
-          if (nextPage == "/otp") {
-            Get.toNamed("/otp", arguments: phoneNum);
-          }
         },
         codeAutoRetrievalTimeout: (verificationId) {
           this.verifyId.value = verificationId;

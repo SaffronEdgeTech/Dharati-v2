@@ -22,6 +22,8 @@ class _SellFarmingServicesState extends State<SellFarmingServices> {
   String? tal;
   String? vil;
   String? state;
+  var verifyId = ''.obs;
+  final FirebaseAuth _auth = FirebaseAuth.instance;
   final _formKey = GlobalKey<FormState>();
   TextStyle labelTextStyle = TextStyle(
     fontSize: 16,
@@ -569,8 +571,8 @@ class _SellFarmingServicesState extends State<SellFarmingServices> {
                   child: ElevatedButton(
                     onPressed: () {
                       if (_formKey.currentState!.validate()) {
-                        FirebaseAllServices.instance
-                            .phoneAuthentication(phoneNum.toString(), "NoPage");
+                        phoneAuthentication(
+                            _auth.currentUser!.phoneNumber.toString());
                         Future.delayed(const Duration(seconds: 1), () {
                           showDialog(
                               barrierDismissible: false,
@@ -668,25 +670,70 @@ class _SellFarmingServicesState extends State<SellFarmingServices> {
     );
   }
 
+  Future<void> phoneAuthentication(String phoneNum) async {
+    try {
+      await _auth.verifyPhoneNumber(
+        phoneNumber: phoneNum,
+        verificationCompleted: (credential) async {
+          await _auth.signInWithCredential(credential).then((value) {
+            Navigator.pop(context);
+            addData();
+          });
+        },
+        verificationFailed: (FirebaseAuthException e) {
+          Get.snackbar(
+            "तसदीबद्दल क्षमस्व",
+            e.message!,
+            snackPosition: SnackPosition.BOTTOM,
+            backgroundColor: Colors.red,
+            isDismissible: true,
+            dismissDirection: DismissDirection.horizontal,
+            margin: EdgeInsets.all(15),
+            forwardAnimationCurve: Curves.easeOutBack,
+            colorText: Colors.white,
+          );
+        },
+        codeSent: (verificationId, resendToken) {
+          this.verifyId.value = verificationId;
+        },
+        codeAutoRetrievalTimeout: (verificationId) {
+          this.verifyId.value = verificationId;
+        },
+        timeout: Duration(seconds: 60),
+      );
+    } on FirebaseAuthException catch (e) {
+      Get.snackbar(
+        "तसदीबद्दल क्षमस्व",
+        e.message!,
+        snackPosition: SnackPosition.BOTTOM,
+        backgroundColor: Colors.red,
+        isDismissible: true,
+        dismissDirection: DismissDirection.horizontal,
+        margin: EdgeInsets.all(15),
+        forwardAnimationCurve: Curves.easeOutBack,
+        colorText: Colors.white,
+      );
+    } catch (e) {
+      Get.snackbar(
+        "तसदीबद्दल क्षमस्व",
+        "ओटीपी तपासून पहा!",
+        snackPosition: SnackPosition.BOTTOM,
+        backgroundColor: Colors.red,
+        isDismissible: true,
+        dismissDirection: DismissDirection.horizontal,
+        margin: EdgeInsets.all(15),
+        forwardAnimationCurve: Curves.easeOutBack,
+        colorText: Colors.white,
+      );
+    }
+  }
+
   void verifyOTP() async {
     if (otp.length == 6) {
       var isVerified = await FirebaseAllServices.instance.verifyOTP(otp.text);
       if (isVerified) {
         Navigator.pop(context);
-
-        FirebaseAllServices.instance.addFarmingServices(
-            selectedSeva!,
-            selectedSevaType!,
-            _startDate.text,
-            dateStartInMs!,
-            _endDate.text,
-            dateEndInMs!,
-            sevaLevel,
-            dist!,
-            tal!,
-            vil!,
-            name!,
-            surName!);
+        addData();
       } else {
         Get.snackbar(
           "तसदीबद्दल क्षमस्व",
@@ -713,5 +760,21 @@ class _SellFarmingServicesState extends State<SellFarmingServices> {
         colorText: Colors.white,
       );
     }
+  }
+
+  void addData() {
+    FirebaseAllServices.instance.addFarmingServices(
+        selectedSeva!,
+        selectedSevaType!,
+        _startDate.text,
+        dateStartInMs!,
+        _endDate.text,
+        dateEndInMs!,
+        sevaLevel,
+        dist!,
+        tal!,
+        vil!,
+        name!,
+        surName!);
   }
 }

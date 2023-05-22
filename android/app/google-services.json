@@ -46,6 +46,22 @@
           }
         },
         {
+          "client_id": "327649660070-sq738a0auesuh9fm2o6ils06uq634373.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.saffronedgetech.krusheesanskrutee",
+            "certificate_hash": "8d1a62bc41ccbec4230b93ee7d98542fe03395ed"
+          }
+        },
+        {
+          "client_id": "327649660070-v8htutdhsa74bqp7m3b01coqcvd229h9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.saffronedgetech.krusheesanskrutee",
+            "certificate_hash": "7fba80e4e2be2427430331bae35302baef63e021"
+          }
+        },
+        {
           "client_id": "327649660070-6cjalhakvs8nmf5gtadag2mnik0rt9qm.apps.googleusercontent.com",
           "client_type": 3
         }

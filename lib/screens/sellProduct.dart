@@ -22,6 +22,8 @@ class _SellProductState extends State<SellProduct> {
   String? tal;
   String? vil;
   String? state;
+  var verifyId = ''.obs;
+  final FirebaseAuth _auth = FirebaseAuth.instance;
   final _formKey = GlobalKey<FormState>();
   TextStyle labelTextStyle = TextStyle(
     fontSize: 16,
@@ -38,7 +40,6 @@ class _SellProductState extends State<SellProduct> {
     {"id": "भाजीपाला", "label": "भाजीपाला"},
     {"id": "पशुधन", "label": "पशुधन"},
     {"id": "कृषी अवजारे", "label": "कृषी अवजारे"},
-    
   ];
   List<dynamic> allSubTypes = [
     {"id": "भात", "label": "भात", "parentId": "तृणधान्य पीक"},
@@ -50,7 +51,6 @@ class _SellProductState extends State<SellProduct> {
     {"id": "नाचणी", "label": "नाचणी", "parentId": "तृणधान्य पीक"},
     {"id": "वरी", "label": "वरी", "parentId": "तृणधान्य पीक"},
     {"id": "बर्टी", "label": "बर्टी", "parentId": "तृणधान्य पीक"},
-
     {"id": "हरभरा", "label": "हरभरा", "parentId": "कडधान्य पीक"},
     {"id": "तूर", "label": "तूर", "parentId": "कडधान्य पीक"},
     {"id": "मूग", "label": "मूग", "parentId": "कडधान्य पीक"},
@@ -59,18 +59,19 @@ class _SellProductState extends State<SellProduct> {
     {"id": "मटकी", "label": "मटकी", "parentId": "कडधान्य पीक"},
     {"id": "राजमा", "label": "राजमा", "parentId": "कडधान्य पीक"},
     {"id": "चवळी", "label": "चवळी", "parentId": "कडधान्य पीक"},
-
     {"id": "भुईमूग", "label": "भुईमूग", "parentId": "गळीतधान्य पीक"},
     {"id": "सोयाबीन", "label": "सोयाबीन", "parentId": "गळीतधान्य पीक"},
     {"id": "सूर्यफूल", "label": "सूर्यफूल", "parentId": "गळीतधान्य पीक"},
     {"id": "करडई", "label": "करडई", "parentId": "गळीतधान्य पीक"},
     {"id": "तीळ", "label": "तीळ", "parentId": "गळीतधान्य पीक"},
-    {"id": "दुय्यम तेलवर्गीय पीक", "label": "दुय्यम तेलवर्गीय पीक", "parentId": "गळीतधान्य पीक"},
-
+    {
+      "id": "दुय्यम तेलवर्गीय पीक",
+      "label": "दुय्यम तेलवर्गीय पीक",
+      "parentId": "गळीतधान्य पीक"
+    },
     {"id": "ऊस", "label": "ऊस", "parentId": "नगदी पीक"},
     {"id": "ऊस-खोडवा", "label": "ऊस-खोडवा", "parentId": "नगदी पीक"},
     {"id": "कापूस", "label": "कापूस", "parentId": "नगदी पीक"},
-
     {"id": "ज्वारी", "label": "ज्वारी", "parentId": "चारा"},
     {"id": "बाजरी", "label": "बाजरी", "parentId": "चारा"},
     {"id": "मका", "label": "मका", "parentId": "चारा"},
@@ -78,14 +79,16 @@ class _SellProductState extends State<SellProduct> {
     {"id": "ओट", "label": "ओट", "parentId": "चारा"},
     {"id": "बरसीम (घोडा घास)", "label": "बरसीम (घोडा घास)", "parentId": "चारा"},
     {"id": "लसूण घास", "label": "लसूण घास", "parentId": "चारा"},
-    {"id": "संकरित नेपियर गवत", "label": "संकरित नेपियर गवत", "parentId": "चारा"},
+    {
+      "id": "संकरित नेपियर गवत",
+      "label": "संकरित नेपियर गवत",
+      "parentId": "चारा"
+    },
     {"id": "स्टायलो", "label": "स्टायलो", "parentId": "चारा"},
-
     {"id": "आंबा", "label": "आंबा", "parentId": "फळे"},
     {"id": "केळी", "label": "केळी", "parentId": "फळे"},
     {"id": "द्राक्षे", "label": "द्राक्षे", "parentId": "फळे"},
     {"id": "डाळिंब", "label": "डाळिंब", "parentId": "फळे"},
-
     {"id": "कांदा", "label": "कांदा", "parentId": "भाजीपाला"},
     {"id": "मिरची", "label": "मिरची", "parentId": "भाजीपाला"},
     {"id": "टोमॅटो", "label": "टोमॅटो", "parentId": "भाजीपाला"},
@@ -101,14 +104,12 @@ class _SellProductState extends State<SellProduct> {
     {"id": "वाटाणा", "label": "वाटाणा", "parentId": "भाजीपाला"},
     {"id": "हळद", "label": "हळद", "parentId": "भाजीपाला"},
     {"id": "आले", "label": "आले", "parentId": "भाजीपाला"},
-
     {"id": "म्हैस", "label": "म्हैस", "parentId": "पशुधन"},
     {"id": "बैल", "label": "बैल", "parentId": "पशुधन"},
     {"id": "गाय", "label": "गाय", "parentId": "पशुधन"},
     {"id": "बकरी", "label": "बकरी", "parentId": "पशुधन"},
     {"id": "मेंढी", "label": "मेंढी", "parentId": "पशुधन"},
     {"id": "गावरान कोंबडी", "label": "गावरान कोंबडी", "parentId": "पशुधन"},
-
     {"id": "ट्रॅक्टर", "label": "ट्रॅक्टर", "parentId": "कृषी अवजारे"},
     {"id": "पलटी नांगर", "label": "पलटी नांगर", "parentId": "कृषी अवजारे"},
     {"id": "रोटाव्हेटर", "label": "रोटाव्हेटर", "parentId": "कृषी अवजारे"},
@@ -117,8 +118,16 @@ class _SellProductState extends State<SellProduct> {
     {"id": "तोडणी यंत्र", "label": "तोडणी यंत्र", "parentId": "कृषी अवजारे"},
     {"id": "ट्रॅक्टर फळी", "label": "ट्रॅक्टर फळी", "parentId": "कृषी अवजारे"},
     {"id": "मळणी यंत्र ", "label": "मळणी यंत्र", "parentId": "कृषी अवजारे"},
-    {"id": "कल्टिव्हेटर / मशागत", "label": "कल्टिव्हेटर / मशागत", "parentId": "कृषी अवजारे"},
-    {"id": "हॅरो / दंताळे", "label": "हॅरो / दंताळे", "parentId": "कृषी अवजारे"},
+    {
+      "id": "कल्टिव्हेटर / मशागत",
+      "label": "कल्टिव्हेटर / मशागत",
+      "parentId": "कृषी अवजारे"
+    },
+    {
+      "id": "हॅरो / दंताळे",
+      "label": "हॅरो / दंताळे",
+      "parentId": "कृषी अवजारे"
+    },
     {"id": "पेरणी यंत्र", "label": "पेरणी यंत्र", "parentId": "कृषी अवजारे"},
     {"id": "ड्रोन", "label": "ड्रोन", "parentId": "कृषी अवजारे"},
     {"id": "हार्वेस्टर", "label": "हार्वेस्टर", "parentId": "कृषी अवजारे"},
@@ -470,8 +479,8 @@ class _SellProductState extends State<SellProduct> {
                   child: ElevatedButton(
                     onPressed: () {
                       if (_formKey.currentState!.validate()) {
-                        FirebaseAllServices.instance
-                            .phoneAuthentication(phoneNum.toString(), "NoPage");
+                        phoneAuthentication(
+                            _auth.currentUser!.phoneNumber.toString());
                         Future.delayed(const Duration(seconds: 1), () {
                           showDialog(
                               barrierDismissible: false,
@@ -569,24 +578,70 @@ class _SellProductState extends State<SellProduct> {
     );
   }
 
+  Future<void> phoneAuthentication(String phoneNum) async {
+    try {
+      await _auth.verifyPhoneNumber(
+        phoneNumber: phoneNum,
+        verificationCompleted: (credential) async {
+          await _auth.signInWithCredential(credential).then((value) {
+            Navigator.pop(context);
+            addData();
+          });
+        },
+        verificationFailed: (FirebaseAuthException e) {
+          Get.snackbar(
+            "तसदीबद्दल क्षमस्व",
+            e.message!,
+            snackPosition: SnackPosition.BOTTOM,
+            backgroundColor: Colors.red,
+            isDismissible: true,
+            dismissDirection: DismissDirection.horizontal,
+            margin: EdgeInsets.all(15),
+            forwardAnimationCurve: Curves.easeOutBack,
+            colorText: Colors.white,
+          );
+        },
+        codeSent: (verificationId, resendToken) {
+          this.verifyId.value = verificationId;
+        },
+        codeAutoRetrievalTimeout: (verificationId) {
+          this.verifyId.value = verificationId;
+        },
+        timeout: Duration(seconds: 60),
+      );
+    } on FirebaseAuthException catch (e) {
+      Get.snackbar(
+        "तसदीबद्दल क्षमस्व",
+        e.message!,
+        snackPosition: SnackPosition.BOTTOM,
+        backgroundColor: Colors.red,
+        isDismissible: true,
+        dismissDirection: DismissDirection.horizontal,
+        margin: EdgeInsets.all(15),
+        forwardAnimationCurve: Curves.easeOutBack,
+        colorText: Colors.white,
+      );
+    } catch (e) {
+      Get.snackbar(
+        "तसदीबद्दल क्षमस्व",
+        "ओटीपी तपासून पहा!",
+        snackPosition: SnackPosition.BOTTOM,
+        backgroundColor: Colors.red,
+        isDismissible: true,
+        dismissDirection: DismissDirection.horizontal,
+        margin: EdgeInsets.all(15),
+        forwardAnimationCurve: Curves.easeOutBack,
+        colorText: Colors.white,
+      );
+    }
+  }
+
   void verifyOTP() async {
     if (otp.length == 6) {
       var isVerified = await FirebaseAllServices.instance.verifyOTP(otp.text);
       if (isVerified) {
         Navigator.pop(context);
-        FirebaseAllServices.instance.addSellProducts(
-            selectedMainType!,
-            selectedSubType!,
-            _startDate.text,
-            dateStartInMs!,
-            _endDate.text,
-            dateEndInMs!,
-            sellLevel,
-            dist!,
-            tal!,
-            vil!,
-            name!,
-            surName!);
+        addData();
       } else {
         Get.snackbar(
           "तसदीबद्दल क्षमस्व",
@@ -613,5 +668,21 @@ class _SellProductState extends State<SellProduct> {
         colorText: Colors.white,
       );
     }
+  }
+
+  void addData() {
+    FirebaseAllServices.instance.addSellProducts(
+        selectedMainType!,
+        selectedSubType!,
+        _startDate.text,
+        dateStartInMs!,
+        _endDate.text,
+        dateEndInMs!,
+        sellLevel,
+        dist!,
+        tal!,
+        vil!,
+        name!,
+        surName!);
   }
 }

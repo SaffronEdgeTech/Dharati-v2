@@ -8,7 +8,7 @@ WORKDIR /app
 COPY build/app/outputs/flutter-apk/app-release.apk app-release.apk
 
 # Expose port
-EXPOSE 9090
+EXPOSE 8080
 
 # Start the app
 CMD ["java", "-jar", "app-release.apk"]

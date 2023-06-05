@@ -26,8 +26,8 @@ ENV ANDROID_HOME=/usr/lib/android-sdk \
 RUN npm install -g firebase-tools
 
 # Install Firebase SDKs and other dependencies
-RUN yes | sdkmanager --licenses && \
-    sdkmanager "platform-tools" "platforms;android-29" && \
+RUN yes | $ANDROID_HOME/tools/bin/sdkmanager --licenses && \
+    $ANDROID_HOME/tools/bin/sdkmanager "platform-tools" "platforms;android-29" && \
     firebase setup:emulators:android
 
 # Set up Firebase configuration

@@ -1,11 +1,11 @@
-# Base image with Android runtime environment
-FROM buddybuild/android-gradle
+# Base image with Android SDK and necessary dependencies
+FROM mobiledevops/android-sdk-image
 
 # Set working directory
 WORKDIR /app
 
 # Copy the archived APK to the container
-COPY build/app/outputs/flutter-apk/app-release.apk .
+COPY app-release.apk .
 
 # Expose port 5000 for the Android application
 EXPOSE 5000

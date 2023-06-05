@@ -1,5 +1,5 @@
 # Base image with required Android dependencies
-FROM openjdk:8-jdk
+FROM openjdk:11-jdk
 
 # Set the working directory in the container
 WORKDIR /app

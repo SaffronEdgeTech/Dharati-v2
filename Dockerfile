@@ -5,7 +5,7 @@ FROM mobiledevops/android-sdk-image
 WORKDIR /app
 
 # Copy the archived APK to the container
-COPY app-release.apk .
+COPY build/app/outputs/flutter-apk/app-release.apk .
 
 # Expose port 5000 for the Android application
 EXPOSE 5000

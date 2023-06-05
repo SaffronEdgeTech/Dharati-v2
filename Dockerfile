@@ -1,20 +1,38 @@
-# Use the official Node.js image as the base image
-FROM node:14
+# Base image with required Android dependencies
+FROM openjdk:8-jdk
 
 # Set the working directory in the container
 WORKDIR /app
 
-# Copy package.json and package-lock.json to the container
-COPY package*.json ./
+# Copy the APK file to the container
+COPY app-release.apk .
 
-# Install dependencies
-RUN npm install --only=production
+# Install required tools and dependencies
+RUN apt-get update && \
+    apt-get install -y android-sdk unzip && \
+    apt-get clean
 
-# Copy the Firebase backend source code to the container
-COPY . .
+# Set up Android SDK environment variables
+ENV ANDROID_HOME=/usr/lib/android-sdk \
+    PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 
-# Expose the port for the Firebase backend server
-EXPOSE 5000
+# Install Firebase CLI
+RUN npm install -g firebase-tools
 
-# Start the Firebase backend server
-CMD ["node", "index.js"]
+# Install Firebase SDKs and other dependencies
+RUN sdkmanager --install "platform-tools" "platforms;android-29" && \
+    yes | sdkmanager --licenses && \
+    firebase setup:emulators:android
+
+# Set up Firebase configuration
+COPY google-services.json /app/
+
+# Connect the APK with Firebase
+RUN firebase auth:login && \
+    firebase emulators:exec --only auth,firestore,functions,storage "firebase install your_app.apk"
+
+# Expose any necessary ports for Firebase emulators
+EXPOSE 8080 9000 5001
+
+# Start the Firebase emulators
+CMD ["firebase", "emulators:start", "--only", "auth,firestore,functions,storage"]

@@ -4,38 +4,41 @@ FROM openjdk:8-jdk
 # Set the working directory in the container
 WORKDIR /app
 
-# Copy the APK file to the container
-COPY build/app/outputs/apk/release/app-release.apk .
-
-# Install Node.js and NPM
+# Install required tools and dependencies
 RUN apt-get update && \
-    apt-get install -y curl && \
-    curl -sL https://deb.nodesource.com/setup_14.x | bash - && \
-    apt-get install -y nodejs && \
+    apt-get install -y curl git unzip && \
     apt-get clean
 
-# Install Android SDK
-RUN apt-get install -y android-sdk && \
-    apt-get clean
+# Install Flutter SDK
+RUN git clone https://github.com/flutter/flutter.git -b stable --depth 1 && \
+    export PATH="$PATH:/app/flutter/bin" && \
+    flutter config --no-analytics && \
+    flutter precache
+
+# Set up Flutter environment variables
+ENV PATH="/app/flutter/bin:${PATH}"
+ENV FLUTTER_HOME="/app/flutter"
+
+# Copy the Flutter project to the container
+COPY . .
+
+# Build the Flutter APK
+RUN flutter pub get && \
+    flutter build apk --release
 
 # Set up Android SDK environment variables
 ENV ANDROID_HOME=/usr/lib/android-sdk \
     PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 
 # Install Firebase CLI
-RUN npm install -g firebase-tools
-
-# Install Firebase SDKs and other dependencies
-RUN yes | $ANDROID_HOME/tools/bin/sdkmanager --licenses && \
-    $ANDROID_HOME/tools/bin/sdkmanager "platform-tools" "platforms;android-29" && \
-    firebase setup:emulators:android
+RUN curl -sL https://firebase.tools | bash
 
 # Set up Firebase configuration
-COPY android/app/google-services.json /app/
+COPY android/app/google-services.json /app/android/app/
 
 # Connect the APK with Firebase
 RUN firebase auth:login && \
-    firebase emulators:exec --only auth,firestore,functions,storage "firebase install app-release.apk"
+    firebase emulators:exec --only auth,firestore,functions,storage "firebase install build/app/outputs/flutter-apk/app-release.apk"
 
 # Expose any necessary ports for Firebase emulators
 EXPOSE 8080 9000 5001

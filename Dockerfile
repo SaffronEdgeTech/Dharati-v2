@@ -5,7 +5,7 @@ FROM openjdk:8-jdk
 WORKDIR /app
 
 # Copy the APK file to the container
-COPY .apk .
+COPY build/app/outputs/flutter-apk/app-release.apk app-release.apk .
 
 # Install required tools and dependencies
 RUN apt-get update && \
@@ -25,11 +25,11 @@ RUN sdkmanager --install "platform-tools" "platforms;android-29" && \
     firebase setup:emulators:android
 
 # Set up Firebase configuration
-COPY android/app/ /app/
+COPY android/app/google-services.json /app/
 
 # Connect the APK with Firebase
 RUN firebase auth:login && \
-    firebase emulators:exec --only auth,firestore,functions,storage "firebase install your_app.apk"
+    firebase emulators:exec --only auth,firestore,functions,storage "firebase install app-release.apk"
 
 # Expose any necessary ports for Firebase emulators
 EXPOSE 8080 9000 5001

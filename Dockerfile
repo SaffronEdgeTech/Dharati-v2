@@ -5,7 +5,7 @@ FROM openjdk:8-jdk
 WORKDIR /app
 
 # Copy the APK file to the container
-COPY build/app/outputs/flutter-apk/app-release.apk app-release.apk .
+COPY build/app/outputs/apk/release/app-release.apk .
 
 # Install required tools and dependencies
 RUN apt-get update && \

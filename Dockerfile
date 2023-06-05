@@ -1,14 +1,16 @@
-# Base image with Android SDK and necessary dependencies
-FROM mobiledevops/android-sdk-image
+FROM openjdk:11-jdk-slim
 
-# Set working directory
-WORKDIR /app
+# Copy the APK into the image
+COPY build/app/outputs/flutter-apk/app-release.apk app-release.apk
 
-# Copy the archived APK to the container
-COPY build/app/outputs/flutter-apk/app-release.apk .
+# Install ADB
+RUN apt-get update && apt-get install -y adb
 
-# Expose port 5000 for the Android application
-EXPOSE 5000
+# Expose ADB port
+EXPOSE 5037
 
-# Start the application
-CMD ["java", "-jar", "app-release.apk"]
+# Start ADB server
+CMD ["adb", "start-server"]
+
+# Start the app
+ENTRYPOINT ["adb", "install", "-r", "app-release.apk"]

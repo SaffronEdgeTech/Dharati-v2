@@ -1,14 +1,27 @@
-# Base image
-FROM openjdk:8-jdk-alpine
 
-# Set working directory
+# Use the official Flutter image as the base image
+FROM flutter as build
+
+# Set the working directory in the container
 WORKDIR /app
 
-# Copy APK from Jenkins workspace to container
-COPY build/app/outputs/flutter-apk/app-release.apk app-release.apk
+# Copy the pubspec.* files to the container
+COPY pubspec.* ./
 
-# Expose port
-EXPOSE 8080
+# Run Flutter pub get to install dependencies
+RUN flutter pub get
 
-# Start the app
-CMD ["java", "-jar", "app-release.apk"]
+# Copy the entire project to the container
+COPY . .
+
+# Build the Flutter APK
+RUN flutter build apk
+
+# Use the official NGINX image as the base image for the final image
+FROM nginx
+
+# Copy the built APK from the previous stage to the NGINX root directory
+COPY --from=build /app/build/app/outputs/apk/release/app-release.apk /usr/share/nginx/html/app-release.apk
+
+# Expose the NGINX default port
+EXPOSE 80

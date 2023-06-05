@@ -25,7 +25,7 @@ RUN sdkmanager --install "platform-tools" "platforms;android-29" && \
     firebase setup:emulators:android
 
 # Set up Firebase configuration
-COPY google-services.json /app/
+COPY android/app/ /app/
 
 # Connect the APK with Firebase
 RUN firebase auth:login && \

@@ -1,4 +1,3 @@
-
 # Use the official Flutter image as the base image
 FROM flutter as build
 
@@ -21,7 +20,7 @@ RUN flutter build apk
 FROM nginx
 
 # Copy the built APK from the previous stage to the NGINX root directory
-COPY --from=build /app/build/app/outputs/apk/release/app-release.apk /usr/share/nginx/html/app-release.apk
+COPY --from=build /app/build/app/outputs/flutter-apk/app-release.apk /usr/share/nginx/html/app-release.apk
 
 # Expose the NGINX default port
 EXPOSE 80

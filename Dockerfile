@@ -1,56 +1,42 @@
-# Base image with required Android dependencies
-FROM openjdk:11-jdk
+# Base image with Android SDK
+FROM openjdk:11-jdk-slim
 
-# Set the working directory in the container
-WORKDIR /app
+# Set environment variables
+ENV ANDROID_COMPILE_SDK=30
+ENV ANDROID_BUILD_TOOLS=30.0.3
+ENV ANDROID_SDK_ROOT=/sdk
+ENV PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools/
+ENV PATH=$PATH:$ANDROID_SDK_ROOT/tools/bin/
 
-# Install required tools and dependencies
+# Install necessary packages
 RUN apt-get update && \
-    apt-get install -y curl git unzip && \
-    apt-get clean
+    apt-get install -y curl unzip git && \
+    rm -rf /var/lib/apt/lists/*
 
-# Install Flutter SDK
-RUN git clone https://github.com/flutter/flutter.git -b stable --depth 1 && \
-    export PATH="$PATH:/app/flutter/bin" && \
-    flutter config --no-analytics && \
-    flutter precache
-
-# Set up Flutter environment variables
-ENV PATH="/app/flutter/bin:${PATH}"
-ENV FLUTTER_HOME="/app/flutter"
-
-# Install Android SDK
-RUN mkdir /usr/lib/android-sdk && \
-    curl -o sdk.zip https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip && \
-    unzip sdk.zip -d /usr/lib/android-sdk && \
+# Download and install Android SDK
+RUN mkdir /sdk && \
+    cd /sdk && \
+    curl -o sdk.zip https://dl.google.com/android/repository/commandlinetools-linux-7583922_latest.zip && \
+    unzip sdk.zip && \
     rm sdk.zip
 
-# Set up Android SDK environment variables
-ENV ANDROID_HOME="/usr/lib/android-sdk"
-ENV PATH="${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools"
+# Accept Android SDK licenses
+RUN yes | sdkmanager --licenses
 
-# Accept Android licenses
-RUN yes | ${ANDROID_HOME}/tools/bin/sdkmanager --licenses
+# Install Android build tools and platform
+RUN sdkmanager "platforms;android-$ANDROID_COMPILE_SDK" "build-tools;$ANDROID_BUILD_TOOLS"
 
-# Copy the Flutter project to the container
-COPY . .
+# Copy the Android project files to the container
+COPY . /app
+WORKDIR /app
 
-# Build the Flutter APK
-RUN flutter pub get && \
-    flutter build apk --release
+# Copy Firebase configuration files
+COPY android/app/google-services.json /app/google-services.json
+COPY android/app/google-services.json /app/app/google-services.json
 
-# Install Firebase CLI
-RUN curl -sL https://firebase.tools | bash
+# Build the Android APK
+RUN chmod +x ./gradlew
+RUN ./gradlew assembleDebug
 
-# Set up Firebase configuration
-COPY android/app/google-services.json /app/android/app/
-
-# Connect the APK with Firebase
-RUN firebase auth:login && \
-    firebase emulators:exec --only auth,firestore,functions,storage "firebase install build/app/outputs/flutter-apk/app-release.apk"
-
-# Expose any necessary ports for Firebase emulators
-EXPOSE 8080 9000 5001
-
-# Start the Firebase emulators
-CMD ["firebase", "emulators:start", "--only", "auth,firestore,functions,storage"]
+# Entrypoint command (adjust as needed)
+CMD ["echo", "Docker container running!"]

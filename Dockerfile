@@ -5,7 +5,7 @@ FROM openjdk:8-jdk
 WORKDIR /app
 
 # Copy the APK file to the container
-COPY app-release.apk .
+COPY .apk .
 
 # Install required tools and dependencies
 RUN apt-get update && \

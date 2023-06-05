@@ -19,16 +19,25 @@ RUN git clone https://github.com/flutter/flutter.git -b stable --depth 1 && \
 ENV PATH="/app/flutter/bin:${PATH}"
 ENV FLUTTER_HOME="/app/flutter"
 
+# Install Android SDK
+RUN mkdir /usr/lib/android-sdk && \
+    curl -o sdk.zip https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip && \
+    unzip sdk.zip -d /usr/lib/android-sdk && \
+    rm sdk.zip
+
+# Set up Android SDK environment variables
+ENV ANDROID_HOME="/usr/lib/android-sdk"
+ENV PATH="${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools"
+
+# Accept Android licenses
+RUN yes | ${ANDROID_HOME}/tools/bin/sdkmanager --licenses
+
 # Copy the Flutter project to the container
 COPY . .
 
 # Build the Flutter APK
 RUN flutter pub get && \
     flutter build apk --release
-
-# Set up Android SDK environment variables
-ENV ANDROID_HOME=/usr/lib/android-sdk \
-    PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 
 # Install Firebase CLI
 RUN curl -sL https://firebase.tools | bash

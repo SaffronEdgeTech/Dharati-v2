@@ -1,5 +1,5 @@
 # Use the official Flutter image as the base image
-FROM flutter as build
+FROM mobiledevops/flutter-sdk-image as build
 
 # Set the working directory in the container
 WORKDIR /app

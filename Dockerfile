@@ -1,26 +1,20 @@
-# Use the official Flutter image as the base image
-FROM mobiledevops/flutter-sdk-image as build
+# Use the official Node.js image as the base image
+FROM node:14
 
 # Set the working directory in the container
 WORKDIR /app
 
-# Copy the pubspec.* files to the container
-COPY pubspec.* ./
+# Copy package.json and package-lock.json to the container
+COPY package*.json ./
 
-# Run Flutter pub get to install dependencies
-RUN flutter pub get
+# Install dependencies
+RUN npm ci --only=production
 
-# Copy the entire project to the container
+# Copy the Firebase backend source code to the container
 COPY . .
 
-# Build the Flutter APK
-RUN flutter build apk
+# Expose the port for the Firebase backend server
+EXPOSE 5000
 
-# Use the official NGINX image as the base image for the final image
-FROM nginx
-
-# Copy the built APK from the previous stage to the NGINX root directory
-COPY --from=build /app/build/app/outputs/flutter-apk/app-release.apk /usr/share/nginx/html/app-release.apk
-
-# Expose the NGINX default port
-EXPOSE 80
+# Start the Firebase backend server
+CMD ["node", "index.js"]

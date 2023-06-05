@@ -7,14 +7,12 @@ WORKDIR /app
 # Copy the APK file to the container
 COPY build/app/outputs/apk/release/app-release.apk .
 
-# Install required tools and dependencies
+# Install Node.js and NPM
 RUN apt-get update && \
-    apt-get install -y android-sdk unzip && \
+    apt-get install -y curl && \
+    curl -sL https://deb.nodesource.com/setup_14.x | bash - && \
+    apt-get install -y nodejs && \
     apt-get clean
-
-# Set up Android SDK environment variables
-ENV ANDROID_HOME=/usr/lib/android-sdk \
-    PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 
 # Install Firebase CLI
 RUN npm install -g firebase-tools
